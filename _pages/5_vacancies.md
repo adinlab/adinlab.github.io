@@ -9,10 +9,6 @@ nav: true
 
 {%- assign sorted = site.data.vacancies.vacancies | sort:"deadline" -%}
 
-sorted
-
-
-
 <div class="row">
   {%- for vacancy in sorted -%}
     {% if vacancy.active == "True" %}
