@@ -1,0 +1,80 @@
+leaders:
+  - name: Melih Kandemir
+    title: Associate Professor
+    about: Faculty member at SDU. Member of the ELLIS Society. Has published work on weakly-supervised Gaussian processes, deterministic variational Bayesian neural net inference, and neural stochastic process modeling.
+    mail: kandemir@imada.sdu.dk
+    orcid: 0000-0001-6293-3656
+    webpage: https://melihkandemir.github.io/
+    scholar: https://scholar.google.com/citations?user=Jxm1UeYAAAAJ
+    twitter: TheBayesist
+    linkedin: https://www.linkedin.com/in/melih-kandemir-64681a16
+    image: assets/img/team/melih_kandemir.png # <image>
+
+
+postdoctorals:
+  - name: Nicklas Werge
+    title: Postdoctoral researcher
+    about: Postdoc working on PAC-Bayesian generalization bounds for optimal control
+    research_areas: stochastic algorithms, online learning, reinforcement learning, PAC-Bayesian bounds
+    mail: werge@sdu.dk
+    orcid: 0000-0001-9906-364X
+    webpage: https://nicklaswerge.github.io
+    scholar: https://scholar.google.com/citations?user=7ixNlWUAAAAJ&hl=en
+    linkedin: https://www.linkedin.com/in/nicklas-werge-925789b0/
+    image: assets/img/team/nicklas_werge.png # <image>
+
+phds:
+  - name: Andreas Look
+    title: 
+    thesis_title: Deterministic Inference of Neural Stochastic Differential Equations
+    image: assets/img/team/andreas_look.png # <image>
+  
+  - name: Bahareh Tasdighi
+    title: PhD student
+    thesis_title: PAC-Bayesian planning algorithms for Model-based Reinforcement Learning
+    mail: tasdighi@imada.sdu.dk
+    orcid: 0000-0001-9757-5019
+    linkedin: https://www.linkedin.com/in/bahar-tasdighi-366020143/
+    about: PhD student working on PAC-Bayesian boundit algorithms on reinforcement learning
+    researc_areas: Algorithms, Reinforcement Learning, PAC-Bayesian bounds
+    image: assets/img/team/bahar.jpeg
+
+
+  - name: Hamish Flynn
+    title: 
+    thesis_title: Continual Learning for Contextual Bandits with PAC-Bayesian Bounds
+    image: assets/img/team/hamish_flynn.png # <image>
+
+mscs:
+  - name: Abdullah Akgül
+    title: 
+    about: MSc student at ITU. 
+    linkedin: https://tr.linkedin.com/in/abdullahakgul70
+    orcid: 0000-0002-0489-9493
+    webpage: https://aportekila.github.io/
+    mail: akgula15@itu.edu.tr
+    scholar: https://scholar.google.com/citations?user=FZeaKPoAAAAJ
+    instagram: aportekila
+    twitter: aportekila
+    image: assets/img/team/abdullah_akgul.jpg
+    research_areas: Continual Learning, Deep Learning, Machine Learning, Probabilistic Models
+    thesis_title: Probabilistic State Space Modeling with Neural Processes
+  
+  - name: Christoffer Falk Bøgebjerg
+    title: 
+    image: assets/img/team/christoffer_boegebjerg.png
+    about: Aspiring reinforcement learning student. Currently working on a new offline model-based reinforcement learning algorithm.
+    thesis_title: Modeling Nonlinear Dynamics in Offline Reinforcement Learning
+    mail: chboe17@student.sdu.dk
+
+
+  - name: Kenny Kazimirzak Brink
+    title: 
+    about: 
+    image: assets/img/team/kenny_brink.png
+    thesis_title: Dyna-Style Model-Based Reinforcement Learning with Neural Stochastic Processes
+
+alumnis:
+  - name: Helle Juul Hansen (Data Scientist at Nordea)
+  - name: Niklas Matzen Groth (Business Analyst at Jysk Fynske Medier)
+  - name: Sarah Anne Pedersen (Data Consultant at NetCompany)

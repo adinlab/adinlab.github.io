@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - melihkandemir
+  - aportekila
+  - chboe
+  - ugurcanozalp
+  - HelleJuul
+  - nigro17
+  - Sarahshub
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - adinlab/EvidentialTuringProcess
