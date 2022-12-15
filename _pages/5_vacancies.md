@@ -7,7 +7,7 @@ nav: true
 # nav_order: 3
 ---
 
-# {%- assign active_vacancies = site.data.vacancies.vacancies | where: "active", "True" -%}
+<!--  {%- assign active_vacancies = site.data.vacancies.vacancies | where: "active", "True" -%} -->
 {%- assign sorted = site.data.vacancies.vacancies | sort:"deadline" -%}
 
 <div class="row">
