@@ -7,12 +7,14 @@ nav: true
 # nav_order: 3
 ---
 
-{%- assign active_vacancies = site.data.vacancies.vacancies | where: "active", "True" -%}
-{%- assign sorted = active_vacancies | sort:"deadline" -%}
+# {%- assign active_vacancies = site.data.vacancies.vacancies | where: "active", "True" -%}
+{%- assign sorted = site.data.vacancies.vacancies | sort:"deadline" -%}
 
 <div class="row">
   {%- for vacancy in sorted -%}
-    {% include vacancy.html vacancy=vacancy %}
+    {% if vacancy.active == "True" %}
+      {% include vacancy.html vacancy=vacancy %}
+    {% endif %}
   {%- endfor %}
 
 </div>
