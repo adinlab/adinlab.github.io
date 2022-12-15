@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2022-10-01 08:00:00-0400
-inline: false
+inline: True
 ---
 
 We have two vacant postdoc positions: <br>
