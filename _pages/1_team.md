@@ -56,6 +56,9 @@ nav: true
             <div class="col-sm-3 d-flex align-items-stretch">
                 {% include team/active_member.html member=member %}
             </div>
+            <div class="col-sm-3 d-flex align-items-stretch">
+                {% include team/active_member.html member=member %}
+            </div>
         {% endfor %}
     </div>
 {% endif %}
