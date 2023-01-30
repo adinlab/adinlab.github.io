@@ -4,7 +4,7 @@
         {% if include.member.image %}
             <img src="{{ include.member.image | relative_url}}" class="card-img img-fluid" alt="{{ include.member.name }}">
         {% else %}
-            <img src="{{ '/assets/img/team/default.png' | relative_url }}" class="card-img img-fluid" alt="{{ include.member.name }">
+            <img src="{{ '/assets/img/team/default.png' | relative_url }}" class="card-img img-fluid" alt="{{ include.member.name }}">
         {% endif %}
         <div class="card-body">
             {% if include.member.webpage %}
