@@ -40,7 +40,7 @@ nav: true
     <div class="row">
         {% assign sorted= site.data.team.phds | sort: "name" %}
         {% for member in sorted %}
-            <div class="col-sm-3 col-lg-6">
+            <div class="col-sm-3 col-lg-6 d-flex align-items-stretch">
                 {% include team/active_member.html member=member %}
             </div>
         {% endfor %}
