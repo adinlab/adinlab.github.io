@@ -45,21 +45,20 @@ phds:
     thesis_title: Continual Learning for Contextual Bandits with PAC-Bayesian Bounds
     image: assets/img/team/hamish_flynn.png # <image>
 
-mscs:
   - name: Abdullah Akgül
     title: 
-    about: MSc student at ITU. 
     linkedin: https://tr.linkedin.com/in/abdullahakgul70
     orcid: 0000-0002-0489-9493
     webpage: https://aportekila.github.io/
-    mail: akgula15@itu.edu.tr
+    mail: akgul@imada.dk
     scholar: https://scholar.google.com/citations?user=FZeaKPoAAAAJ
     instagram: aportekila
     twitter: aportekila
     image: assets/img/team/abdullah_akgul.jpg
     research_areas: Continual Learning, Deep Learning, Machine Learning, Probabilistic Models
     thesis_title: Probabilistic State Space Modeling with Neural Processes
-  
+
+mscs:
   - name: Christoffer Falk Bøgebjerg
     title: 
     image: assets/img/team/christoffer_boegebjerg.png
@@ -73,6 +72,24 @@ mscs:
     about: 
     image: assets/img/team/kenny_brink.png
     thesis_title: Dyna-Style Model-Based Reinforcement Learning with Neural Stochastic Processes
+
+  - name: Mathias Winther Romerlund Rasmussen
+    title: ISA
+    mail: math625f@gmail.com
+    webpage: https://625f.net
+    linkedin: https://www.linkedin.com/in/mathiaswrrasmussen/
+    image: assets/img/team/MathiasWintherRomerlundRasmussen.jpg
+
+  - name: Viktor Bjerg Nordstrøm
+    title: ISA
+    mail: vinor19@student.sdu.dk
+
+  - name: Nikolaj Flindt Holm Hansen
+    title: ISA
+    mail: nikha19@student.sdu.dk
+    linkedin: https://www.linkedin.com/in/nikolaj-holm-hansen/
+    image: assets/img/team/NikolajFlindtHolmHansen.jpg
+  
 
 alumnis:
   - name: Helle Juul Hansen (Data Scientist at Nordea)
