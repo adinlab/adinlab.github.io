@@ -16,7 +16,7 @@ nav: true
     <div class="projects column">
         {% assign sorted= site.data.team.leaders | sort: "name" %}
         {% for member in sorted %}
-            {% include team/active_member.html member=member %}
+            {% include team/leader.html member=member %}
         {% endfor %}
     </div>
 {% endif %}

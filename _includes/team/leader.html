@@ -1,32 +1,32 @@
 <p> </p>
 <div class="card hoverable">
     <div class="row no-gutters">
-        {% if include.member.image %}
+        <div class="col-sm-4 col-md-3">
             <img src="{{ include.member.image | relative_url}}" class="card-img img-fluid" alt="{{ include.member.name }}">
-        {% endif %}
-        <div class="card-body">
-            {% if include.member.webpage %}
-                <a href="{{ include.member.webpage }}" target="_blank" rel="noopener noreferrer">
+        </div>
+        <div class="team col-sm-8 col-md-9">
+            <div class="card-body">
+                {% if include.member.webpage %}
+                    <a href="{{ include.member.webpage }}" target="_blank" rel="noopener noreferrer">
+                        <h5 class="card-title">{{ include.member.name }}</h5>       
+                        <p class="card-text">
+                            {{ include.member.about }}
+                        </p>
+                    </a>
+                {% else %}
                     <h5 class="card-title">{{ include.member.name }}</h5>       
                     <p class="card-text">
                         {{ include.member.about }}
                     </p>
-                </a>
-            {% else %}
-                <h5 class="card-title">{{ include.member.name }}</h5>       
-                <p class="card-text">
-                    {{ include.member.about }}
-                </p>
-            {% endif %}
-            <br>
-            {% if include.member.thesis_title %}
-                <h6 class="card-subtitle mb-0"><small>Thesis Title</small></h6> <p class="card-text"> {{ include.member.thesis_title }} </p> 
-            {% endif %}
-            {% if include.member.research_areas %}
-                <h6 class="card-subtitle mb-0"><small>Research Areas</small></h6> <p class="card-text"> {{ include.member.research_areas }} </p> 
-            {% endif %}
-            <div class="card-footer">
-                <small>
+                {% endif %}
+                <br>
+                {% if include.member.thesis_title %}
+                    <h6 class="card-subtitle mb-0"><small>Thesis Title</small></h6> <p class="card-text"> {{ include.member.thesis_title }} </p> 
+                {% endif %}
+                {% if include.member.research_areas %}
+                    <h6 class="card-subtitle mb-0"><small>Research Areas</small></h6> <p class="card-text"> {{ include.member.research_areas }} </p> 
+                {% endif %}
+                <div class="card-footer">
                     {% if include.member.mail %}
                         <a href="mailto:{{ include.member.mail }}" class="card-link"><i class="fas fa-envelope"></i></a> 
                     {% endif %}
@@ -48,7 +48,7 @@
                     {% if include.member.instagram %}
                         <a href="https://instagram.com/{{ include.member.instagram }}" class="card-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
                     {% endif %}
-                </small>
+                </div>
             </div>
         </div>
     </div>
