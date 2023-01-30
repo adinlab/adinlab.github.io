@@ -1,6 +1,5 @@
 leaders:
   - name: Melih Kandemir
-    title: Associate Professor
     about: Faculty member at SDU. Member of the ELLIS Society. Has published work on weakly-supervised Gaussian processes, deterministic variational Bayesian neural net inference, and neural stochastic process modeling.
     mail: kandemir@imada.sdu.dk
     orcid: 0000-0001-6293-3656
@@ -13,8 +12,6 @@ leaders:
 
 postdoctorals:
   - name: Nicklas Werge
-    title: Postdoctoral researcher
-    about: Postdoc working on PAC-Bayesian generalization bounds for optimal control
     research_areas: stochastic algorithms, online learning, reinforcement learning, PAC-Bayesian bounds
     mail: werge@sdu.dk
     orcid: 0000-0001-9906-364X
@@ -25,67 +22,59 @@ postdoctorals:
 
 phds:
   - name: Andreas Look
-    title: 
-    thesis_title: Deterministic Inference of Neural Stochastic Differential Equations
+    research_areas: Deterministic Inference of Neural Stochastic Differential Equations
     image: assets/img/team/andreas_look.png # <image>
   
   - name: Bahareh Tasdighi
-    title: PhD student
     thesis_title: PAC-Bayesian planning algorithms for Model-based Reinforcement Learning
     mail: tasdighi@imada.sdu.dk
     orcid: 0000-0001-9757-5019
     linkedin: https://www.linkedin.com/in/bahar-tasdighi-366020143/
     about: PhD student working on PAC-Bayesian boundit algorithms on reinforcement learning
-    researc_areas: Algorithms, Reinforcement Learning, PAC-Bayesian bounds
+    research_areas: Algorithms, Reinforcement Learning, PAC-Bayesian bounds
     image: assets/img/team/bahar.jpeg
 
 
   - name: Hamish Flynn
-    title: 
-    thesis_title: Continual Learning for Contextual Bandits with PAC-Bayesian Bounds
+    research_areas: Continual Learning for Contextual Bandits with PAC-Bayesian Bounds
     image: assets/img/team/hamish_flynn.png # <image>
 
   - name: Abdullah Akgül
-    title: 
     linkedin: https://tr.linkedin.com/in/abdullahakgul70
     orcid: 0000-0002-0489-9493
     webpage: https://aportekila.github.io/
     mail: akgul@imada.dk
     scholar: https://scholar.google.com/citations?user=FZeaKPoAAAAJ
-    instagram: aportekila
-    twitter: aportekila
     image: assets/img/team/abdullah_akgul.jpg
     research_areas: Continual Learning, Deep Learning, Machine Learning, Probabilistic Models
     thesis_title: Probabilistic State Space Modeling with Neural Processes
 
 mscs:
   - name: Christoffer Falk Bøgebjerg
-    title: 
     image: assets/img/team/christoffer_boegebjerg.png
     about: Aspiring reinforcement learning student. Currently working on a new offline model-based reinforcement learning algorithm.
-    thesis_title: Modeling Nonlinear Dynamics in Offline Reinforcement Learning
+    research_areas: Modeling Nonlinear Dynamics in Offline Reinforcement Learning
     mail: chboe17@student.sdu.dk
 
 
   - name: Kenny Kazimirzak Brink
-    title: 
     about: 
     image: assets/img/team/kenny_brink.png
-    thesis_title: Dyna-Style Model-Based Reinforcement Learning with Neural Stochastic Processes
+    research_areas: Dyna-Style Model-Based Reinforcement Learning with Neural Stochastic Processes
 
   - name: Mathias Winther Romerlund Rasmussen
-    title: ISA
+    research_areas: ISA
     mail: math625f@gmail.com
     webpage: https://625f.net
     linkedin: https://www.linkedin.com/in/mathiaswrrasmussen/
     image: assets/img/team/MathiasWintherRomerlundRasmussen.jpg
 
   - name: Viktor Bjerg Nordstrøm
-    title: ISA
+    research_areas: ISA
     mail: vinor19@student.sdu.dk
 
   - name: Nikolaj Flindt Holm Hansen
-    title: ISA
+    research_areas: ISA
     mail: nikha19@student.sdu.dk
     linkedin: https://www.linkedin.com/in/nikolaj-holm-hansen/
     image: assets/img/team/NikolajFlindtHolmHansen.jpg

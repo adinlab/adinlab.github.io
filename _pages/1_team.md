@@ -24,10 +24,12 @@ nav: true
 
 {% if site.data.team.postdoctorals %}
     <br><h2 id="postdoctoral-researchers">Postdoctoral Researchers</h2>
-    <div class="card-columns">
+    <div class="row">
         {% assign sorted= site.data.team.postdoctorals | sort: "name" %}
         {% for member in sorted %}
-            {% include team/active_member.html member=member %}
+            <div class="col-sm3-3">
+                {% include team/active_member.html member=member %}
+            </div>
         {% endfor %}
     </div>
 {% endif %}
@@ -35,10 +37,12 @@ nav: true
 
 {% if site.data.team.phds %}
     <br><h2 id="phd-students">PhD Students</h2>
-    <div class="card-columns">
+    <div class="row">
         {% assign sorted= site.data.team.phds | sort: "name" %}
         {% for member in sorted %}
-            {% include team/active_member.html member=member %}
+            <div class="col-sm3-3">
+                {% include team/active_member.html member=member %}
+            </div>
         {% endfor %}
     </div>
 {% endif %}
@@ -46,10 +50,12 @@ nav: true
 
 {% if site.data.team.mscs %}
     <br><h2 id="msc-students">MSc Students</h2>
-    <div class="card-columns">
+    <div class="row">
         {% assign sorted= site.data.team.mscs | sort: "name" %}
         {% for member in sorted %}
-            {% include team/active_member.html member=member %}
+            <div class="col-sm3-3">
+                {% include team/active_member.html member=member %}
+            </div>
         {% endfor %}
     </div>
 {% endif %}
