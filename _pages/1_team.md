@@ -27,7 +27,7 @@ nav: true
     <div class="row">
         {% assign sorted= site.data.team.postdoctorals | sort: "name" %}
         {% for member in sorted %}
-            <div class="col-sm3-3">
+            <div class="col-sm-3">
                 {% include team/active_member.html member=member %}
             </div>
         {% endfor %}
@@ -40,7 +40,7 @@ nav: true
     <div class="row">
         {% assign sorted= site.data.team.phds | sort: "name" %}
         {% for member in sorted %}
-            <div class="col-sm3-3">
+            <div class="col-sm-3">
                 {% include team/active_member.html member=member %}
             </div>
         {% endfor %}
@@ -53,7 +53,7 @@ nav: true
     <div class="row">
         {% assign sorted= site.data.team.mscs | sort: "name" %}
         {% for member in sorted %}
-            <div class="col-sm3-3">
+            <div class="col-sm-3">
                 {% include team/active_member.html member=member %}
             </div>
         {% endfor %}

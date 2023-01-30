@@ -11,22 +11,22 @@
                 <a href="{{ include.member.webpage }}" target="_blank" rel="noopener noreferrer">
                     <h5 class="card-title">{{ include.member.name }}</h5>       
                     <p class="card-text">
-                        {{ include.member.about }}
+                        {{ include.member.research_areas }}
                     </p>
                 </a>
             {% else %}
                 <h5 class="card-title">{{ include.member.name }}</h5>       
                 <p class="card-text">
-                    {{ include.member.about }}
+                    {{ include.member.research_areas }}
                 </p>
             {% endif %}
             <br>
             <!--{% if include.member.thesis_title %}
                 <h6 class="card-subtitle mb-0"><small>Thesis Title</small></h6> <p class="card-text"> {{ include.member.thesis_title }} </p> 
-            {% endif %}-->
+            {% endif %}
             {% if include.member.research_areas %}
                 <p class="card-text"> {{ include.member.research_areas }} </p> 
-            {% endif %}
+            {% endif %}-->
             <div class="card-footer">
                 <small>
                     {% if include.member.mail %}
