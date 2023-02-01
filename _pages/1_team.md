@@ -28,7 +28,11 @@ nav: true
         {% assign sorted= site.data.team.postdoctorals | sort: "name" %}
         {% for member in sorted %}
             <div class="col-sm-3 d-flex align-items-stretch">
-                {% include team/active_member.html member=member %}
+                {% if site.data.team.postdoctorals.size > 2 %}
+                    {% include team/active_member.html member=member %}
+                {% else %}
+                    {% include team/active_member_horizontal.html member=member %}
+                {% endif %}
             </div>
         {% endfor %}
     </div>
@@ -41,7 +45,11 @@ nav: true
         {% assign sorted= site.data.team.phds | sort: "name" %}
         {% for member in sorted %}
             <div class="col-sm-3 d-flex align-items-stretch">
-                {% include team/active_member.html member=member %}
+                {% if site.data.team.phds.size > 2 %}
+                    {% include team/active_member.html member=member %}
+                {% else %}
+                    {% include team/active_member_horizontal.html member=member %}
+                {% endif %}
             </div>
         {% endfor %}
     </div>
@@ -54,7 +62,11 @@ nav: true
         {% assign sorted= site.data.team.mscs | sort: "name" %}
         {% for member in sorted %}
             <div class="col-sm-3 d-flex align-items-stretch">
-                {% include team/active_member.html member=member %}
+                {% if site.data.team.mscs.size > 2 %}
+                    {% include team/active_member.html member=member %}
+                {% else %}
+                    {% include team/active_member_horizontal.html member=member %}
+                {% endif %}
             </div>
         {% endfor %}
     </div>
