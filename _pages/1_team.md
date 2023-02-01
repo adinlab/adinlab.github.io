@@ -27,11 +27,11 @@ nav: true
     <div class="row">
         {% assign sorted= site.data.team.postdoctorals | sort: "name" %}
         {% if site.data.team.postdoctorals.size > 2 %}
-            <div class="col-sm-3 d-flex align-items-stretch">
             {% for member in sorted %}
-                {% include team/active_member.html member=member %}
+                <div class="col-sm-3 d-flex align-items-stretch">
+                    {% include team/active_member.html member=member %}
+                </div>
             {% endfor %}
-            </div>
         {% else %}
             <div class="project column">
             {% for member in sorted %}
@@ -48,11 +48,11 @@ nav: true
     <div class="row">
         {% assign sorted= site.data.team.phds | sort: "name" %}
         {% if site.data.team.phds.size > 2 %}
-            <div class="col-sm-3 d-flex align-items-stretch">
             {% for member in sorted %}
-                {% include team/active_member.html member=member %}
+                <div class="col-sm-3 d-flex align-items-stretch">
+                    {% include team/active_member.html member=member %}
+                </div>
             {% endfor %}
-            </div>
         {% else %}
             <div class="project column">
             {% for member in sorted %}
@@ -69,11 +69,11 @@ nav: true
     <div class="row">
         {% assign sorted= site.data.team.mscs | sort: "name" %}
         {% if site.data.team.mscs.size > 2 %}
-            <div class="col-sm-3 d-flex align-items-stretch">
             {% for member in sorted %}
-                {% include team/active_member.html member=member %}
+                <div class="col-sm-3 d-flex align-items-stretch">
+                    {% include team/active_member.html member=member %}
+                </div>
             {% endfor %}
-            </div>
         {% else %}
             <div class="project column">
             {% for member in sorted %}
