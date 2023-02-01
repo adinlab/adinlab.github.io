@@ -13,11 +13,13 @@ nav: true
 
 {% if site.data.team.leaders %}
     <br><h2 id="principal-investigator">Principal Investigator</h2>
-    <div class="projects column">
-        {% assign sorted= site.data.team.leaders | sort: "name" %}
-        {% for member in sorted %}
-            {% include team/leader.html member=member %}
-        {% endfor %}
+    <div class="row">
+        <div class="projects column">
+            {% assign sorted= site.data.team.leaders | sort: "name" %}
+            {% for member in sorted %}
+                {% include team/leader.html member=member %}
+            {% endfor %}
+        </div>
     </div>
 {% endif %}
 
