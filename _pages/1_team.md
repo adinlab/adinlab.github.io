@@ -26,15 +26,19 @@ nav: true
     <br><h2 id="postdoctoral-researchers">Postdoctoral Researchers</h2>
     <div class="row">
         {% assign sorted= site.data.team.postdoctorals | sort: "name" %}
-        {% for member in sorted %}
+        {% if site.data.team.postdoctorals.size > 2 %}
             <div class="col-sm-3 d-flex align-items-stretch">
-                {% if site.data.team.postdoctorals.size > 2 %}
-                    {% include team/active_member.html member=member %}
-                {% else %}
-                    {% include team/active_member_horizontal.html member=member %}
-                {% endif %}
+            {% for member in sorted %}
+                {% include team/active_member.html member=member %}
+            {% endfor %}
             </div>
-        {% endfor %}
+        {% else %}
+            <div class="project column">
+            {% for member in sorted %}
+                {% include team/active_member_horizontal.html member=member %}
+            {% endfor %}
+            </div>
+        {% endif %}
     </div>
 {% endif %}
 
@@ -43,15 +47,19 @@ nav: true
     <br><h2 id="phd-students">PhD Students</h2>
     <div class="row">
         {% assign sorted= site.data.team.phds | sort: "name" %}
-        {% for member in sorted %}
+        {% if site.data.team.phds.size > 2 %}
             <div class="col-sm-3 d-flex align-items-stretch">
-                {% if site.data.team.phds.size > 2 %}
-                    {% include team/active_member.html member=member %}
-                {% else %}
-                    {% include team/active_member_horizontal.html member=member %}
-                {% endif %}
+            {% for member in sorted %}
+                {% include team/active_member.html member=member %}
+            {% endfor %}
             </div>
-        {% endfor %}
+        {% else %}
+            <div class="project column">
+            {% for member in sorted %}
+                {% include team/active_member_horizontal.html member=member %}
+            {% endfor %}
+            </div>
+        {% endif %}
     </div>
 {% endif %}
 
@@ -60,15 +68,19 @@ nav: true
     <br><h2 id="msc-students">MSc Students</h2>
     <div class="row">
         {% assign sorted= site.data.team.mscs | sort: "name" %}
-        {% for member in sorted %}
+        {% if site.data.team.mscs.size > 2 %}
             <div class="col-sm-3 d-flex align-items-stretch">
-                {% if site.data.team.mscs.size > 2 %}
-                    {% include team/active_member.html member=member %}
-                {% else %}
-                    {% include team/active_member_horizontal.html member=member %}
-                {% endif %}
+            {% for member in sorted %}
+                {% include team/active_member.html member=member %}
+            {% endfor %}
             </div>
-        {% endfor %}
+        {% else %}
+            <div class="project column">
+            {% for member in sorted %}
+                {% include team/active_member_horizontal.html member=member %}
+            {% endfor %}
+            </div>
+        {% endif %}
     </div>
 {% endif %}
 
