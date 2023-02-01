@@ -2,7 +2,7 @@
 <div class="card hoverable">
     <div class="row no-gutters">
         <div class="col-sm-4 col-md-3">
-            <img src="{{ include.member.image | relative_url}}" class="card-img img-fluid" alt="{{ include.member.name }}">
+            <img src="{{ include.member.image | relative_url}}" class="card-img img-fluid" alt="{{ include.member.name }}" style="width:170px; height:200px">
         </div>
         <div class="team col-sm-8 col-md-9">
             <div class="card-body">
@@ -20,12 +20,6 @@
                     </p>
                 {% endif %}
                 <br>
-                <!--{% if include.member.thesis_title %}
-                    <h6 class="card-subtitle mb-0"><small>Thesis Title</small></h6> <p class="card-text"> {{ include.member.thesis_title }} </p> 
-                {% endif %}
-                {% if include.member.research_areas %}
-                    <h6 class="card-subtitle mb-0"><small>Research Areas</small></h6> <p class="card-text"> {{ include.member.research_areas }} </p> 
-                {% endif %}-->
                 <div class="card-footer">
                     <small>
                         {% if include.member.mail %}
