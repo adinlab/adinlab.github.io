@@ -104,6 +104,11 @@ mscs:
     linkedin: https://www.linkedin.com/in/tomas-bordoy-garcia-carpintero
     image: assets/img/team/TomasBordoy.jpg
   
+bscs:
+  - name: Kasper Okoyo Okumu
+    mail: kaoku20@student.sdu.dk
+    research_areas: Bachelor project
+    
 
 alumnis:
   - name: Helle Juul Hansen (Data Scientist at Nordea)

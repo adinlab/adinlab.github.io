@@ -86,6 +86,26 @@ nav: true
     </div>
 {% endif %}
 
+{% if site.data.team.bscs %}
+    <br><h2 id="bsc-students">BSc Students</h2>
+    <div class="row">
+        {% assign sorted= site.data.team.bscs | sort: "name" %}
+        {% if site.data.team.bscs.size > 2 %}
+            {% for member in sorted %}
+                <div class="col-sm-3 d-flex align-items-stretch">
+                    {% include team/active_member.html member=member %}
+                </div>
+            {% endfor %}
+        {% else %}
+            <div class="project column">
+            {% for member in sorted %}
+                {% include team/active_member_horizontal.html member=member %}
+            {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+{% endif %}
+
 
 {% if site.data.team.alumnis %}
     <br><h2 id="alumni">Alumni</h2>
