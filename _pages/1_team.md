@@ -37,7 +37,9 @@ nav: true
         {% else %}
             <div class="project column">
             {% for member in sorted %}
-                {% include team/active_member_horizontal.html member=member %}
+                <div class="col-sm-12 d-flex align-items-stretch">
+                    {% include team/active_member_horizontal.html member=member %}
+                </div>
             {% endfor %}
             </div>
         {% endif %}
@@ -99,7 +101,9 @@ nav: true
         {% else %}
             <div class="project column">
             {% for member in sorted %}
-                {% include team/active_member_horizontal.html member=member %}
+                <div class="col-sm-12 d-flex align-items-stretch">
+                    {% include team/active_member_horizontal.html member=member %}
+                </div>
             {% endfor %}
             </div>
         {% endif %}
