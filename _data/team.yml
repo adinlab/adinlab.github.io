@@ -7,7 +7,7 @@ leaders:
     scholar: https://scholar.google.com/citations?user=Jxm1UeYAAAAJ
     twitter: TheBayesist
     linkedin: https://www.linkedin.com/in/melih-kandemir-64681a16
-    image: assets/img/team/melih_kandemir.png # <image>
+    image: assets/img/team/melih_kandemir.png.png
 
 
 postdoctorals:
@@ -18,12 +18,12 @@ postdoctorals:
     webpage: https://nicklaswerge.github.io
     scholar: https://scholar.google.com/citations?user=7ixNlWUAAAAJ&hl=en
     linkedin: https://www.linkedin.com/in/nicklas-werge-925789b0/
-    image: assets/img/team/nicklas_werge.jpeg # <image>
+    image: assets/img/team/nicklas_werge.jpeg.png
 
 phds:
   - name: Andreas Look
     research_areas: Deterministic Inference of Neural Stochastic Differential Equations
-    image: assets/img/team/andreas_look.png # <image>
+    image: assets/img/team/andreas_look.png.png
   
   - name: Bahareh Tasdighi
     thesis_title: PAC-Bayesian planning algorithms for Model-based Reinforcement Learning
@@ -32,12 +32,12 @@ phds:
     linkedin: https://www.linkedin.com/in/bahar-tasdighi-366020143/
     about: PhD student working on PAC-Bayesian boundit algorithms on reinforcement learning
     research_areas: Algorithms, Reinforcement Learning, PAC-Bayesian bounds
-    image: assets/img/team/bahar.jpeg
+    image: assets/img/team/bahar.jpeg.png
 
 
   - name: Hamish Flynn
     research_areas: Continual Learning for Contextual Bandits with PAC-Bayesian Bounds
-    image: assets/img/team/hamish_flynn.png # <image>
+    image: assets/img/team/hamish_flynn.png.png
 
   - name: Abdullah Akgül
     linkedin: https://tr.linkedin.com/in/abdullahakgul70
@@ -45,7 +45,7 @@ phds:
     webpage: https://aportekila.github.io/
     mail: akgul@imada.dk
     scholar: https://scholar.google.com/citations?user=FZeaKPoAAAAJ
-    image: assets/img/team/abdullah_akgul.jpg
+    image: assets/img/team/abdullah_akgul.jpg.png
     research_areas: Continual Learning, Deep Learning, Machine Learning, Probabilistic Models
     thesis_title: Probabilistic State Space Modeling with Neural Processes
 
@@ -58,14 +58,14 @@ phds:
 
 mscs:
   - name: Christoffer Falk Bøgebjerg
-    image: assets/img/team/christoffer_boegebjerg.png
+    image: assets/img/team/christoffer_boegebjerg.png.png
     about: Aspiring reinforcement learning student. Currently working on a new offline model-based reinforcement learning algorithm.
     research_areas: Modeling Nonlinear Dynamics in Offline Reinforcement Learning
     mail: chboe17@student.sdu.dk
 
   - name: Kenny Kazimirzak Brink
     about: 
-    image: assets/img/team/kenny_brink.png
+    image: assets/img/team/kenny_brink.png.png
     research_areas: Dyna-Style Model-Based Reinforcement Learning with Neural Stochastic Processes
 
   - name: Mathias Winther Romerlund Rasmussen
@@ -73,7 +73,7 @@ mscs:
     mail: math625f@gmail.com
     webpage: https://625f.net
     linkedin: https://www.linkedin.com/in/mathiaswrrasmussen/
-    image: assets/img/team/MathiasWintherRomerlundRasmussen.jpg
+    image: assets/img/team/MathiasWintherRomerlundRasmussen.jpg.png
 
   - name: Viktor Bjerg Nordstrøm
     research_areas: ISA
@@ -83,32 +83,32 @@ mscs:
     research_areas: ISA
     mail: nikha19@student.sdu.dk
     linkedin: https://www.linkedin.com/in/nikolaj-holm-hansen/
-    image: assets/img/team/NikolajFlindtHolmHansen.jpg
+    image: assets/img/team/NikolajFlindtHolmHansen.jpg.png
 
   - name: Yousof Mersal
     mail: yomer19@student.sdu.dk
     research_areas: Continual Learning, ISA
     webpage: yousofmersal.com
     linkedin: https://www.linkedin.com/in/yousof-mersal-396691231/
-    image: assets/img/team/YousofMersal.jpg
+    image: assets/img/team/YousofMersal.jpg.png
   
   - name: Lucas Alexander Damberg Torp Dyssel
     research_areas: ISA
     mail: ludys22@student.sdu.dk
     linkedin: https://www.linkedin.com/in/lucas-dyssel-55ba731b4
-    image: assets/img/team/LucasDyssel.jpg
+    image: assets/img/team/LucasDyssel.jpg.png
 
   - name: Tomás Bordoy García-Carpintero
     research_areas: ISA
     mail: tomas.bordoy@gmail.com
     linkedin: https://www.linkedin.com/in/tomas-bordoy-garcia-carpintero
-    image: assets/img/team/TomasBordoy.jpg
+    image: assets/img/team/TomasBordoy.jpg.png
 
   - name: Kira Bøgeskov
     mail: kiralovebogeskov@gmail.com
     research_areas: Prediction of crypto currencies with modern deep neural net architectures
     linkein: www.linkedin.com/in/kira-løve-bøgeskov-b0213821a 
-    image: assets/img/team/KiraBøgeskov.jpg
+    image: assets/img/team/KiraBøgeskov.jpg.png
 
   
 bscs:
