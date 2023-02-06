@@ -103,6 +103,13 @@ mscs:
     mail: tomas.bordoy@gmail.com
     linkedin: https://www.linkedin.com/in/tomas-bordoy-garcia-carpintero
     image: assets/img/team/TomasBordoy.jpg
+
+  - name: Kira Bøgeskov
+    mail: kiralovebogeskov@gmail.com
+    research_areas: Prediction of crypto currencies with modern deep neural net architectures
+    linkein: www.linkedin.com/in/kira-løve-bøgeskov-b0213821a 
+    image: assets/img/team/KiraBogeskov.jpg
+
   
 bscs:
   - name: Kasper Okoyo Okumu
