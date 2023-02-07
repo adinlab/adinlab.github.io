@@ -12,7 +12,9 @@ nav: true
 <div class="row">
   {%- for vacancy in sorted -%}
     {% if vacancy.active == "True" %}
-      {% include vacancy.html vacancy=vacancy %}
+      {% if "now" < vacancy.deadline %}
+        {% include vacancy.html vacancy=vacancy %}    
+      {% endif %}
     {% endif %}
   {%- endfor %}
 
