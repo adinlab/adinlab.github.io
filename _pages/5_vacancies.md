@@ -8,11 +8,11 @@ nav: true
 ---
 
 {%- assign sorted = site.data.vacancies.vacancies | sort:"deadline" -%}
-
+{%- assign now = "now" | to_i -%}
 <div class="row">
   {%- for vacancy in sorted -%}
     {% if vacancy.active == "True" %}
-      {% if "now" < vacancy.deadline %}
+      {% if now  < vacancy.deadline %}
         {% include vacancy.html vacancy=vacancy %}    
       {% endif %}
     {% endif %}
