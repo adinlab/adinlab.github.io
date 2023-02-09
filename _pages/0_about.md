@@ -9,9 +9,9 @@ profile:
   image: team.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>University of Southern Denmark</p>
-    <p>Department of Mathematics and Computer Science (IMADA)</p>
-    <p>Odense, Denmark</p>
+    University of Southern Denmark
+    Department of Mathematics and Computer Science (IMADA)
+    Odense, Denmark
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
