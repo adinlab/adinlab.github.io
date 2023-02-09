@@ -13,8 +13,8 @@ layout: default
 
         <article>
           {% if page.profile -%}
-          <div class="row">
-            <div class="col-md-8">
+          <div class="row row align-items-center h-100">
+            <div class="col-md-9 mx-auto">
               {%- if page.profile.image %}
                 {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
@@ -30,7 +30,7 @@ layout: default
                 alt=page.profile.image -%}
               {% endif -%}  
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3 mx-auto">
               {%- if page.profile.address %}
               <div class="address">
                 {{ page.profile.address }}
