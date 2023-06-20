@@ -68,19 +68,12 @@ mscs:
     image: assets/img/team/kenny_brink.png.png
     research_areas: Dyna-Style Model-Based Reinforcement Learning with Neural Stochastic Processes
 
-  - name: Mathias Winther Romerlund Rasmussen
-    research_areas: ISA
-    mail: math625f@gmail.com
-    webpage: https://625f.net
-    linkedin: https://www.linkedin.com/in/mathiaswrrasmussen/
-    image: assets/img/team/MathiasWintherRomerlundRasmussen.jpg.png
-
   - name: Viktor Bjerg Nordstrøm
-    research_areas: ISA
+    research_areas: Generative Flow Networks
     mail: vinor19@student.sdu.dk
 
   - name: Nikolaj Flindt Holm Hansen
-    research_areas: ISA
+    research_areas: Generative Flow Networks, Imitation Learning
     mail: nikha19@student.sdu.dk
     linkedin: https://www.linkedin.com/in/nikolaj-holm-hansen/
     image: assets/img/team/NikolajFlindtHolmHansen.jpg.png
@@ -92,34 +85,16 @@ mscs:
     linkedin: https://www.linkedin.com/in/yousof-mersal-396691231/
     image: assets/img/team/YousofMersal.jpg.png
   
-  - name: Lucas Alexander Damberg Torp Dyssel
-    research_areas: ISA
-    mail: ludys22@student.sdu.dk
-    linkedin: https://www.linkedin.com/in/lucas-dyssel-55ba731b4
-    image: assets/img/team/LucasDyssel.jpg.png
-
-  - name: Tomás Bordoy García-Carpintero
-    research_areas: ISA
-    mail: tomas.bordoy@gmail.com
-    linkedin: https://www.linkedin.com/in/tomas-bordoy-garcia-carpintero
-    image: assets/img/team/TomasBordoy.jpg.png
-
-  - name: Kira Bøgeskov
-    mail: kiralovebogeskov@gmail.com
-    research_areas: Prediction of crypto currencies with modern deep neural net architectures
-    linkedin: www.linkedin.com/in/kira-løve-bøgeskov-b0213821a 
-    image: assets/img/team/KiraBøgeskov.jpg.png
-
-  
 bscs:
   - name: Kasper Okoyo Okumu
     mail: kaoku20@student.sdu.dk
     research_areas: Bachelor project
 
-
-    
-
 alumnis:
+  - name: Kira Bøgeskov
+  - name: Lucas Alexander Damberg Torp Dyssel (PhD Student at Röttger Lab)
+  - name: Tomás Bordoy García-Carpintero (PhD Student at Röttger Lab)
+  - name: Mathias Winther Romerlund Rasmussen (MSc Student at Ordbogen)
   - name: Helle Juul Hansen (Data Scientist at Nordea)
   - name: Niklas Matzen Groth (Business Analyst at Jysk Fynske Medier)
   - name: Sarah Anne Pedersen (Data Consultant at NetCompany)
