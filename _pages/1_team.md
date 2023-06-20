@@ -88,7 +88,7 @@ nav: true
 {% if site.data.team.alumnis %}
     <br><h2 id="alumni">Alumni</h2>
     <div class="projects column">
-        {% assign sorted= site.data.team.alumnis | sort: "name" %}
+        {% assign sorted= site.data.team.alumnis %}
         {% include team/alumni.html alumnis=sorted %}
     </div>
 {% endif %}
