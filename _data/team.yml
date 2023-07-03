@@ -25,7 +25,9 @@ postdoctorals:
     linkedin: https://www.linkedin.com/in/yi-shan-wu-231b06232/
     scholar: https://scholar.google.com/citations?user=IrW8ytQAAAAJ&hl=en
     webpage: https://sites.google.com/view/yishanwu/home?authuser=0
-    research_areas:   
+    research_areas: Statistical learning theory, especially within PAC-Bayes analysis; sequential decision-making, especially within reinforcement learning and lifelong learning
+    image: assets/img/team/yi-shan-wu.jpg.png
+    
 
 phds:
   - name: Andreas Look
