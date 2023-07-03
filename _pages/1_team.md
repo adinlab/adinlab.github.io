@@ -28,7 +28,7 @@ nav: true
     <br><h2 id="postdoctoral-researchers">Postdoctoral Researchers</h2>
     <div class="row">
         {% assign sorted= site.data.team.postdoctorals | sort: "name" %}
-        {% if site.data.team.postdoctorals.size > 2 %}
+        {% if site.data.team.postdoctorals.size > 1 %}
             {% for member in sorted %}
                 <div class="col-sm-3 d-flex align-items-stretch">
                     {% include team/active_member.html member=member %}
