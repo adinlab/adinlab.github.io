@@ -74,6 +74,12 @@ mscs:
     webpage: yousofmersal.com
     linkedin: https://www.linkedin.com/in/yousof-mersal-396691231/
     image: assets/img/team/YousofMersal.jpg.png
+
+  - name: Nikolaj Flindt Holm Hansen
+    research_areas: Generative Flow Networks, Imitation Learning
+    mail: nikha19@student.sdu.dk
+    linkedin: https://www.linkedin.com/in/nikolaj-holm-hansen/
+    image: assets/img/team/NikolajFlindtHolmHansen.jpg.png
   
 bscs:
   - name: Kasper Okoyo Okumu
@@ -84,7 +90,7 @@ alumnis:
   - name: Christoffer Falk Bøgebjerg
   - name: Kenny Kazimirzak Brink
   - name: Kira Bøgeskov
-  - name: Nikolaj Flindt Holm Hansen
+  - name: Nickolaj Graby
   - name: Nicolas Hamann Hiemstra von Arenstorff
   - name: Lucas Alexander Damberg Torp Dyssel (PhD Student at Röttger Lab)
   - name: Tomás Bordoy García-Carpintero (PhD Student at Röttger Lab)
