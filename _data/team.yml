@@ -83,17 +83,18 @@ mscs:
     linkedin: https://www.linkedin.com/in/nikolaj-holm-hansen/
     image: assets/img/team/NikolajFlindtHolmHansen.jpg.png
   
-bscs:
-  - name: Kasper Okoyo Okumu
-    mail: kaoku20@student.sdu.dk
-    research_areas: Bachelor project
+#bscs:
+#  - name: Kasper Okoyo Okumu
+#    mail: kaoku20@student.sdu.dk
+#    research_areas: Bachelor project
 
 alumnis:
   - name: Christoffer Falk Bøgebjerg
-  - name: Kenny Kazimirzak Brink
-  - name: Kira Bøgeskov
-  - name: Nickolaj Graby
+  - name: Kira Løve Bøgeskov
   - name: Nicolas Hamann Hiemstra von Arenstorff
+  - name: Bi Yun Chen (Senior Economist at Ørsted)
+  - name: Nickolaj Graby (Data Scientist at Pays ApS)
+  - name: Kenny Kazimirzak Brink (Administrative Officer at SDU)
   - name: Lucas Alexander Damberg Torp Dyssel (PhD Student at Röttger Lab)
   - name: Tomás Bordoy García-Carpintero (PhD Student at Röttger Lab)
   - name: Mathias Winther Romerlund Rasmussen (MSc Student at Ordbogen)
