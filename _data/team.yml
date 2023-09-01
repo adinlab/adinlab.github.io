@@ -58,12 +58,6 @@ phds:
     research_areas: Continual Learning, Deep Learning, Machine Learning, Probabilistic Models
     thesis_title: Probabilistic State Space Modeling with Neural Processes
 
-  - name: Yijie Zhang
-    mail: yizh@di.ku.dk 
-    research_areas: Reinforcement learning and control
-    webpage: https://sites.google.com/view/yijiezhang/home?pli=1
-    scholar: https://scholar.google.com/citations?user=HVR4014AAAAJ&hl=en
-
 
 mscs:
   - name: Viktor Bjerg Nordstrøm
@@ -89,6 +83,7 @@ mscs:
 #    research_areas: Bachelor project
 
 alumnis:
+  - name: Yijie Zhang (PhD student at Copenhagen University)
   - name: Christoffer Falk Bøgebjerg
   - name: Kira Løve Bøgeskov
   - name: Nicolas Hamann Hiemstra von Arenstorff
