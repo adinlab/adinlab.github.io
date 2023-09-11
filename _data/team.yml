@@ -35,7 +35,6 @@ phds:
     image: assets/img/team/andreas_look.png
   
   - name: Bahareh Tasdighi
-    thesis_title: PAC-Bayesian planning algorithms for Model-based Reinforcement Learning
     mail: tasdighi@imada.sdu.dk
     orcid: 0000-0001-9757-5019
     linkedin: https://www.linkedin.com/in/bahar-tasdighi-366020143/
@@ -52,30 +51,76 @@ phds:
     linkedin: https://tr.linkedin.com/in/abdullahakgul70
     orcid: 0000-0002-0489-9493
     webpage: https://aportekila.github.io/
-    mail: akgul@imada.dk
+    mail: akgul@imada.sdu.dk
     scholar: https://scholar.google.com/citations?user=FZeaKPoAAAAJ
     image: assets/img/team/abdullah_akgul.jpg
-    research_areas: Continual Learning, Deep Learning, Machine Learning, Probabilistic Models
-    thesis_title: Probabilistic State Space Modeling with Neural Processes
+    research_areas: Offline Reinforcement Learning, Model-based Reinforcement Learning
+    
 
 
 mscs:
+  - name: István Túri
+    mail: istur21@student.sdu.dk
+    research_areas: Multi-Agent Prisoners' Dilemma
+    image: assets/img/team/Istvan_Turi.jpeg
+
   - name: Viktor Bjerg Nordstrøm
-    research_areas: Generative Flow Networks
-    mail: vinor19@student.sdu.dk
+    research_areas: Deterministic Denoising Diffusion Models
+    mail: viktor.bjerg.nordstrom@gmail.com
+    linkedin: https://www.linkedin.com/in/viktor-bjerg-nordstrøm/
+
+  - name: Nikolaj Flindt Holm Hansen
+    research_areas: Disentangling Deep Generative Models with Generative Flow Networks
+    mail: nikha19@student.sdu.dk
+    linkedin: https://www.linkedin.com/in/nikolaj-holm-hansen/
+    image: assets/img/team/NikolajFlindtHolmHansen.jpg
+
+  - name: Anders Aabom
+    mail: anaab19@student.sdu.dk
+    research_areas: Machine Learning in Robotics
+    image: assets/img/team/Anders_Aabom.jpeg
+
+  - name: Alexander Justin Kopec Thiruchelvam
+    mail: athir19@student.sdu.dk
+    research_areas: Machine Learning in Robotics
+    image: assets/img/team/Alexander_Thiruchelvam.jpeg
+    linkedin: https://www.linkedin.com/in/alexander-thiruchelvam
+
+  - name: Cernat
+    mail: stefancernat88@yahoo.com
+    research_areas: Computer Science
+
+  - name: Nizar Abdel All
+    mail: niabd18@student.sdu.dk
+    research_areas: Machine learning, Reinforcement learning and asset Managment.
+
+  - name: Simon Murrell
+    mail: simur18@student.sdu.dk
+    research_areas: Machine learning, Reinforcement learning, and Asset Management
 
   - name: Yousof Mersal
     mail: yomer19@student.sdu.dk
-    research_areas: Continual Learning, ISA
+    research_areas: Deep RL with Bayesian Neural Networks
     webpage: yousofmersal.com
     linkedin: https://www.linkedin.com/in/yousof-mersal-396691231/
     image: assets/img/team/YousofMersal.jpg
 
-  - name: Nikolaj Flindt Holm Hansen
-    research_areas: Generative Flow Networks, Imitation Learning
-    mail: nikha19@student.sdu.dk
-    linkedin: https://www.linkedin.com/in/nikolaj-holm-hansen/
-    image: assets/img/team/NikolajFlindtHolmHansen.jpg
+  - name: Daniela Haret
+    mail: danielaharet@outlook.com
+    research_areas: Time-series momentum strategies
+    image: assets/img/team/Daniela_Haret.jpeg
+
+  - name: Frederik Gram Kortegaard
+    mail: frederikgramkortegaard@gmail.com
+    research_areas: Neural Network Architectures, Optimizers, Reinforcement Learning Agents.
+    webpage: https://github.com/frederikgramkortegaard
+    linkedin: https://www.linkedin.com/in/frederikgramkortegaard/
+    image: assets/img/team/Frederik_Gram_Kortegaard.jpeg
+
+  - name: Lasse Usbeck Andresen
+    mail: lasan19@student.sdu.dk
+    research_areas: Machine Learning
+    image: assets/img/team/Lasse_Usbeck_Andresen.jpeg
   
 #bscs:
 #  - name: Kasper Okoyo Okumu
@@ -84,7 +129,7 @@ mscs:
 
 alumnis:
   - name: Yijie Zhang (PhD student at Copenhagen University)
-  - name: Christoffer Falk Bøgebjerg
+  - name: Christoffer Falk Bøgebjerg (Lead ML Engineer at AI Power ApS)
   - name: Kira Løve Bøgeskov
   - name: Nicolas Hamann Hiemstra von Arenstorff
   - name: Bi Yun Chen (Senior Economist at Ørsted)
