@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: team.jpeg
+  image: team-23-fall.jpg
   image_circular: false # crops the image to make it circular
   address: >
     University of Southern Denmark <br>
