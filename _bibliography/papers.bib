@@ -10,16 +10,15 @@
 @string{mdpi = {MDPI Applied Sciences}}
 @string{acml = {Asian Conference on Machine Learning}}
 
-@inproceedings{flynn2023improved,
-  abbr={NeurIPS},
-  author =		 {Flynn, H. and  Reeb, D. and  Kandemir, M. and  Peters, J.},
-  year =		 {2023},
-  title =		 {Improved Algorithms for Stochastic Linear Bandits Using Tail Bounds for Martingale Mixtures},
-  booktitle =		 neurips,
-  url = {https://arxiv.org/abs/2309.14298},
-  html = {https://arxiv.org/abs/2309.14298},
-  abstract = {We present improved algorithms with worst-case regret guarantees for the stochastic linear bandit problem. The widely used "optimism in the face of uncertainty" principle reduces a stochastic bandit problem to the construction of a confidence sequence for the unknown reward function. The performance of the resulting bandit algorithm depends on the size of the confidence sequence, with smaller confidence sets yielding better empirical performance and stronger regret guarantees. In this work, we use a novel tail bound for adaptive martingale mixtures to construct confidence sequences which are suitable for stochastic bandits. These confidence sequences allow for efficient action selection via convex programming. We prove that a linear bandit algorithm based on our confidence sequences is guaranteed to achieve competitive worst-case regret. We show that our confidence sequences are tighter than competitors, both empirically and theoretically. Finally, we demonstrate that our tighter confidence sequences give improved performance in several hyperparameter tuning tasks.},
-  selected = {true},
+@inproceedings{baykal2023edvae,
+  abbr={arXiv},
+  title={EdVAE: Mitigating Codebook Collapse with Evidential Discrete Variational Autoencoders},
+  author = {Baykal, G. and Kandemir, M. and Unal, G.},
+  booktitle=arxiv,
+  year={2023},
+  url={https://arxiv.org/abs/2310.05718},
+  html={https://arxiv.org/abs/2310.05718},
+  abstract={Codebook collapse is a common problem in training deep generative models with discrete representation spaces like Vector Quantized Variational Autoencoders (VQ-VAEs). We observe that the same problem arises for the alternatively designed discrete variational autoencoders (dVAEs) whose encoder directly learns a distribution over the codebook embeddings to represent the data. We hypothesize that using the softmax function to obtain a probability distribution causes the codebook collapse by assigning overconfident probabilities to the best matching codebook elements. In this paper, we propose a novel way to incorporate evidential deep learning (EDL) instead of softmax to combat the codebook collapse problem of dVAE. We evidentially monitor the significance of attaining the probability distribution over the codebook embeddings, in contrast to softmax usage. Our experiments using various datasets show that our model, called EdVAE, mitigates codebook collapse while improving the reconstruction performance, and enhances the codebook usage compared to dVAE and VQ-VAE based models.},
   bibtex_show={true}
 }
 
