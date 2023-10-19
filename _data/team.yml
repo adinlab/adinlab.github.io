@@ -30,22 +30,15 @@ postdoctorals:
     
 
 phds:
-  - name: Andreas Look
-    research_areas: Deterministic Inference of Neural Stochastic Differential Equations
-    image: assets/img/team/andreas_look.png
+
   
   - name: Bahareh Tasdighi
     mail: tasdighi@imada.sdu.dk
     orcid: 0000-0001-9757-5019
     linkedin: https://www.linkedin.com/in/bahar-tasdighi-366020143/
-    about: PhD student working on PAC-Bayesian boundit algorithms on reinforcement learning
+    about: PhD student working on PAC-Bayesian actor-critic algorithms
     research_areas: Algorithms, Reinforcement Learning, PAC-Bayesian bounds
     image: assets/img/team/bahar.jpeg
-
-
-  - name: Hamish Flynn
-    research_areas: Continual Learning for Contextual Bandits with PAC-Bayesian Bounds
-    image: assets/img/team/hamish_flynn.png
 
   - name: Abdullah Akgül
     linkedin: https://tr.linkedin.com/in/abdullahakgul70
@@ -55,8 +48,6 @@ phds:
     scholar: https://scholar.google.com/citations?user=FZeaKPoAAAAJ
     image: assets/img/team/abdullah_akgul.jpg
     research_areas: Offline Reinforcement Learning, Model-based Reinforcement Learning
-    
-
 
 mscs:
   - name: István Túri
@@ -123,6 +114,8 @@ mscs:
     image: assets/img/team/Lasse_Usbeck_Andresen.jpeg
 
 alumnis:
+  - name: Andreas Look (Research Scientist at Bosch Center for AI)
+  - name: Hamish Flynn (Postdoc at Universitat Pompeu Fabra)
   - name: Yijie Zhang (PhD student at Copenhagen University)
   - name: Christoffer Falk Bøgebjerg (Lead ML Engineer at AI Power ApS)
   - name: Kira Løve Bøgeskov (Data Analyst at GF Forsikring)
