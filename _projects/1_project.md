@@ -4,7 +4,7 @@ title: ADAPT4CONTROL
 description: Fast Adaptation Methods for Continual Optimal Control
 img: assets/img/adapt4control.png
 importance: 1
-category: work
+category: Work
 ---
 
 <div class="row">
