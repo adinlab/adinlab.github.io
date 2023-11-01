@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /team/
-title: team
+title: Team
 description: 
 nav: true
 # nav_order: 3
@@ -24,33 +24,10 @@ nav: true
 {% endif %}
 
 
-{% if site.data.team.postdoctorals %}
-    <br><h2 id="postdoctoral-researchers">Postdoctoral Researchers</h2>
+{% if site.data.team.researchers %}
+    <br><h2 id="research-associates">Research Associates</h2>
     <div class="row">
-        {% assign sorted= site.data.team.postdoctorals | sort: "name" %}
-        {% if site.data.team.postdoctorals.size > 1 %}
-            {% for member in sorted %}
-                <div class="col-sm-3 d-flex align-items-stretch">
-                    {% include team/active_member.html member=member %}
-                </div>
-            {% endfor %}
-        {% else %}
-            <div class="project column">
-            {% for member in sorted %}
-                <div class="col-sm-12 d-flex align-items-stretch">
-                    {% include team/active_member_horizontal.html member=member %}
-                </div>
-            {% endfor %}
-            </div>
-        {% endif %}
-    </div>
-{% endif %}
-
-
-{% if site.data.team.phds %}
-    <br><h2 id="phd-students">PhD Students</h2>
-    <div class="row">
-        {% assign sorted= site.data.team.phds | sort: "name" %}
+        {% assign sorted= site.data.team.researchers | sort: "name" %}
         {% for member in sorted %}
             <div class="col-sm-3 d-flex align-items-stretch">
                 {% include team/active_member.html member=member %}
