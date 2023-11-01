@@ -4,7 +4,7 @@ title: NeuProWorld
 description: Model-based reinforcement learning with neural stochastic differential equations
 img: assets/img/neuproworld.png
 importance: 2
-category: work
+category: Work
 ---
 
 <div class="row">

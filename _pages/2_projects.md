@@ -5,7 +5,7 @@ permalink: /projects/
 description: Projects for which the ADIN Lab receives direct funding from external sources.
 nav: true
 # nav_order: 2
-display_categories: [work, fun]
+display_categories: [Work]
 horizontal: false
 ---
 
