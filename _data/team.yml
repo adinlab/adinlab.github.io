@@ -44,6 +44,11 @@ researchers:
     research_areas: PHD student working on offline reinforcement learning
     image: assets/img/team/abdullah_akgul.jpg
 
+  - name: Manuel Haussmann
+    mail: haussmann@imada.sdu.dk
+    research_areas: Postdoc working on Bayesian methods for reinforcement learning
+    image: assets/img/team/Manuel_Haussmann.png
+
 mscs:
   - name: István Túri
     mail: istur21@student.sdu.dk
@@ -107,6 +112,12 @@ mscs:
     mail: lasan19@student.sdu.dk
     research_areas: Adaptive optimizers for neural nets
     image: assets/img/team/Lasse_Usbeck_Andresen.jpeg
+
+  - name: Jessica Bruun
+    mail: jebru17@student.sdu.dk
+    research_areas: Machine learning, Water quality, pesticides
+    image: assets/img/team/Jessica_Bruun.jpeg
+
 
 alumnis:
   - name: Andreas Look (Research Scientist at Bosch Center for AI)
