@@ -52,13 +52,11 @@ researchers:
   
   - name: Gülçin Baykal Can
     mail: gulcinbaykal95@gmail.com
-    linkedin: https://www.linkedin.com/in/gülçin-baykal-can-0a8276b0
     scholar: https://scholar.google.com/citations?user=tcmSfdwAAAAJ&hl=tr
     research_areas: Visiting PhD Student working on disentangled deep generative networks
     image: assets/img/team/gulcin_baykal_can.jpeg
+    linkedin: https://www.linkedin.com/in/gülçin-baykal-can-0a8276b0
     
-
-
 mscs:
   - name: István Túri
     mail: istur21@student.sdu.dk
