@@ -49,6 +49,15 @@ researchers:
     scholar: https://scholar.google.com/citations?user=YXBAT4wAAAAJ&hl=de&oi=ao
     research_areas: Postdoc working on Bayesian methods for reinforcement learning
     image: assets/img/team/Manuel_Haussmann.png
+  
+  - name: Gülçin Baykal Can
+    mail: gulcinbaykal95@gmail.com
+    linkedin: https://www.linkedin.com/in/gülçin-baykal-can-0a8276b0
+    scholar: https://scholar.google.com/citations?user=tcmSfdwAAAAJ&hl=tr
+    research_areas: Visiting PhD Student working on disentangled deep generative networks
+    image: assets/img/team/gulcin_baykal_can.jpeg
+    
+
 
 mscs:
   - name: István Túri
