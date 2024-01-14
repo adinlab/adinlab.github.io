@@ -58,10 +58,6 @@ researchers:
     linkedin: https://www.linkedin.com/in/gülçin-baykal-can-0a8276b0
     
 mscs:
-  - name: István Túri
-    mail: istur21@student.sdu.dk
-    research_areas: Multi-Agent Prisoners' Dilemma
-    image: assets/img/team/Istvan_Turi.jpeg
 
   - name: Viktor Bjerg Nordstrøm
     research_areas: Deterministic Denoising Diffusion Models
@@ -131,6 +127,8 @@ alumnis:
   - name: Andreas Look (Research Scientist at Bosch Center for AI)
   - name: Hamish Flynn (Postdoc at Universitat Pompeu Fabra)
   - name: Yijie Zhang (PhD student at Copenhagen University)
+  - name: Istvan Turi
+  - name: Anders Christensen
   - name: Christoffer Falk Bøgebjerg (Lead ML Engineer at AI Power ApS)
   - name: Kira Løve Bøgeskov (Data Analyst at GF Forsikring)
   - name: Lasse Bohse Kyster (Analyst at Fonden for Entreprenørskab)
