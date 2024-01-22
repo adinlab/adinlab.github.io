@@ -84,26 +84,13 @@ mscs:
   - name: Remus-Stefan Cernat
     mail: stefancernat88@yahoo.com
     research_areas: Reinforcement learning for image enhancement
-
-  - name: Nizar Abdel All
-    mail: niabd18@student.sdu.dk
-    research_areas: Reinforcement learning for algorithmic trading
-
-  - name: Simon Murrell
-    mail: simur18@student.sdu.dk
-    research_areas: Reinforcement learning for algorithmic trading
-
+    
   - name: Yousof Mersal
     mail: yomer19@student.sdu.dk
     research_areas: Robust visual control with Bayesian neural nets
     webpage: yousofmersal.com
     linkedin: https://www.linkedin.com/in/yousof-mersal-396691231/
     image: assets/img/team/YousofMersal.jpg
-
-  - name: Daniela Haret
-    mail: danielaharet@outlook.com
-    research_areas: Time-series momentum strategies
-    image: assets/img/team/Daniela_Haret.jpeg
 
   - name: Frederik Gram Kortegaard
     mail: frederikgramkortegaard@gmail.com
@@ -127,6 +114,9 @@ alumnis:
   - name: Andreas Look (Research Scientist at Bosch Center for AI)
   - name: Hamish Flynn (Postdoc at Universitat Pompeu Fabra)
   - name: Yijie Zhang (PhD student at Copenhagen University)
+  - name: Daniela Haret (Student Assistant at Bunker Holding A/S)
+  - name: Nizar Abdel All
+  - name: Simon Murrell
   - name: Istvan Turi
   - name: Anders Christensen
   - name: Christoffer Falk Bøgebjerg (Lead ML Engineer at AI Power ApS)
