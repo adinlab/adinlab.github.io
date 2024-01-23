@@ -25,7 +25,7 @@ nav: true
 
 
 {% if site.data.team.researchers %}
-    <br><h2 id="research-associates">Research Associates</h2>
+    <br><h2 id="research-associates">Research Fellows</h2>
     <div class="row">
         {% assign sorted= site.data.team.researchers | sort: "name" %}
         {% for member in sorted %}
