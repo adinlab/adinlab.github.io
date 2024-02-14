@@ -133,7 +133,8 @@
   html={https://openreview.net/forum?id=84NMXTHYe-},
   selected={true},
   abstract={A probabilistic classifier with reliable predictive uncertainties i) fits successfully to the target domain data, ii) provides calibrated class probabilities in difficult regions of the target domain (e.g. class overlap), and iii) accurately identifies queries coming out of the target domain and reject them. We introduce an original combination of Evidential Deep Learning, Neural Processes, and Neural Turing Machines capable of providing all three essential properties mentioned above for total uncertainty quantification. We observe our method on three image classification benchmarks to consistently improve the in-domain uncertainty quantification, out-of-domain detection, and robustness against input perturbations with one single model. Our unified solution delivers an implementation-friendly and computationally efficient recipe for safety clearance and provides intellectual economy to an investigation of algorithmic roots of epistemic awareness in deep neural nets.},
-  bibtex_show={true}
+  bibtex_show={true},
+  code={https://github.com/adinlab/EvidentialTuringProcess}
 }
 
 @inproceedings{akgul2022cddp,
@@ -188,5 +189,83 @@
   html={https://link.springer.com/article/10.1007/s10618-022-00825-4},
   selected={false},
   abstract={We present a PAC-Bayesian analysis of lifelong learning. In the lifelong learning problem, a sequence of learning tasks is observed one-at-a-time, and the goal is to transfer information acquired from previous tasks to new learning tasks. We consider the case when each learning task is a multi-armed bandit problem. We derive lower bounds on the expected average reward that would be obtained if a given multi-armed bandit algorithm was run in a new task with a particular prior and for a set number of steps. We propose lifelong learning algorithms that use our new bounds as learning objectives. Our proposed algorithms are evaluated in several lifelong multi-armed bandit problems and are found to perform better than a baseline method that does not use generalisation bounds.},
+  bibtex_show={true}
+}
+
+@article{tasdighi2024probabilistic,
+  abbr={arXiv},
+  title = {Probabilistic Actor-Critic: Learning to Explore with PAC-Bayes Uncertainty},
+  author = {Tasdighi, B. and Werge, N. and Wu, Y. and Kandemir, M.},
+  booktitle=arxiv,
+  year = {2024},
+  url = {http://arxiv.org/abs/2402.03055v1},
+  html = {http://arxiv.org/abs/2402.03055v1},
+  selected = {false},
+  abstract = {We introduce Probabilistic Actor-Critic (PAC), a novel reinforcement learning algorithm with improved continuous control performance thanks to its ability to mitigate the exploration-exploitation trade-off. PAC achieves this by seamlessly integrating stochastic policies and critics, creating a dynamic synergy between the estimation of critic uncertainty and actor training. The key contribution of our PAC algorithm is that it explicitly models and infers epistemic uncertainty in the critic through Probably Approximately Correct-Bayesian (PAC-Bayes) analysis. This incorporation of critic uncertainty enables PAC to adapt its exploration strategy as it learns, guiding the actor's decision-making process. PAC compares favorably against fixed or pre-scheduled exploration schemes of the prior art. The synergy between stochastic policies and critics, guided by PAC-Bayes analysis, represents a fundamental step towards a more adaptive and effective exploration strategy in deep reinforcement learning. We report empirical evaluations demonstrating PAC's enhanced stability and improved performance over the state of the art in diverse continuous control problems.},
+  bibtex_show={true},
+  code={https://github.com/adinlab/ProbabilisticActorCritic}
+}
+
+@article{sinelnikov2024latent,
+  abbr={arXiv},
+  title = {Latent variable model for high-dimensional point process with structured missingness},
+  author = {Sinelnikov, M. and Haussmann, M. and L\"{a}hdesm\"{a}ki, H.},
+  booktitle=arxiv,
+  year = {2024},
+  url = {http://arxiv.org/abs/2402.05758v1},
+  html = {http://arxiv.org/abs/2402.05758v1},
+  selected = {false},
+  abstract = {Longitudinal data are important in numerous fields, such as healthcare, sociology and seismology, but real-world datasets present notable challenges for practitioners because they can be high-dimensional, contain structured missingness patterns, and measurement time points can be governed by an unknown stochastic process. While various solutions have been suggested, the majority of them have been designed to account for only one of these challenges. In this work, we propose a flexible and efficient latent-variable model that is capable of addressing all these limitations. Our approach utilizes Gaussian processes to capture temporal correlations between samples and their associated missingness masks as well as to model the underlying point process. We construct our model as a variational autoencoder together with deep neural network parameterised encoder and decoder models, and develop a scalable amortised variational inference approach for efficient model training. We demonstrate competitive performance using both simulated and real datasets.},
+  bibtex_show={true}
+}
+
+@article{dutta2023demystifying,
+  abbr={arXiv},
+  title={Demystifying the Myths and Legends of Nonconvex Convergence of SGD},
+  author={Dutta, A. and Bergou, E.H. and Boucherouite, S. and Werge, N. and Kandemir, M. and Li, X.},
+  booktitle=arxiv,
+  year={2023},
+  url={https://arxiv.org/pdf/2310.12969},
+  html={https://arxiv.org/pdf/2310.12969},
+  selected={false},
+  abstract={Stochastic gradient descent (SGD) and its variants are the main workhorses for solving large-scale optimization problems with nonconvex objective functions.~Although the convergence of SGDs in the (strongly) convex case is well-understood, their convergence for nonconvex functions stands on weak mathematical foundations. Most existing studies on the nonconvex convergence of SGD show the complexity results based on either the minimum of the expected gradient norm or the functional sub-optimality gap (for functions with extra structural property) by searching the entire range of iterates. Hence the last iterations of SGDs do not necessarily maintain the same complexity guarantee. This paper shows that {\em an $\epsilon$-stationary point exists in the final iterates of SGDs,} given a large enough total iteration budget, $T$, not just anywhere in the entire range of iterates --- a much stronger result than the existing one. Additionally, our analyses allow us to measure the \emph{density of the $\epsilon$-stationary points} in the final iterates of SGD, and we recover the classical ${O(\frac{1}{\sqrt{T}})}$ asymptotic rate under various existing assumptions on the objective function and the bounds on the stochastic gradient. As a result of our analyses, we addressed certain myths and legends related to the nonconvex convergence of SGD and posed some thought-provoking questions that could set new directions for research.}
+  bibtex_show={true}
+}
+
+@article{godichon2023adaptive,
+  abbr={arXiv},
+  title={On Adaptive Stochastic Optimization for Streaming Data: A {N}ewton's Method with {O}(dN) Operations},
+  author={Godichon-Baggioni, A. and Werge, N.},
+  booktitle=arxiv,
+  year={2023},
+  url={https://arxiv.org/abs/2311.17753},
+  html={https://arxiv.org/abs/2311.17753},
+  selected={false},
+  abstract={Stochastic optimization methods encounter new challenges in the realm of streaming, characterized by a continuous flow of large, high-dimensional data. While first-order methods, like stochastic gradient descent, are the natural choice, they often struggle with ill-conditioned problems. In contrast, second-order methods, such as Newton's methods, offer a potential solution, but their computational demands render them impractical. This paper introduces adaptive stochastic optimization methods that bridge the gap between addressing ill-conditioned problems while functioning in a streaming context. Notably, we present an adaptive inversion-free Newton's method with a computational complexity matching that of first-order methods, $\mathcal{O}(dN)$, where $d$ represents the number of dimensions/features, and $N$ the number of data. Theoretical analysis confirms their asymptotic efficiency, and empirical evidence demonstrates their effectiveness, especially in scenarios involving complex covariance structures and challenging initializations. In particular, our adaptive Newton's methods outperform existing methods, while maintaining favorable computational efficiency.}
+  bibtex_show={true}
+}
+
+@article{zhang2023if,
+  abbr={arXiv},
+  title={If there is no underfitting, there is no Cold Posterior Effect},
+  author={Zhang, Y. and Wu, Y. and Ortega, L.A. and Masegosa, A.R.},
+  booktitle=arxiv,
+  year={2023},
+  url={https://arxiv.org/abs/2310.01189},
+  html={https://arxiv.org/abs/2310.01189},
+  selected={false},
+  abstract={The cold posterior effect (CPE) \citep{WRVS+20} in Bayesian deep learning shows that, for posteriors with a temperature $T<1$, the resulting posterior predictive could have better performances than the Bayesian posterior ($T=1$). As the Bayesian posterior is known to be optimal under perfect model specification, many recent works have studied the presence of CPE as a model misspecification problem, arising from the prior and/or from the likelihood function. In this work, we provide a more nuanced understanding of the CPE as we show that \emph{misspecification leads to CPE only when the resulting Bayesian posterior underfits}. In fact, we theoretically show that if there is no underfitting, there is no CPE.}
+  bibtex_show={true}
+}
+@article{unal2023meta,
+  abbr={TMLR},
+  title={Meta Continual Learning on Graphs with Experience Replay},
+  author={Unal, A. and Akg{\"u}l, A. and Kandemir, M. and Unal, G.},
+  booktitle=tmlr,
+  year={2023},
+  url={https://openreview.net/forum?id=8tnrh56P5W},
+  html={https://openreview.net/forum?id=8tnrh56P5W},
+  selected={false},
+  abstract={Continual learning is a machine learning approach where the challenge is that a constructed learning model executes incoming tasks while maintaining its performance over the earlier tasks. In order to address this issue, we devise a technique that combines two uniquely important concepts in machine learning, namely "replay buffer" and "meta learning", aiming to exploit the best of two worlds. In this method, the model weights are initially computed by using the current task dataset. Next, the dataset of the current task is merged with the stored samples from the earlier tasks and the model weights are updated using the combined dataset. This aids in preventing the model weights converging to the optimal parameters of the current task and enables the preservation of information from earlier tasks. We choose to adapt our technique to graph data structure and the task of node classification on graphs. We introduce MetaCLGraph, which outperforms the baseline methods over various graph datasets including Citeseer, Corafull, Arxiv, and Reddit. This method illustrates the potential of combining replay buffer and meta learning in the field of continual learning on graphs.}
   bibtex_show={true}
 }
