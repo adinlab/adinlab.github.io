@@ -10,6 +10,31 @@
 @string{mdpi = {MDPI Applied Sciences}}
 @string{acml = {Asian Conference on Machine Learning}}
 
+@article{asan2024calibrating,
+  abbr={ICLR},
+  title={Calibrating Bayesian UNet++ for Sub-Seasonal Forecasting},
+  author={Asan, B. and Akgül, A. and Unal, A. and Kandemir, M. and Unal, G.},
+  booktitle={Tackling Climate Change with Machine Learning at ICLR 2024},
+  year={2024},
+  url={https://arxiv.org/abs/2403.16612},
+  html={https://arxiv.org/abs/2403.16612},
+  selected={false},
+  abstract={Seasonal forecasting is a crucial task when it comes to detecting the extreme heat and colds that occur due to climate change. Confidence in the predictions should be reliable since a small increase in the temperatures in a year has a big impact on the world. Calibration of the neural networks provides a way to ensure our confidence in the predictions. However, calibrating regression models is an under-researched topic, especially in forecasters. We calibrate a UNet++ based architecture, which was shown to outperform physics-based models in temperature anomalies. We show that with a slight trade-off between prediction error and calibration error, it is possible to get more reliable and sharper forecasts. We believe that calibration should be an important part of safety-critical machine learning applications such as weather forecasters.},
+  bibtex_show={true}
+}
+
+@inproceedings{akgul2024cddp,
+  abbr={L4DC},
+  title={Continual Learning of Multi-modal Dynamics with External Memory},
+  author = {Akgül, A. and Unal, G. and Kandemir, M.},
+  booktitle={Proceedings of The 6th Annual Learning for Dynamics and Control Conference},
+  year={2024},
+  url={https://arxiv.org/abs/2203.00936},
+  html={https://arxiv.org/abs/2203.00936},
+  selected={false},
+  abstract={We study the problem of fitting a model to a dynamical environment when new modes of behavior emerge sequentially. The learning model is aware when a new mode appears, but it does not have access to the true modes of individual training sequences. We devise a novel continual learning method that maintains a descriptor of the mode of an encountered sequence in a neural episodic memory. We employ a Dirichlet Process prior on the attention weights of the memory to foster efficient storage of the mode descriptors. Our method performs continual learning by transferring knowledge across tasks by retrieving the descriptors of similar modes of past tasks to the mode of a current sequence and feeding this descriptor into its transition kernel as control input. We observe the continual learning performance of our method to compare favorably to the mainstream parameter transfer approach.},
+  bibtex_show={true}
+}
 
 @inproceedings{bahareh2022pac4sac,
   abbr={arXiv},
@@ -114,18 +139,7 @@
   bibtex_show={true}
 }
 
-@inproceedings{akgul2022cddp,
-  abbr={arXiv},
-  title={Continual Learning of Multi-modal Dynamics with External Memory},
-  author = {Akgül, A. and Unal, G. and Kandemir, M.},
-  booktitle=arxiv,
-  year={2022},
-  url={https://arxiv.org/abs/2203.00936},
-  html={https://arxiv.org/abs/2203.00936},
-  selected={false},
-  abstract={We study the problem of fitting a model to a dynamical environment when new modes of behavior emerge sequentially. The learning model is aware when a new mode appears, but it does not have access to the true modes of individual training sequences. We devise a novel continual learning method that maintains a descriptor of the mode of an encountered sequence in a neural episodic memory. We employ a Dirichlet Process prior on the attention weights of the memory to foster efficient storage of the mode descriptors. Our method performs continual learning by transferring knowledge across tasks by retrieving the descriptors of similar modes of past tasks to the mode of a current sequence and feeding this descriptor into its transition kernel as control input. We observe the continual learning performance of our method to compare favorably to the mainstream parameter transfer approach.},
-  bibtex_show={true}
-}
+
 
 @inproceedings{flynn2023improved,
   abbr={NeurIPS},
