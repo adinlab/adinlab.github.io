@@ -8,5 +8,6 @@ github_users:
   - Sarahshub
 
 github_repos:
-  - adinlab/EvidentialTuringProcess
+  - adinlab/adinrl
   - adinlab/ProbabilisticActorCritic
+  - adinlab/EvidentialTuringProcess
