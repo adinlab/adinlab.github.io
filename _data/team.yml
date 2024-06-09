@@ -111,9 +111,12 @@ mscs:
 
 
 alumnis:
-  - name: Andreas Look (Research Scientist at Bosch Center for AI)
+  - name: Andreas Look (Research Scientist at Bosch Center for AI),
   - name: Hamish Flynn (Postdoc at Universitat Pompeu Fabra)
-  - name: Yijie Zhang (PhD student at Copenhagen University)
+  - name: Marcus Poulsen
+  - name: Marius Høivik Carlsen
+  - name: Jessica Michelle Bruun
+  - name: Michelle Sundstrøm Jensen
   - name: Daniela Haret (Student Assistant at Bunker Holding A/S)
   - name: Nizar Abdel All
   - name: Simon Murrell
