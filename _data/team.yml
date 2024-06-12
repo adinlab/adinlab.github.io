@@ -58,18 +58,6 @@ researchers:
     linkedin: https://www.linkedin.com/in/gülçin-baykal-can-0a8276b0
     
 mscs:
-
-  - name: Viktor Bjerg Nordstrøm
-    research_areas: Deterministic Denoising Diffusion Models
-    mail: viktor.bjerg.nordstrom@gmail.com
-    linkedin: https://www.linkedin.com/in/viktor-bjerg-nordstrøm/
-
-  - name: Nikolaj Flindt Holm Hansen
-    research_areas: Disentangling Deep Generative Models with Generative Flow Networks
-    mail: nikha19@student.sdu.dk
-    linkedin: https://www.linkedin.com/in/nikolaj-holm-hansen/
-    image: assets/img/team/NikolajFlindtHolmHansen.jpg
-
   - name: Anders Aabom
     mail: anaab19@student.sdu.dk
     research_areas: Self supervised robot vision
@@ -104,15 +92,11 @@ mscs:
     research_areas: Adaptive optimizers for neural nets
     image: assets/img/team/Lasse_Usbeck_Andresen.jpeg
 
-  - name: Jessica Bruun
-    mail: jebru17@student.sdu.dk
-    research_areas: Machine learning, Water quality, pesticides
-    image: assets/img/team/Jessica_Bruun.jpeg
-
-
 alumnis:
   - name: Andreas Look (Research Scientist at Bosch Center for AI),
   - name: Hamish Flynn (Postdoc at Universitat Pompeu Fabra)
+  - name: Viktor Bjerg Nordstrøm
+  - name: Nikolaj Flindt Holm Hansen
   - name: Marcus Poulsen
   - name: Marius Høivik Carlsen
   - name: Jessica Michelle Bruun
