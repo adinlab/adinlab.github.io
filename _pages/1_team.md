@@ -64,10 +64,10 @@ nav: true
 
 
 {% if site.data.team.alumnis_msc %}
+    <br><h2 id="alumni">Alumni</h2>
     <p> </p>
     <div class="card hoverable">
         <div class="row no-gutters">
-            <br><h2 id="alumni">Alumni</h2>
             <div class="projects column">
                 {% include team/alumni_phd.html alumnis=site.data.team.alumni_phd %}
                 {% assign sorted= site.data.team.alumnis_msc %}
