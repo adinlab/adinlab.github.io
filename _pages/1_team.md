@@ -61,10 +61,11 @@ nav: true
     </div>
 {% endif %}
 
+<br><h2 id="alumni">Alumni</h2>
+<div class="projects column">
+    {% include team/alumni_phd.html alumnis=site.data.team.alumni_phd %}
 
 {% if site.data.team.alumnis %}
-    <br><h2 id="alumni">Alumni</h2>
-    <div class="projects column">
         {% assign sorted= site.data.team.alumnis %}
         {% include team/alumni.html alumnis=sorted %}
     </div>
