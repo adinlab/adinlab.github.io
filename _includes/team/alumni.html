@@ -5,7 +5,8 @@
             <div class="card-body">
                 <h5 class="card-title">{{ include.member.name }}</h5>
                 {% for member in include.alumnis %}
-                    <h6 class="card-title">{{ member.name }}</h6>
+                    <h6 class="card-title">{{ member.name }}</h6> 
+                    <p class="card-text">{{ member.members }}</p>
                 {% endfor %}
             </div>
         </div>
