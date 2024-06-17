@@ -68,7 +68,7 @@ nav: true
     <div class="projects column">
         {% include team/alumni_phd.html alumnis=site.data.team.alumni_phd %}
         {% assign sorted= site.data.team.alumnis_msc %}
-        {% include team/alumni.html alumnis=sorted %}
+        {% include team/alumni_bsc.html alumnis=sorted %}
     </div>
 {% endif %}
 
