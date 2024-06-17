@@ -49,17 +49,6 @@ nav: true
     </div>
 {% endif %}
 
-{% if site.data.team.bscs %}
-    <br><h2 id="bsc-students">BSc Students</h2>
-    <div class="row">
-        {% assign sorted= site.data.team.bscs | sort: "name" %}
-        {% for member in sorted %}
-            <div class="col-sm-3 d-flex align-items-stretch">
-                {% include team/active_member.html member=member %}
-            </div>
-        {% endfor %}
-    </div>
-{% endif %}
 
 
 
