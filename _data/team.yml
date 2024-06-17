@@ -57,44 +57,15 @@ researchers:
     image: assets/img/team/gulcin_baykal_can.jpeg
     linkedin: https://www.linkedin.com/in/gülçin-baykal-can-0a8276b0
     
-mscs:
-  - name: Anders Aabom
-    mail: anaab19@student.sdu.dk
-    research_areas: Self supervised robot vision
-    image: assets/img/team/Anders_Aabom.jpeg
-
-  - name: Alexander Justin Kopec Thiruchelvam
-    mail: athir19@student.sdu.dk
-    research_areas: Self-supervised robot vision
-    image: assets/img/team/Alexander_Thiruchelvam.jpeg
-    linkedin: https://www.linkedin.com/in/alexander-thiruchelvam
-
-  - name: Remus-Stefan Cernat
-    mail: stefancernat88@yahoo.com
-    research_areas: Reinforcement learning for image enhancement
-    
-  - name: Yousof Mersal
-    mail: yomer19@student.sdu.dk
-    research_areas: Robust visual control with Bayesian neural nets
-    webpage: yousofmersal.com
-    linkedin: https://www.linkedin.com/in/yousof-mersal-396691231/
-    image: assets/img/team/YousofMersal.jpg
-
-  - name: Frederik Gram Kortegaard
-    mail: frederikgramkortegaard@gmail.com
-    research_areas: Adaptive optimizers for neural nets
-    webpage: https://github.com/frederikgramkortegaard
-    linkedin: https://www.linkedin.com/in/frederikgramkortegaard/
-    image: assets/img/team/Frederik_Gram_Kortegaard.jpeg
-
-  - name: Lasse Usbeck Andresen
-    mail: lasan19@student.sdu.dk
-    research_areas: Adaptive optimizers for neural nets
-    image: assets/img/team/Lasse_Usbeck_Andresen.jpeg
-
 alumnis:
   - name: Andreas Look (Research Scientist at Bosch Center for AI),
   - name: Hamish Flynn (Postdoc at Universitat Pompeu Fabra)
+  - name: Yousof Mersal
+  - name: Frederik Gram Kortegaard
+  - name: Lasse Usbeck Andresen
+  - name: Anders Tobiesen Aabom
+  - name: Alexander Justin Kopec Thiruchelvam
+  - name: Remus-Stefan Cernat
   - name: Ida Overvad Bruun (EnergiNet)
   - name: Viktor Bjerg Nordstrøm
   - name: Nikolaj Flindt Holm Hansen
