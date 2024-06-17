@@ -69,7 +69,7 @@ nav: true
         <div class="row no-gutters">
             <br><h2 id="alumni">Alumni</h2>
             <div class="projects column">
-                {% include team/alumni_phd.html alumnis=site.data.team.alumni_phd %}
+                {% include team/alumni_phd.html alumnis=site.data.team.alumni_phd.name %}
                 {% assign sorted= site.data.team.alumnis_msc %}
                 {% include team/alumni_bsc.html alumnis=sorted %}
             </div>
