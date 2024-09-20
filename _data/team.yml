@@ -18,7 +18,7 @@ researchers:
     scholar: https://scholar.google.com/citations?user=7ixNlWUAAAAJ&hl=en
     linkedin: https://www.linkedin.com/in/nicklas-werge-925789b0/
     research_areas: Postdoc working on online learning with bandit algorithms
-    image: assets/img/team/nicklas_werge.jpeg
+    image: assets/img/team/new/NicklasWerge.jpg
 
   - name: Yi-Shan Wu
     mail: yswu@imada.sdu.dk
@@ -48,7 +48,7 @@ researchers:
     mail: haussmann@imada.sdu.dk
     scholar: https://scholar.google.com/citations?user=YXBAT4wAAAAJ&hl=de&oi=ao
     research_areas: Postdoc working on Bayesian methods for reinforcement learning
-    image: assets/img/team/Manuel_Haussmann.png
+    image: assets/img/team/new/ManuelHaussmann.png
     webpage: https://manuelhaussmann.github.io
   
   - name: Gülcin Baykal Can
