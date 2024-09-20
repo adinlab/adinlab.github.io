@@ -26,7 +26,7 @@ researchers:
     scholar: https://scholar.google.com/citations?user=IrW8ytQAAAAJ&hl=en
     webpage: https://sites.google.com/view/yishanwu/home?authuser=0
     research_areas: Postdoc working on reinforcement learning theory
-    image: assets/img/team/yi-shan-wu.jpg
+    image: assets/img/team/new/YiShanWu.jpeg
     
   - name: Bahareh Tasdighi
     mail: tasdighi@imada.sdu.dk
@@ -42,7 +42,7 @@ researchers:
     mail: akgul@imada.sdu.dk
     scholar: https://scholar.google.com/citations?user=FZeaKPoAAAAJ
     research_areas: PhD student working on offline reinforcement learning
-    image: assets/img/team/abdullah_akgul.jpg
+    image: assets/img/team/new/AbdullahAkgul.jpeg
 
   - name: Manuel Haussmann
     mail: haussmann@imada.sdu.dk
@@ -55,7 +55,7 @@ researchers:
     mail: gulcinbaykal95@gmail.com
     scholar: https://scholar.google.com/citations?user=tcmSfdwAAAAJ&hl=tr
     research_areas: Visiting PhD Student working on disentangled deep generative networks
-    image: assets/img/team/gulcin_baykal_can.jpeg
+    image: assets/img/team/new/GulcinBaykalCan.png
     linkedin: https://www.linkedin.com/in/gülçin-baykal-can-0a8276b0
     
 
