@@ -7,7 +7,7 @@ leaders:
     scholar: https://scholar.google.com/citations?user=Jxm1UeYAAAAJ
     twitter: TheBayesist
     linkedin: https://www.linkedin.com/in/melih-kandemir-64681a16
-    image: assets/img/team/melih_kandemir.png
+    image: assets/img/team/new/MelihKandemir.png
 
 
 researchers:
@@ -26,8 +26,7 @@ researchers:
     scholar: https://scholar.google.com/citations?user=IrW8ytQAAAAJ&hl=en
     webpage: https://sites.google.com/view/yishanwu/home?authuser=0
     research_areas: Postdoc working on reinforcement learning theory
-    image: assets/img/team/new/YiShanWu.jpeg
-    
+    image: assets/img/team/new/YiShanWu.jpg
   - name: Bahareh Tasdighi
     mail: tasdighi@imada.sdu.dk
     orcid: 0000-0001-9757-5019
