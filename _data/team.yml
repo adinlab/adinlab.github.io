@@ -27,12 +27,13 @@ researchers:
     webpage: https://sites.google.com/view/yishanwu/home?authuser=0
     research_areas: Postdoc working on reinforcement learning theory
     image: assets/img/team/new/YiShanWu.jpg
+
   - name: Bahareh Tasdighi
     mail: tasdighi@imada.sdu.dk
     orcid: 0000-0001-9757-5019
     linkedin: https://www.linkedin.com/in/bahar-tasdighi-366020143/
     research_areas: PhD student working on optimistic exploration in actor critic algorithms
-    image: assets/img/team/bahar.jpeg
+    image: assets/img/team/new/BaharehTasdighi.png
 
   - name: Abdullah Akgül
     linkedin: https://tr.linkedin.com/in/abdullahakgul70
@@ -56,6 +57,7 @@ researchers:
     research_areas: Visiting PhD Student working on disentangled deep generative networks
     image: assets/img/team/new/GulcinBaykalCan.png
     linkedin: https://www.linkedin.com/in/gülçin-baykal-can-0a8276b0
+    webpage: https://gulcinbaykal.github.io/
     
 
 alumni_phd: Andreas Look (Research Scientist at Bosch Center for AI), Hamish Flynn (Postdoc at Universitat Pompeu Fabra), Manuel Haussmann (Postdoc at ADINLab)

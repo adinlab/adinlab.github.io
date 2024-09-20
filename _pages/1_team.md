@@ -29,7 +29,7 @@ nav: true
     <div class="row">
         {% assign sorted= site.data.team.researchers | sort: "name" %}
         {% for member in sorted %}
-            <div class="col-sm-3 d-flex align-items-stretch">
+            <div class="col-sm-4 d-flex align-items-stretch">
                 {% include team/active_member.html member=member %}
             </div>
         {% endfor %}
@@ -37,7 +37,7 @@ nav: true
 {% endif %}
 
 
-{% if site.data.team.mscs %}
+<!-- {% if site.data.team.mscs %}
     <br><h2 id="msc-students">MSc Students</h2>
     <div class="row">
         {% assign sorted= site.data.team.mscs | sort: "name" %}
@@ -47,7 +47,7 @@ nav: true
             </div>
         {% endfor %}
     </div>
-{% endif %}
+{% endif %} -->
 
 
 

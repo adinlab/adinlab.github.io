@@ -11,6 +11,7 @@
 @string{acml = {Asian Conference on Machine Learning}}
 @string{aabi = {Advances in Approximate Bayesian Inference Symposium}}
 @string{spigm = {Structured Probabilistic Inference & Generative Modeling}}
+@string{pr = {Pattern Recognition}}
 
 
 @inproceedings{ong2024learning,
@@ -91,6 +92,18 @@ abstract = {Longitudinal data are important in numerous fields, such as healthca
 bibtex_show = {true}
 }
 
+@inproceedings{baykal2024edvae,
+  abbr={PR},
+  title = {EdVAE: Mitigating codebook collapse with evidential discrete variational autoencoders},
+  author = {Baykal, G. and Kandemir, M. and Unal, G.},
+  booktitle=pr,
+  year={2024},
+  url={https://www.sciencedirect.com/science/article/pii/S0031320324005430},
+  html={https://www.sciencedirect.com/science/article/pii/S0031320324005430},
+  abstract={Codebook collapse is a common problem in training deep generative models with discrete representation spaces like Vector Quantized Variational Autoencoders (VQ-VAEs). We observe that the same problem arises for the alternatively designed discrete variational autoencoders (dVAEs) whose encoder directly learns a distribution over the codebook embeddings to represent the data. We hypothesize that using the softmax function to obtain a probability distribution causes the codebook collapse by assigning overconfident probabilities to the best matching codebook elements. In this paper, we propose a novel way to incorporate evidential deep learning (EDL) through a hierarchical Bayesian modeling instead of softmax to combat the codebook collapse problem of dVAE. We evidentially monitor the significance of attaining the probability distribution over the codebook embeddings, in contrast to softmax usage. Our experiments using various datasets show that our model, called EdVAE, mitigates codebook collapse while improving the reconstruction performance, and enhances the codebook usage compared to dVAE and VQ-VAE based models. Our code can be found at https://github.com/ituvisionlab/EdVAE.},
+  bibtex_show={true}
+}
+
 
 @article{dutta2023demystifying,
   abbr={arXiv},
@@ -143,19 +156,6 @@ bibtex_show = {true}
   abstract={The cold posterior effect (CPE) \citep{WRVS+20} in Bayesian deep learning shows that, for posteriors with a temperature $T<1$, the resulting posterior predictive could have better performances than the Bayesian posterior ($T=1$). As the Bayesian posterior is known to be optimal under perfect model specification, many recent works have studied the presence of CPE as a model misspecification problem, arising from the prior and/or from the likelihood function. In this work, we provide a more nuanced understanding of the CPE as we show that \emph{misspecification leads to CPE only when the resulting Bayesian posterior underfits}. In fact, we theoretically show that if there is no underfitting, there is no CPE.}, 
   bibtex_show={true}
 }
-
-@inproceedings{baykal2023edvae,
-  abbr={arXiv},
-  title={EdVAE: Mitigating Codebook Collapse with Evidential Discrete Variational Autoencoders},
-  author = {Baykal, G. and Kandemir, M. and Unal, G.},
-  booktitle=arxiv,
-  year={2023},
-  url={https://arxiv.org/abs/2310.05718},
-  html={https://arxiv.org/abs/2310.05718},
-  abstract={Codebook collapse is a common problem in training deep generative models with discrete representation spaces like Vector Quantized Variational Autoencoders (VQ-VAEs). We observe that the same problem arises for the alternatively designed discrete variational autoencoders (dVAEs) whose encoder directly learns a distribution over the codebook embeddings to represent the data. We hypothesize that using the softmax function to obtain a probability distribution causes the codebook collapse by assigning overconfident probabilities to the best matching codebook elements. In this paper, we propose a novel way to incorporate evidential deep learning (EDL) instead of softmax to combat the codebook collapse problem of dVAE. We evidentially monitor the significance of attaining the probability distribution over the codebook embeddings, in contrast to softmax usage. Our experiments using various datasets show that our model, called EdVAE, mitigates codebook collapse while improving the reconstruction performance, and enhances the codebook usage compared to dVAE and VQ-VAE based models.},
-  bibtex_show={true}
-}
-
 
 
 @inproceedings{flynn2023improved,
