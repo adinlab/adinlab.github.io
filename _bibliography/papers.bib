@@ -87,6 +87,43 @@
       abstract={Off-policy actor-critic algorithms have shown promise in deep reinforcement learning for continuous control tasks. Their success largely stems from leveraging pessimistic state-action value function updates, which effectively address function approximation errors and improve performance. However, such pessimism can lead to under-exploration, constraining the agent's ability to explore/refine its policies. Conversely, optimism can counteract under-exploration, but it also carries the risk of excessive risk-taking and poor convergence if not properly balanced. Based on these insights, we introduce Utility Soft Actor-Critic (USAC), a novel framework within the actor-critic paradigm that enables independent control over the degree of pessimism/optimism for both the actor and the critic via interpretable parameters. USAC adapts its exploration strategy based on the uncertainty of critics through a utility function that allows us to balance between pessimism and optimism separately. By going beyond binary choices of optimism and pessimism, USAC represents a significant step towards achieving balance within off-policy actor-critic algorithms. Our experiments across various continuous control problems show that the degree of pessimism or optimism depends on the nature of the task. Furthermore, we demonstrate that USAC can outperform state-of-the-art algorithms for appropriately configured pessimism/optimism parameters. },
 }
 
+@article{baykal2024disentanglementfactorquantizedvariational,
+      abbr={arXiv},
+      title={Disentanglement with Factor Quantized Variational Autoencoders}, 
+      author={Baykal, G. and Kandemir, M. and Unal, G.},
+      booktitle=arxiv,
+      year={2024},
+      url={https://arxiv.org/abs/2409.14851}, 
+      html={https://arxiv.org/abs/2409.14851},
+      abstract={Disentangled representation learning aims to represent the underlying generative factors of a dataset in a latent representation independently of one another. In our work, we propose a discrete variational autoencoder (VAE) based model where the ground truth information about the generative factors are not provided to the model. We demonstrate the advantages of learning discrete representations over learning continuous representations in facilitating disentanglement. Furthermore, we propose incorporating an inductive bias into the model to further enhance disentanglement. Precisely, we propose scalar quantization of the latent variables in a latent representation with scalar values from a global codebook, and we add a total correlation term to the optimization as an inductive bias. Our method called FactorQVAE is the first method that combines optimization based disentanglement approaches with discrete representation learning, and it outperforms the former disentanglement methods in terms of two disentanglement metrics (DCI and InfoMEC) while improving the reconstruction performance. Our code can be found at https://github.com/ituvisionlab/FactorQVAE. },
+}
+
+@article{zhang2024the,
+  abbr={TMLR},
+  title={The Cold Posterior Effect Indicates Underfitting, and Cold Posteriors Represent a Fully Bayesian Method to Mitigate It},
+  author={Zhang, Y. and Wu, Y. and Ortega, L.A. and Masegosa, A.R.},
+  journal=tmlr,
+  year={2024},
+  url={https://openreview.net/forum?id=GZORXGxHHT},
+  html={https://openreview.net/forum?id=GZORXGxHHT},
+  selected={false},
+  bibtex_show={true},
+  abstract={The cold posterior effect (CPE) (Wenzel et al., 2020) in Bayesian deep learning shows that, for posteriors with a temperature $T < 1$, the resulting posterior predictive could have better performance than the Bayesian posterior ($T=1$). As the Bayesian posterior is known to be optimal under perfect model specification, many recent works have studied the presence of CPE as a model misspecification problem, arising from the prior and/or from the likelihood. In this work, we provide a more nuanced understanding of CPE as we show that misspecification leads to CPE only when the resulting Bayesian posterior underfits. In fact, we theoretically show that if there is no underfitting, there is no CPE. Furthermore, we show that these tempered posteriors with $T < 1$are indeed proper Bayesian posteriors with a different combination of likelihoods and priors parameterized by $T$. This observation validates the adjustment of the temperature hyperparameter $T$ as a straightforward approach to mitigate underfitting in the Bayesian posterior. In essence, we show that by fine-tuning the temperature $T$ we implicitly utilize alternative Bayesian posteriors, albeit with less misspecified likelihood and prior distributions. The code for replicating the experiments can be found at https://github.com/pyijiezhang/cpe-underfit.}
+}
+
+@inproceedings{wu2024recursive,
+  abbr={NeurIPS},
+  author={Wu, Y. and Zhang, Y. and Ch{\'e}rief-Abdellatif, B. and Seldin, Y.},
+  year = {2024},
+  title={Recursive {PAC}-Bayes: A Frequentist Approach to Sequential Prior Updates with No Information Loss},
+  booktitle =		 neurips,
+  url = {https://arxiv.org/abs/2405.14681},
+  html = {https://arxiv.org/abs/2405.14681},
+  abstract = {PAC-Bayesian analysis is a frequentist framework for incorporating prior knowledge into learning. It was inspired by Bayesian learning, which allows sequential data processing and naturally turns posteriors from one processing step into priors for the next. However, despite two and a half decades of research, the ability to update priors sequentially without losing confidence information along the way remained elusive for PAC-Bayes. While PAC-Bayes allows construction of data-informed priors, the final confidence intervals depend only on the number of points that were not used for the construction of the prior, whereas confidence information in the prior, which is related to the number of points used to construct the prior, is lost. This limits the possibility and benefit of sequential prior updates, because the final bounds depend only on the size of the final batch. We present a novel and, in retrospect, surprisingly simple and powerful PAC-Bayesian procedure that allows sequential prior updates with no information loss. The procedure is based on a novel decomposition of the expected loss of randomized classifiers. The decomposition rewrites the loss of the posterior as an excess loss relative to a downscaled loss of the prior plus the downscaled loss of the prior, which is bounded recursively. As a side result, we also present a generalization of the split-kl and PAC-Bayes-split-kl inequalities to discrete random variables, which we use for bounding the excess losses, and which can be of independent interest. In empirical evaluation the new procedure significantly outperforms state-of-the-art.},
+  selected = {false},
+  bibtex_show={true}
+}
+
 @article{tasdighi2024probabilistic,
   abbr={arXiv},
   title = {Probabilistic Actor-Critic: Learning to Explore with PAC-Bayes Uncertainty},
