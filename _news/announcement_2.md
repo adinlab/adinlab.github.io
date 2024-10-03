@@ -1,9 +1,7 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2022-09-08 16:00:00-0400
+date: 2024-09-03 08:00:00-0400
 inline: true
 ---
 
-We have a new paper to appear at IEEE T-PAMI.
-
+Gulcin Baykal Can starts at our lab as a postdoctoral researcher. Welcome Gulcin!
