@@ -26,6 +26,33 @@
   bibtex_show={true}
 }
 
+@inproceedings{wu2024recursive,
+  abbr={NeurIPS},
+  author={Wu, Y. and Zhang, Y. and Ch{\'e}rief-Abdellatif, B. and Seldin, Y.},
+  year = {2024},
+  title={Recursive {PAC}-Bayes: A Frequentist Approach to Sequential Prior Updates with No Information Loss},
+  booktitle =		 neurips,
+  url = {https://arxiv.org/abs/2405.14681},
+  html = {https://arxiv.org/abs/2405.14681},
+  abstract = {PAC-Bayesian analysis is a frequentist framework for incorporating prior knowledge into learning. It was inspired by Bayesian learning, which allows sequential data processing and naturally turns posteriors from one processing step into priors for the next. However, despite two and a half decades of research, the ability to update priors sequentially without losing confidence information along the way remained elusive for PAC-Bayes. While PAC-Bayes allows construction of data-informed priors, the final confidence intervals depend only on the number of points that were not used for the construction of the prior, whereas confidence information in the prior, which is related to the number of points used to construct the prior, is lost. This limits the possibility and benefit of sequential prior updates, because the final bounds depend only on the size of the final batch. We present a novel and, in retrospect, surprisingly simple and powerful PAC-Bayesian procedure that allows sequential prior updates with no information loss. The procedure is based on a novel decomposition of the expected loss of randomized classifiers. The decomposition rewrites the loss of the posterior as an excess loss relative to a downscaled loss of the prior plus the downscaled loss of the prior, which is bounded recursively. As a side result, we also present a generalization of the split-kl and PAC-Bayes-split-kl inequalities to discrete random variables, which we use for bounding the excess losses, and which can be of independent interest. In empirical evaluation the new procedure significantly outperforms state-of-the-art.},
+  selected = {false},
+  bibtex_show={true}
+}
+
+
+@inproceedings{sinelnikov2024latent,
+abbr={ICML},
+title={Latent variable model for high-dimensional point process with structured missingness},
+author={Sinelnikov, M. and Haussmann, M. and L{\"a}hdesm{\"a}ki, H.},
+booktitle={Forty-first International Conference on Machine Learning},
+year={2024},
+url={https://openreview.net/forum?id=g1Gf0hoPSz},
+html={https://openreview.net/forum?id=g1Gf0hoPSz},
+selected = {false},
+abstract = {Longitudinal data are important in numerous fields, such as healthcare, sociology and seismology, but real-world datasets present notable challenges for practitioners because they can be high-dimensional, contain structured missingness patterns, and measurement time points can be governed by an unknown stochastic process. While various solutions have been suggested, the majority of them have been designed to account for only one of these challenges. In this work, we propose a flexible and efficient latent-variable model that is capable of addressing all these limitations. Our approach utilizes Gaussian processes to capture correlations between samples and their associated missingness masks as well as to model the underlying point process. We construct our model as a variational autoencoder together with deep neural network parameterised decoder and encoder models, and develop a scalable amortised variational inference approach for efficient model training. We demonstrate competitive performance using both simulated and real datasets.},
+bibtex_show = {true}
+}
+
 @inproceedings{ong2024learning,
   abbr={SPIGM},
   title={Learning high-dimensional mixed models via amortized variational inference},
@@ -50,18 +77,6 @@
   bibtex_show={true}
 }
 
-@inproceedings{asan2024calibrating,
-  abbr={ICLR},
-  title={Calibrating Bayesian UNet++ for Sub-Seasonal Forecasting},
-  author={Asan, B. and Akgül, A. and Unal, A. and Kandemir, M. and Unal, G.},
-  booktitle={Tackling Climate Change with Machine Learning at ICLR 2024},
-  year={2024},
-  url={https://arxiv.org/abs/2403.16612},
-  html={https://arxiv.org/abs/2403.16612},
-  selected={false},
-  abstract={Seasonal forecasting is a crucial task when it comes to detecting the extreme heat and colds that occur due to climate change. Confidence in the predictions should be reliable since a small increase in the temperatures in a year has a big impact on the world. Calibration of the neural networks provides a way to ensure our confidence in the predictions. However, calibrating regression models is an under-researched topic, especially in forecasters. We calibrate a UNet++ based architecture, which was shown to outperform physics-based models in temperature anomalies. We show that with a slight trade-off between prediction error and calibration error, it is possible to get more reliable and sharper forecasts. We believe that calibration should be an important part of safety-critical machine learning applications such as weather forecasters.},
-  bibtex_show={true}
-}
 
 @inproceedings{akgul2024cddp,
   abbr={L4DC},
@@ -76,27 +91,18 @@
   bibtex_show={true}
 }
 
-@article{tasdighi2024exploring,
-      abbr={arXiv},
-      title={Exploring Pessimism and Optimism Dynamics in Deep Reinforcement Learning}, 
-      author={Tasdighi, B. and Werge, N. and Wu, Y.-s. and Kandemir, M.},
-      booktitle=arxiv,
-      year={2024},
-      url={https://arxiv.org/abs/2406.03890}, 
-      html={https://arxiv.org/abs/2406.03890},
-      abstract={Off-policy actor-critic algorithms have shown promise in deep reinforcement learning for continuous control tasks. Their success largely stems from leveraging pessimistic state-action value function updates, which effectively address function approximation errors and improve performance. However, such pessimism can lead to under-exploration, constraining the agent's ability to explore/refine its policies. Conversely, optimism can counteract under-exploration, but it also carries the risk of excessive risk-taking and poor convergence if not properly balanced. Based on these insights, we introduce Utility Soft Actor-Critic (USAC), a novel framework within the actor-critic paradigm that enables independent control over the degree of pessimism/optimism for both the actor and the critic via interpretable parameters. USAC adapts its exploration strategy based on the uncertainty of critics through a utility function that allows us to balance between pessimism and optimism separately. By going beyond binary choices of optimism and pessimism, USAC represents a significant step towards achieving balance within off-policy actor-critic algorithms. Our experiments across various continuous control problems show that the degree of pessimism or optimism depends on the nature of the task. Furthermore, we demonstrate that USAC can outperform state-of-the-art algorithms for appropriately configured pessimism/optimism parameters. },
+@inproceedings{baykal2024edvae,
+  abbr={PR},
+  title = {EdVAE: Mitigating codebook collapse with evidential discrete variational autoencoders},
+  author = {Baykal, G. and Kandemir, M. and Unal, G.},
+  booktitle=pr,
+  year={2024},
+  url={https://www.sciencedirect.com/science/article/pii/S0031320324005430},
+  html={https://www.sciencedirect.com/science/article/pii/S0031320324005430},
+  abstract={Codebook collapse is a common problem in training deep generative models with discrete representation spaces like Vector Quantized Variational Autoencoders (VQ-VAEs). We observe that the same problem arises for the alternatively designed discrete variational autoencoders (dVAEs) whose encoder directly learns a distribution over the codebook embeddings to represent the data. We hypothesize that using the softmax function to obtain a probability distribution causes the codebook collapse by assigning overconfident probabilities to the best matching codebook elements. In this paper, we propose a novel way to incorporate evidential deep learning (EDL) through a hierarchical Bayesian modeling instead of softmax to combat the codebook collapse problem of dVAE. We evidentially monitor the significance of attaining the probability distribution over the codebook embeddings, in contrast to softmax usage. Our experiments using various datasets show that our model, called EdVAE, mitigates codebook collapse while improving the reconstruction performance, and enhances the codebook usage compared to dVAE and VQ-VAE based models. Our code can be found at https://github.com/ituvisionlab/EdVAE.},
+  bibtex_show={true}
 }
 
-@article{baykal2024disentanglementfactorquantizedvariational,
-      abbr={arXiv},
-      title={Disentanglement with Factor Quantized Variational Autoencoders}, 
-      author={Baykal, G. and Kandemir, M. and Unal, G.},
-      booktitle=arxiv,
-      year={2024},
-      url={https://arxiv.org/abs/2409.14851}, 
-      html={https://arxiv.org/abs/2409.14851},
-      abstract={Disentangled representation learning aims to represent the underlying generative factors of a dataset in a latent representation independently of one another. In our work, we propose a discrete variational autoencoder (VAE) based model where the ground truth information about the generative factors are not provided to the model. We demonstrate the advantages of learning discrete representations over learning continuous representations in facilitating disentanglement. Furthermore, we propose incorporating an inductive bias into the model to further enhance disentanglement. Precisely, we propose scalar quantization of the latent variables in a latent representation with scalar values from a global codebook, and we add a total correlation term to the optimization as an inductive bias. Our method called FactorQVAE is the first method that combines optimization based disentanglement approaches with discrete representation learning, and it outperforms the former disentanglement methods in terms of two disentanglement metrics (DCI and InfoMEC) while improving the reconstruction performance. Our code can be found at https://github.com/ituvisionlab/FactorQVAE. },
-}
 
 @article{zhang2024the,
   abbr={TMLR},
@@ -111,56 +117,57 @@
   abstract={The cold posterior effect (CPE) (Wenzel et al., 2020) in Bayesian deep learning shows that, for posteriors with a temperature $T < 1$, the resulting posterior predictive could have better performance than the Bayesian posterior ($T=1$). As the Bayesian posterior is known to be optimal under perfect model specification, many recent works have studied the presence of CPE as a model misspecification problem, arising from the prior and/or from the likelihood. In this work, we provide a more nuanced understanding of CPE as we show that misspecification leads to CPE only when the resulting Bayesian posterior underfits. In fact, we theoretically show that if there is no underfitting, there is no CPE. Furthermore, we show that these tempered posteriors with $T < 1$are indeed proper Bayesian posteriors with a different combination of likelihoods and priors parameterized by $T$. This observation validates the adjustment of the temperature hyperparameter $T$ as a straightforward approach to mitigate underfitting in the Bayesian posterior. In essence, we show that by fine-tuning the temperature $T$ we implicitly utilize alternative Bayesian posteriors, albeit with less misspecified likelihood and prior distributions. The code for replicating the experiments can be found at https://github.com/pyijiezhang/cpe-underfit.}
 }
 
-@inproceedings{wu2024recursive,
-  abbr={NeurIPS},
-  author={Wu, Y. and Zhang, Y. and Ch{\'e}rief-Abdellatif, B. and Seldin, Y.},
-  year = {2024},
-  title={Recursive {PAC}-Bayes: A Frequentist Approach to Sequential Prior Updates with No Information Loss},
-  booktitle =		 neurips,
-  url = {https://arxiv.org/abs/2405.14681},
-  html = {https://arxiv.org/abs/2405.14681},
-  abstract = {PAC-Bayesian analysis is a frequentist framework for incorporating prior knowledge into learning. It was inspired by Bayesian learning, which allows sequential data processing and naturally turns posteriors from one processing step into priors for the next. However, despite two and a half decades of research, the ability to update priors sequentially without losing confidence information along the way remained elusive for PAC-Bayes. While PAC-Bayes allows construction of data-informed priors, the final confidence intervals depend only on the number of points that were not used for the construction of the prior, whereas confidence information in the prior, which is related to the number of points used to construct the prior, is lost. This limits the possibility and benefit of sequential prior updates, because the final bounds depend only on the size of the final batch. We present a novel and, in retrospect, surprisingly simple and powerful PAC-Bayesian procedure that allows sequential prior updates with no information loss. The procedure is based on a novel decomposition of the expected loss of randomized classifiers. The decomposition rewrites the loss of the posterior as an excess loss relative to a downscaled loss of the prior plus the downscaled loss of the prior, which is bounded recursively. As a side result, we also present a generalization of the split-kl and PAC-Bayes-split-kl inequalities to discrete random variables, which we use for bounding the excess losses, and which can be of independent interest. In empirical evaluation the new procedure significantly outperforms state-of-the-art.},
-  selected = {false},
+
+@inproceedings{asan2024calibrating,
+  abbr={ICLR},
+  title={Calibrating Bayesian UNet++ for Sub-Seasonal Forecasting},
+  author={Asan, B. and Akgül, A. and Unal, A. and Kandemir, M. and Unal, G.},
+  booktitle={Tackling Climate Change with Machine Learning at ICLR 2024},
+  year={2024},
+  url={https://arxiv.org/abs/2403.16612},
+  html={https://arxiv.org/abs/2403.16612},
+  selected={false},
+  abstract={Seasonal forecasting is a crucial task when it comes to detecting the extreme heat and colds that occur due to climate change. Confidence in the predictions should be reliable since a small increase in the temperatures in a year has a big impact on the world. Calibration of the neural networks provides a way to ensure our confidence in the predictions. However, calibrating regression models is an under-researched topic, especially in forecasters. We calibrate a UNet++ based architecture, which was shown to outperform physics-based models in temperature anomalies. We show that with a slight trade-off between prediction error and calibration error, it is possible to get more reliable and sharper forecasts. We believe that calibration should be an important part of safety-critical machine learning applications such as weather forecasters.},
   bibtex_show={true}
 }
 
-@article{tasdighi2024probabilistic,
+@article{tasdighi2024pbac,
   abbr={arXiv},
-  title = {Probabilistic Actor-Critic: Learning to Explore with PAC-Bayes Uncertainty},
+  title = {Deep Exploration with PAC Bayes},
   author = {Tasdighi, B. and Werge, N. and Wu, Y. and Kandemir, M.},
   booktitle=arxiv,
   year = {2024},
-  url = {http://arxiv.org/abs/2402.03055v1},
-  html = {http://arxiv.org/abs/2402.03055v1},
+  url = {https://arxiv.org/abs/2402.03055},
+  html = {https://arxiv.org/abs/2402.03055},
   selected = {false},
-  abstract = {We introduce Probabilistic Actor-Critic (PAC), a novel reinforcement learning algorithm with improved continuous control performance thanks to its ability to mitigate the exploration-exploitation trade-off. PAC achieves this by seamlessly integrating stochastic policies and critics, creating a dynamic synergy between the estimation of critic uncertainty and actor training. The key contribution of our PAC algorithm is that it explicitly models and infers epistemic uncertainty in the critic through Probably Approximately Correct-Bayesian (PAC-Bayes) analysis. This incorporation of critic uncertainty enables PAC to adapt its exploration strategy as it learns, guiding the actor's decision-making process. PAC compares favorably against fixed or pre-scheduled exploration schemes of the prior art. The synergy between stochastic policies and critics, guided by PAC-Bayes analysis, represents a fundamental step towards a more adaptive and effective exploration strategy in deep reinforcement learning. We report empirical evaluations demonstrating PAC's enhanced stability and improved performance over the state of the art in diverse continuous control problems.},
+  abstract = {Reinforcement learning for continuous control under sparse rewards is an under-explored problem despite its significance in real life. Many complex skills build on intermediate ones as prerequisites. For instance, a humanoid locomotor has to learn how to stand before it can learn to walk. To cope with reward sparsity, a reinforcement learning agent has to perform deep exploration. However, existing deep exploration methods are designed for small discrete action spaces, and their successful generalization to state-of-the-art continuous control remains unproven. We address the deep exploration problem for the first time from a PAC-Bayesian perspective in the context of actor-critic learning. To do this, we quantify the error of the Bellman operator through a PAC-Bayes bound, where a bootstrapped ensemble of critic networks represents the posterior distribution, and their targets serve as a data-informed function-space prior. We derive an objective function from this bound and use it to train the critic ensemble. Each critic trains an individual actor network, implemented as a shared trunk and critic-specific heads. The agent performs deep exploration by acting deterministically on a randomly chosen actor head. Our proposed algorithm, named PAC-Bayesian Actor-Critic (PBAC), is the only algorithm to successfully discover sparse rewards on a diverse set of continuous control tasks with varying difficulty.},
   bibtex_show={true},
   code={https://github.com/adinlab/ProbabilisticActorCritic}
 }
 
-@inproceedings{sinelnikov2024latent,
-abbr={ICML},
-title={Latent variable model for high-dimensional point process with structured missingness},
-author={Sinelnikov, M. and Haussmann, M. and L{\"a}hdesm{\"a}ki, H.},
-booktitle={Forty-first International Conference on Machine Learning},
-year={2024},
-url={https://openreview.net/forum?id=g1Gf0hoPSz},
-html={https://openreview.net/forum?id=g1Gf0hoPSz},
-selected = {false},
-abstract = {Longitudinal data are important in numerous fields, such as healthcare, sociology and seismology, but real-world datasets present notable challenges for practitioners because they can be high-dimensional, contain structured missingness patterns, and measurement time points can be governed by an unknown stochastic process. While various solutions have been suggested, the majority of them have been designed to account for only one of these challenges. In this work, we propose a flexible and efficient latent-variable model that is capable of addressing all these limitations. Our approach utilizes Gaussian processes to capture correlations between samples and their associated missingness masks as well as to model the underlying point process. We construct our model as a variational autoencoder together with deep neural network parameterised decoder and encoder models, and develop a scalable amortised variational inference approach for efficient model training. We demonstrate competitive performance using both simulated and real datasets.},
-bibtex_show = {true}
+
+@article{baykal2024disentanglementfactorquantizedvariational,
+      abbr={arXiv},
+      title={Disentanglement with Factor Quantized Variational Autoencoders}, 
+      author={Baykal, G. and Kandemir, M. and Unal, G.},
+      booktitle=arxiv,
+      year={2024},
+      url={https://arxiv.org/abs/2409.14851}, 
+      html={https://arxiv.org/abs/2409.14851},
+      abstract={Disentangled representation learning aims to represent the underlying generative factors of a dataset in a latent representation independently of one another. In our work, we propose a discrete variational autoencoder (VAE) based model where the ground truth information about the generative factors are not provided to the model. We demonstrate the advantages of learning discrete representations over learning continuous representations in facilitating disentanglement. Furthermore, we propose incorporating an inductive bias into the model to further enhance disentanglement. Precisely, we propose scalar quantization of the latent variables in a latent representation with scalar values from a global codebook, and we add a total correlation term to the optimization as an inductive bias. Our method called FactorQVAE is the first method that combines optimization based disentanglement approaches with discrete representation learning, and it outperforms the former disentanglement methods in terms of two disentanglement metrics (DCI and InfoMEC) while improving the reconstruction performance. Our code can be found at https://github.com/ituvisionlab/FactorQVAE. },
 }
 
-@inproceedings{baykal2024edvae,
-  abbr={PR},
-  title = {EdVAE: Mitigating codebook collapse with evidential discrete variational autoencoders},
-  author = {Baykal, G. and Kandemir, M. and Unal, G.},
-  booktitle=pr,
-  year={2024},
-  url={https://www.sciencedirect.com/science/article/pii/S0031320324005430},
-  html={https://www.sciencedirect.com/science/article/pii/S0031320324005430},
-  abstract={Codebook collapse is a common problem in training deep generative models with discrete representation spaces like Vector Quantized Variational Autoencoders (VQ-VAEs). We observe that the same problem arises for the alternatively designed discrete variational autoencoders (dVAEs) whose encoder directly learns a distribution over the codebook embeddings to represent the data. We hypothesize that using the softmax function to obtain a probability distribution causes the codebook collapse by assigning overconfident probabilities to the best matching codebook elements. In this paper, we propose a novel way to incorporate evidential deep learning (EDL) through a hierarchical Bayesian modeling instead of softmax to combat the codebook collapse problem of dVAE. We evidentially monitor the significance of attaining the probability distribution over the codebook embeddings, in contrast to softmax usage. Our experiments using various datasets show that our model, called EdVAE, mitigates codebook collapse while improving the reconstruction performance, and enhances the codebook usage compared to dVAE and VQ-VAE based models. Our code can be found at https://github.com/ituvisionlab/EdVAE.},
-  bibtex_show={true}
+
+
+@article{tasdighi2024exploring,
+      abbr={arXiv},
+      title={Exploring Pessimism and Optimism Dynamics in Deep Reinforcement Learning}, 
+      author={Tasdighi, B. and Werge, N. and Wu, Y.-s. and Kandemir, M.},
+      booktitle=arxiv,
+      year={2024},
+      url={https://arxiv.org/abs/2406.03890}, 
+      html={https://arxiv.org/abs/2406.03890},
+      abstract={Off-policy actor-critic algorithms have shown promise in deep reinforcement learning for continuous control tasks. Their success largely stems from leveraging pessimistic state-action value function updates, which effectively address function approximation errors and improve performance. However, such pessimism can lead to under-exploration, constraining the agent's ability to explore/refine its policies. Conversely, optimism can counteract under-exploration, but it also carries the risk of excessive risk-taking and poor convergence if not properly balanced. Based on these insights, we introduce Utility Soft Actor-Critic (USAC), a novel framework within the actor-critic paradigm that enables independent control over the degree of pessimism/optimism for both the actor and the critic via interpretable parameters. USAC adapts its exploration strategy based on the uncertainty of critics through a utility function that allows us to balance between pessimism and optimism separately. By going beyond binary choices of optimism and pessimism, USAC represents a significant step towards achieving balance within off-policy actor-critic algorithms. Our experiments across various continuous control problems show that the degree of pessimism or optimism depends on the nature of the task. Furthermore, we demonstrate that USAC can outperform state-of-the-art algorithms for appropriately configured pessimism/optimism parameters. },
 }
 
 
@@ -215,7 +222,6 @@ bibtex_show = {true}
   abstract={The cold posterior effect (CPE) \citep{WRVS+20} in Bayesian deep learning shows that, for posteriors with a temperature $T<1$, the resulting posterior predictive could have better performances than the Bayesian posterior ($T=1$). As the Bayesian posterior is known to be optimal under perfect model specification, many recent works have studied the presence of CPE as a model misspecification problem, arising from the prior and/or from the likelihood function. In this work, we provide a more nuanced understanding of the CPE as we show that \emph{misspecification leads to CPE only when the resulting Bayesian posterior underfits}. In fact, we theoretically show that if there is no underfitting, there is no CPE.}, 
   bibtex_show={true}
 }
-
 
 @inproceedings{flynn2023improved,
   abbr={NeurIPS},
