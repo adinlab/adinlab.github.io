@@ -11,5 +11,6 @@ github_repos:
   - adinlab/adinrl
   - adinlab/ProbabilisticActorCritic
   - adinlab/PAC4SAC
+  - adinlab/MOMBO
   - adinlab/EvidentialTuringProcess
   - adinlab/CDDP-Continual-Learning-of-Multi-modal-Dynamics-with-External-Memory
