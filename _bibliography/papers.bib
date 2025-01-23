@@ -14,6 +14,19 @@
 @string{pr = {Pattern Recognition}}
 @string{l4dc = {Learning for Dynamics and Control}}
 
+@inproceedings{ramchandran2025highdimensional,
+	abbr         = {ICLR},
+	title        = {High-Dimensional Bayesian Optimisation with Gaussian Process Prior Variational Autoencoders},
+	author       = {Ramchandran, S. and Haussmann, M. and L{\"a}hdesm{\"a}ki, H.},
+	year         = {2025},
+	booktitle    = iclr,
+	url          = {https://openreview.net/forum?id=SIuD7CySb4},
+	html         = {https://openreview.net/forum?id=SIuD7CySb4},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Bayesian optimisation (BO) using a Gaussian process (GP)-based surrogate model is a powerful tool for solving black-box optimisation problems but does not scale well to high-dimensional data. Previous works have proposed to use variational autoencoders (VAEs) to project high-dimensional data onto a low-dimensional latent space and to implement BO in the inferred latent space. In this work, we propose a conditional generative model for efficient high-dimensional BO that uses a GP surrogate model together with GP prior VAEs. A GP prior VAE extends the standard VAE by conditioning the generative and inference model on auxiliary covariates, capturing complex correlations across samples with a GP. Our model incorporates the observed target quantity values as auxiliary covariates learning a structured latent space that is better suited for the GP-based BO surrogate model. It handles partially observed auxiliary covariates using a unifying probabilistic framework and can also incorporate additional auxiliary covariates that may be available in real-world applications. We demonstrate that our method improves upon existing latent space BO methods on simulated datasets as well as on commonly used benchmarks.}
+}
+
 @article{bahl2024accurate,
 	abbr         = {arXiv},
 	title        = {Accurate Surrogate Amplitudes with Calibrated Uncertainties},
@@ -24,7 +37,7 @@
 	html         = {https://arxiv.org/abs/2412.12069},
 	selected     = {false},
 	bibtex_show  = {true},
-	abstract     = {     Neural networks for LHC physics have to be accurate, reliable, and controlled. Using surrogate loop amplitudes as a use case, we first show how activation functions can be systematically tested with KANs. For reliability and control, we learn uncertainties together with the target amplitude over phase space. Systematic uncertainties can be learned by a heteroscedastic loss, but a comprehensive learned uncertainty requires Bayesian networks or repulsive ensembles. We compute pull distributions to show to what level learned uncertainties are calibrated correctly for cutting-edge precision surrogates.}
+	abstract     = {Neural networks for LHC physics have to be accurate, reliable, and controlled. Using surrogate loop amplitudes as a use case, we first show how activation functions can be systematically tested with KANs. For reliability and control, we learn uncertainties together with the target amplitude over phase space. Systematic uncertainties can be learned by a heteroscedastic loss, but a comprehensive learned uncertainty requires Bayesian networks or repulsive ensembles. We compute pull distributions to show to what level learned uncertainties are calibrated correctly for cutting-edge precision surrogates.}
 }
 
 @inproceedings{akgul2024deterministic,
