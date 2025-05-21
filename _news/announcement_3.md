@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-11-15 08:00:00-0400
 inline: true
-related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+We have a vacant PhD position: <br>
+<a href="https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2230?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000002425892">PhD Position in Reinforcement Learning</a> <br>

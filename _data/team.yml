@@ -1,0 +1,76 @@
+leaders:
+  - name: Melih Kandemir
+    about: Faculty member at SDU. Member of the ELLIS Society. Has published work on weakly-supervised Gaussian processes, deterministic variational Bayesian neural net inference, and neural stochastic process modeling.
+    mail: kandemir@imada.sdu.dk
+    orcid: 0000-0001-6293-3656
+    webpage: https://melihkandemir.github.io/
+    scholar: https://scholar.google.com/citations?user=Jxm1UeYAAAAJ
+    twitter: TheBayesist
+    linkedin: https://www.linkedin.com/in/melih-kandemir-64681a16
+    image: assets/img/team/new/MelihKandemir.png
+
+
+researchers:
+  - name: Nicklas Werge
+    mail: werge@sdu.dk
+    orcid: 0000-0001-9906-364X
+    webpage: https://nicklaswerge.github.io
+    scholar: https://scholar.google.com/citations?user=7ixNlWUAAAAJ&hl=en
+    linkedin: https://www.linkedin.com/in/nicklas-werge-925789b0/
+    research_areas: Postdoc working on online learning with bandit algorithms
+    image: assets/img/team/new/NicklasWerge.jpg
+
+  - name: Yi-Shan Wu
+    mail: yswu@imada.sdu.dk
+    linkedin: https://www.linkedin.com/in/yi-shan-wu-231b06232/
+    scholar: https://scholar.google.com/citations?user=IrW8ytQAAAAJ&hl=en
+    webpage: https://sites.google.com/view/yishanwu/home?authuser=0
+    research_areas: Postdoc working on reinforcement learning theory
+    image: assets/img/team/new/YiShanWu.jpg
+
+  - name: Bahareh Tasdighi
+    mail: tasdighi@imada.sdu.dk
+    orcid: 0000-0001-9757-5019
+    linkedin: https://www.linkedin.com/in/bahar-tasdighi-366020143/
+    research_areas: PhD student working on optimistic exploration in actor critic algorithms
+    image: assets/img/team/new/BaharehTasdighi.png
+
+  - name: Abdullah Akgül
+    linkedin: https://tr.linkedin.com/in/abdullahakgul70
+    orcid: 0000-0002-0489-9493
+    webpage: https://aportekila.github.io/
+    mail: akgul@imada.sdu.dk
+    scholar: https://scholar.google.com/citations?user=FZeaKPoAAAAJ
+    research_areas: PhD student working on offline reinforcement learning
+    image: assets/img/team/new/AbdullahAkgul.jpeg
+
+  - name: Manuel Haussmann
+    mail: haussmann@imada.sdu.dk
+    scholar: https://scholar.google.com/citations?user=YXBAT4wAAAAJ&hl=de&oi=ao
+    research_areas: Postdoc working on Bayesian methods for reinforcement learning
+    image: assets/img/team/new/ManuelHaussmann.png
+    webpage: https://manuelhaussmann.github.io
+  
+  - name: Gülcin Baykal Can
+    mail: gulcinbaykal95@gmail.com
+    scholar: https://scholar.google.com/citations?user=tcmSfdwAAAAJ&hl=tr
+    research_areas: Postdoc working on reinforcement learning for visual control
+    image: assets/img/team/new/GulcinBaykalCan.png
+    linkedin: https://www.linkedin.com/in/gülçin-baykal-can-0a8276b0
+    webpage: https://gulcinbaykal.github.io/
+    
+
+alumni_phd: Andreas Look (Research Scientist at Bosch Center for AI), Hamish Flynn (Postdoc at Universitat Pompeu Fabra), Manuel Haussmann (Postdoc at ADINLab)
+  
+alumnis_msc:
+  - name: Spring, 2024
+    members: Yousof Mersal, Frederik Gram Kortegaard, Lasse Usbeck Andresen, Anders Tobiesen Aabom, Alexander Justin Kopec Thiruchelvam, Remus-Stefan Cernat, Ida Overvad Bruun, Viktor Bjerg Nordstrøm, Nikolaj Flindt Holm Hansen, Marcus Poulsen, Marius Høivik Carlsen, Jessica Michelle Bruun, Michelle Sundstrøm Jensen
+  
+  - name: Fall, 2023
+    members: Daniela Haret, Nizar Abdel All, Simon Murrell, Istvan Turi, Anders Christensen
+  
+  - name: Spring, 2023
+    members: Christoffer Falk Bøgebjerg, Kira Løve Bøgeskov, Lasse Bohse Kyster, Nicolas Hamann Hiemstra von Arenstorff, Bi Yun Chen, Nickolaj Graby, Kenny Kazimirzak Brink
+  
+  - name: Fall, 2022
+    members: Helle Juul Hansen, Niklas Matzen Groth, Sarah Anne Pedersen

@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-10-03 08:00:00-0400
 inline: true
-related_posts: false
 ---
 
-A simple inline announcement.
+Melih will serve as an area chair at AISTATS 2025.

@@ -1,34 +1,24 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Kandemir":
+  - firstname: ["Melih", "M", "M."]
+    url: https://melihkandemir.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Akgül":
+  - firstname: ["Abdullah", "A", "A."]
+    url: https://aportekila.github.io/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Baykal":
+  - firstname: ["Gulcin", "G", "G."]
+    url: https://gulcinbaykal.github.io/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Haussmann":
+  - firstname: ["Manuel", "M", "M."]
+    url: https://manuelhaussmann.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Werge":
+  - firstname: ["Nicklas", "N", "N."]
+    url: https://nicklaswerge.github.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Wu":
+  - firstname: ["Yi-Shan", "Y.-s.", "Y.", "Y"]
+    url: https://sites.google.com/view/yishanwu/home?authuser=0
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck

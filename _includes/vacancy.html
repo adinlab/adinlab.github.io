@@ -1,0 +1,14 @@
+<div class="col-sm-6 mb-2">
+    <div class="card">
+      <div class="card-header">
+        {{ include.vacancy.title }}
+      </div>
+      <div class="card-body">
+        <p class="card-text">
+        Application Deadline: {{ include.vacancy.deadline | date: "%b %d, %y" }}</p>
+      </div>
+      <div class="card-footer">
+      <a href="{{ include.vacancy.link }}" class="card-link">Position Link</a>
+      </div>
+    </div>
+  </div>
