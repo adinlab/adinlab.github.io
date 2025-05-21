@@ -1,14 +1,18 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - melihkandemir
+  - aportekila
+  - chboe
+  - ugurcanozalp
+  - HelleJuul
+  - nigro17
+  - Sarahshub
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - adinlab/adinrl
+  - adinlab/ProbabilisticActorCritic
+  - adinlab/PAC4SAC
+  - adinlab/MOMBO
+  - adinlab/EvidentialTuringProcess
+  - adinlab/CDDP-Continual-Learning-of-Multi-modal-Dynamics-with-External-Memory
