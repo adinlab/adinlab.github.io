@@ -1,115 +1,397 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{neurips = {Neural Information Processing Systems}}
+@string{iclr = {International Conference on Learning Representations}}
+@string{icml = {International Conference on Machine Learning}}
+@string{arxiv = {arXiv Preprint}}
+@string{pami = {IEEE Transactions on Pattern Analysis and Machine Intelligence}}
+@string{tmlr = {Transactions on Machine Learning Research}}
+@string{mdpi = {MDPI Applied Sciences}}
+@string{acml = {Asian Conference on Machine Learning}}
+@string{aabi = {Advances in Approximate Bayesian Inference Symposium}}
+@string{spigm = {Structured Probabilistic Inference & Generative Modeling}}
+@string{pr = {Pattern Recognition}}
+@string{l4dc = {Learning for Dynamics and Control}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{ramchandran2025highdimensional,
+	abbr         = {ICLR},
+	title        = {High-Dimensional Bayesian Optimisation with Gaussian Process Prior Variational Autoencoders},
+	author       = {Ramchandran, S. and Haussmann, M. and L{\"a}hdesm{\"a}ki, H.},
+	year         = {2025},
+	booktitle    = iclr,
+	url          = {https://openreview.net/forum?id=SIuD7CySb4},
+	html         = {https://openreview.net/forum?id=SIuD7CySb4},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Bayesian optimisation (BO) using a Gaussian process (GP)-based surrogate model is a powerful tool for solving black-box optimisation problems but does not scale well to high-dimensional data. Previous works have proposed to use variational autoencoders (VAEs) to project high-dimensional data onto a low-dimensional latent space and to implement BO in the inferred latent space. In this work, we propose a conditional generative model for efficient high-dimensional BO that uses a GP surrogate model together with GP prior VAEs. A GP prior VAE extends the standard VAE by conditioning the generative and inference model on auxiliary covariates, capturing complex correlations across samples with a GP. Our model incorporates the observed target quantity values as auxiliary covariates learning a structured latent space that is better suited for the GP-based BO surrogate model. It handles partially observed auxiliary covariates using a unifying probabilistic framework and can also incorporate additional auxiliary covariates that may be available in real-world applications. We demonstrate that our method improves upon existing latent space BO methods on simulated datasets as well as on commonly used benchmarks.},
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{bahl2024accurate,
+	abbr         = {arXiv},
+	title        = {Accurate Surrogate Amplitudes with Calibrated Uncertainties},
+	author       = {Bahl, H. and Nina, E. and Favaro, L. and Haussmann, M. and Plehn, T. and Winterhalder, R.},
+	year         = {2024},
+	journal      = arxiv,
+	url          = {https://arxiv.org/abs/2412.12069},
+	html         = {https://arxiv.org/abs/2412.12069},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Neural networks for LHC physics have to be accurate, reliable, and controlled. Using surrogate loop amplitudes as a use case, we first show how activation functions can be systematically tested with KANs. For reliability and control, we learn uncertainties together with the target amplitude over phase space. Systematic uncertainties can be learned by a heteroscedastic loss, but a comprehensive learned uncertainty requires Bayesian networks or repulsive ensembles. We compute pull distributions to show to what level learned uncertainties are calibrated correctly for cutting-edge precision surrogates.},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{akgul2024deterministic,
+	abbr         = {NeurIPS},
+	title        = {Deterministic Uncertainty Propagation for Improved Model-Based Offline Reinforcement Learning},
+	author       = {Akgül, A. and Haussmann, M. and Kandemir, M.},
+	year         = {2024},
+	booktitle    = neurips,
+	url          = {https://arxiv.org/abs/2406.04088},
+	html         = {https://arxiv.org/abs/2406.04088},
+	selected     = {true},
+	bibtex_show  = {true},
+	abstract     = {Current approaches to model-based offline reinforcement learning often incorporate uncertainty-based reward penalization to address the distributional shift problem. These approaches, commonly known as pessimistic value iteration, use Monte Carlo sampling to estimate the Bellman target to perform temporal difference based policy evaluation. We find out that the randomness caused by this sampling step significantly delays convergence. We present a theoretical result demonstrating the strong dependency of suboptimality on the number of Monte Carlo samples taken per Bellman target calculation. Our main contribution is a deterministic approximation to the Bellman target that uses progressive moment matching, a method developed originally for deterministic variational inference. The resulting algorithm, which we call Moment Matching Offline Model-Based Policy Optimization (MOMBO), propagates the uncertainty of the next state through a nonlinear Q-network in a deterministic fashion by approximating the distributions of hidden layer activations by a normal distribution. We show that it is possible to provide tighter guarantees for the suboptimality of MOMBO than the existing Monte Carlo sampling approaches. We also observe MOMBO to converge faster than these approaches in a large set of benchmark tasks.},
+	code         = {https://github.com/adinlab/MOMBO}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{wu2024recursive,
+	abbr         = {NeurIPS},
+	title        = {Recursive {PAC}-Bayes: A Frequentist Approach to Sequential Prior Updates with No Information Loss},
+	author       = {Wu, Y. and Zhang, Y. and Ch{\'e}rief-Abdellatif, B. and Seldin, Y.},
+	year         = {2024},
+	booktitle    = neurips,
+	url          = {https://arxiv.org/abs/2405.14681},
+	html         = {https://arxiv.org/abs/2405.14681},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {PAC-Bayesian analysis is a frequentist framework for incorporating prior knowledge into learning. It was inspired by Bayesian learning, which allows sequential data processing and naturally turns posteriors from one processing step into priors for the next. However, despite two and a half decades of research, the ability to update priors sequentially without losing confidence information along the way remained elusive for PAC-Bayes. While PAC-Bayes allows construction of data-informed priors, the final confidence intervals depend only on the number of points that were not used for the construction of the prior, whereas confidence information in the prior, which is related to the number of points used to construct the prior, is lost. This limits the possibility and benefit of sequential prior updates, because the final bounds depend only on the size of the final batch. We present a novel and, in retrospect, surprisingly simple and powerful PAC-Bayesian procedure that allows sequential prior updates with no information loss. The procedure is based on a novel decomposition of the expected loss of randomized classifiers. The decomposition rewrites the loss of the posterior as an excess loss relative to a downscaled loss of the prior plus the downscaled loss of the prior, which is bounded recursively. As a side result, we also present a generalization of the split-kl and PAC-Bayes-split-kl inequalities to discrete random variables, which we use for bounding the excess losses, and which can be of independent interest. In empirical evaluation the new procedure significantly outperforms state-of-the-art.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{sinelnikov2024latent,
+	abbr         = {ICML},
+	title        = {Latent variable model for high-dimensional point process with structured missingness},
+	author       = {Sinelnikov, M. and Haussmann, M. and L{\"a}hdesm{\"a}ki, H.},
+	year         = {2024},
+	booktitle    = icml,
+	url          = {https://openreview.net/forum?id=g1Gf0hoPSz},
+	html         = {https://openreview.net/forum?id=g1Gf0hoPSz},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Longitudinal data are important in numerous fields, such as healthcare, sociology and seismology, but real-world datasets present notable challenges for practitioners because they can be high-dimensional, contain structured missingness patterns, and measurement time points can be governed by an unknown stochastic process. While various solutions have been suggested, the majority of them have been designed to account for only one of these challenges. In this work, we propose a flexible and efficient latent-variable model that is capable of addressing all these limitations. Our approach utilizes Gaussian processes to capture correlations between samples and their associated missingness masks as well as to model the underlying point process. We construct our model as a variational autoencoder together with deep neural network parameterised decoder and encoder models, and develop a scalable amortised variational inference approach for efficient model training. We demonstrate competitive performance using both simulated and real datasets.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{ong2024learning,
+	abbr         = {SPIGM},
+	title        = {Learning high-dimensional mixed models via amortized variational inference},
+	author       = {Ong, P. and Haussmann, M. and Lähdesmäki, H.},
+	year         = {2024},
+	booktitle    = spigm,
+	url          = {https://openreview.net/forum?id=6huQApLcJK},
+	html         = {https://openreview.net/forum?id=6huQApLcJK},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Modelling longitudinal data is an important yet challenging task. These datasets can be high-dimensional, consist of non-linear effects, and contain time-varying covariates. In this work, we leverage linear mixed models (LMMs) and amortized variational inference to provide conditional priors for VAEs, and propose LMM-VAE, a model that is scalable, interpretable, and shares theoretical connections to the GP-based VAEs. We empirically demonstrate that LMM-VAE performs competitively compared to existing approaches.}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{bahareh2024pac4sac,
+	abbr         = {AABI},
+	title        = {PAC-Bayesian Soft Actor-Critic Learning},
+	author       = {Tasdighi, B. and Akgül, A. and Haussmann, M. and Brink, K.K. and Kandemir, M.},
+	year         = {2024},
+	booktitle    = aabi,
+	url          = {https://arxiv.org/abs/2301.12776},
+	html         = {https://arxiv.org/abs/2301.12776},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Actor-critic algorithms address the dual goals of reinforcement learning, policy evaluation and improvement, via two separate function approximators. The practicality of this approach comes at the expense of training instability, caused mainly by the destructive effect of the approximation errors of the critic on the actor. We tackle this bottleneck by employing an existing Probably Approximately Correct (PAC) Bayesian bound for the first time as the critic training objective of the Soft Actor-Critic (SAC) algorithm. We further demonstrate that the online learning performance improves significantly when a stochastic actor explores multiple futures by critic-guided random search. We observe our resulting algorithm to compare favorably to the state of the art on multiple classical control and locomotion tasks in both sample efficiency and asymptotic performance.}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@inproceedings{akgul2024cddp,
+	abbr         = {L4DC},
+	title        = {Continual Learning of Multi-modal Dynamics with External Memory},
+	author       = {Akgül, A. and Unal, G. and Kandemir, M.},
+	year         = {2024},
+	booktitle    = l4dc,
+	url          = {https://arxiv.org/abs/2203.00936},
+	html         = {https://arxiv.org/abs/2203.00936},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {We study the problem of fitting a model to a dynamical environment when new modes of behavior emerge sequentially. The learning model is aware when a new mode appears, but it does not have access to the true modes of individual training sequences. We devise a novel continual learning method that maintains a descriptor of the mode of an encountered sequence in a neural episodic memory. We employ a Dirichlet Process prior on the attention weights of the memory to foster efficient storage of the mode descriptors. Our method performs continual learning by transferring knowledge across tasks by retrieving the descriptors of similar modes of past tasks to the mode of a current sequence and feeding this descriptor into its transition kernel as control input. We observe the continual learning performance of our method to compare favorably to the mainstream parameter transfer approach.}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{baykal2024edvae,
+	abbr         = {PR},
+	title        = {EdVAE: Mitigating codebook collapse with evidential discrete variational autoencoders},
+	author       = {Baykal, G. and Kandemir, M. and Unal, G.},
+	year         = {2024},
+	booktitle    = pr,
+	url          = {https://www.sciencedirect.com/science/article/pii/S0031320324005430},
+	html         = {https://www.sciencedirect.com/science/article/pii/S0031320324005430},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Codebook collapse is a common problem in training deep generative models with discrete representation spaces like Vector Quantized Variational Autoencoders (VQ-VAEs). We observe that the same problem arises for the alternatively designed discrete variational autoencoders (dVAEs) whose encoder directly learns a distribution over the codebook embeddings to represent the data. We hypothesize that using the softmax function to obtain a probability distribution causes the codebook collapse by assigning overconfident probabilities to the best matching codebook elements. In this paper, we propose a novel way to incorporate evidential deep learning (EDL) through a hierarchical Bayesian modeling instead of softmax to combat the codebook collapse problem of dVAE. We evidentially monitor the significance of attaining the probability distribution over the codebook embeddings, in contrast to softmax usage. Our experiments using various datasets show that our model, called EdVAE, mitigates codebook collapse while improving the reconstruction performance, and enhances the codebook usage compared to dVAE and VQ-VAE based models. Our code can be found at https://github.com/ituvisionlab/EdVAE.}
+}
+
+@article{zhang2024the,
+	abbr         = {TMLR},
+	title        = {The Cold Posterior Effect Indicates Underfitting, and Cold Posteriors Represent a Fully Bayesian Method to Mitigate It},
+	author       = {Zhang, Y. and Wu, Y. and Ortega, L.A. and Masegosa, A.R.},
+	year         = {2024},
+	journal      = tmlr,
+	url          = {https://openreview.net/forum?id=GZORXGxHHT},
+	html         = {https://openreview.net/forum?id=GZORXGxHHT},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {The cold posterior effect (CPE) (Wenzel et al., 2020) in Bayesian deep learning shows that, for posteriors with a temperature $T < 1$, the resulting posterior predictive could have better performance than the Bayesian posterior ($T=1$). As the Bayesian posterior is known to be optimal under perfect model specification, many recent works have studied the presence of CPE as a model misspecification problem, arising from the prior and/or from the likelihood. In this work, we provide a more nuanced understanding of CPE as we show that misspecification leads to CPE only when the resulting Bayesian posterior underfits. In fact, we theoretically show that if there is no underfitting, there is no CPE. Furthermore, we show that these tempered posteriors with $T < 1$are indeed proper Bayesian posteriors with a different combination of likelihoods and priors parameterized by $T$. This observation validates the adjustment of the temperature hyperparameter $T$ as a straightforward approach to mitigate underfitting in the Bayesian posterior. In essence, we show that by fine-tuning the temperature $T$ we implicitly utilize alternative Bayesian posteriors, albeit with less misspecified likelihood and prior distributions. The code for replicating the experiments can be found at https://github.com/pyijiezhang/cpe-underfit.}
+}
+
+@inproceedings{asan2024calibrating,
+	abbr         = {ICLR},
+	title        = {Calibrating Bayesian UNet++ for Sub-Seasonal Forecasting},
+	author       = {Asan, B. and Akgül, A. and Unal, A. and Kandemir, M. and Unal, G.},
+	year         = {2024},
+	booktitle    = {Tackling Climate Change with Machine Learning at ICLR 2024},
+	url          = {https://arxiv.org/abs/2403.16612},
+	html         = {https://arxiv.org/abs/2403.16612},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Seasonal forecasting is a crucial task when it comes to detecting the extreme heat and colds that occur due to climate change. Confidence in the predictions should be reliable since a small increase in the temperatures in a year has a big impact on the world. Calibration of the neural networks provides a way to ensure our confidence in the predictions. However, calibrating regression models is an under-researched topic, especially in forecasters. We calibrate a UNet++ based architecture, which was shown to outperform physics-based models in temperature anomalies. We show that with a slight trade-off between prediction error and calibration error, it is possible to get more reliable and sharper forecasts. We believe that calibration should be an important part of safety-critical machine learning applications such as weather forecasters.}
+}
+
+@article{tasdighi2024pbac,
+	abbr         = {arXiv},
+	title        = {Deep Exploration with PAC Bayes},
+	author       = {Tasdighi, B. and Werge, N. and Wu, Y. and Kandemir, M.},
+	year         = {2024},
+	journal      = arxiv,
+	url          = {https://arxiv.org/abs/2402.03055},
+	html         = {https://arxiv.org/abs/2402.03055},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Reinforcement learning for continuous control under sparse rewards is an under-explored problem despite its significance in real life. Many complex skills build on intermediate ones as prerequisites. For instance, a humanoid locomotor has to learn how to stand before it can learn to walk. To cope with reward sparsity, a reinforcement learning agent has to perform deep exploration. However, existing deep exploration methods are designed for small discrete action spaces, and their successful generalization to state-of-the-art continuous control remains unproven. We address the deep exploration problem for the first time from a PAC-Bayesian perspective in the context of actor-critic learning. To do this, we quantify the error of the Bellman operator through a PAC-Bayes bound, where a bootstrapped ensemble of critic networks represents the posterior distribution, and their targets serve as a data-informed function-space prior. We derive an objective function from this bound and use it to train the critic ensemble. Each critic trains an individual actor network, implemented as a shared trunk and critic-specific heads. The agent performs deep exploration by acting deterministically on a randomly chosen actor head. Our proposed algorithm, named PAC-Bayesian Actor-Critic (PBAC), is the only algorithm to successfully discover sparse rewards on a diverse set of continuous control tasks with varying difficulty.},
+	code         = {https://github.com/adinlab/ProbabilisticActorCritic}
+}
+
+@article{baykal2024disentanglement,
+	abbr         = {arXiv},
+	title        = {Disentanglement with Factor Quantized Variational Autoencoders},
+	author       = {Baykal, G. and Kandemir, M. and Unal, G.},
+	year         = {2024},
+	journal      = arxiv,
+	url          = {https://arxiv.org/abs/2409.14851},
+	html         = {https://arxiv.org/abs/2409.14851},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Disentangled representation learning aims to represent the underlying generative factors of a dataset in a latent representation independently of one another. In our work, we propose a discrete variational autoencoder (VAE) based model where the ground truth information about the generative factors are not provided to the model. We demonstrate the advantages of learning discrete representations over learning continuous representations in facilitating disentanglement. Furthermore, we propose incorporating an inductive bias into the model to further enhance disentanglement. Precisely, we propose scalar quantization of the latent variables in a latent representation with scalar values from a global codebook, and we add a total correlation term to the optimization as an inductive bias. Our method called FactorQVAE is the first method that combines optimization based disentanglement approaches with discrete representation learning, and it outperforms the former disentanglement methods in terms of two disentanglement metrics (DCI and InfoMEC) while improving the reconstruction performance. Our code can be found at https://github.com/ituvisionlab/FactorQVAE.}
+}
+
+@article{tasdighi2024exploring,
+	abbr         = {arXiv},
+	title        = {Exploring Pessimism and Optimism Dynamics in Deep Reinforcement Learning},
+	author       = {Tasdighi, B. and Werge, N. and Wu, Y.-s. and Kandemir, M.},
+	year         = {2024},
+	journal      = arxiv,
+	url          = {https://arxiv.org/abs/2406.03890},
+	html         = {https://arxiv.org/abs/2406.03890},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Off-policy actor-critic algorithms have shown promise in deep reinforcement learning for continuous control tasks. Their success largely stems from leveraging pessimistic state-action value function updates, which effectively address function approximation errors and improve performance. However, such pessimism can lead to under-exploration, constraining the agent's ability to explore/refine its policies. Conversely, optimism can counteract under-exploration, but it also carries the risk of excessive risk-taking and poor convergence if not properly balanced. Based on these insights, we introduce Utility Soft Actor-Critic (USAC), a novel framework within the actor-critic paradigm that enables independent control over the degree of pessimism/optimism for both the actor and the critic via interpretable parameters. USAC adapts its exploration strategy based on the uncertainty of critics through a utility function that allows us to balance between pessimism and optimism separately. By going beyond binary choices of optimism and pessimism, USAC represents a significant step towards achieving balance within off-policy actor-critic algorithms. Our experiments across various continuous control problems show that the degree of pessimism or optimism depends on the nature of the task. Furthermore, we demonstrate that USAC can outperform state-of-the-art algorithms for appropriately configured pessimism/optimism parameters.}
+}
+
+@article{dutta2023demystifying,
+	abbr         = {arXiv},
+	title        = {Demystifying the Myths and Legends of Nonconvex Convergence of SGD},
+	author       = {Dutta, A. and Bergou, E.H. and Boucherouite, S. and Werge, N. and Kandemir, M. and Li, X.},
+	year         = {2023},
+	journal      = arxiv,
+	url          = {https://arxiv.org/pdf/2310.12969},
+	html         = {https://arxiv.org/pdf/2310.12969},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Stochastic gradient descent (SGD) and its variants are the main workhorses for solving large-scale optimization problems with nonconvex objective functions.~Although the convergence of SGDs in the (strongly) convex case is well-understood, their convergence for nonconvex functions stands on weak mathematical foundations. Most existing studies on the nonconvex convergence of SGD show the complexity results based on either the minimum of the expected gradient norm or the functional sub-optimality gap (for functions with extra structural property) by searching the entire range of iterates. Hence the last iterations of SGDs do not necessarily maintain the same complexity guarantee. This paper shows that {\em an $\epsilon$-stationary point exists in the final iterates of SGDs,} given a large enough total iteration budget, $T$, not just anywhere in the entire range of iterates --- a much stronger result than the existing one. Additionally, our analyses allow us to measure the \emph{density of the $\epsilon$-stationary points} in the final iterates of SGD, and we recover the classical ${O(\frac{1}{\sqrt{T}})}$ asymptotic rate under various existing assumptions on the objective function and the bounds on the stochastic gradient. As a result of our analyses, we addressed certain myths and legends related to the nonconvex convergence of SGD and posed some thought-provoking questions that could set new directions for research.}
+}
+
+@article{godichon2023adaptive,
+	abbr         = {arXiv},
+	title        = {On Adaptive Stochastic Optimization for Streaming Data: A {N}ewton's Method with {O}(dN) Operations},
+	author       = {Godichon-Baggioni, A. and Werge, N.},
+	year         = {2023},
+	journal      = arxiv,
+	url          = {https://arxiv.org/abs/2311.17753},
+	html         = {https://arxiv.org/abs/2311.17753},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Stochastic optimization methods encounter new challenges in the realm of streaming, characterized by a continuous flow of large, high-dimensional data. While first-order methods, like stochastic gradient descent, are the natural choice, they often struggle with ill-conditioned problems. In contrast, second-order methods, such as Newton's methods, offer a potential solution, but their computational demands render them impractical. This paper introduces adaptive stochastic optimization methods that bridge the gap between addressing ill-conditioned problems while functioning in a streaming context. Notably, we present an adaptive inversion-free Newton's method with a computational complexity matching that of first-order methods, $\mathcal{O}(dN)$, where $d$ represents the number of dimensions/features, and $N$ the number of data. Theoretical analysis confirms their asymptotic efficiency, and empirical evidence demonstrates their effectiveness, especially in scenarios involving complex covariance structures and challenging initializations. In particular, our adaptive Newton's methods outperform existing methods, while maintaining favorable computational efficiency.}
+}
+
+@article{werge2023bof,
+	abbr         = {arXiv},
+	title        = {BOF-UCB: A Bayesian-Optimistic Frequentist Algorithm for Non-Stationary Contextual Bandits},
+	author       = {Werge, N. and Akgül, A. and Kandemir, M.},
+	year         = {2023},
+	journal      = arxiv,
+	url          = {https://arxiv.org/abs/2307.03587},
+	html         = {https://arxiv.org/abs/2307.03587},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {We propose a novel Bayesian-Optimistic Frequentist Upper Confidence Bound (BOF-UCB) algorithm for stochastic contextual linear bandits in non-stationary environments. This unique combination of Bayesian and frequentist principles enhances adaptability and performance in dynamic settings. The BOF-UCB algorithm utilizes sequential Bayesian updates to infer the posterior distribution of the unknown regression parameter, and subsequently employs a frequentist approach to compute the Upper Confidence Bound (UCB) by maximizing the expected reward over the posterior distribution. We provide theoretical guarantees of BOF-UCB's performance and demonstrate its effectiveness in balancing exploration and exploitation on synthetic datasets and classical control tasks in a reinforcement learning setting. Our results show that BOF-UCB outperforms existing methods, making it a promising solution for sequential decision-making in non-stationary environments.}
+}
+
+@article{zhang2023if,
+	abbr         = {arXiv},
+	title        = {If there is no underfitting, there is no Cold Posterior Effect},
+	author       = {Zhang, Y. and Wu, Y. and Ortega, L.A. and Masegosa, A.R.},
+	year         = {2023},
+	journal      = arxiv,
+	url          = {https://arxiv.org/abs/2310.01189},
+	html         = {https://arxiv.org/abs/2310.01189},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {The cold posterior effect (CPE) \citep{WRVS+20} in Bayesian deep learning shows that, for posteriors with a temperature $T<1$, the resulting posterior predictive could have better performances than the Bayesian posterior ($T=1$). As the Bayesian posterior is known to be optimal under perfect model specification, many recent works have studied the presence of CPE as a model misspecification problem, arising from the prior and/or from the likelihood function. In this work, we provide a more nuanced understanding of the CPE as we show that \emph{misspecification leads to CPE only when the resulting Bayesian posterior underfits}. In fact, we theoretically show that if there is no underfitting, there is no CPE.}
+}
+
+@inproceedings{flynn2023improved,
+	abbr         = {NeurIPS},
+	title        = {Improved Algorithms for Stochastic Linear Bandits Using Tail Bounds for Martingale Mixtures},
+	author       = {Flynn, H. and  Reeb, D. and  Kandemir, M. and  Peters, J.},
+	year         = {2023},
+	booktitle    = neurips,
+	url          = {https://arxiv.org/abs/2309.14298},
+	html         = {https://arxiv.org/abs/2309.14298},
+	selected     = {true},
+	bibtex_show  = {true},
+	abstract     = {We present improved algorithms with worst-case regret guarantees for the stochastic linear bandit problem. The widely used "optimism in the face of uncertainty" principle reduces a stochastic bandit problem to the construction of a confidence sequence for the unknown reward function. The performance of the resulting bandit algorithm depends on the size of the confidence sequence, with smaller confidence sets yielding better empirical performance and stronger regret guarantees. In this work, we use a novel tail bound for adaptive martingale mixtures to construct confidence sequences which are suitable for stochastic bandits. These confidence sequences allow for efficient action selection via convex programming. We prove that a linear bandit algorithm based on our confidence sequences is guaranteed to achieve competitive worst-case regret. We show that our confidence sequences are tighter than competitors, both empirically and theoretically. Finally, we demonstrate that our tighter confidence sequences give improved performance in several hyperparameter tuning tasks.}
+}
+
+@inproceedings{weilbach2023estimation,
+	abbr         = {ACML},
+	title        = {Estimation of Counterfactual Interventions under Uncertainties},
+	author       = {Weilbach, J. and Gerwinn, S. and Kandemir, M. and Fraenzle, M.},
+	year         = {2023},
+	booktitle    = acml,
+	url          = {https://arxiv.org/abs/2309.08332},
+	html         = {https://arxiv.org/abs/2309.08332},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Counterfactual analysis is intuitively performed by humans on a daily basis eg. "What should I have done differently to get the loan approved?". Such counterfactual questions also steer the formulation of scientific hypotheses. More formally it provides insights about potential improvements of a system by inferring the effects of hypothetical interventions into a past observation of the system's behaviour which plays a prominent role in a variety of industrial applications. Due to the hypothetical nature of such analysis, counterfactual distributions are inherently ambiguous. This ambiguity is particularly challenging in continuous settings in which a continuum of explanations exist for the same observation. In this paper, we address this problem by following a hierarchical Bayesian approach which explicitly models such uncertainty. In particular, we derive counterfactual distributions for a Bayesian Warped Gaussian Process thereby allowing for non-Gaussian distributions and non-additive noise. We illustrate the properties our approach on a synthetic and on a semi-synthetic example and show its performance when used within an algorithmic recourse downstream task.}
+}
+
+@article{flyn2022pacbayes,
+	abbr         = {T-PAMI},
+	title        = {PAC-Bayes Bounds for Bandit Problems: A Survey and Experimental Comparison},
+	author       = {Flynn, H. and Reeb, D. and Kandemir, M. and Peters, J.},
+	year         = {2023},
+	journal      = pami,
+	url          = {https://arxiv.org/abs/2211.16110},
+	html         = {https://arxiv.org/abs/2211.16110},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {PAC-Bayes has recently re-emerged as an effective theory with which one can derive principled learning algorithms with tight performance guarantees. However, applications of PAC-Bayes to bandit problems are relatively rare, which is a great misfortune. Many decision-making problems in healthcare, finance and natural sciences can be modelled as bandit problems. In many of these applications, principled algorithms with strong performance guarantees would be very much appreciated. This survey provides an overview of PAC-Bayes performance bounds for bandit problems and an experimental comparison of these bounds. Our experimental comparison has revealed that available PAC-Bayes upper bounds on the cumulative regret are loose, whereas available PAC-Bayes lower bounds on the expected reward can be surprisingly tight. We found that an offline contextual bandit algorithm that learns a policy by optimising a PAC-Bayes bound was able to learn randomised neural network polices with competitive expected reward and non-vacuous performance guarantees.}
+}
+
+@article{sahin2023alreg,
+	abbr         = {MDPI},
+	title        = {ALReg: Registration of 3D Point Clouds Using Active Learning},
+	author       = {Sahin, Y.H. and Karabacak, O. and Kandemir, M. and Unal, G.},
+	year         = {2023},
+	journal      = mdpi,
+	url          = {https://www.mdpi.com/2076-3417/13/13/7422},
+	html         = {https://www.mdpi.com/2076-3417/13/13/7422},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {After the success of deep learning in point cloud segmentation and classification tasks, it has also been adopted as common practice in point cloud registration applications. State-of-the-art point cloud registration methods generally deal with this problem as a regression task to find the underlying rotation and translation between two point clouds. However, given two point clouds, the transformation between them could be calculated using only definitive point subsets from each cloud. Furthermore, training time is still a major problem among the current registration networks, whereas using a selective approach to define the informative point subsets can lead to reduced network training times. To that end, we developed ALReg, an active learning procedure to select a limited subset of point clouds to train the network. Each of the point clouds in the training set is divided into superpoints (small pieces of each cloud) and the training process is started with a small amount of them. By actively selecting new superpoints and including them in the training process, only a prescribed amount of data is used, hence the time needed to converge drastically decreases. We used DeepBBS, FMR, and DCP methods as our baselines to prove our proposed ALReg method. We trained DeepBBS and DCP on the ModelNet40 dataset and FMR on the 7Scenes dataset. Using 25% of the training data for ModelNet and 4% for the 7Scenes, better or similar accuracy scores are obtained in less than 20% of their original training times. The trained models are also tested on the 3DMatch dataset and better results are obtained than the original FMR training procedure.}
+}
+
+@article{look2023cheap,
+	abbr         = {TMLR},
+	title        = {Cheap and Deterministic Inference for Deep State-Space Models of Interacting Dynamical Systems},
+	author       = {Look, A. and Rakitsch, B. and Kandemir, M. and Peters, J.},
+	year         = {2023},
+	journal      = tmlr,
+	url          = {https://openreview.net/forum?id=dqgdBy4Uv5&noteId=xKtcWgwdxX},
+	html         = {https://openreview.net/forum?id=dqgdBy4Uv5&noteId=xKtcWgwdxX},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Graph neural networks are often used to model interacting dynamical systems since they gracefully scale to systems with a varying and high number of agents. While there has been much progress made for deterministic interacting systems, modeling is much more challenging for stochastic systems in which one is interested in obtaining a predictive distribution over future trajectories. Existing methods are either computationally slow since they rely on Monte Carlo sampling or make simplifying assumptions such that the predictive distribution is unimodal. In this work, we present a deep state-space model which employs graph neural networks in order to model the underlying interacting dynamical system. The predictive distribution is multimodal and has the form of a Gaussian mixture model, where the moments of the Gaussian components can be computed via deterministic moment matching rules. Our moment matching scheme can be exploited for sample-free inference leading to more efficient and stable training compared to Monte Carlo alternatives. Furthermore, we propose structured approximations to the covariance matrices of the Gaussian components in order to scale up to systems with many agents. We benchmark our novel framework on two challenging autonomous driving datasets. Both confirm the benefits of our method compared to state-of-the-art methods. We further demonstrate the usefulness of our individual contributions in a carefully designed ablation study and provide a detailed empirical runtime analysis of our proposed covariance approximations.}
+}
+
+@inproceedings{yildiz2022learning,
+	abbr         = {NeurIPS},
+	title        = {Learning Interacting Dynamical Systems with Latent Gaussian Process ODEs},
+	author       = {Yildiz, C. and Kandemir, M. and Rakitsch, B.},
+	year         = {2022},
+	booktitle    = neurips,
+	url          = {https://arxiv.org/abs/2205.11894},
+	html         = {https://arxiv.org/abs/2205.11894},
+	selected     = {true},
+	bibtex_show  = {true},
+	abstract     = {We study for the first time uncertainty-aware modeling of continuous-time dynamics of interacting objects. We introduce a new model that decomposes independent dynamics of single objects accurately from their interactions. By employing latent Gaussian process ordinary differential equations, our model infers both independent dynamics and their interactions with reliable uncertainty estimates. In our formulation, each object is represented as a graph node and interactions are modeled by accumulating the messages coming from neighboring objects. We show that efficient inference of such a complex network of variables is possible with modern variational sparse Gaussian process inference techniques. We empirically demonstrate that our model improves the reliability of long-term predictions over neural network based alternatives and it successfully handles missing dynamic or static information. Furthermore, we observe that only our model can successfully encapsulate independent dynamics and interaction information in distinct functions and show the benefit from this disentanglement in extrapolation scenarios..}
+}
+
+@inproceedings{kandemir2022evidential,
+	abbr         = {ICLR},
+	title        = {Evidential Turing Processes},
+	author       = {Kandemir, M. and Akgül, A. and Haussmann, M. and Unal, G.},
+	year         = {2022},
+	booktitle    = iclr,
+	url          = {https://openreview.net/forum?id=84NMXTHYe-},
+	html         = {https://openreview.net/forum?id=84NMXTHYe-},
+	selected     = {true},
+	bibtex_show  = {true},
+	abstract     = {A probabilistic classifier with reliable predictive uncertainties i) fits successfully to the target domain data, ii) provides calibrated class probabilities in difficult regions of the target domain (e.g. class overlap), and iii) accurately identifies queries coming out of the target domain and reject them. We introduce an original combination of Evidential Deep Learning, Neural Processes, and Neural Turing Machines capable of providing all three essential properties mentioned above for total uncertainty quantification. We observe our method on three image classification benchmarks to consistently improve the in-domain uncertainty quantification, out-of-domain detection, and robustness against input perturbations with one single model. Our unified solution delivers an implementation-friendly and computationally efficient recipe for safety clearance and provides intellectual economy to an investigation of algorithmic roots of epistemic awareness in deep neural nets.},
+	code         = {https://github.com/adinlab/EvidentialTuringProcess}
+}
+
+@article{look2022adeterministic,
+	abbr         = {T-PAMI},
+	title        = {A Deterministic Approximation to Neural SDEs},
+	author       = {Look, A. and Kandemir, M. and Rakitsch, B. and Peters, J.},
+	year         = {2022},
+	journal      = pami,
+	url          = {https://arxiv.org/abs/2006.08973},
+	html         = {https://arxiv.org/abs/2006.08973},
+	selected     = {true},
+	bibtex_show  = {true},
+	abstract     = {Neural Stochastic Differential Equations (NSDEs) model the drift and diffusion functions of a stochastic process as neural networks. While NSDEs are known to make accurate predictions, their uncertainty quantification properties haven been remained unexplored so far. We report the empirical finding that obtaining well-calibrated uncertainty estimations from NSDEs is computationally prohibitive. As a remedy, we develop a computationally affordable deterministic scheme which accurately approximates the transition kernel, when dynamics is governed by a NSDE. Our method introduces a bidimensional moment matching algorithm: vertical along the neural net layers and horizontal along the time direction, which benefits from an original combination of effective approximations. Our deterministic approximation of the transition kernel is applicable  to both training and prediction. We observe in multiple experiments that the uncertainty calibration quality of our method can be matched by Monte Carlo sampling only after introducing high computation cost. Thanks to the numerical stability of deterministic training, our method also provides improvement in prediction accuracy.},
+	publisher    = {IEEE}
+}
+
+@inproceedings{lungi2022gpssm,
+	abbr         = {L4DC},
+	title        = {Traversing Time with Multi-Resolution Gaussian Process State-Space Models},
+	author       = {Longi, K. and Lindinger, J. and Duennbier, O. and Kandemir, M. and Klami, A. and Rakitsch, B},
+	year         = {2022},
+	booktitle    = l4dc,
+	url          = {https://proceedings.mlr.press/v168/longi22a/longi22a.pdf},
+	html         = {https://proceedings.mlr.press/v168/longi22a.html},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Gaussian Process state-space models capture complex temporal dependencies in a principled manner by placing a Gaussian Process prior on the transition function. These models have a natural interpretation as discretized stochastic differential equations, but inference for long sequences with fast and slow transitions is difficult. Fast transitions need tight discretizations whereas slow transitions require backpropagating the gradients over long subtrajectories. We propose a novel Gaussian process state-space architecture composed of multiple components, each trained on a different resolution, to model effects on different timescales. The combined model allows traversing time on adaptive scales, providing efficient inference for arbitrarily long sequences with complex dynamics. We benchmark our novel method on semi-synthetic data and on an engine modeling task. In both experiments, our approach compares favorably against its state-of-the-art alternatives that operate on a single time-scale only.}
+}
+
+@article{flynn2022pac,
+	abbr         = {DMKD},
+	title        = {PAC-Bayesian lifelong learning for multi-armed bandits},
+	author       = {Flynn, H. and Reeb, D. and Kandemir, M. and Peters, J.},
+	year         = {2022},
+	journal      = {Data Mining and Knowledge Discovery},
+	url          = {https://link.springer.com/article/10.1007/s10618-022-00825-4},
+	html         = {https://link.springer.com/article/10.1007/s10618-022-00825-4},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {We present a PAC-Bayesian analysis of lifelong learning. In the lifelong learning problem, a sequence of learning tasks is observed one-at-a-time, and the goal is to transfer information acquired from previous tasks to new learning tasks. We consider the case when each learning task is a multi-armed bandit problem. We derive lower bounds on the expected average reward that would be obtained if a given multi-armed bandit algorithm was run in a new task with a particular prior and for a set number of steps. We propose lifelong learning algorithms that use our new bounds as learning objectives. Our proposed algorithms are evaluated in several lifelong multi-armed bandit problems and are found to perform better than a baseline method that does not use generalisation bounds.},
+	publisher    = {Springer}
+}
+
+@article{unal2023meta,
+	abbr         = {TMLR},
+	title        = {Meta Continual Learning on Graphs with Experience Replay},
+	author       = {Unal, A. and Akg{\"u}l, A. and Kandemir, M. and Unal, G.},
+	year         = {2023},
+	journal      = tmlr,
+	url          = {https://openreview.net/forum?id=8tnrh56P5W},
+	html         = {https://openreview.net/forum?id=8tnrh56P5W},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Continual learning is a machine learning approach where the challenge is that a constructed learning model executes incoming tasks while maintaining its performance over the earlier tasks. In order to address this issue, we devise a technique that combines two uniquely important concepts in machine learning, namely "replay buffer" and "meta learning", aiming to exploit the best of two worlds. In this method, the model weights are initially computed by using the current task dataset. Next, the dataset of the current task is merged with the stored samples from the earlier tasks and the model weights are updated using the combined dataset. This aids in preventing the model weights converging to the optimal parameters of the current task and enables the preservation of information from earlier tasks. We choose to adapt our technique to graph data structure and the task of node classification on graphs. We introduce MetaCLGraph, which outperforms the baseline methods over various graph datasets including Citeseer, Corafull, Arxiv, and Reddit. This method illustrates the potential of combining replay buffer and meta learning in the field of continual learning on graphs.}
 }
