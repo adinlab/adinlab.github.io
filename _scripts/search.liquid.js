@@ -147,10 +147,6 @@ ninja.data = [
           {%- assign social_id = "social-ieee" -%}
           {%- assign social_title = "IEEE Xplore" -%}
           {%- capture social_url %}"https://ieeexplore.ieee.org/author/{{ social[1] }}/"{% endcapture -%}
-        {%- when "inspirehep_id" -%}
-          {%- assign social_id = "social-inspire" -%}
-          {%- assign social_title = "Inspire HEP" -%}
-          {%- capture social_url %}"https://inspirehep.net/authors/{{ social[1] }}"{% endcapture -%}
         {%- when "instagram_id" -%}
           {%- assign social_id = "social-instagram" -%}
           {%- assign social_title = "Instagram" -%}
