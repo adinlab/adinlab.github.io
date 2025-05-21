@@ -27,15 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Founded in 2022, we are a brand new lab that exercises basic machine learning research on online, adaptive, and continual reinforcement learning. Our mission is to lift the borders between the training time and the usage time of machine learning algorithms. This way we believe to enable the AI technologies of the future that can perpetually adapt to their users and changing environment conditions throughout their whole life cycle. We define the set of open research questions that hinder real-world use of life-long trainable machine learning artefacts as *the adaptive intelligence problem* and work hard on solving it.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/adin-teaser.png" title="ADIN Lab" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    <!-- 
-      Caption can be added here!
-    -->
-</div>
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
