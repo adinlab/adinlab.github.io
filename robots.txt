@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://adinlab.github.io/sitemap.xml
