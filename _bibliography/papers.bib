@@ -14,6 +14,19 @@
 @string{pr = {Pattern Recognition}}
 @string{l4dc = {Learning for Dynamics and Control}}
 
+@article{akgul2025improving,
+  abbr         = {arXiv},
+  title        = {Improving Plasticity in Non-stationary Reinforcement Learning with Evidential Proximal Policy Optimization},
+  author       = {Akg{\"u}l, A. and Baykal, G. and Hau{\ss}mann, M. and Kandemir, M.},
+  year         = {2025},
+  journal      = arxiv,
+  url          = {https://arxiv.org/abs/2503.01468},
+  html         = {https://arxiv.org/abs/2503.01468},
+  selected     = {false},
+  bibtex_show  = {true},
+  abstract     = {On-policy reinforcement learning algorithms use the most recently learned policy to interact with the environment and update it using the latest gathered trajectories, making them well-suited for adapting to non-stationary environments where dynamics change over time. However, previous studies show that they struggle to maintain plasticity---the ability of neural networks to adjust their synaptic connections---with overfitting identified as the primary cause. To address this, we present the first application of evidential learning in an on-policy reinforcement learning setting: _Evidential Proximal Policy Optimization (EPPO)_. EPPO incorporates all sources of error in the critic network's approximation---i.e., the baseline function in advantage calculation---by modeling the epistemic and aleatoric uncertainty contributions to the approximation's total variance. We achieve this by using an evidential neural network, which serves as a regularizer to prevent overfitting. The resulting probabilistic interpretation of the advantage function enables optimistic exploration, thus maintaining the plasticity. Through experiments on non-stationary continuous control tasks, where the environment dynamics change at regular intervals, we demonstrate that EPPO outperforms state-of-the-art on-policy reinforcement learning variants in both task-specific and overall return.},
+}
+
 @inproceedings{ramchandran2025highdimensional,
 	abbr         = {ICLR},
 	title        = {High-Dimensional Bayesian Optimisation with Gaussian Process Prior Variational Autoencoders},
@@ -208,7 +221,7 @@
 	html         = {https://arxiv.org/pdf/2310.12969},
 	selected     = {false},
 	bibtex_show  = {true},
-	abstract     = {Stochastic gradient descent (SGD) and its variants are the main workhorses for solving large-scale optimization problems with nonconvex objective functions.~Although the convergence of SGDs in the (strongly) convex case is well-understood, their convergence for nonconvex functions stands on weak mathematical foundations. Most existing studies on the nonconvex convergence of SGD show the complexity results based on either the minimum of the expected gradient norm or the functional sub-optimality gap (for functions with extra structural property) by searching the entire range of iterates. Hence the last iterations of SGDs do not necessarily maintain the same complexity guarantee. This paper shows that {\em an $\epsilon$-stationary point exists in the final iterates of SGDs,} given a large enough total iteration budget, $T$, not just anywhere in the entire range of iterates --- a much stronger result than the existing one. Additionally, our analyses allow us to measure the \emph{density of the $\epsilon$-stationary points} in the final iterates of SGD, and we recover the classical ${O(\frac{1}{\sqrt{T}})}$ asymptotic rate under various existing assumptions on the objective function and the bounds on the stochastic gradient. As a result of our analyses, we addressed certain myths and legends related to the nonconvex convergence of SGD and posed some thought-provoking questions that could set new directions for research.}
+	abstract     = {Stochastic gradient descent (SGD) and its variants are the main workhorses for solving large-scale optimization problems with nonconvex objective functions.~Although the convergence of SGDs in the (strongly) convex case is well-understood, their convergence for nonconvex functions stands on weak mathematical foundations. Most existing studies on the nonconvex convergence of SGD show the complexity results based on either the minimum of the expected gradient norm or the functional sub-optimality gap (for functions with extra structural property) by searching the entire range of iterates. Hence the last iterations of SGDs do not necessarily maintain the same complexity guarantee. This paper shows that _an $\epsilon$-stationary point exists in the final iterates of SGDs,_ given a large enough total iteration budget, $T$, not just anywhere in the entire range of iterates --- a much stronger result than the existing one. Additionally, our analyses allow us to measure the _density of the $\epsilon$-stationary points_ in the final iterates of SGD, and we recover the classical ${O(\frac{1}{\sqrt{T}})}$ asymptotic rate under various existing assumptions on the objective function and the bounds on the stochastic gradient. As a result of our analyses, we addressed certain myths and legends related to the nonconvex convergence of SGD and posed some thought-provoking questions that could set new directions for research.}
 }
 
 @article{godichon2023adaptive,
@@ -247,7 +260,7 @@
 	html         = {https://arxiv.org/abs/2310.01189},
 	selected     = {false},
 	bibtex_show  = {true},
-	abstract     = {The cold posterior effect (CPE) \citep{WRVS+20} in Bayesian deep learning shows that, for posteriors with a temperature $T<1$, the resulting posterior predictive could have better performances than the Bayesian posterior ($T=1$). As the Bayesian posterior is known to be optimal under perfect model specification, many recent works have studied the presence of CPE as a model misspecification problem, arising from the prior and/or from the likelihood function. In this work, we provide a more nuanced understanding of the CPE as we show that \emph{misspecification leads to CPE only when the resulting Bayesian posterior underfits}. In fact, we theoretically show that if there is no underfitting, there is no CPE.}
+	abstract     = {The cold posterior effect (CPE) \citep{WRVS+20} in Bayesian deep learning shows that, for posteriors with a temperature $T<1$, the resulting posterior predictive could have better performances than the Bayesian posterior ($T=1$). As the Bayesian posterior is known to be optimal under perfect model specification, many recent works have studied the presence of CPE as a model misspecification problem, arising from the prior and/or from the likelihood function. In this work, we provide a more nuanced understanding of the CPE as we show that _misspecification leads to CPE only when the resulting Bayesian posterior underfits_. In fact, we theoretically show that if there is no underfitting, there is no CPE.}
 }
 
 @inproceedings{flynn2023improved,
