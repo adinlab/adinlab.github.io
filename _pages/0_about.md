@@ -31,7 +31,7 @@ Founded in 2022, we are a brand new lab that exercises basic machine learning re
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/adin-teaser.png" title="ADIN Lab" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/adin-teaser.png" title="ADIN Lab" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
