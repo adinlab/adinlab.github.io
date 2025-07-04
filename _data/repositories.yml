@@ -10,6 +10,7 @@
 repo_description_lines_max: 2
 
 github_repos:
+  - adinlab/objectrl
   - adinlab/adinrl
   - adinlab/ProbabilisticActorCritic
   - adinlab/PAC4SAC
