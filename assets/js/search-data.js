@@ -72,12 +72,10 @@ ninja.data = [{
           section: "News",},{id: "news-gulcin-baykal-can-starts-at-our-lab-as-a-postdoctoral-researcher-as-of-january-2025-welcome-gulcin",
           title: 'Gulcin Baykal Can starts at our lab as a postdoctoral researcher as of...',
           description: "",
-          section: "News",},{id: "news-announcement-3",
-          title: 'Announcement_3',
+          section: "News",},{id: "news-we-released-objectrl-a-new-codebase-designed-for-flexible-and-efficient-research-prototyping-in-reinforcement-learning-check-out-the-github-repository-explore-the-documentation-and-read-the-paper",
+          title: 'We released ObjectRL, a new codebase designed for flexible and efficient research prototyping...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_3/";
-            },},{id: "projects-adapt4control",
+          section: "News",},{id: "projects-adapt4control",
           title: 'ADAPT4CONTROL',
           description: "Fast Adaptation Methods for Continual Optimal Control",
           section: "Projects",handler: () => {
