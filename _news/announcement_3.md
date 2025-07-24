@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2025-07-08 08:00:00-0400
-inline: false
+inline: true
 ---
 
 We released ObjectRL, a new codebase designed for flexible and efficient research prototyping in reinforcement learning. 
