@@ -66,14 +66,14 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "news-melih-will-serve-as-an-area-chair-at-aistats-2025",
-          title: 'Melih will serve as an area chair at AISTATS 2025.',
-          description: "",
-          section: "News",},{id: "news-gulcin-baykal-can-starts-at-our-lab-as-a-postdoctoral-researcher-as-of-january-2025-welcome-gulcin",
+      },{id: "news-gulcin-baykal-can-starts-at-our-lab-as-a-postdoctoral-researcher-as-of-january-2025-welcome-gulcin",
           title: 'Gulcin Baykal Can starts at our lab as a postdoctoral researcher as of...',
           description: "",
           section: "News",},{id: "news-we-released-objectrl-a-new-codebase-designed-for-flexible-and-efficient-research-prototyping-in-reinforcement-learning-check-out-the-github-repository-explore-the-documentation-and-read-the-paper",
           title: 'We released ObjectRL, a new codebase designed for flexible and efficient research prototyping...',
+          description: "",
+          section: "News",},{id: "news-we-have-two-papers-accepted-at-ecai-25",
+          title: 'We have two papers accepted at ECAI’25',
           description: "",
           section: "News",},{id: "projects-adapt4control",
           title: 'ADAPT4CONTROL',
