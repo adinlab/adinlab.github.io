@@ -66,8 +66,8 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "news-gulcin-baykal-can-starts-at-our-lab-as-a-postdoctoral-researcher-as-of-january-2025-welcome-gulcin",
-          title: 'Gulcin Baykal Can starts at our lab as a postdoctoral researcher as of...',
+      },{id: "news-magnus-victor-boock-starts-at-our-lab-as-a-phd-student-as-of-august-2025-welcome-magnus",
+          title: 'Magnus Victor Boock starts at our lab as a PhD student as of...',
           description: "",
           section: "News",},{id: "news-we-released-objectrl-a-new-codebase-designed-for-flexible-and-efficient-research-prototyping-in-reinforcement-learning-check-out-the-github-repository-explore-the-documentation-and-read-the-paper",
           title: 'We released ObjectRL, a new codebase designed for flexible and efficient research prototyping...',
