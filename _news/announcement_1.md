@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-10-03 08:00:00-0400
+date: 2025-07-11 08:00:00-0400
 inline: true
 ---
 
-Melih will serve as an area chair at AISTATS 2025.
+We have two papers accepted at ECAI'25
