@@ -58,6 +58,13 @@ researchers:
     image: assets/img/team/new/GulcinBaykalCan.png
     linkedin: https://www.linkedin.com/in/gülçin-baykal-can-0a8276b0
     webpage: https://gulcinbaykal.github.io/
+
+  - name: Magnus Boock
+    mail: magn@sdu.dk
+    linkedin: https://www.linkedin.com/in/magnus-boock/
+    research_areas: PhD student working on PAC Bayesian offline reinforcement learning
+    image: assets/img/team/new/MagnusBoock.jpeg
+    
     
 
 alumni_phd: Andreas Look (Research Scientist at Bosch Center for AI), Hamish Flynn (Postdoc at Universitat Pompeu Fabra), Manuel Haussmann (Postdoc at ADINLab)
