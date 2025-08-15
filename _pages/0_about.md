@@ -6,11 +6,6 @@ subtitle:
 
 profile:
   align: right
-  image: logo_white.png
-  image_circular: false # crops the image to make it circular
-
-profile:
-  align: right
   image: team-24-fall.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
