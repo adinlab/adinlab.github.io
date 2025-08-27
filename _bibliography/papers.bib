@@ -293,19 +293,6 @@
 	abstract     = {Stochastic gradient descent (SGD) and its variants are the main workhorses for solving large-scale optimization problems with nonconvex objective functions.~Although the convergence of SGDs in the (strongly) convex case is well-understood, their convergence for nonconvex functions stands on weak mathematical foundations. Most existing studies on the nonconvex convergence of SGD show the complexity results based on either the minimum of the expected gradient norm or the functional sub-optimality gap (for functions with extra structural property) by searching the entire range of iterates. Hence the last iterations of SGDs do not necessarily maintain the same complexity guarantee. This paper shows that _an $\epsilon$-stationary point exists in the final iterates of SGDs,_ given a large enough total iteration budget, $T$, not just anywhere in the entire range of iterates --- a much stronger result than the existing one. Additionally, our analyses allow us to measure the _density of the $\epsilon$-stationary points_ in the final iterates of SGD, and we recover the classical ${O(\frac{1}{\sqrt{T}})}$ asymptotic rate under various existing assumptions on the objective function and the bounds on the stochastic gradient. As a result of our analyses, we addressed certain myths and legends related to the nonconvex convergence of SGD and posed some thought-provoking questions that could set new directions for research.}
 }
 
-@article{godichon2023adaptive,
-	abbr         = {arXiv},
-	title        = {On Adaptive Stochastic Optimization for Streaming Data: A {N}ewton's Method with {O}(dN) Operations},
-	author       = {Godichon-Baggioni, A. and Werge, N.},
-	year         = {2023},
-	booktitle    = arxiv,
-	url          = {https://arxiv.org/abs/2311.17753},
-	html         = {https://arxiv.org/abs/2311.17753},
-	selected     = {false},
-	bibtex_show  = {true},
-	abstract     = {Stochastic optimization methods encounter new challenges in the realm of streaming, characterized by a continuous flow of large, high-dimensional data. While first-order methods, like stochastic gradient descent, are the natural choice, they often struggle with ill-conditioned problems. In contrast, second-order methods, such as Newton's methods, offer a potential solution, but their computational demands render them impractical. This paper introduces adaptive stochastic optimization methods that bridge the gap between addressing ill-conditioned problems while functioning in a streaming context. Notably, we present an adaptive inversion-free Newton's method with a computational complexity matching that of first-order methods, $\mathcal{O}(dN)$, where $d$ represents the number of dimensions/features, and $N$ the number of data. Theoretical analysis confirms their asymptotic efficiency, and empirical evidence demonstrates their effectiveness, especially in scenarios involving complex covariance structures and challenging initializations. In particular, our adaptive Newton's methods outperform existing methods, while maintaining favorable computational efficiency.}
-}
-
 @article{werge2023bof,
 	abbr         = {arXiv},
 	title        = {BOF-UCB: A Bayesian-Optimistic Frequentist Algorithm for Non-Stationary Contextual Bandits},
