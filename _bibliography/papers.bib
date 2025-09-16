@@ -96,6 +96,19 @@
 	abstract     = {On-policy reinforcement learning algorithms use the most recently learned policy to interact with the environment and update it using the latest gathered trajectories, making them well-suited for adapting to non-stationary environments where dynamics change over time. However, previous studies show that they struggle to maintain plasticity---the ability of neural networks to adjust their synaptic connections---with overfitting identified as the primary cause. To address this, we present the first application of evidential learning in an on-policy reinforcement learning setting: \textit{Evidential Proximal Policy Optimization (EPPO)}. EPPO incorporates all sources of error in the critic network's approximation---i.e., the baseline function in advantage calculation---by modeling the epistemic and aleatoric uncertainty contributions to the approximation's total variance. We achieve this by using an evidential neural network, which serves as a regularizer to prevent overfitting. The resulting probabilistic interpretation of the advantage function enables optimistic exploration, thus maintaining the plasticity. Through experiments on non-stationary continuous control tasks, where the environment dynamics change at regular intervals, we demonstrate that EPPO outperforms state-of-the-art on-policy reinforcement learning variants in both task-specific and overall return.},
 }
 
+@article{baykal2025disentanglement,
+	abbr         = {NeuCom},
+	title        = {Disentanglement with Factor Quantized Variational Autoencoders},
+	author       = {Baykal, G. and Kandemir, M. and Unal, G.},
+	year         = {2025},
+	journal      = Neurocomputing,
+	url          = {https://arxiv.org/abs/2409.14851},
+	html         = {https://arxiv.org/abs/2409.14851},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Disentangled representation learning aims to represent the underlying generative factors of a dataset in a latent representation independently of one another. In our work, we propose a discrete variational autoencoder (VAE) based model where the ground truth information about the generative factors are not provided to the model. We demonstrate the advantages of learning discrete representations over learning continuous representations in facilitating disentanglement. Furthermore, we propose incorporating an inductive bias into the model to further enhance disentanglement. Precisely, we propose scalar quantization of the latent variables in a latent representation with scalar values from a global codebook, and we add a total correlation term to the optimization as an inductive bias. Our method called FactorQVAE is the first method that combines optimization based disentanglement approaches with discrete representation learning, and it outperforms the former disentanglement methods in terms of two disentanglement metrics (DCI and InfoMEC) while improving the reconstruction performance. Our code can be found at https://github.com/ituvisionlab/FactorQVAE.}
+}
+
 @inproceedings{ramchandran2025highdimensional,
 	abbr         = {ICLR},
 	title        = {High-Dimensional Bayesian Optimisation with Gaussian Process Prior Variational Autoencoders},
@@ -254,18 +267,6 @@
 	code         = {https://github.com/adinlab/ProbabilisticActorCritic}
 }
 
-@article{baykal2024disentanglement,
-	abbr         = {arXiv},
-	title        = {Disentanglement with Factor Quantized Variational Autoencoders},
-	author       = {Baykal, G. and Kandemir, M. and Unal, G.},
-	year         = {2024},
-	journal      = arxiv,
-	url          = {https://arxiv.org/abs/2409.14851},
-	html         = {https://arxiv.org/abs/2409.14851},
-	selected     = {false},
-	bibtex_show  = {true},
-	abstract     = {Disentangled representation learning aims to represent the underlying generative factors of a dataset in a latent representation independently of one another. In our work, we propose a discrete variational autoencoder (VAE) based model where the ground truth information about the generative factors are not provided to the model. We demonstrate the advantages of learning discrete representations over learning continuous representations in facilitating disentanglement. Furthermore, we propose incorporating an inductive bias into the model to further enhance disentanglement. Precisely, we propose scalar quantization of the latent variables in a latent representation with scalar values from a global codebook, and we add a total correlation term to the optimization as an inductive bias. Our method called FactorQVAE is the first method that combines optimization based disentanglement approaches with discrete representation learning, and it outperforms the former disentanglement methods in terms of two disentanglement metrics (DCI and InfoMEC) while improving the reconstruction performance. Our code can be found at https://github.com/ituvisionlab/FactorQVAE.}
-}
 
 @inproceedings{tasdighi2025improving,
 	abbr         = {ECAI},
