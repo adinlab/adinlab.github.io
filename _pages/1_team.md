@@ -14,12 +14,12 @@ nav: true
 {% if site.data.team.faculty %}
     <br><h2 id="faculty">Faculty</h2>
     <div class="row">
-        <div class="projects column">
-            {% assign sorted= site.data.team.faculty | sort: "order" %}
-            {% for member in sorted %}
+        {% assign sorted= site.data.team.faculty | sort: "order" %}
+        {% for member in sorted %}
+            <div class="col-sm-4 d-flex align-items-stretch">
                 {% include team/faculty.html member=member %}
-            {% endfor %}
-        </div>
+            </div>
+        {% endfor %}
     </div>
 {% endif %}
 
