@@ -1,4 +1,4 @@
-leaders:
+faculty:
   - name: Melih Kandemir
     about: Faculty member at SDU. Member of the ELLIS Society. Has published work on weakly-supervised Gaussian processes, deterministic variational Bayesian neural net inference, and neural stochastic process modeling.
     mail: kandemir@imada.sdu.dk
@@ -8,6 +8,15 @@ leaders:
     twitter: TheBayesist
     linkedin: https://www.linkedin.com/in/melih-kandemir-64681a16
     image: assets/img/team/new/MelihKandemir.png
+    head: true
+    order: 0
+  - name: Mustafa Mert Çelikok
+    about: Faculty member at SDU as Tenure Track Assistant Professor. Research interests include reinforcement learning, multi-agent learning, and cooperative AI.
+    mail: celikok@imada.sdu.dk
+    image: assets/img/team/new/MertCelikok.jpg
+    head: false
+    order: 1
+
 
 
 researchers:

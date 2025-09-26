@@ -11,13 +11,13 @@ nav: true
     <h1 class="post-title">Adaptive Intelligence Lab </h1>
 </header> -->
 
-{% if site.data.team.leaders %}
-    <br><h2 id="principal-investigator">Principal Investigator</h2>
+{% if site.data.team.faculty %}
+    <br><h2 id="faculty">Faculty</h2>
     <div class="row">
         <div class="projects column">
-            {% assign sorted= site.data.team.leaders | sort: "name" %}
+            {% assign sorted= site.data.team.faculty | sort: "order" %}
             {% for member in sorted %}
-                {% include team/leader.html member=member %}
+                {% include team/faculty.html member=member %}
             {% endfor %}
         </div>
     </div>

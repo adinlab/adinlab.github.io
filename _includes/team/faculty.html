@@ -14,6 +14,9 @@
                     <h5 class="card-title">{{ include.member.name }}</h5>       
                 {% endif %}
                 <div class="card-footer p-0">
+                    {% if include.member.head %}
+                        <span class="badge badge-primary">Head of the group</span> <br>
+                    {% endif %}
                     {% if include.member.mail %}
                         <a href="mailto:{{ include.member.mail }}" class="card-link"><i class="fas fa-envelope"></i></a> 
                     {% endif %}
