@@ -2,9 +2,9 @@
 <div class="card hoverable h-90" style="margin-bottom:10px">
     <div class="row no-gutters">
         {% if include.member.image %}
-            <img src="{{ include.member.image | relative_url}}" class="card-img img-fluid" alt="{{ include.member.name }}">
+            <img src="{{ include.member.image | relative_url}}" class="img-fluid z-depth-1 rounded-circle" alt="{{ include.member.name }}">
         {% else %}
-            <img src="{{ '/assets/img/team/default.png' | relative_url }}" class="card-img img-fluid" alt="{{ include.member.name }}">
+            <img src="{{ '/assets/img/team/default.png' | relative_url }}" class="img-fluid z-depth-1 rounded-circle" alt="{{ include.member.name }}">
         {% endif %}
         <div class="card-body">
             {% if include.member.webpage %}

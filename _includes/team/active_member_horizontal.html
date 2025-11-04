@@ -3,9 +3,9 @@
     <div class="row no-gutters">
         <div class="col-sm-4 col-md-3">
             {% if include.member.image %}
-               <img src="{{ include.member.image | relative_url}}" class="card-img img-fluid" alt="{{ include.member.name }}" style="width:170px; height:200px">
+               <img src="{{ include.member.image | relative_url}}" class="img-fluid z-depth-1 rounded-circle" alt="{{ include.member.name }}" style="width:170px; height:200px">
             {% else %}
-                <img src="{{ '/assets/img/team/default.png' | relative_url }}" class="card-img img-fluid" alt="{{ include.member.name }}" style="width:170px; height:200px">
+                <img src="{{ '/assets/img/team/default.png' | relative_url }}" class="img-fluid z-depth-1 rounded-circle" alt="{{ include.member.name }}" style="width:170px; height:200px">
             {% endif %}
         </div>
         <div class="team col-sm-8 col-md-9">
