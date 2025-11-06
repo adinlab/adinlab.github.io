@@ -16,8 +16,14 @@ faculty:
     image: assets/img/team/new/MertCelikok.jpg
     head: false
     order: 1
-
-
+  - name: Sai Ganesh Nagarajan
+    about: Faculty member at SDU as Assistant Professor. Research interests include algorithmic game theory, multiagent systems, AI/ML safety, theory of AI/ML, and dynamical systems.
+    mail: sgnagarajan@imada.sdu.dk
+    image: assets/img/team/new/SaiGanesh.jpg
+    webpage: https://sites.google.com/view/sgnagarajan/home
+    scholar: https://scholar.google.com/citations?user=VoaosL4AAAAJ&hl=en
+    head: false
+    order: 2
 
 researchers:
   - name: Nicklas Werge
