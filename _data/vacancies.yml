@@ -10,4 +10,8 @@ vacancies:
   - title: PhD Position in Reinforcement Learning
     deadline: 1733998740 # https://www.epochconverter.com/ 01.02.2023
     link: https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2230?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000002425892
+    active: "False"
+  - title: PhD Position in Foundations of Reinforcement Learning
+    deadline: 1764975599 # https://www.epochconverter.com/ 01.02.2023
+    link: https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/3324
     active: "True"
