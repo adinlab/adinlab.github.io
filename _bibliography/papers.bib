@@ -29,6 +29,17 @@
 	abstract     = {Off-policy reinforcement learning in continuous control tasks depends critically on accurate Q-value estimates. Conservative aggregation over ensembles, such as taking the minimum, is commonly used to mitigate overestimation bias. However, these static rules are coarse, discard valuable information from the ensemble, and cannot adapt to task-specific needs or different learning regimes. We propose Directional Ensemble Aggregation (DEA), an aggregation method that adaptively combines Q-value estimates in actor-critic frameworks. DEA introduces two fully learnable directional parameters: one that modulates critic-side conservatism and another that guides actor-side policy exploration. Both parameters are learned using ensemble disagreement-weighted Bellman errors, which weight each sample solely by the direction of its Bellman error. This directional learning mechanism allows DEA to adjust conservatism and exploration in a data-driven way, adapting aggregation to both uncertainty levels and the phase of training. We evaluate DEA across continuous control benchmarks and learning regimes - from interactive to sample-efficient - and demonstrate its effectiveness over static ensemble strategies.},
 }
 
+@article{bahl2025accurate,
+	title        = {Accurate Surrogate Amplitudes with Calibrated Uncertainties},
+	author       = {Bahl, H. and Nina, E. and Favaro, L. and Haussmann, M. and Plehn, T. and Winterhalder, R.},
+	year         = {2025},
+	journal      = {SciPost Physics Core},
+	url          = {https://www.scipost.org/SciPostPhysCore.8.4.073},
+	html         = {https://www.scipost.org/SciPostPhysCore.8.4.073},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Neural networks for LHC physics have to be accurate, reliable, and controlled. Using neural surrogates for the prediction of loop amplitudes as a use case, we first show how activation functions are systematically tested with Kolmogorov-Arnold Networks. Then, we train neural surrogates to simultaneously predict the target amplitude and an uncertainty for the prediction. We disentangle systematic uncertainties, learned by a well-defined likelihood loss, from statistical uncertainties, which require the introduction of Bayesian neural networks or repulsive ensembles. We test the coverage of the learned uncertainties using pull distributions to quantify the calibration of cutting-edge neural surrogates.},
+}
 
 @article{baykal2025objectrl,
 	abbr         = {arXiv},
@@ -120,19 +131,6 @@
 	selected     = {false},
 	bibtex_show  = {true},
 	abstract     = {Bayesian optimisation (BO) using a Gaussian process (GP)-based surrogate model is a powerful tool for solving black-box optimisation problems but does not scale well to high-dimensional data. Previous works have proposed to use variational autoencoders (VAEs) to project high-dimensional data onto a low-dimensional latent space and to implement BO in the inferred latent space. In this work, we propose a conditional generative model for efficient high-dimensional BO that uses a GP surrogate model together with GP prior VAEs. A GP prior VAE extends the standard VAE by conditioning the generative and inference model on auxiliary covariates, capturing complex correlations across samples with a GP. Our model incorporates the observed target quantity values as auxiliary covariates learning a structured latent space that is better suited for the GP-based BO surrogate model. It handles partially observed auxiliary covariates using a unifying probabilistic framework and can also incorporate additional auxiliary covariates that may be available in real-world applications. We demonstrate that our method improves upon existing latent space BO methods on simulated datasets as well as on commonly used benchmarks.},
-}
-
-@article{bahl2024accurate,
-	abbr         = {arXiv},
-	title        = {Accurate Surrogate Amplitudes with Calibrated Uncertainties},
-	author       = {Bahl, H. and Nina, E. and Favaro, L. and Haussmann, M. and Plehn, T. and Winterhalder, R.},
-	year         = {2024},
-	journal      = arxiv,
-	url          = {https://arxiv.org/abs/2412.12069},
-	html         = {https://arxiv.org/abs/2412.12069},
-	selected     = {false},
-	bibtex_show  = {true},
-	abstract     = {Neural networks for LHC physics have to be accurate, reliable, and controlled. Using surrogate loop amplitudes as a use case, we first show how activation functions can be systematically tested with KANs. For reliability and control, we learn uncertainties together with the target amplitude over phase space. Systematic uncertainties can be learned by a heteroscedastic loss, but a comprehensive learned uncertainty requires Bayesian networks or repulsive ensembles. We compute pull distributions to show to what level learned uncertainties are calibrated correctly for cutting-edge precision surrogates.},
 }
 
 @inproceedings{akgul2024deterministic,
