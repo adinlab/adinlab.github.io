@@ -15,6 +15,31 @@
 @string{l4dc = {Learning for Dynamics and Control}}
 @string{ecai = {European Conference on Artificial Intelligence}}
 
+@article{akgul2026distributional,
+	abbr         = {arXiv},
+	title 		 = {Distributional Active Inference},
+	author 		 = {Akg{\"u}l, A. and Baykal, G. and Hau{\ss}mann, M. and {\c{C}}elikok, M. M. and Kandemir, M.},
+	year 		 = {2026},
+	journal 	 = arxiv,
+	url 	     = {https://arxiv.org/pdf/2601.20985},
+	html  		 = {https://arxiv.org/pdf/2601.20985},
+	selected 	 = {false},
+	bibtex_show  = {true},
+	abstract 	 = {Optimal control of complex environments with robotic systems faces two complementary and intertwined challenges: efficient organization of sensory state information and far-sighted action planning. Because the reinforcement learning framework addresses only the latter, it tends to deliver sample-inefficient solutions. Active inference is the state-of-the-art process theory that explains how biological brains handle this dual problem. However, its applications to artificial intelligence have thus far been limited to extensions of existing model-based approaches. We present a formal abstraction of reinforcement learning algorithms that spans model-based, distributional, and model-free approaches. This abstraction seamlessly integrates active inference into the distributional reinforcement learning framework, making its performance advantages accessible without transition dynamics modeling.},
+}
+
+@inproceedings{vincent2026bridging,
+	abbr         = {ICLR},
+	title        = {Bridging the performance-gap between target-free and target-based reinforcement learning},
+	author       = {Vincent, T. and Tripathi, Y. and Faust, T. and Akg{\"u}l, A. and Oren, Y. and Kandemir, M. and Peters, P. and D'Eramo, C.},
+	booktitle    = iclr,
+	year         = {2026},
+	url          = {https://openreview.net/pdf?id=ltcxS7JE0c},
+	html         = {https://openreview.net/forum?id=ltcxS7JE0c},
+	selected     = {false},
+	abstract     = {The use of target networks in deep reinforcement learning is a widely popular solution to mitigate the brittleness of semi-gradient approaches and stabilize learning. However, target networks notoriously require additional memory and delay the propagation of Bellman updates compared to an ideal target-free approach. In this work, we step out of the binary choice between target-free and target-based algorithms. We introduce a new method that uses a copy of the last linear layer of the online network as a target network, while sharing the remaining parameters with the up-to-date online network. This simple modification enables us to keep the target-free's low-memory footprint while leveraging the target-based literature. We find that combining our approach with the concept of iterated $Q$-learning, which consists of learning consecutive Bellman updates in parallel, helps improve the sample-efficiency of target-free approaches. Our proposed method, iterated Shared $Q$-Learning (iS-QL), bridges the performance gap between target-free and target-based approaches across various problems while using a single $Q$-network, thus stepping towards resource-efficient reinforcement learning algorithms.},
+	bibtex_show  = {true},
+}
 
 @article{werge2025directionalensemble,
 	abbr         = {arXiv},

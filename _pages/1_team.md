@@ -36,6 +36,17 @@ nav: true
     </div>
 {% endif %}
 
+{% if site.data.team.adjunct_alumni %}
+    <br><h2 id="research-fellows">Adjunct Alumni</h2>
+    <div class="row">
+        {% assign sorted= site.data.team.adjunct_alumni | sort: "name" %}
+        {% for member in sorted %}
+            <div class="col-sm-4 d-flex align-items-stretch">
+                {% include team/active_member.html member=member %}
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}
 
 <!-- {% if site.data.team.mscs %}
     <br><h2 id="msc-students">MSc Students</h2>
