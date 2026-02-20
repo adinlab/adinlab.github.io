@@ -2,8 +2,8 @@ import math
 import yaml
 
 # ── Configuration ────────────────────────────────────────────────────────────
-YAML_FILE   = "team.yaml" # todo: update this path if your YAML is located elsewhere
-OUTPUT_FILE = "team_frame.tex" 
+YAML_FILE   = "team.yaml"  # todo: update this path if your YAML is located elsewhere
+OUTPUT_FILE = "team_frame.tex"
 COLS          = None       # None = auto-balance based on member count (recommended)
                            # or set an integer e.g. 4 to force a fixed column count
 MAX_ROWS      = 2          # maximum number of rows in the team grid
@@ -60,9 +60,9 @@ def member_cell(member: dict, category: str) -> str:
     )
 
     return (
-        r"\begin{minipage}[t]{1.9cm}\centering" + "\n"
+        r"\begin{minipage}[t]{2.2cm}\centering" + "\n"
         + photo + "\\\\[-6pt]\n"
-        r"\resizebox{\linewidth}{!}{\bfseries " + name + r"}\\[-5pt]" + "\n"
+        r"{\tiny\bfseries " + name + r"}\\[-5pt]" + "\n"
         + position_line
         + r"\end{minipage}"
     )
