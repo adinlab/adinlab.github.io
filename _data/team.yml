@@ -62,6 +62,11 @@ researchers:
     mail: faier@imada.sdu.dk
     research_areas: PhD Student working on Information Theory based adaptive control for Reinforcement Learning
     image: assets/img/team/new/RobinFaier.jpg
+
+  - name: Ask Madsen
+    mail: asmad20@student.sdu.dk
+    research_areas: MSc Student
+    image: assets/img/team/new/AskMadsen.jpg
     
 adjunct_alumni:
   - name: Bahareh Tasdighi
