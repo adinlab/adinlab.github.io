@@ -42,14 +42,6 @@ researchers:
     image: assets/img/team/new/ManuelHaussmann.png
     webpage: https://manuelhaussmann.github.io
   
-  - name: Gülcin Baykal Can
-    mail: gulcinbaykal95@gmail.com
-    scholar: https://scholar.google.com/citations?user=tcmSfdwAAAAJ&hl=tr
-    research_areas: Postdoc working on reinforcement learning for visual control
-    image: assets/img/team/new/GulcinBaykalCan.png
-    linkedin: https://www.linkedin.com/in/gülçin-baykal-can-0a8276b0
-    webpage: https://gulcinbaykal.github.io/
-
   - name: Magnus Boock
     mail: magn@sdu.dk
     linkedin: https://www.linkedin.com/in/magnus-boock/
@@ -75,6 +67,14 @@ adjunct_alumni:
     research_areas: Optimistic exploration in actor critic algorithms
     image: assets/img/team/new/BaharehTasdighi.png
     # mail: tasdighi@imada.sdu.dk
+
+  - name: Gülcin Baykal Can
+    mail: gulcinbaykal95@gmail.com
+    scholar: https://scholar.google.com/citations?user=tcmSfdwAAAAJ&hl=tr
+    research_areas: Postdoc working on reinforcement learning for visual control
+    image: assets/img/team/new/GulcinBaykalCan.png
+    linkedin: https://www.linkedin.com/in/gülçin-baykal-can-0a8276b0
+    webpage: https://gulcinbaykal.github.io/    
 
   - name: Nicklas Werge
     orcid: 0000-0001-9906-364X
