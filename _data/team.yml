@@ -26,15 +26,6 @@ faculty:
     order: 2
 
 researchers:
-  - name: Abdullah Akgül
-    linkedin: https://tr.linkedin.com/in/abdullahakgul70
-    orcid: 0000-0002-0489-9493
-    webpage: https://aportekila.github.io/
-    mail: akgul@imada.sdu.dk
-    scholar: https://scholar.google.com/citations?user=FZeaKPoAAAAJ
-    research_areas: Postdoc working on probabilistic reinforcement learning for sample-efficient control
-    image: assets/img/team/new/AbdullahAkgul.jpeg
-
   - name: Manuel Haussmann
     mail: haussmann@imada.sdu.dk
     scholar: https://scholar.google.com/citations?user=YXBAT4wAAAAJ&hl=de&oi=ao
@@ -61,6 +52,15 @@ researchers:
     image: assets/img/team/new/AskMadsen.jpg
     
 adjunct_alumni:
+  - name: Abdullah Akgül
+    linkedin: https://tr.linkedin.com/in/abdullahakgul70
+    orcid: 0000-0002-0489-9493
+    webpage: https://aportekila.github.io/
+    mail: akgul@imada.sdu.dk
+    scholar: https://scholar.google.com/citations?user=FZeaKPoAAAAJ
+    research_areas: Postdoc working on probabilistic reinforcement learning for sample-efficient control
+    image: assets/img/team/new/AbdullahAkgul.jpeg
+
   - name: Bahareh Tasdighi
     orcid: 0000-0001-9757-5019
     linkedin: https://www.linkedin.com/in/bahar-tasdighi-366020143/
