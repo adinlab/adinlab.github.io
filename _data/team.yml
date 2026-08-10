@@ -56,7 +56,7 @@ adjunct_alumni:
     linkedin: https://tr.linkedin.com/in/abdullahakgul70
     orcid: 0000-0002-0489-9493
     webpage: https://aportekila.github.io/
-    mail: akgul@imada.sdu.dk
+    #mail: akgul@imada.sdu.dk
     scholar: https://scholar.google.com/citations?user=FZeaKPoAAAAJ
     research_areas: Postdoc working on probabilistic reinforcement learning for sample-efficient control
     image: assets/img/team/new/AbdullahAkgul.jpeg
