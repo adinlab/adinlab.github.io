@@ -3,7 +3,7 @@ layout: page
 permalink: /vacancies/
 title: Vacancies
 description: 
-nav: true
+nav: false
 # nav_order: 3
 ---
 
