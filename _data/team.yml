@@ -37,14 +37,14 @@ researchers:
     mail: magn@sdu.dk
     linkedin: https://www.linkedin.com/in/magnus-boock/
     scholar: https://scholar.google.com/citations?user=9itaTnQAAAAJ&hl=en
-    research_areas: PhD student working on PAC Bayesian offline reinforcement learning
+    research_areas: PhD Student working on PAC Bayesian offline reinforcement learning
     image: assets/img/team/new/MagnusBoock.jpeg
   
   - name: Robin Faier
     linkedin: https://www.linkedin.com/in/robin-faier
     webpage: https://github.com/Robin1853
     mail: faier@imada.sdu.dk
-    research_areas: PhD Student working on Information Theory based adaptive control for Reinforcement Learning
+    research_areas: PhD Student working on information theory based adaptive control for reinforcement learning
     image: assets/img/team/new/RobinFaier.jpg
 
   - name: Ask Madsen
@@ -65,7 +65,7 @@ adjunct_alumni:
   - name: Bahareh Tasdighi
     orcid: 0000-0001-9757-5019
     linkedin: https://www.linkedin.com/in/bahar-tasdighi-366020143/
-    research_areas: Optimistic exploration in actor critic algorithms
+    research_areas: Optimistic exploration in actor-critic algorithms
     image: assets/img/team/new/BaharehTasdighi.png
     # mail: tasdighi@imada.sdu.dk
 
@@ -93,18 +93,3 @@ adjunct_alumni:
     research_areas: Reinforcement learning theory
     image: assets/img/team/new/YiShanWu.jpg
     # mail: yswu@imada.sdu.dk
-
-alumni_phd: Andreas Look (Research Scientist at Bosch Center for AI), Hamish Flynn (Postdoc at Universitat Pompeu Fabra), Manuel Haussmann (Postdoc at ADINLab)
-  
-alumnis_msc:
-  - name: Spring, 2024
-    members: Yousof Mersal, Frederik Gram Kortegaard, Lasse Usbeck Andresen, Anders Tobiesen Aabom, Alexander Justin Kopec Thiruchelvam, Remus-Stefan Cernat, Ida Overvad Bruun, Viktor Bjerg Nordstrøm, Nikolaj Flindt Holm Hansen, Marcus Poulsen, Marius Høivik Carlsen, Jessica Michelle Bruun, Michelle Sundstrøm Jensen
-  
-  - name: Fall, 2023
-    members: Daniela Haret, Nizar Abdel All, Simon Murrell, Istvan Turi, Anders Christensen
-  
-  - name: Spring, 2023
-    members: Christoffer Falk Bøgebjerg, Kira Løve Bøgeskov, Lasse Bohse Kyster, Nicolas Hamann Hiemstra von Arenstorff, Bi Yun Chen, Nickolaj Graby, Kenny Kazimirzak Brink
-  
-  - name: Fall, 2022
-    members: Helle Juul Hansen, Niklas Matzen Groth, Sarah Anne Pedersen
