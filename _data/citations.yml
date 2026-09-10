@@ -1,0 +1,691 @@
+metadata:
+  last_updated: '2026-09-10'
+papers:
+  Jxm1UeYAAAAJ:-f6ydRqryjwC:
+    citations: 10
+    title: A Deterministic Approximation to Neural SDEs
+    year: '2022'
+  Jxm1UeYAAAAJ:0EnyYjriUFMC:
+    citations: 0
+    title: A Framework for Real-Time Animation of Liquid-Rigid Body Interaction
+    year: Unknown Year
+  Jxm1UeYAAAAJ:1sJd4Hv_s6UC:
+    citations: 0
+    title: UBIQUITOUS CONTEXTUAL INFORMATION ACCESS WITH PROACTIVE RETRIEVAL AND AUGMENTATION
+    year: Unknown Year
+  Jxm1UeYAAAAJ:2P1L_qKh6hAC:
+    citations: 16
+    title: Improved Algorithms for Stochastic Linear Bandits Using Tail Bounds for Martingale Mixtures
+    year: '2023'
+  Jxm1UeYAAAAJ:2osOgNQ5qMEC:
+    citations: 201
+    title: Automatic segmentation of colon glands using object-graphs
+    year: '2010'
+  Jxm1UeYAAAAJ:35N4QoGY0k4C:
+    citations: 3
+    title: Estimation of Counterfactual Interventions under Uncertainties
+    year: '2023'
+  Jxm1UeYAAAAJ:3fE2CSJIrl8C:
+    citations: 22
+    title: Prediction of active UE number with Bayesian neural networks for self-organizing LTE networks
+    year: '2017'
+  Jxm1UeYAAAAJ:3s1wT3WcHBgC:
+    citations: 5
+    title: Deterministic uncertainty propagation for improved model-based offline reinforcement learning
+    year: '2024'
+  Jxm1UeYAAAAJ:4DMP91E08xMC:
+    citations: 0
+    title: "Supplementary Material for the Paper:\u201D Variational Bayesian Multiple Instance Learning with Gaussian Processes\u201D"
+    year: Unknown Year
+  Jxm1UeYAAAAJ:4JMBOYKVnBMC:
+    citations: 0
+    title: Predicting a state of a computer-controlled entity
+    year: '2021'
+  Jxm1UeYAAAAJ:4OULZ7Gr8RgC:
+    citations: 34
+    title: 'In the picture: Medical imaging datasets, artifacts, and their living review'
+    year: '2025'
+  Jxm1UeYAAAAJ:4TOpqqG69KYC:
+    citations: 6
+    title: Detection of retinopathy of prematurity using multiple instance learning
+    year: '2015'
+  Jxm1UeYAAAAJ:5nxA0vEk-isC:
+    citations: 8
+    title: On context-aware DDoS attacks using deep generative networks
+    year: '2018'
+  Jxm1UeYAAAAJ:70eg2SAEIzsC:
+    citations: 2
+    title: Sampling-Free Probabilistic Deep State-Space Models
+    year: '2023'
+  Jxm1UeYAAAAJ:8k81kl-MbHgC:
+    citations: 6
+    title: Cell event detection in phase-contrast microscopy sequences from few annotations
+    year: '2015'
+  Jxm1UeYAAAAJ:9ZlFYXVOiuMC:
+    citations: 62
+    title: Deep Active Learning with Adaptive Acquisition
+    year: '2019'
+  Jxm1UeYAAAAJ:9yKSN-GCB0IC:
+    citations: 21
+    title: Contextual information access with augmented reality
+    year: '2010'
+  Jxm1UeYAAAAJ:BqipwSGYUEgC:
+    citations: 13
+    title: 'PAC-Bayes bounds for bandit problems: A survey and experimental comparison'
+    year: '2023'
+  Jxm1UeYAAAAJ:D03iK_w7-QYC:
+    citations: 3
+    title: Adaptive Ensemble Aggregation for Actor-Critics
+    year: '2025'
+  Jxm1UeYAAAAJ:GnPB-g6toBAC:
+    citations: 12
+    title: PAC-Bayesian soft actor-critic learning
+    year: '2024'
+  Jxm1UeYAAAAJ:HDshCWvjkbEC:
+    citations: 9
+    title: Control and Monitoring of Physical System Based on Trained Bayesian Neural Network
+    year: '2020'
+  Jxm1UeYAAAAJ:HoB7MX3m0LUC:
+    citations: 3
+    title: Safe control/monitoring of a computer-controlled system
+    year: '2024'
+  Jxm1UeYAAAAJ:IWHjjKOFINEC:
+    citations: 26
+    title: Learning Partially Known Stochastic Dynamics with Empirical PAC Bayes
+    year: '2021'
+  Jxm1UeYAAAAJ:IjCSPb-OGe4C:
+    citations: 12
+    title: Multiple instance learning with response-optimized random forests
+    year: '2014'
+  Jxm1UeYAAAAJ:J_g5lzvAfSwC:
+    citations: 4
+    title: 'Alreg: Registration of 3d point clouds using active learning'
+    year: '2023'
+  Jxm1UeYAAAAJ:KlAtU1dfN6UC:
+    citations: 14
+    title: Active machine learning for training an event classification
+    year: '2021'
+  Jxm1UeYAAAAJ:LkGwnXOMwfcC:
+    citations: 91
+    title: Empowering multiple instance histopathology cancer diagnosis by cell graphs
+    year: '2014'
+  Jxm1UeYAAAAJ:M05iB0D1s5AC:
+    citations: 1
+    title: Demystifying the Myths and Legends of Nonconvex Convergence of SGD
+    year: '2023'
+  Jxm1UeYAAAAJ:M3NEmzRMIkIC:
+    citations: 0
+    title: Device for and computer implemented method of machine learning
+    year: '2022'
+  Jxm1UeYAAAAJ:M3ejUd6NZC8C:
+    citations: 51
+    title: Gaussian process density counting from weak supervision
+    year: '2016'
+  Jxm1UeYAAAAJ:MXK_kJrjxJIC:
+    citations: 0
+    title: Proactive Interfaces
+    year: Unknown Year
+  Jxm1UeYAAAAJ:NaGl4SEjCO4C:
+    citations: 0
+    title: Method and device for reinforcement learning
+    year: '2023'
+  Jxm1UeYAAAAJ:NhqRSupF_l8C:
+    citations: 0
+    title: Policy-based Tuning of Autoregressive Image Models with Instance-and Distribution-Level Rewards
+    year: '2026'
+  Jxm1UeYAAAAJ:O3NaXMp0MMsC:
+    citations: 0
+    title: Device, computer program and computer-implemented method for machine learning
+    year: '2023'
+  Jxm1UeYAAAAJ:R3hNpaxXUhUC:
+    citations: 13
+    title: Evidential Turing Processes
+    year: '2022'
+  Jxm1UeYAAAAJ:RHpTSmoSYBkC:
+    citations: 11
+    title: Inferring the Structure of Ordinary Differential Equations
+    year: '2021'
+  Jxm1UeYAAAAJ:Se3iqnhoufwC:
+    citations: 164
+    title: 'Computer-aided diagnosis from weak supervision: A benchmarking study'
+    year: '2015'
+  Jxm1UeYAAAAJ:SeFeTyx0c_EC:
+    citations: 0
+    title: Calibrating Bayesian UNet++ for Sub-Seasonal Forecasting
+    year: '2024'
+  Jxm1UeYAAAAJ:TFP_iSt0sucC:
+    citations: 0
+    title: Continual learning of multi-modal dynamics with external memory
+    year: '2024'
+  Jxm1UeYAAAAJ:TQgYirikUcIC:
+    citations: 0
+    title: Device and method for generating a compressed network from a trained neural network
+    year: '2021'
+  Jxm1UeYAAAAJ:Tyk-4Ss8FVUC:
+    citations: 50
+    title: Variational Bayesian Multiple Instance Learning with Gaussian Processes
+    year: '2017'
+  Jxm1UeYAAAAJ:ULOm3_A8WrAC:
+    citations: 59
+    title: Multi-task and multi-view learning of user state
+    year: '2014'
+  Jxm1UeYAAAAJ:UeHWp8X0CEIC:
+    citations: 5
+    title: Event detection by feature unpredictability in phase-contrast videos of cell cultures
+    year: '2014'
+  Jxm1UeYAAAAJ:UebtZRa9Y70C:
+    citations: 43
+    title: 'Digital pathology: Multiple instance learning can detect Barrett''s cancer'
+    year: '2014'
+  Jxm1UeYAAAAJ:W7OEmFMy1HYC:
+    citations: 22
+    title: 'Multiple instance learning: Robust validation on retinopathy of prematurity'
+    year: '2016'
+  Jxm1UeYAAAAJ:WF5omc3nYNoC:
+    citations: 15
+    title: Variational Weakly Supervised Gaussian Processes
+    year: '2016'
+  Jxm1UeYAAAAJ:Y0pCki6q_DkC:
+    citations: 9
+    title: Multitask learning using regularized multiple kernel learning
+    year: '2011'
+  Jxm1UeYAAAAJ:YFjsv_pBGBYC:
+    citations: 20
+    title: Learning interacting dynamical systems with latent gaussian process odes
+    year: '2022'
+  Jxm1UeYAAAAJ:YOwf2qJgpHMC:
+    citations: 27
+    title: Inferring object relevance from gaze in dynamic scenes
+    year: '2010'
+  Jxm1UeYAAAAJ:YsMSGLbcyi4C:
+    citations: 2
+    title: Ubiquitous contextual information access with proactive retrieval and augmentation
+    year: '2009'
+  Jxm1UeYAAAAJ:ZHo1McVdvXMC:
+    citations: 4
+    title: Improving Actor-Critic Training with Steerable Action-Value Approximation Errors
+    year: '2025'
+  Jxm1UeYAAAAJ:ZeXyd9-uunAC:
+    citations: 16
+    title: Differential Bayesian Neural Nets
+    year: '2019'
+  Jxm1UeYAAAAJ:Zph67rFs4hoC:
+    citations: 2392
+    title: Evidential Deep Learning to Quantify Classification Uncertainty
+    year: '2018'
+  Jxm1UeYAAAAJ:_FxGoFyzp5QC:
+    citations: 67
+    title: Asymmetric Transfer Learning with Deep Gaussian Processes
+    year: '2015'
+  Jxm1UeYAAAAJ:_kc_bZDykSQC:
+    citations: 116
+    title: Object-oriented texture analysis for the unsupervised segmentation of biopsy images for cancer detection
+    year: '2009'
+  Jxm1UeYAAAAJ:_xSYboBqXhAC:
+    citations: 7
+    title: Bridging the Performance Gap Between Target-Free and Target-Based Reinforcement Learning
+    year: '2026'
+  Jxm1UeYAAAAJ:a0OBvERweLwC:
+    citations: 0
+    title: 'ObjectRL: An Object-Oriented Reinforcement Learning Codebase'
+    year: '2025'
+  Jxm1UeYAAAAJ:abG-DnoFyZgC:
+    citations: 0
+    title: Hitting Time Isomorphism for Multi-Stage Planning with Foundation Policies
+    year: '2026'
+  Jxm1UeYAAAAJ:aqlVkmm33-oC:
+    citations: 6
+    title: Variational Closed-Form Deep Neural Net Inference
+    year: '2018'
+  Jxm1UeYAAAAJ:b0M2c_1WBrUC:
+    citations: 0
+    title: A Measure-Theoretic Finite-Sample Theory for Adaptive-Data Fitted Q-Iteration
+    year: '2026'
+  Jxm1UeYAAAAJ:bEWYMUwI8FkC:
+    citations: 0
+    title: Generating verifiably realistic measurement data
+    year: '2022'
+  Jxm1UeYAAAAJ:bFI3QPDXJZMC:
+    citations: 2
+    title: Distributional Active Inference
+    year: '2026'
+  Jxm1UeYAAAAJ:d1gkVwhDpl0C:
+    citations: 0
+    title: Best Paper Award
+    year: '2017'
+  Jxm1UeYAAAAJ:dfsIfKJdRG4C:
+    citations: 0
+    title: Deep Actor-Critics with Tight Risk Certificates
+    year: '2025'
+  Jxm1UeYAAAAJ:e5wmG9Sq2KIC:
+    citations: 0
+    title: Method and device for processing sensor data
+    year: '2021'
+  Jxm1UeYAAAAJ:eQOLeE2rZwMC:
+    citations: 2
+    title: Segmentation of colon glands by object graphs
+    year: '2008'
+  Jxm1UeYAAAAJ:fPk4N6BV_jEC:
+    citations: 5
+    title: Overcoming Non-stationary Dynamics with Evidential Proximal Policy Optimization
+    year: '2025'
+  Jxm1UeYAAAAJ:g5m5HwL7SMYC:
+    citations: 7
+    title: Meta continual learning on graphs with experience replay
+    year: '2023'
+  Jxm1UeYAAAAJ:hC7cP41nSMkC:
+    citations: 17
+    title: Differentiable Implicit Layers
+    year: '2020'
+  Jxm1UeYAAAAJ:hMod-77fHWUC:
+    citations: 2
+    title: Device and method for training the neural drift network and the neural diffusion network of a neural stochastic differential equation
+    year: '2022'
+  Jxm1UeYAAAAJ:hqOjcs7Dif8C:
+    citations: 151
+    title: An augmented reality interface to contextual information
+    year: '2011'
+  Jxm1UeYAAAAJ:iH-uZ7U-co4C:
+    citations: 7
+    title: Making time-series predictions of a computer-controlled system
+    year: '2021'
+  Jxm1UeYAAAAJ:isC4tDSrTZIC:
+    citations: 15
+    title: 'PAC-Bayesian lifelong learning for multi-armed bandits: H. Flynn et al.'
+    year: '2022'
+  Jxm1UeYAAAAJ:j3f4tGmQtD8C:
+    citations: 3
+    title: Traversing time with multi-resolution Gaussian process state-space models
+    year: '2022'
+  Jxm1UeYAAAAJ:kNdYIx-mwKoC:
+    citations: 0
+    title: Unsupervised inference of auditory attention from biosensors
+    year: '2012'
+  Jxm1UeYAAAAJ:lSLTfruPkqcC:
+    citations: 3
+    title: Weighted Sequential Bayesian Inference for Non-Stationary Linear Contextual Bandits
+    year: '2026'
+  Jxm1UeYAAAAJ:ldfaerwXgEUC:
+    citations: 29
+    title: 'EdVAE: Mitigating codebook collapse with evidential discrete variational autoencoders'
+    year: '2024'
+  Jxm1UeYAAAAJ:mB3voiENLucC:
+    citations: 21
+    title: Bayesian Evidential Deep Learning with PAC Regularization
+    year: '2020'
+  Jxm1UeYAAAAJ:ns9cj8rnVeAC:
+    citations: 13
+    title: Cheap and Deterministic Inference for Deep State-Space Models of Interacting Dynamical Systems
+    year: '2023'
+  Jxm1UeYAAAAJ:pqnbT2bcN3wC:
+    citations: 7
+    title: Deep Exploration with PAC Bayes
+    year: '2025'
+  Jxm1UeYAAAAJ:qjMakFHDy7sC:
+    citations: 3
+    title: Learning mental states from biosignals
+    year: '2013'
+  Jxm1UeYAAAAJ:qxL8FJ1GzNcC:
+    citations: 71
+    title: 'Towards brain-activity-controlled information retrieval: Decoding image relevance from MEG signals'
+    year: '2015'
+  Jxm1UeYAAAAJ:roLk4NBRz8UC:
+    citations: 19
+    title: Learning relevance from natural eye movements in pervasive interfaces
+    year: '2012'
+  Jxm1UeYAAAAJ:u-x6o8ySG0sC:
+    citations: 1
+    title: 'The deep feed-forward Gaussian process: An effective generalization to covariance priors'
+    year: '2015'
+  Jxm1UeYAAAAJ:u5HHmVD_uO8C:
+    citations: 25
+    title: Instance Label Prediction by Dirichlet Process Multiple Instance Learning.
+    year: '2014'
+  Jxm1UeYAAAAJ:u_35RYKgDlwC:
+    citations: 5
+    title: Disentanglement with Factor Quantized Variational Autoencoders
+    year: '2024'
+  Jxm1UeYAAAAJ:ufrVoPGSRksC:
+    citations: 21
+    title: Supervising Topic Models with Gaussian Processes
+    year: '2018'
+  Jxm1UeYAAAAJ:vV6vV6tmYwMC:
+    citations: 0
+    title: Method for validating or verifying a technical system
+    year: '2023'
+  Jxm1UeYAAAAJ:zYLM7Y9cAGgC:
+    citations: 42
+    title: Sampling-Free Variational Inference of Bayesian Neural Nets with Variance Backpropagation
+    year: '2019'
+  VoaosL4AAAAJ:0EnyYjriUFMC:
+    citations: 5
+    title: 'Spatial warped Gaussian processes: Estimation and efficient field reconstruction'
+    year: '2021'
+  VoaosL4AAAAJ:3fE2CSJIrl8C:
+    citations: 6
+    title: 'Mean Estimation of Truncated Mixtures of Two Gaussians: A Gradient Based Approach'
+    year: '2023'
+  VoaosL4AAAAJ:5nxA0vEk-isC:
+    citations: 8
+    title: Stochastic multiplicative weights updates in zero-sum games
+    year: '2021'
+  VoaosL4AAAAJ:8k81kl-MbHgC:
+    citations: 27
+    title: Online algorithms with costly predictions
+    year: '2023'
+  VoaosL4AAAAJ:9yKSN-GCB0IC:
+    citations: 87
+    title: Anomaly detection and attribution in networks with temporally correlated traffic
+    year: '2017'
+  VoaosL4AAAAJ:IjCSPb-OGe4C:
+    citations: 0
+    title: Change Detection of a Subset of High-Dimensional Time Series Data in Sensor Networks
+    year: '2018'
+  VoaosL4AAAAJ:KlAtU1dfN6UC:
+    citations: 1
+    title: Analyzing  seeding for -means
+    year: '2024'
+  VoaosL4AAAAJ:LkGwnXOMwfcC:
+    citations: 1
+    title: 'Robust Self-organization in Games: Symmetries, Conservation Laws and Dimensionality Reduction'
+    year: '2020'
+  VoaosL4AAAAJ:M3ejUd6NZC8C:
+    citations: 2
+    title: 'The Good, the Bad and the Ugly: Meta-Analysis of Watermarks, Transferable Attacks and Adversarial Defenses'
+    year: '2026'
+  VoaosL4AAAAJ:Se3iqnhoufwC:
+    citations: 10
+    title: Efficient statistics for sparse graphical models from truncated samples
+    year: '2021'
+  VoaosL4AAAAJ:Tyk-4Ss8FVUC:
+    citations: 14
+    title: Query-based sensors selection for collaborative wireless sensor networks with stochastic energy harvesting
+    year: '2018'
+  VoaosL4AAAAJ:ULOm3_A8WrAC:
+    citations: 8
+    title: The Complexity of Two-Team Polymatrix Games with Independent Adversaries
+    year: '2024'
+  VoaosL4AAAAJ:UeHWp8X0CEIC:
+    citations: 20
+    title: 'Three body problems in evolutionary game dynamics: Convergence, periodicity and limit cycles'
+    year: '2018'
+  VoaosL4AAAAJ:UebtZRa9Y70C:
+    citations: 39
+    title: Depth-Width Trade-offs for ReLU Networks via Sharkovsky's Theorem
+    year: '2020'
+  VoaosL4AAAAJ:WF5omc3nYNoC:
+    citations: 66
+    title: 'Last iterate convergence in no-regret learning: constrained min-max optimization for convex-concave landscapes'
+    year: '2021'
+  VoaosL4AAAAJ:Wp0gIr-vW9MC:
+    citations: 0
+    title: 'Machine learning via dynamical systems: applications to deep learning, game theory and optimization'
+    year: Unknown Year
+  VoaosL4AAAAJ:YsMSGLbcyi4C:
+    citations: 30
+    title: On the Analysis of EM for truncated mixtures of two Gaussians
+    year: '2020'
+  VoaosL4AAAAJ:_kc_bZDykSQC:
+    citations: 2
+    title: 'S-CFE: Simple Counterfactual Explanations'
+    year: '2024'
+  VoaosL4AAAAJ:aqlVkmm33-oC:
+    citations: 0
+    title: 'Seeing Through Distractions: Stable Attribution via the Core'
+    year: Unknown Year
+  VoaosL4AAAAJ:d1gkVwhDpl0C:
+    citations: 68
+    title: 'Secure location of things (SLOT): Mitigating localization spoofing attacks in the Internet of Things'
+    year: '2017'
+  VoaosL4AAAAJ:hqOjcs7Dif8C:
+    citations: 27
+    title: 'From chaos to order: Symmetry and conservation laws in game dynamics'
+    year: '2020'
+  VoaosL4AAAAJ:qjMakFHDy7sC:
+    citations: 4
+    title: 'Spatial field reconstruction of non-Gaussian random fields: The Tukey G-and-H random process'
+    year: '2018'
+  VoaosL4AAAAJ:u-x6o8ySG0sC:
+    citations: 56
+    title: Geo-spatial location estimation for Internet of Things (IoT) networks with one-way time-of-arrival via stochastic censoring
+    year: '2016'
+  VoaosL4AAAAJ:u5HHmVD_uO8C:
+    citations: 49
+    title: Adaptive duty cycling in sensor networks with energy harvesting using continuous-time Markov chain and fluid models
+    year: '2015'
+  VoaosL4AAAAJ:ufrVoPGSRksC:
+    citations: 23
+    title: Better depth-width trade-offs for neural networks through the lens of dynamical systems
+    year: '2020'
+  VoaosL4AAAAJ:zYLM7Y9cAGgC:
+    citations: 319
+    title: Distributed anomaly detection using autoencoder neural networks in WSN for IoT
+    year: '2018'
+  YXBAT4wAAAAJ:2osOgNQ5qMEC:
+    citations: 14
+    title: 'LeMoNADe: learned motif and neuronal assembly detection in calcium imaging videos'
+    year: '2018'
+  YXBAT4wAAAAJ:3fE2CSJIrl8C:
+    citations: 3
+    title: Learning high-dimensional mixed models via amortized variational inference
+    year: '2024'
+  YXBAT4wAAAAJ:4DMP91E08xMC:
+    citations: 0
+    title: 'ObjectRL: An Object-Oriented Reinforcement Learning Codebase'
+    year: '2025'
+  YXBAT4wAAAAJ:8k81kl-MbHgC:
+    citations: 5
+    title: Deterministic Uncertainty Propagation for Improved Model-Based Offline Reinforcement Learning
+    year: '2024'
+  YXBAT4wAAAAJ:9ZlFYXVOiuMC:
+    citations: 6
+    title: 'Uncertainty in Physics and AI: Taxonomy, Quantification, and Validation'
+    year: '2026'
+  YXBAT4wAAAAJ:9yKSN-GCB0IC:
+    citations: 42
+    title: Sampling-free variational inference of bayesian neural networks by variance backpropagation
+    year: '2020'
+  YXBAT4wAAAAJ:KlAtU1dfN6UC:
+    citations: 7
+    title: Deep Exploration with PAC-Bayes
+    year: '2024'
+  YXBAT4wAAAAJ:MXK_kJrjxJIC:
+    citations: 12
+    title: PAC-Bayesian soft actor-critic learning
+    year: '2024'
+  YXBAT4wAAAAJ:QIV2ME_5wuYC:
+    citations: 0
+    title: Adaptive Ensemble Aggregation for Actor-Critics
+    year: '2025'
+  YXBAT4wAAAAJ:ULOm3_A8WrAC:
+    citations: 1
+    title: Latent variable model for high-dimensional point process with structured missingness
+    year: '2024'
+  YXBAT4wAAAAJ:UebtZRa9Y70C:
+    citations: 4
+    title: Estimating treatment effects from single-arm trials via latent-variable modeling
+    year: '2024'
+  YXBAT4wAAAAJ:W7OEmFMy1HYC:
+    citations: 26
+    title: Learning partially known stochastic dynamics with empirical PAC Bayes
+    year: '2021'
+  YXBAT4wAAAAJ:WF5omc3nYNoC:
+    citations: 13
+    title: Evidential turing processes
+    year: '2021'
+  YXBAT4wAAAAJ:Wp0gIr-vW9MC:
+    citations: 2
+    title: Distributional Active Inference
+    year: '2026'
+  YXBAT4wAAAAJ:Y0pCki6q_DkC:
+    citations: 21
+    title: Bayesian Evidential Deep Learning with PAC Regularization
+    year: '2019'
+  YXBAT4wAAAAJ:YOwf2qJgpHMC:
+    citations: 34
+    title: Accurate surrogate amplitudes with calibrated uncertainties
+    year: '2025'
+  YXBAT4wAAAAJ:YsMSGLbcyi4C:
+    citations: 9
+    title: Control and monitoring of physical system based on trained Bayesian neural network
+    year: '2022'
+  YXBAT4wAAAAJ:_kc_bZDykSQC:
+    citations: 7
+    title: High-Dimensional Bayesian Optimisation with Gaussian Process Prior Variational Autoencoders
+    year: '2025'
+  YXBAT4wAAAAJ:aqlVkmm33-oC:
+    citations: 5
+    title: Overcoming Non-stationary Dynamics with Evidential Proximal Policy Optimization
+    year: '2025'
+  YXBAT4wAAAAJ:d1gkVwhDpl0C:
+    citations: 0
+    title: "Supplementary Material for the Paper:\u201D Variational Bayesian Multiple Instance Learning with Gaussian Processes\u201D"
+    year: Unknown Year
+  YXBAT4wAAAAJ:eQOLeE2rZwMC:
+    citations: 85
+    title: Understanding event-generation networks via uncertainties
+    year: '2022'
+  YXBAT4wAAAAJ:hqOjcs7Dif8C:
+    citations: 21
+    title: A comparative study of clinical trial and real-world data in patients with diabetic kidney disease
+    year: '2024'
+  YXBAT4wAAAAJ:kNdYIx-mwKoC:
+    citations: 6
+    title: Latent mixed-effect models for high-dimensional longitudinal data
+    year: '2024'
+  YXBAT4wAAAAJ:mVmsd5A6BfQC:
+    citations: 0
+    title: A Measure-Theoretic Finite-Sample Theory for Adaptive-Data Fitted Q-Iteration
+    year: '2026'
+  YXBAT4wAAAAJ:qjMakFHDy7sC:
+    citations: 94
+    title: Deep-learning jets with uncertainties and more
+    year: '2020'
+  YXBAT4wAAAAJ:qxL8FJ1GzNcC:
+    citations: 0
+    title: Deep Actor-Critics with Tight Risk Certificates
+    year: '2025'
+  YXBAT4wAAAAJ:roLk4NBRz8UC:
+    citations: 13
+    title: Practical equivariances via relational conditional neural processes
+    year: '2023'
+  YXBAT4wAAAAJ:u-x6o8ySG0sC:
+    citations: 50
+    title: Variational Bayesian Multiple Instance Learning with Gaussian Processes
+    year: '2017'
+  YXBAT4wAAAAJ:u5HHmVD_uO8C:
+    citations: 15
+    title: Variational Weakly Supervised Gaussian Processes.
+    year: '2016'
+  YXBAT4wAAAAJ:ufrVoPGSRksC:
+    citations: 1
+    title: Bayesian Neural Networks for Probabilistic Machine Learning
+    year: '2021'
+  YXBAT4wAAAAJ:zYLM7Y9cAGgC:
+    citations: 62
+    title: Deep Active Learning with Adaptive Acquisition
+    year: '2019'
+  _8yxhlMAAAAJ:2osOgNQ5qMEC:
+    citations: 35
+    title: Interactive AI with a Theory of Mind
+    year: '2019'
+  _8yxhlMAAAAJ:4JMBOYKVnBMC:
+    citations: 0
+    title: Social Cooperation in Conversational AI Agents
+    year: '2025'
+  _8yxhlMAAAAJ:HDshCWvjkbEC:
+    citations: 3
+    title: Inverse concave-utility reinforcement learning is inverse game theory
+    year: '2024'
+  _8yxhlMAAAAJ:JV2RwH3_ST0C:
+    citations: 0
+    title: 'The Arbiter Agent: Continually Monitoring Multi-Agent Conversations to Detect Emergent Misalignment'
+    year: '2026'
+  _8yxhlMAAAAJ:KlAtU1dfN6UC:
+    citations: 5
+    title: "Modelling user\u2019s theory of ai\u2019s mind in interactive intelligent systems"
+    year: '2018'
+  _8yxhlMAAAAJ:LkGwnXOMwfcC:
+    citations: 1
+    title: Model-based Multi-agent Reinforcement Learning for AI Assistants
+    year: '2023'
+  _8yxhlMAAAAJ:M3NEmzRMIkIC:
+    citations: 0
+    title: Hitting Time Isomorphism for Multi-Stage Planning with Foundation Policies
+    year: '2026'
+  _8yxhlMAAAAJ:RHpTSmoSYBkC:
+    citations: 4
+    title: Value Improved Actor Critic Algorithms
+    year: '2025'
+  _8yxhlMAAAAJ:UeHWp8X0CEIC:
+    citations: 0
+    title: Theory of Mind Based Models in Human-AI Interaction
+    year: '2018'
+  _8yxhlMAAAAJ:W7OEmFMy1HYC:
+    citations: 5
+    title: Distributed Influence-Augmented Local Simulators for Parallel MARL in Large Networked Systems
+    year: '2022'
+  _8yxhlMAAAAJ:WF5omc3nYNoC:
+    citations: 12
+    title: Modelling Needs User Modelling
+    year: '2023'
+  _8yxhlMAAAAJ:Y0pCki6q_DkC:
+    citations: 14
+    title: Best-Response Bayesian Reinforcement Learning with Bayes-adaptive POMDPs for Centaurs
+    year: '2022'
+  _8yxhlMAAAAJ:YsMSGLbcyi4C:
+    citations: 6
+    title: Differentiable User Models
+    year: '2023'
+  _8yxhlMAAAAJ:_FxGoFyzp5QC:
+    citations: 2
+    title: Towards a Unifying Model of Rationality in Multiagent Systems
+    year: '2023'
+  _8yxhlMAAAAJ:_Qo2XoVZTnwC:
+    citations: 5
+    title: 'SHARPIE: a modular framework for reinforcement learning and human-ai interaction experiments'
+    year: '2025'
+  _8yxhlMAAAAJ:blknAaTinKkC:
+    citations: 2
+    title: Distributional Active Inference
+    year: '2026'
+  _8yxhlMAAAAJ:d1gkVwhDpl0C:
+    citations: 0
+    title: 'Agent Robustness to Negative Interruptions: A Multi-agent Learning Approach'
+    year: '2019'
+  _8yxhlMAAAAJ:eQOLeE2rZwMC:
+    citations: 2
+    title: Uncoupled Learning of Differential Stackelberg Equilibria with Commitments
+    year: '2024'
+  _8yxhlMAAAAJ:iH-uZ7U-co4C:
+    citations: 0
+    title: Towards an Experimentation Platform for Hybrid Human-AI Sequential Decision-Making
+    year: '2025'
+  _8yxhlMAAAAJ:isC4tDSrTZIC:
+    citations: 0
+    title: Workshop on Multi-Agent Learning and Its Opportunities in the Era of Generative AI
+    year: Unknown Year
+  _8yxhlMAAAAJ:j3f4tGmQtD8C:
+    citations: 3
+    title: On the Complexity of Learning to Cooperate with Populations of Socially Rational Agents
+    year: '2024'
+  _8yxhlMAAAAJ:maZDTaKrznsC:
+    citations: 0
+    title: A Measure-Theoretic Finite-Sample Theory for Adaptive-Data Fitted Q-Iteration
+    year: '2026'
+  _8yxhlMAAAAJ:r0BpntZqJG4C:
+    citations: 1
+    title: Abstraction for Bayesian Reinforcement Learning in Factored POMDPs
+    year: '2025'
+  _8yxhlMAAAAJ:roLk4NBRz8UC:
+    citations: 0
+    title: Differentiable User Models (Supplementary Material)
+    year: Unknown Year
+  _8yxhlMAAAAJ:u-x6o8ySG0sC:
+    citations: 39
+    title: Machine Teaching of Active Sequential Learners
+    year: '2019'
+  _8yxhlMAAAAJ:ufrVoPGSRksC:
+    citations: 3
+    title: 'Teaching to Learn: Sequential Teaching of Learners with Internal States'
+    year: '2023'

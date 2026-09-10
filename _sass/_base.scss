@@ -4,6 +4,14 @@
 
 // Typography
 
+html {
+  font-size: 120%;
+}
+
+body {
+  font-family: "EB Garamond", Garamond, "Times New Roman", serif;
+}
+
 p,
 h1,
 h2,
@@ -168,6 +176,7 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-card-border-color);
 
   .card-img {
     width: 100%;
@@ -229,7 +238,7 @@ ul.task-list input[type="checkbox"] {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
 
   a {
     color: inherit;
@@ -511,11 +520,11 @@ footer.sticky-bottom {
 
   .card {
     background-color: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
+    border: 1px solid var(--global-card-border-color);
 
     .list-group-item {
       background-color: inherit;
-      border-color: var(--global-divider-color);
+      border-color: var(--global-card-border-color);
 
       .badge {
         color: var(--global-card-bg-color) !important;
@@ -728,6 +737,10 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
+      background-color: var(--global-card-bg-color);
+      border: 1px solid var(--global-card-border-color);
+      border-radius: 0.5rem;
+      padding: 1.25rem;
 
       .preview {
       }

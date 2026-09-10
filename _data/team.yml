@@ -13,6 +13,7 @@ faculty:
   - name: Mustafa Mert Çelikok
     about: Faculty member at SDU as Tenure Track Assistant Professor. Research interests include reinforcement learning, multi-agent learning, and cooperative AI.
     mail: celikok@imada.sdu.dk
+    scholar: https://scholar.google.com/citations?user=_8yxhlMAAAAJ
     image: assets/img/team/new/MertCelikok.jpg
     head: false
     order: 1
