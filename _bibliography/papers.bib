@@ -14,6 +14,21 @@
 @string{pr = {Pattern Recognition}}
 @string{l4dc = {Learning for Dynamics and Control}}
 @string{ecai = {European Conference on Artificial Intelligence}}
+@string{eccv = {European Conference on Computer Vision}}
+@string{uai = {International Conference on Uncertainty in Artificial Intelligence}}
+
+@inproceedings{baran2026policybased,
+	abbr         = {ECCV},
+	author       = {Baran, O.B and Kandemir, M. and Cinbis, R.G.},
+	year         = {2026},
+	title        = {Policy-based Tuning of Autoregressive Image Models with Instance- and Distribution-Level Rewards},
+	booktitle    = eccv,
+	abstract     = {Autoregressive (AR) models are highly effective for image generation, yet their standard maximum-likelihood estimation training lacks direct optimization for sample quality and diversity. While reinforcement learning (RL) has been used to align diffusion models, these methods typically suffer from output diversity collapse. Similarly, concurrent RL methods for AR models rely strictly on instance-level rewards, often trading off distributional coverage for quality. To address these limitations, we propose a lightweight RL framework that casts token-based AR synthesis as a Markov Decision Process, optimized via Group Relative Policy Optimization (GRPO). Our core contribution is the introduction of a novel distribution-level Leave-One-Out FID (LOO-FID) reward; by leveraging an exponential moving average of feature moments, it explicitly encourages sample diversity and prevents mode collapse during policy updates. We integrate this with composite instance-level rewards (CLIP and HPSv2) for strict semantic and perceptual fidelity, and stabilize the multi-objective learning with an adaptive entropy regularization term. Extensive experiments on LlamaGen and VQGAN architectures demonstrate clear improvements across standard quality and diversity metrics within only a few hundred tuning iterations. The results also show that the model can be updated to produce competitive samples even without Classifier-Free Guidance, and bypass its 2x inference cost.},
+	url          = {https://arxiv.org/abs/2603.23086},
+	html         = {https://arxiv.org/abs/2603.23086},
+	selected     = {false},
+	bibtex_show  = {true},
+}
 
 @inproceedings{akgul2026distributional,
 	abbr         = {ICML},
@@ -318,17 +333,17 @@
 	abstract     = {Stochastic gradient descent (SGD) and its variants are the main workhorses for solving large-scale optimization problems with nonconvex objective functions.~Although the convergence of SGDs in the (strongly) convex case is well-understood, their convergence for nonconvex functions stands on weak mathematical foundations. Most existing studies on the nonconvex convergence of SGD show the complexity results based on either the minimum of the expected gradient norm or the functional sub-optimality gap (for functions with extra structural property) by searching the entire range of iterates. Hence the last iterations of SGDs do not necessarily maintain the same complexity guarantee. This paper shows that _an $\epsilon$-stationary point exists in the final iterates of SGDs,_ given a large enough total iteration budget, $T$, not just anywhere in the entire range of iterates --- a much stronger result than the existing one. Additionally, our analyses allow us to measure the _density of the $\epsilon$-stationary points_ in the final iterates of SGD, and we recover the classical ${O(\frac{1}{\sqrt{T}})}$ asymptotic rate under various existing assumptions on the objective function and the bounds on the stochastic gradient. As a result of our analyses, we addressed certain myths and legends related to the nonconvex convergence of SGD and posed some thought-provoking questions that could set new directions for research.}
 }
 
-@article{werge2023bof,
-	abbr         = {arXiv},
-	title        = {BOF-UCB: A Bayesian-Optimistic Frequentist Algorithm for Non-Stationary Contextual Bandits},
-	author       = {Werge, N. and Akgül, A. and Kandemir, M.},
-	year         = {2023},
-	journal      = arxiv,
+@inproceedings{werge2026wsb,
+	abbr         = {UAI},
+	title        = {Weighted Sequential Bayesian Inference for Non-Stationary Linear Contextual Bandits},
+	author       = {Werge, N. and Wu, Y.S. and Akgul, A. and Kandemir, M.},
+	year         = {2026},
+	booktitle    = uai,
 	url          = {https://arxiv.org/abs/2307.03587},
 	html         = {https://arxiv.org/abs/2307.03587},
 	selected     = {false},
 	bibtex_show  = {true},
-	abstract     = {We propose a novel Bayesian-Optimistic Frequentist Upper Confidence Bound (BOF-UCB) algorithm for stochastic contextual linear bandits in non-stationary environments. This unique combination of Bayesian and frequentist principles enhances adaptability and performance in dynamic settings. The BOF-UCB algorithm utilizes sequential Bayesian updates to infer the posterior distribution of the unknown regression parameter, and subsequently employs a frequentist approach to compute the Upper Confidence Bound (UCB) by maximizing the expected reward over the posterior distribution. We provide theoretical guarantees of BOF-UCB's performance and demonstrate its effectiveness in balancing exploration and exploitation on synthetic datasets and classical control tasks in a reinforcement learning setting. Our results show that BOF-UCB outperforms existing methods, making it a promising solution for sequential decision-making in non-stationary environments.}
+	abstract     = {We study non-stationary linear contextual bandits through the lens of sequential Bayesian inference. Whereas existing algorithms typically rely on the Weighted Regularized Least-Squares (WRLS) objective, we study Weighted Sequential Bayesian (WSB), which maintains a posterior distribution over the time-varying reward parameters. Our main contribution is a novel concentration inequality for WSB posteriors, which introduces a prior-dependent term that quantifies the influence of initial beliefs. We show that this influence decays over time and derive tractable upper bounds that make the result useful for both analysis and algorithm design. Building on WSB, we introduce three algorithms: WSB-LinUCB, WSB-RandLinUCB, and WSB-LinTS. We establish frequentist regret guarantees: WSB-LinUCB matches the best-known WRLS-based guarantees, while WSB-RandLinUCB and WSB-LinTS improve upon them, all while preserving the computational efficiency of WRLS-based algorithms.},
 }
 
 @article{zhang2023if,
