@@ -1,0 +1,35 @@
+\begin{tikzpicture}[
+    node distance=4.5cm,
+    main_node/.style={ellipse, draw, thick, minimum width=3cm, minimum height=1.2cm, font=\large\bfseries},
+    edge_label/.style={font=\scriptsize, align=center, fill=white, inner sep=1pt},
+    arrow/.style={-{Stealth[bend]}, thick, shorten >=2pt, shorten <=2pt}
+]
+
+    % Nodes
+    \node[main_node, fill=MondrianRed!55, text=MondrianBlack] (epistemics) {Epistemics};
+    \node[main_node, right=of epistemics, fill=MondrianBlue!55, text=MondrianBlack] (synergetics) {Synergetics};
+    \node[main_node, below=3cm of $(epistemics)!0.5!(synergetics)$, fill=MondrianYellow!55, text=MondrianBlack] (nonasymptotics) {Non-asymptotics};
+
+    % Connections: Epistemics <-> Synergetics
+    \draw[arrow] (epistemics) to [bend left=25]
+        node[edge_label, above=2pt] {How accurately do the\\internal states represent\\outside world?} (synergetics);
+
+    \draw[arrow] (synergetics) to [bend left=25]
+        node[edge_label, above=2pt, yshift=0.2in] {In which form should\\the sensory input be represented\\in the internal state?} (epistemics);
+
+    % Connections: Synergetics <-> Non-asymptotics
+    \draw[arrow] (synergetics) to [bend left=30]
+        node[edge_label, midway, right=3pt, anchor=west, pos=0.7] {Does it converge\\and how fast?} (nonasymptotics);
+
+    \draw[arrow] (nonasymptotics) to [bend left=30]
+        node[edge_label, midway, xshift=15pt, anchor=west] {What do we know about\\the dynamics of the agent\\behavior for a fixed\\representation?} (synergetics);
+
+    % Connections: Non-asymptotics <-> Epistemics
+    \draw[arrow] (nonasymptotics) to [bend left=30]
+        node[edge_label, midway, xshift=-15pt, anchor=east] {How can we formulate\\the regularities of the\\internal state representations\\as assumptions?} (epistemics);
+
+    \draw[arrow] (epistemics) to [bend left=30]
+        node[edge_label, midway, left=2pt, anchor=east, pos=0.7] {Is it accurate\\enough for\\stable learning?} (nonasymptotics);
+
+\end{tikzpicture}
+}

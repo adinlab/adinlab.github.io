@@ -9,8 +9,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
-          title: "Projects",
+  },{id: "nav-research",
+          title: "Research",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -57,17 +57,7 @@ ninja.data = [{
           section: "News",},{id: "news-robin-faier-starts-at-our-lab-as-a-phd-student-as-of-february-2026-welcome-robin",
           title: 'Robin Faier starts at our lab as a PhD student as of February...',
           description: "",
-          section: "News",},{id: "projects-adapt4control",
-          title: 'ADAPT4CONTROL',
-          description: "Fast Adaptation Methods for Continual Optimal Control",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-neuproworld",
-          title: 'NeuProWorld',
-          description: "Model-based reinforcement learning with neural stochastic differential equations",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
