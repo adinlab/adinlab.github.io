@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Projects for which the ADIN Lab receives direct funding from external sources.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -29,13 +29,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/code/";
-          },
-        },{id: "nav-vacancies",
-          title: "Vacancies",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/vacancies/";
           },
         },{id: "nav-publications",
           title: "Publications",
