@@ -45,19 +45,7 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "news-magnus-victor-boock-starts-at-our-lab-as-a-phd-student-as-of-august-2025-welcome-magnus",
-          title: 'Magnus Victor Boock starts at our lab as a PhD student as of...',
-          description: "",
-          section: "News",},{id: "news-we-released-objectrl-a-new-codebase-designed-for-flexible-and-efficient-research-prototyping-in-reinforcement-learning-check-out-the-github-repository-explore-the-documentation-and-read-the-paper",
-          title: 'We released ObjectRL, a new codebase designed for flexible and efficient research prototyping...',
-          description: "",
-          section: "News",},{id: "news-we-have-two-papers-accepted-at-ecai-25",
-          title: 'We have two papers accepted at ECAI’25',
-          description: "",
-          section: "News",},{id: "news-robin-faier-starts-at-our-lab-as-a-phd-student-as-of-february-2026-welcome-robin",
-          title: 'Robin Faier starts at our lab as a PhD student as of February...',
-          description: "",
-          section: "News",},{
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
