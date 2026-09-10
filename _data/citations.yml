@@ -1,691 +1,868 @@
 metadata:
   last_updated: '2026-09-10'
 papers:
+  9itaTnQAAAAJ:u5HHmVD_uO8C:
+    citations: 5
+    title: 'Transition analysis 3: Skeletal age estimation program'
+    venue_citation: Forensic Science International, 112909, 2026
+    year: '2026'
   Jxm1UeYAAAAJ:-f6ydRqryjwC:
     citations: 10
     title: A Deterministic Approximation to Neural SDEs
+    venue_citation: IEEE Trans. Pattern Analysis and Machine Intelligence, 2022
     year: '2022'
   Jxm1UeYAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: A Framework for Real-Time Animation of Liquid-Rigid Body Interaction
+    venue_citation: ''
     year: Unknown Year
   Jxm1UeYAAAAJ:1sJd4Hv_s6UC:
     citations: 0
     title: UBIQUITOUS CONTEXTUAL INFORMATION ACCESS WITH PROACTIVE RETRIEVAL AND AUGMENTATION
+    venue_citation: ''
     year: Unknown Year
   Jxm1UeYAAAAJ:2P1L_qKh6hAC:
     citations: 16
     title: Improved Algorithms for Stochastic Linear Bandits Using Tail Bounds for Martingale Mixtures
+    venue_citation: Advances in Neural Information Processing Systems, 2023
     year: '2023'
   Jxm1UeYAAAAJ:2osOgNQ5qMEC:
     citations: 201
     title: Automatic segmentation of colon glands using object-graphs
+    venue_citation: Medical image analysis 14 (1), 1-12, 2010
     year: '2010'
   Jxm1UeYAAAAJ:35N4QoGY0k4C:
     citations: 3
     title: Estimation of Counterfactual Interventions under Uncertainties
+    venue_citation: Asian Conference on Machine Learning, 2023
     year: '2023'
   Jxm1UeYAAAAJ:3fE2CSJIrl8C:
     citations: 22
     title: Prediction of active UE number with Bayesian neural networks for self-organizing LTE networks
+    venue_citation: 2017 8th International Conference on the Network of the Future (NOF), 73-78, 2017
     year: '2017'
   Jxm1UeYAAAAJ:3s1wT3WcHBgC:
     citations: 5
     title: Deterministic uncertainty propagation for improved model-based offline reinforcement learning
+    venue_citation: Advances in Neural Information Processing Systems 37, 70313-70348, 2024
     year: '2024'
   Jxm1UeYAAAAJ:4DMP91E08xMC:
     citations: 0
     title: "Supplementary Material for the Paper:\u201D Variational Bayesian Multiple Instance Learning with Gaussian Processes\u201D"
+    venue_citation: ''
     year: Unknown Year
   Jxm1UeYAAAAJ:4JMBOYKVnBMC:
     citations: 0
     title: Predicting a state of a computer-controlled entity
+    venue_citation: US Patent App. 17/231,757, 2021
     year: '2021'
   Jxm1UeYAAAAJ:4OULZ7Gr8RgC:
     citations: 34
     title: 'In the picture: Medical imaging datasets, artifacts, and their living review'
+    venue_citation: "Proceedings of the 2025 ACM conference on fairness, accountability, and \u2026, 2025"
     year: '2025'
   Jxm1UeYAAAAJ:4TOpqqG69KYC:
     citations: 6
     title: Detection of retinopathy of prematurity using multiple instance learning
+    venue_citation: "2015 International Conference on Advances in Computing, Communications and \u2026, 2015"
     year: '2015'
   Jxm1UeYAAAAJ:5nxA0vEk-isC:
     citations: 8
     title: On context-aware DDoS attacks using deep generative networks
+    venue_citation: "2018 27th International Conference on Computer Communication and Networks \u2026, 2018"
     year: '2018'
   Jxm1UeYAAAAJ:70eg2SAEIzsC:
     citations: 2
     title: Sampling-Free Probabilistic Deep State-Space Models
+    venue_citation: arXiv preprint arXiv:2309.08256, 2023
     year: '2023'
   Jxm1UeYAAAAJ:8k81kl-MbHgC:
     citations: 6
     title: Cell event detection in phase-contrast microscopy sequences from few annotations
+    venue_citation: "International Conference on Medical Image Computing and Computer-Assisted \u2026, 2015"
     year: '2015'
   Jxm1UeYAAAAJ:9ZlFYXVOiuMC:
     citations: 62
     title: Deep Active Learning with Adaptive Acquisition
+    venue_citation: "International Joint Conference on Artificial Intelligence (IJCAI), arXiv \u2026, 2019"
     year: '2019'
   Jxm1UeYAAAAJ:9yKSN-GCB0IC:
     citations: 21
     title: Contextual information access with augmented reality
+    venue_citation: "2010 IEEE International Workshop on Machine Learning for Signal Processing \u2026, 2010"
     year: '2010'
   Jxm1UeYAAAAJ:BqipwSGYUEgC:
     citations: 13
     title: 'PAC-Bayes bounds for bandit problems: A survey and experimental comparison'
+    venue_citation: "IEEE Transactions on Pattern Analysis and Machine Intelligence 45 (12 \u2026, 2023"
     year: '2023'
   Jxm1UeYAAAAJ:D03iK_w7-QYC:
     citations: 3
     title: Adaptive Ensemble Aggregation for Actor-Critics
+    venue_citation: arXiv preprint arXiv:2507.23501, 2025
     year: '2025'
   Jxm1UeYAAAAJ:GnPB-g6toBAC:
     citations: 12
     title: PAC-Bayesian soft actor-critic learning
+    venue_citation: Advances in Approximate Bayesian Inference (AABI), 2024
     year: '2024'
   Jxm1UeYAAAAJ:HDshCWvjkbEC:
     citations: 9
     title: Control and Monitoring of Physical System Based on Trained Bayesian Neural Network
+    venue_citation: US Patent App. 16/831,174, 2020
     year: '2020'
   Jxm1UeYAAAAJ:HoB7MX3m0LUC:
     citations: 3
     title: Safe control/monitoring of a computer-controlled system
+    venue_citation: US Patent App. 18/259,906, 2024
     year: '2024'
   Jxm1UeYAAAAJ:IWHjjKOFINEC:
     citations: 26
     title: Learning Partially Known Stochastic Dynamics with Empirical PAC Bayes
+    venue_citation: International Conference on Artificial Intelligence and Statistics (AISTATS), 2021
     year: '2021'
   Jxm1UeYAAAAJ:IjCSPb-OGe4C:
     citations: 12
     title: Multiple instance learning with response-optimized random forests
+    venue_citation: 2014 22nd International Conference on Pattern Recognition, 3768-3773, 2014
     year: '2014'
   Jxm1UeYAAAAJ:J_g5lzvAfSwC:
     citations: 4
     title: 'Alreg: Registration of 3d point clouds using active learning'
+    venue_citation: Applied Sciences 13 (13), 7422, 2023
     year: '2023'
   Jxm1UeYAAAAJ:KlAtU1dfN6UC:
     citations: 14
     title: Active machine learning for training an event classification
+    venue_citation: US Patent 10,896,351, 2021
     year: '2021'
   Jxm1UeYAAAAJ:LkGwnXOMwfcC:
     citations: 91
     title: Empowering multiple instance histopathology cancer diagnosis by cell graphs
+    venue_citation: "International Conference on Medical Image Computing and Computer-Assisted \u2026, 2014"
     year: '2014'
   Jxm1UeYAAAAJ:M05iB0D1s5AC:
     citations: 1
     title: Demystifying the Myths and Legends of Nonconvex Convergence of SGD
+    venue_citation: arXiv preprint arXiv:2310.12969, 2023
     year: '2023'
   Jxm1UeYAAAAJ:M3NEmzRMIkIC:
     citations: 0
     title: Device for and computer implemented method of machine learning
+    venue_citation: US Patent App. 17/445,428, 2022
     year: '2022'
   Jxm1UeYAAAAJ:M3ejUd6NZC8C:
     citations: 51
     title: Gaussian process density counting from weak supervision
+    venue_citation: European Conference on Computer Vision, 365-380, 2016
     year: '2016'
   Jxm1UeYAAAAJ:MXK_kJrjxJIC:
     citations: 0
     title: Proactive Interfaces
+    venue_citation: "Adaptive Informatics Research Centre Department of Information and Computer \u2026, 0"
     year: Unknown Year
   Jxm1UeYAAAAJ:NaGl4SEjCO4C:
     citations: 0
     title: Method and device for reinforcement learning
+    venue_citation: US Patent App. 18/046,564, 2023
     year: '2023'
   Jxm1UeYAAAAJ:NhqRSupF_l8C:
     citations: 0
     title: Policy-based Tuning of Autoregressive Image Models with Instance-and Distribution-Level Rewards
+    venue_citation: 'European Conference on Computer Vision (ECCV), arXiv: 2603.23086, 2026'
     year: '2026'
   Jxm1UeYAAAAJ:O3NaXMp0MMsC:
     citations: 0
     title: Device, computer program and computer-implemented method for machine learning
+    venue_citation: US Patent App. 17/858,980, 2023
     year: '2023'
   Jxm1UeYAAAAJ:R3hNpaxXUhUC:
     citations: 13
     title: Evidential Turing Processes
+    venue_citation: International Conference on Learning Representations, 2022
     year: '2022'
   Jxm1UeYAAAAJ:RHpTSmoSYBkC:
     citations: 11
     title: Inferring the Structure of Ordinary Differential Equations
+    venue_citation: ICML Time Series Workshop, 2021
     year: '2021'
   Jxm1UeYAAAAJ:Se3iqnhoufwC:
     citations: 164
     title: 'Computer-aided diagnosis from weak supervision: A benchmarking study'
+    venue_citation: Computerized medical imaging and graphics 42, 44-50, 2015
     year: '2015'
   Jxm1UeYAAAAJ:SeFeTyx0c_EC:
     citations: 0
     title: Calibrating Bayesian UNet++ for Sub-Seasonal Forecasting
+    venue_citation: ICLR Workshop on Tackling Climate Change with Machine Learning, 2024
     year: '2024'
   Jxm1UeYAAAAJ:TFP_iSt0sucC:
     citations: 0
     title: Continual learning of multi-modal dynamics with external memory
+    venue_citation: 6th Annual Learning for Dynamics & Control Conference, 40-51, 2024
     year: '2024'
   Jxm1UeYAAAAJ:TQgYirikUcIC:
     citations: 0
     title: Device and method for generating a compressed network from a trained neural network
+    venue_citation: US Patent App. 16/983,802, 2021
     year: '2021'
   Jxm1UeYAAAAJ:Tyk-4Ss8FVUC:
     citations: 50
     title: Variational Bayesian Multiple Instance Learning with Gaussian Processes
+    venue_citation: "Proceedings of the IEEE Conference on Computer Vision and Pattern \u2026, 2017"
     year: '2017'
   Jxm1UeYAAAAJ:ULOm3_A8WrAC:
     citations: 59
     title: Multi-task and multi-view learning of user state
+    venue_citation: Neurocomputing 139, 97-106, 2014
     year: '2014'
   Jxm1UeYAAAAJ:UeHWp8X0CEIC:
     citations: 5
     title: Event detection by feature unpredictability in phase-contrast videos of cell cultures
+    venue_citation: "International Conference on Medical Image Computing and Computer-Assisted \u2026, 2014"
     year: '2014'
   Jxm1UeYAAAAJ:UebtZRa9Y70C:
     citations: 43
     title: 'Digital pathology: Multiple instance learning can detect Barrett''s cancer'
+    venue_citation: 2014 IEEE 11th International Symposium on Biomedical Imaging (ISBI), 1348-1351, 2014
     year: '2014'
   Jxm1UeYAAAAJ:W7OEmFMy1HYC:
     citations: 22
     title: 'Multiple instance learning: Robust validation on retinopathy of prematurity'
+    venue_citation: Int J Ctrl Theory Appl 9, 451-459, 2016
     year: '2016'
   Jxm1UeYAAAAJ:WF5omc3nYNoC:
     citations: 15
     title: Variational Weakly Supervised Gaussian Processes
+    venue_citation: BMVC, 71.1-71.12, 2016
     year: '2016'
   Jxm1UeYAAAAJ:Y0pCki6q_DkC:
     citations: 9
     title: Multitask learning using regularized multiple kernel learning
+    venue_citation: International Conference on Neural Information Processing, 500-509, 2011
     year: '2011'
   Jxm1UeYAAAAJ:YFjsv_pBGBYC:
     citations: 20
     title: Learning interacting dynamical systems with latent gaussian process odes
+    venue_citation: Advances in Neural Information Processing Systems 35, 9188-9200, 2022
     year: '2022'
   Jxm1UeYAAAAJ:YOwf2qJgpHMC:
     citations: 27
     title: Inferring object relevance from gaze in dynamic scenes
+    venue_citation: "Proceedings of the 2010 Symposium on Eye-Tracking Research & Applications \u2026, 2010"
     year: '2010'
   Jxm1UeYAAAAJ:YsMSGLbcyi4C:
     citations: 2
     title: Ubiquitous contextual information access with proactive retrieval and augmentation
+    venue_citation: Helsinki University of Technology, 2009
     year: '2009'
   Jxm1UeYAAAAJ:ZHo1McVdvXMC:
     citations: 4
     title: Improving Actor-Critic Training with Steerable Action-Value Approximation Errors
+    venue_citation: European Conference on Artificial Intelligence (ECAI), 2025
     year: '2025'
   Jxm1UeYAAAAJ:ZeXyd9-uunAC:
     citations: 16
     title: Differential Bayesian Neural Nets
+    venue_citation: 'NeurIPS Bayesian Deep Learning Workshop, arXiv: 1912.00796, 2019'
     year: '2019'
   Jxm1UeYAAAAJ:Zph67rFs4hoC:
-    citations: 2392
+    citations: 2394
     title: Evidential Deep Learning to Quantify Classification Uncertainty
+    venue_citation: Advances in Neural Information Processing Systems (NeurIPS), 3179-3189, 2018
     year: '2018'
   Jxm1UeYAAAAJ:_FxGoFyzp5QC:
     citations: 67
     title: Asymmetric Transfer Learning with Deep Gaussian Processes
+    venue_citation: International Conference on Machine Learning, 730-738, 2015
     year: '2015'
   Jxm1UeYAAAAJ:_kc_bZDykSQC:
     citations: 116
     title: Object-oriented texture analysis for the unsupervised segmentation of biopsy images for cancer detection
+    venue_citation: Pattern Recognition 42 (6), 1104-1112, 2009
     year: '2009'
   Jxm1UeYAAAAJ:_xSYboBqXhAC:
     citations: 7
     title: Bridging the Performance Gap Between Target-Free and Target-Based Reinforcement Learning
+    venue_citation: ICLR, 2026
     year: '2026'
   Jxm1UeYAAAAJ:a0OBvERweLwC:
     citations: 0
     title: 'ObjectRL: An Object-Oriented Reinforcement Learning Codebase'
+    venue_citation: arXiv preprint arXiv:2507.03487, 2025
     year: '2025'
   Jxm1UeYAAAAJ:abG-DnoFyZgC:
     citations: 0
     title: Hitting Time Isomorphism for Multi-Stage Planning with Foundation Policies
+    venue_citation: arXiv preprint arXiv:2605.06470, 2026
     year: '2026'
   Jxm1UeYAAAAJ:aqlVkmm33-oC:
     citations: 6
     title: Variational Closed-Form Deep Neural Net Inference
+    venue_citation: Pattern Recognition Letters 112, 145-151, 2018
     year: '2018'
   Jxm1UeYAAAAJ:b0M2c_1WBrUC:
     citations: 0
     title: A Measure-Theoretic Finite-Sample Theory for Adaptive-Data Fitted Q-Iteration
+    venue_citation: arXiv preprint arXiv:2605.05791, 2026
     year: '2026'
   Jxm1UeYAAAAJ:bEWYMUwI8FkC:
     citations: 0
     title: Generating verifiably realistic measurement data
+    venue_citation: US Patent App. 17/346,858, 2022
     year: '2022'
   Jxm1UeYAAAAJ:bFI3QPDXJZMC:
     citations: 2
     title: Distributional Active Inference
+    venue_citation: International Conference on Machine Learning (ICML), 2026
     year: '2026'
   Jxm1UeYAAAAJ:d1gkVwhDpl0C:
     citations: 0
     title: Best Paper Award
+    venue_citation: ''
     year: '2017'
   Jxm1UeYAAAAJ:dfsIfKJdRG4C:
     citations: 0
     title: Deep Actor-Critics with Tight Risk Certificates
+    venue_citation: arXiv preprint arXiv:2505.19682, 2025
     year: '2025'
   Jxm1UeYAAAAJ:e5wmG9Sq2KIC:
     citations: 0
     title: Method and device for processing sensor data
+    venue_citation: US Patent App. 17/086,057, 2021
     year: '2021'
   Jxm1UeYAAAAJ:eQOLeE2rZwMC:
     citations: 2
     title: Segmentation of colon glands by object graphs
+    venue_citation: Bilkent University, 2008
     year: '2008'
   Jxm1UeYAAAAJ:fPk4N6BV_jEC:
     citations: 5
     title: Overcoming Non-stationary Dynamics with Evidential Proximal Policy Optimization
+    venue_citation: 'Transactions on Machine Learning Research, arXiv: 2503.01468, 2025'
     year: '2025'
   Jxm1UeYAAAAJ:g5m5HwL7SMYC:
     citations: 7
     title: Meta continual learning on graphs with experience replay
+    venue_citation: Transactions on Machine Learning Research, 2023
     year: '2023'
   Jxm1UeYAAAAJ:hC7cP41nSMkC:
     citations: 17
     title: Differentiable Implicit Layers
+    venue_citation: NeurIPS ML for Engineering Workshop, 2020
     year: '2020'
   Jxm1UeYAAAAJ:hMod-77fHWUC:
     citations: 2
     title: Device and method for training the neural drift network and the neural diffusion network of a neural stochastic differential equation
+    venue_citation: US Patent App. 17/646,197, 2022
     year: '2022'
   Jxm1UeYAAAAJ:hqOjcs7Dif8C:
     citations: 151
     title: An augmented reality interface to contextual information
+    venue_citation: Virtual reality 15 (2), 161-173, 2011
     year: '2011'
   Jxm1UeYAAAAJ:iH-uZ7U-co4C:
     citations: 7
     title: Making time-series predictions of a computer-controlled system
+    venue_citation: US Patent App. 17/340,978, 2021
     year: '2021'
   Jxm1UeYAAAAJ:isC4tDSrTZIC:
     citations: 15
     title: 'PAC-Bayesian lifelong learning for multi-armed bandits: H. Flynn et al.'
+    venue_citation: Data Mining and Knowledge Discovery 36 (2), 841-876, 2022
     year: '2022'
   Jxm1UeYAAAAJ:j3f4tGmQtD8C:
     citations: 3
     title: Traversing time with multi-resolution Gaussian process state-space models
+    venue_citation: Learning for Dynamics and Control Conference, 366-377, 2022
     year: '2022'
   Jxm1UeYAAAAJ:kNdYIx-mwKoC:
     citations: 0
     title: Unsupervised inference of auditory attention from biosensors
+    venue_citation: "Joint European Conference on Machine Learning and Knowledge Discovery in \u2026, 2012"
     year: '2012'
   Jxm1UeYAAAAJ:lSLTfruPkqcC:
     citations: 3
     title: Weighted Sequential Bayesian Inference for Non-Stationary Linear Contextual Bandits
+    venue_citation: International Conference on Uncertainty in Artificial Intelligence (UAI), 2026
     year: '2026'
   Jxm1UeYAAAAJ:ldfaerwXgEUC:
     citations: 29
     title: 'EdVAE: Mitigating codebook collapse with evidential discrete variational autoencoders'
+    venue_citation: Pattern Recognition 156, 110792, 2024
     year: '2024'
   Jxm1UeYAAAAJ:mB3voiENLucC:
     citations: 21
     title: Bayesian Evidential Deep Learning with PAC Regularization
+    venue_citation: 3rd Advances in Approximate Bayesian Inference (AABI) Symposium, 2020
     year: '2020'
   Jxm1UeYAAAAJ:ns9cj8rnVeAC:
     citations: 13
     title: Cheap and Deterministic Inference for Deep State-Space Models of Interacting Dynamical Systems
+    venue_citation: Transactions on Machine Learning Research, 2023
     year: '2023'
   Jxm1UeYAAAAJ:pqnbT2bcN3wC:
     citations: 7
     title: Deep Exploration with PAC Bayes
+    venue_citation: European Conference on Artificial Intelligence (ECAI), 2025
     year: '2025'
   Jxm1UeYAAAAJ:qjMakFHDy7sC:
     citations: 3
     title: Learning mental states from biosignals
+    venue_citation: Aalto University, 2013
     year: '2013'
   Jxm1UeYAAAAJ:qxL8FJ1GzNcC:
     citations: 71
     title: 'Towards brain-activity-controlled information retrieval: Decoding image relevance from MEG signals'
+    venue_citation: NeuroImage 112, 288-298, 2015
     year: '2015'
   Jxm1UeYAAAAJ:roLk4NBRz8UC:
     citations: 19
     title: Learning relevance from natural eye movements in pervasive interfaces
+    venue_citation: "Proceedings of the 14th ACM international conference on Multimodal \u2026, 2012"
     year: '2012'
   Jxm1UeYAAAAJ:u-x6o8ySG0sC:
     citations: 1
     title: 'The deep feed-forward Gaussian process: An effective generalization to covariance priors'
+    venue_citation: 'Feature Extraction: Modern Questions and Challenges, 145-159, 2015'
     year: '2015'
   Jxm1UeYAAAAJ:u5HHmVD_uO8C:
     citations: 25
     title: Instance Label Prediction by Dirichlet Process Multiple Instance Learning.
+    venue_citation: UAI, 380-389, 2014
     year: '2014'
   Jxm1UeYAAAAJ:u_35RYKgDlwC:
     citations: 5
     title: Disentanglement with Factor Quantized Variational Autoencoders
+    venue_citation: Neurocomputing, 2024
     year: '2024'
   Jxm1UeYAAAAJ:ufrVoPGSRksC:
     citations: 21
     title: Supervising Topic Models with Gaussian Processes
+    venue_citation: Pattern Recognition 77, 226-236, 2018
     year: '2018'
   Jxm1UeYAAAAJ:vV6vV6tmYwMC:
     citations: 0
     title: Method for validating or verifying a technical system
+    venue_citation: US Patent App. 18/164,419, 2023
     year: '2023'
   Jxm1UeYAAAAJ:zYLM7Y9cAGgC:
     citations: 42
     title: Sampling-Free Variational Inference of Bayesian Neural Nets with Variance Backpropagation
+    venue_citation: Uncertainty in Artificial Intelligence (UAI), arXiv preprint arXiv:1805.07654, 2019
     year: '2019'
   VoaosL4AAAAJ:0EnyYjriUFMC:
     citations: 5
     title: 'Spatial warped Gaussian processes: Estimation and efficient field reconstruction'
+    venue_citation: Entropy 23 (10), 1323, 2021
     year: '2021'
   VoaosL4AAAAJ:3fE2CSJIrl8C:
     citations: 6
     title: 'Mean Estimation of Truncated Mixtures of Two Gaussians: A Gradient Based Approach'
+    venue_citation: Proceedings of the AAAI Conference on Artificial Intelligence 37 (8), 9260-9267, 2023
     year: '2023'
   VoaosL4AAAAJ:5nxA0vEk-isC:
     citations: 8
     title: Stochastic multiplicative weights updates in zero-sum games
+    venue_citation: arXiv preprint arXiv:2110.02134, 2021
     year: '2021'
   VoaosL4AAAAJ:8k81kl-MbHgC:
     citations: 27
     title: Online algorithms with costly predictions
+    venue_citation: International Conference on Artificial Intelligence and Statistics, 8078-8101, 2023
     year: '2023'
   VoaosL4AAAAJ:9yKSN-GCB0IC:
     citations: 87
     title: Anomaly detection and attribution in networks with temporally correlated traffic
+    venue_citation: IEEE/ACM Transactions on Networking 26 (1), 131-144, 2017
     year: '2017'
   VoaosL4AAAAJ:IjCSPb-OGe4C:
     citations: 0
     title: Change Detection of a Subset of High-Dimensional Time Series Data in Sensor Networks
+    venue_citation: 2018 IEEE 87th Vehicular Technology Conference (VTC Spring), 1-5, 2018
     year: '2018'
   VoaosL4AAAAJ:KlAtU1dfN6UC:
     citations: 1
     title: Analyzing  seeding for -means
+    venue_citation: Forty-first International Conference on Machine Learning, 2024
     year: '2024'
   VoaosL4AAAAJ:LkGwnXOMwfcC:
     citations: 1
     title: 'Robust Self-organization in Games: Symmetries, Conservation Laws and Dimensionality Reduction'
+    venue_citation: "Proceedings of the 19th International Conference on Autonomous Agents and \u2026, 2020"
     year: '2020'
   VoaosL4AAAAJ:M3ejUd6NZC8C:
     citations: 2
     title: 'The Good, the Bad and the Ugly: Meta-Analysis of Watermarks, Transferable Attacks and Adversarial Defenses'
+    venue_citation: Advances in Neural Information Processing Systems 38, 80256-80302, 2026
     year: '2026'
   VoaosL4AAAAJ:Se3iqnhoufwC:
     citations: 10
     title: Efficient statistics for sparse graphical models from truncated samples
+    venue_citation: International Conference on Artificial Intelligence and Statistics, 1450-1458, 2021
     year: '2021'
   VoaosL4AAAAJ:Tyk-4Ss8FVUC:
     citations: 14
     title: Query-based sensors selection for collaborative wireless sensor networks with stochastic energy harvesting
+    venue_citation: IEEE Internet of Things Journal 6 (2), 3031-3043, 2018
     year: '2018'
   VoaosL4AAAAJ:ULOm3_A8WrAC:
     citations: 8
     title: The Complexity of Two-Team Polymatrix Games with Independent Adversaries
+    venue_citation: International Conference on Learning Representations 2025, 2024
     year: '2024'
   VoaosL4AAAAJ:UeHWp8X0CEIC:
     citations: 20
     title: 'Three body problems in evolutionary game dynamics: Convergence, periodicity and limit cycles'
+    venue_citation: "Proceedings of the 17th International Conference on Autonomous Agents and \u2026, 2018"
     year: '2018'
   VoaosL4AAAAJ:UebtZRa9Y70C:
     citations: 39
     title: Depth-Width Trade-offs for ReLU Networks via Sharkovsky's Theorem
+    venue_citation: International Conference on Learning Representations, 2020
     year: '2020'
   VoaosL4AAAAJ:WF5omc3nYNoC:
     citations: 66
     title: 'Last iterate convergence in no-regret learning: constrained min-max optimization for convex-concave landscapes'
+    venue_citation: International Conference on Artificial Intelligence and Statistics, 1441-1449, 2021
     year: '2021'
   VoaosL4AAAAJ:Wp0gIr-vW9MC:
     citations: 0
     title: 'Machine learning via dynamical systems: applications to deep learning, game theory and optimization'
+    venue_citation: Singapore University of Technology and Design, 0
     year: Unknown Year
   VoaosL4AAAAJ:YsMSGLbcyi4C:
     citations: 30
     title: On the Analysis of EM for truncated mixtures of two Gaussians
+    venue_citation: Algorithmic Learning Theory, 634-659, 2020
     year: '2020'
   VoaosL4AAAAJ:_kc_bZDykSQC:
     citations: 2
     title: 'S-CFE: Simple Counterfactual Explanations'
+    venue_citation: AISTATS 2025, 2024
     year: '2024'
   VoaosL4AAAAJ:aqlVkmm33-oC:
     citations: 0
     title: 'Seeing Through Distractions: Stable Attribution via the Core'
+    venue_citation: New Frontiers in Game-Theoretic Learning-NExT-Game, 0
     year: Unknown Year
   VoaosL4AAAAJ:d1gkVwhDpl0C:
     citations: 68
     title: 'Secure location of things (SLOT): Mitigating localization spoofing attacks in the Internet of Things'
+    venue_citation: IEEE Internet of Things Journal 4 (6), 2199-2206, 2017
     year: '2017'
   VoaosL4AAAAJ:hqOjcs7Dif8C:
     citations: 27
     title: 'From chaos to order: Symmetry and conservation laws in game dynamics'
+    venue_citation: International Conference on Machine Learning, 7186-7196, 2020
     year: '2020'
   VoaosL4AAAAJ:qjMakFHDy7sC:
     citations: 4
     title: 'Spatial field reconstruction of non-Gaussian random fields: The Tukey G-and-H random process'
+    venue_citation: Available at SSRN 3159687, 2018
     year: '2018'
   VoaosL4AAAAJ:u-x6o8ySG0sC:
     citations: 56
     title: Geo-spatial location estimation for Internet of Things (IoT) networks with one-way time-of-arrival via stochastic censoring
+    venue_citation: IEEE Internet of Things Journal 4 (1), 205-214, 2016
     year: '2016'
   VoaosL4AAAAJ:u5HHmVD_uO8C:
     citations: 49
     title: Adaptive duty cycling in sensor networks with energy harvesting using continuous-time Markov chain and fluid models
+    venue_citation: IEEE Journal on Selected Areas in Communications 33 (12), 2687-2700, 2015
     year: '2015'
   VoaosL4AAAAJ:ufrVoPGSRksC:
     citations: 23
     title: Better depth-width trade-offs for neural networks through the lens of dynamical systems
+    venue_citation: International Conference on Machine Learning, 1469-1478, 2020
     year: '2020'
   VoaosL4AAAAJ:zYLM7Y9cAGgC:
     citations: 319
     title: Distributed anomaly detection using autoencoder neural networks in WSN for IoT
+    venue_citation: 2018 ieee international conference on communications (icc), 1-6, 2018
     year: '2018'
   YXBAT4wAAAAJ:2osOgNQ5qMEC:
     citations: 14
     title: 'LeMoNADe: learned motif and neuronal assembly detection in calcium imaging videos'
+    venue_citation: "International Conference on Learning Representations 2019, arXiv preprint \u2026, 2018"
     year: '2018'
   YXBAT4wAAAAJ:3fE2CSJIrl8C:
     citations: 3
     title: Learning high-dimensional mixed models via amortized variational inference
+    venue_citation: "ICML 2024 Workshop on Structured Probabilistic Inference {\\&} Generative \u2026, 2024"
     year: '2024'
   YXBAT4wAAAAJ:4DMP91E08xMC:
     citations: 0
     title: 'ObjectRL: An Object-Oriented Reinforcement Learning Codebase'
+    venue_citation: arXiv preprint arXiv:2507.03487, 2025
     year: '2025'
   YXBAT4wAAAAJ:8k81kl-MbHgC:
     citations: 5
     title: Deterministic Uncertainty Propagation for Improved Model-Based Offline Reinforcement Learning
+    venue_citation: Conference on Neural Information Processing Systems, 2024
     year: '2024'
   YXBAT4wAAAAJ:9ZlFYXVOiuMC:
     citations: 6
     title: 'Uncertainty in Physics and AI: Taxonomy, Quantification, and Validation'
+    venue_citation: arXiv preprint arXiv:2605.10378, 2026
     year: '2026'
   YXBAT4wAAAAJ:9yKSN-GCB0IC:
     citations: 42
     title: Sampling-free variational inference of bayesian neural networks by variance backpropagation
+    venue_citation: Uncertainty in Artificial Intelligence, 563-573, 2020
     year: '2020'
   YXBAT4wAAAAJ:KlAtU1dfN6UC:
     citations: 7
     title: Deep Exploration with PAC-Bayes
+    venue_citation: arXiv preprint arXiv:2402.03055, 2024
     year: '2024'
   YXBAT4wAAAAJ:MXK_kJrjxJIC:
     citations: 12
     title: PAC-Bayesian soft actor-critic learning
+    venue_citation: Advances in Approximate Bayesian Inference Symposium, 2024
     year: '2024'
   YXBAT4wAAAAJ:QIV2ME_5wuYC:
     citations: 0
     title: Adaptive Ensemble Aggregation for Actor-Critics
+    venue_citation: arXiv preprint arXiv:2507.23501, 2025
     year: '2025'
   YXBAT4wAAAAJ:ULOm3_A8WrAC:
     citations: 1
     title: Latent variable model for high-dimensional point process with structured missingness
+    venue_citation: Forty-first International Conference on Machine Learning., 2024
     year: '2024'
   YXBAT4wAAAAJ:UebtZRa9Y70C:
     citations: 4
     title: Estimating treatment effects from single-arm trials via latent-variable modeling
+    venue_citation: International Conference on Artificial Intelligence and Statistics, 2926-2934, 2024
     year: '2024'
   YXBAT4wAAAAJ:W7OEmFMy1HYC:
     citations: 26
     title: Learning partially known stochastic dynamics with empirical PAC Bayes
+    venue_citation: International conference on artificial intelligence and statistics, 478-486, 2021
     year: '2021'
   YXBAT4wAAAAJ:WF5omc3nYNoC:
     citations: 13
     title: Evidential turing processes
+    venue_citation: "International Conference on Learning Representations; arXiv preprint arXiv \u2026, 2021"
     year: '2021'
   YXBAT4wAAAAJ:Wp0gIr-vW9MC:
     citations: 2
     title: Distributional Active Inference
+    venue_citation: arXiv preprint arXiv:2601.20985, 2026
     year: '2026'
   YXBAT4wAAAAJ:Y0pCki6q_DkC:
     citations: 21
     title: Bayesian Evidential Deep Learning with PAC Regularization
+    venue_citation: "3rd Advances in Approximate Bayesian Inference (AABI) Symposium, arXiv \u2026, 2019"
     year: '2019'
   YXBAT4wAAAAJ:YOwf2qJgpHMC:
     citations: 34
     title: Accurate surrogate amplitudes with calibrated uncertainties
+    venue_citation: SciPost Physics Core 8 (4), 073, 2025
     year: '2025'
   YXBAT4wAAAAJ:YsMSGLbcyi4C:
     citations: 9
     title: Control and monitoring of physical system based on trained Bayesian neural network
+    venue_citation: US Patent 11,275,381, 2022
     year: '2022'
   YXBAT4wAAAAJ:_kc_bZDykSQC:
     citations: 7
     title: High-Dimensional Bayesian Optimisation with Gaussian Process Prior Variational Autoencoders
+    venue_citation: The Thirteenth International Conference on Learning Representations, 2025
     year: '2025'
   YXBAT4wAAAAJ:aqlVkmm33-oC:
     citations: 5
     title: Overcoming Non-stationary Dynamics with Evidential Proximal Policy Optimization
+    venue_citation: Transactions on Machine Learning Research, 2025
     year: '2025'
   YXBAT4wAAAAJ:d1gkVwhDpl0C:
     citations: 0
     title: "Supplementary Material for the Paper:\u201D Variational Bayesian Multiple Instance Learning with Gaussian Processes\u201D"
+    venue_citation: ''
     year: Unknown Year
   YXBAT4wAAAAJ:eQOLeE2rZwMC:
     citations: 85
     title: Understanding event-generation networks via uncertainties
+    venue_citation: SciPost Physics 13 (1), 003, 2022
     year: '2022'
   YXBAT4wAAAAJ:hqOjcs7Dif8C:
     citations: 21
     title: A comparative study of clinical trial and real-world data in patients with diabetic kidney disease
+    venue_citation: Scientific reports 14 (1), 1731, 2024
     year: '2024'
   YXBAT4wAAAAJ:kNdYIx-mwKoC:
     citations: 6
     title: Latent mixed-effect models for high-dimensional longitudinal data
+    venue_citation: arXiv preprint arXiv:2409.11008, 2024
     year: '2024'
   YXBAT4wAAAAJ:mVmsd5A6BfQC:
     citations: 0
     title: A Measure-Theoretic Finite-Sample Theory for Adaptive-Data Fitted Q-Iteration
+    venue_citation: arXiv preprint arXiv:2605.05791, 2026
     year: '2026'
   YXBAT4wAAAAJ:qjMakFHDy7sC:
     citations: 94
     title: Deep-learning jets with uncertainties and more
+    venue_citation: SciPost Physics 8 (1), 006, 2020
     year: '2020'
   YXBAT4wAAAAJ:qxL8FJ1GzNcC:
     citations: 0
     title: Deep Actor-Critics with Tight Risk Certificates
+    venue_citation: arXiv preprint arXiv:2505.19682, 2025
     year: '2025'
   YXBAT4wAAAAJ:roLk4NBRz8UC:
     citations: 13
     title: Practical equivariances via relational conditional neural processes
+    venue_citation: Advances in Neural Information Processing Systems 36, 29201-29238, 2023
     year: '2023'
   YXBAT4wAAAAJ:u-x6o8ySG0sC:
     citations: 50
     title: Variational Bayesian Multiple Instance Learning with Gaussian Processes
+    venue_citation: The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 6570-6579, 2017
     year: '2017'
   YXBAT4wAAAAJ:u5HHmVD_uO8C:
     citations: 15
     title: Variational Weakly Supervised Gaussian Processes.
+    venue_citation: BMVC, 71.1-71.12, 2016
     year: '2016'
   YXBAT4wAAAAJ:ufrVoPGSRksC:
     citations: 1
     title: Bayesian Neural Networks for Probabilistic Machine Learning
+    venue_citation: ''
     year: '2021'
   YXBAT4wAAAAJ:zYLM7Y9cAGgC:
     citations: 62
     title: Deep Active Learning with Adaptive Acquisition
+    venue_citation: "International Joint Conference on Artificial Intelligence (IJCAI), arXiv \u2026, 2019"
     year: '2019'
   _8yxhlMAAAAJ:2osOgNQ5qMEC:
     citations: 35
     title: Interactive AI with a Theory of Mind
+    venue_citation: 'ACM CHI 2019 Workshop: Computational Modeling in Human-Computer Interaction, 2019'
     year: '2019'
   _8yxhlMAAAAJ:4JMBOYKVnBMC:
     citations: 0
     title: Social Cooperation in Conversational AI Agents
+    venue_citation: arXiv preprint arXiv:2506.01624, 2025
     year: '2025'
   _8yxhlMAAAAJ:HDshCWvjkbEC:
     citations: 3
     title: Inverse concave-utility reinforcement learning is inverse game theory
+    venue_citation: arXiv preprint arXiv:2405.19024, 2024
     year: '2024'
   _8yxhlMAAAAJ:JV2RwH3_ST0C:
     citations: 0
     title: 'The Arbiter Agent: Continually Monitoring Multi-Agent Conversations to Detect Emergent Misalignment'
+    venue_citation: arXiv preprint arXiv:2606.10747, 2026
     year: '2026'
   _8yxhlMAAAAJ:KlAtU1dfN6UC:
     citations: 5
     title: "Modelling user\u2019s theory of ai\u2019s mind in interactive intelligent systems"
+    venue_citation: arXiv preprint arXiv:1809.02869 9, 2018
     year: '2018'
   _8yxhlMAAAAJ:LkGwnXOMwfcC:
     citations: 1
     title: Model-based Multi-agent Reinforcement Learning for AI Assistants
+    venue_citation: Aalto University, 2023
     year: '2023'
   _8yxhlMAAAAJ:M3NEmzRMIkIC:
     citations: 0
     title: Hitting Time Isomorphism for Multi-Stage Planning with Foundation Policies
+    venue_citation: arXiv preprint arXiv:2605.06470, 2026
     year: '2026'
   _8yxhlMAAAAJ:RHpTSmoSYBkC:
     citations: 4
     title: Value Improved Actor Critic Algorithms
+    venue_citation: "The Thirty-Ninth Annual Conference on Neural Information Processing Systems \u2026, 2025"
     year: '2025'
   _8yxhlMAAAAJ:UeHWp8X0CEIC:
     citations: 0
     title: Theory of Mind Based Models in Human-AI Interaction
+    venue_citation: ''
     year: '2018'
   _8yxhlMAAAAJ:W7OEmFMy1HYC:
     citations: 5
     title: Distributed Influence-Augmented Local Simulators for Parallel MARL in Large Networked Systems
+    venue_citation: 36th Conference on Neural Information Processing Systems (NeurIPS 2022), 2022
     year: '2022'
   _8yxhlMAAAAJ:WF5omc3nYNoC:
     citations: 12
     title: Modelling Needs User Modelling
+    venue_citation: Frontiers in Artificial Intelligence 6, 61, 2023
     year: '2023'
   _8yxhlMAAAAJ:Y0pCki6q_DkC:
     citations: 14
     title: Best-Response Bayesian Reinforcement Learning with Bayes-adaptive POMDPs for Centaurs
+    venue_citation: "AAMAS '22: Proceedings of the 21st International Conference on Autonomous \u2026, 2022"
     year: '2022'
   _8yxhlMAAAAJ:YsMSGLbcyi4C:
     citations: 6
     title: Differentiable User Models
+    venue_citation: The 39th Conference on Uncertainty in Artificial Intelligence (UAI 2023), 2023
     year: '2023'
   _8yxhlMAAAAJ:_FxGoFyzp5QC:
     citations: 2
     title: Towards a Unifying Model of Rationality in Multiagent Systems
+    venue_citation: "The 14th Workshop on Optimization and Learning in Multiagent Systems \u2026, 2023"
     year: '2023'
   _8yxhlMAAAAJ:_Qo2XoVZTnwC:
     citations: 5
     title: 'SHARPIE: a modular framework for reinforcement learning and human-ai interaction experiments'
+    venue_citation: arXiv preprint arXiv:2501.19245, 2025
     year: '2025'
   _8yxhlMAAAAJ:blknAaTinKkC:
     citations: 2
     title: Distributional Active Inference
+    venue_citation: 'ICML 2026: Forty-third International Conference on Machine Learning, 2026'
     year: '2026'
   _8yxhlMAAAAJ:d1gkVwhDpl0C:
     citations: 0
     title: 'Agent Robustness to Negative Interruptions: A Multi-agent Learning Approach'
+    venue_citation: "Bridging Game Theory and Deep Learning Workshop NeurIPS 2019 (Smooth Games \u2026, 2019"
     year: '2019'
   _8yxhlMAAAAJ:eQOLeE2rZwMC:
     citations: 2
     title: Uncoupled Learning of Differential Stackelberg Equilibria with Commitments
+    venue_citation: "AAMAS '24: Proceedings of the 23rd International Conference on Autonomous \u2026, 2024"
     year: '2024'
   _8yxhlMAAAAJ:iH-uZ7U-co4C:
     citations: 0
     title: Towards an Experimentation Platform for Hybrid Human-AI Sequential Decision-Making
+    venue_citation: "HHAI 2025: Proceedings of the 4th International Conference on Hybrid Human \u2026, 2025"
     year: '2025'
   _8yxhlMAAAAJ:isC4tDSrTZIC:
     citations: 0
     title: Workshop on Multi-Agent Learning and Its Opportunities in the Era of Generative AI
+    venue_citation: ICLR 2026 Workshop Proposals, 0
     year: Unknown Year
   _8yxhlMAAAAJ:j3f4tGmQtD8C:
     citations: 3
     title: On the Complexity of Learning to Cooperate with Populations of Socially Rational Agents
+    venue_citation: arXiv preprint arXiv:2407.00419, 2024
     year: '2024'
   _8yxhlMAAAAJ:maZDTaKrznsC:
     citations: 0
     title: A Measure-Theoretic Finite-Sample Theory for Adaptive-Data Fitted Q-Iteration
+    venue_citation: arXiv preprint arXiv:2605.05791, 2026
     year: '2026'
   _8yxhlMAAAAJ:r0BpntZqJG4C:
     citations: 1
     title: Abstraction for Bayesian Reinforcement Learning in Factored POMDPs
+    venue_citation: Transactions on Machine Learning Research (TMLR), 2025
     year: '2025'
   _8yxhlMAAAAJ:roLk4NBRz8UC:
     citations: 0
     title: Differentiable User Models (Supplementary Material)
+    venue_citation: ''
     year: Unknown Year
   _8yxhlMAAAAJ:u-x6o8ySG0sC:
     citations: 39
     title: Machine Teaching of Active Sequential Learners
+    venue_citation: 33rd Conference on Neural Information Processing Systems (NeurIPS 2019), 2019
     year: '2019'
   _8yxhlMAAAAJ:ufrVoPGSRksC:
     citations: 3
     title: 'Teaching to Learn: Sequential Teaching of Learners with Internal States'
+    venue_citation: Proceedings of the AAAI Conference on Artificial Intelligence 37 (5), 5939-5947, 2023
     year: '2023'

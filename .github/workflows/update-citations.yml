@@ -47,9 +47,9 @@ jobs:
         shell: bash
         run: |
           set +e
-          echo "🚀 Screening Scholar profiles of active faculty/researchers (single attempt)..."
+          echo "🚀 Screening Scholar profiles of active faculty/researchers, refreshing citation counts, and adding any missing recent publications (single attempt)..."
           start_time=$(date)
-          timeout 300 python bin/update_scholar_citations.py
+          timeout 600 python bin/update_scholar_citations.py
           status=$?
           end_time=$(date)
           if [ $status -eq 0 ]; then
@@ -58,6 +58,25 @@ jobs:
           else
             echo "❌ Citation update script failed with exit code $status (started at $start_time, ended at $end_time)."
             echo "❌ Citation update script failed with exit code $status." >> $GITHUB_STEP_SUMMARY
+          fi
+          set -e
+
+      - name: Promote arXiv-only entries once Scholar shows a real venue
+        id: run_venue_update
+        shell: bash
+        run: |
+          set +e
+          echo "🚀 Checking arXiv-only bibliography entries against refreshed Scholar data..."
+          start_time=$(date)
+          timeout 60 python bin/update_publication_venues.py
+          status=$?
+          end_time=$(date)
+          if [ $status -eq 0 ]; then
+            echo "✅ Venue update succeeded (started at $start_time, ended at $end_time)."
+            echo "✅ Venue update succeeded." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ Venue update script failed with exit code $status (started at $start_time, ended at $end_time)."
+            echo "❌ Venue update script failed with exit code $status." >> $GITHUB_STEP_SUMMARY
           fi
           set -e
 
@@ -93,9 +112,9 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git add _data/citations.yml
+          git add _data/citations.yml _bibliography/papers.bib
           git diff --staged --quiet || (
             echo "📤 Committing and pushing changes..."
-            git commit -m "Update Google Scholar citations for active team members"
+            git commit -m "Update Google Scholar citations, publications, and venues for active team members"
             git push
           )

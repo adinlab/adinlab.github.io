@@ -37,6 +37,7 @@ researchers:
   - name: Magnus Boock
     mail: magn@sdu.dk
     linkedin: https://www.linkedin.com/in/magnus-boock/
+    scholar: https://scholar.google.com/citations?user=9itaTnQAAAAJ&hl=en
     research_areas: PhD student working on PAC Bayesian offline reinforcement learning
     image: assets/img/team/new/MagnusBoock.jpeg
   
