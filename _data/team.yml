@@ -12,6 +12,7 @@ faculty:
   - name: Mustafa Mert Çelikok
     about: Assistant Professor. Research interests include reinforcement learning, multi-agent learning, and cooperative AI.
     mail: celikok@imada.sdu.dk
+    webpage: https://mmcelikok.github.io/
     scholar: https://scholar.google.com/citations?user=_8yxhlMAAAAJ
     image: assets/img/team/new/MertCelikok.jpg
     head: false
