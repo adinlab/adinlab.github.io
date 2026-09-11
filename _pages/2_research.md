@@ -16,7 +16,7 @@ Our root node questions are:
 which synergize via the following research questions:
 
 <div class="row justify-content-center">
-    <div class="mt-3 mt-md-0" style="width: 62.5%; max-width: 100%;">
+    <div class="mt-3 mt-md-0" style="width: 81.25%; max-width: 100%; background-color: #ffffff; border-radius: 8px; padding: 1rem;">
         {% include figure.liquid loading="eager" path="assets/root-node-questions.svg" title="Root node questions" class="img-fluid" %}
     </div>
 </div>
