@@ -51,7 +51,22 @@ researchers:
     mail: asmad20@student.sdu.dk
     research_areas: MSc Student
     image: assets/img/team/new/AskMadsen.jpg
-    
+
+  - name: Emma Christine Lei Hovmand
+    webpage: https://orbit.dtu.dk/en/persons/emma-christine-lei-hovmand/
+    research_areas: PhD Student working on reinforcement learning for chemical ordering in alloy nanoparticles, co-advised with <a href="https://scholar.google.com/citations?user=TT2zoC8AAAAJ" target="_blank" rel="noopener noreferrer">Arghya Bhowmik</a>
+
+collaborators:
+  - name: Arghya Bhowmik
+    webpage: https://orbit.dtu.dk/en/persons/arghya-bhowmik/
+    scholar: https://scholar.google.com/citations?user=TT2zoC8AAAAJ
+    research_areas: Associate Professor at DTU
+
+  - name: Silvia Tolu
+    webpage: https://orbit.dtu.dk/en/persons/silvia-tolu/
+    scholar: https://scholar.google.com/citations?user=ITsafnMAAAAJ
+    research_areas: Associate Professor at DTU
+
 adjunct_alumni:
   - name: Abdullah Akgül
     linkedin: https://tr.linkedin.com/in/abdullahakgul70
