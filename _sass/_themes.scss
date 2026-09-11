@@ -161,3 +161,8 @@ html[data-theme-setting="light"] {
     display: block;
   }
 }
+
+// Remove the elliptical drop shadow behind circular team member portraits.
+.card-img.rounded-circle.z-depth-1 {
+  box-shadow: none !important;
+}
