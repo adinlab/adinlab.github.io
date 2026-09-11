@@ -55,17 +55,26 @@ researchers:
   - name: Emma Christine Lei Hovmand
     webpage: https://orbit.dtu.dk/en/persons/emma-christine-lei-hovmand/
     research_areas: PhD Student working on reinforcement learning for chemical ordering in alloy nanoparticles, co-advised with <a href="https://scholar.google.com/citations?user=TT2zoC8AAAAJ" target="_blank" rel="noopener noreferrer">Arghya Bhowmik</a>
+    image: assets/img/team/new/EmmaHovmand.jpg
 
 collaborators:
   - name: Arghya Bhowmik
     webpage: https://orbit.dtu.dk/en/persons/arghya-bhowmik/
     scholar: https://scholar.google.com/citations?user=TT2zoC8AAAAJ
-    research_areas: Associate Professor at DTU
+    research_areas: Associate Professor at DTU. Research interests include materials design, multiscale simulation, machine learning, graph neural networks, and generative models
+    image: assets/img/team/new/ArghyaBhowmik.jpg
+
+  - name: Gökberk Cinbiş
+    webpage: https://user.ceng.metu.edu.tr/~gcinbis/
+    scholar: https://scholar.google.com.tr/citations?user=Za7uka8AAAAJ&hl=en
+    research_areas: Associate Professor at METU. Research interests include data-efficient machine learning with minimal supervision (zero-shot, few-shot, weakly-supervised, self-supervised learning), generative models, meta learning, vision-language integration, and large-scale image/video understanding
+    image: assets/img/team/new/GokberkCinbis.jpg
 
   - name: Silvia Tolu
     webpage: https://orbit.dtu.dk/en/persons/silvia-tolu/
     scholar: https://scholar.google.com/citations?user=ITsafnMAAAAJ
-    research_areas: Associate Professor at DTU
+    research_areas: Associate Professor at DTU. Research interests include neurorobotics, neuromorphic engineering, the cerebellum, bio-inspired control, and motor learning and control
+    image: assets/img/team/new/SilviaTolu.jpg
 
 adjunct_alumni:
   - name: Abdullah Akgül
