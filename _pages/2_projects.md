@@ -9,9 +9,9 @@ nav: true
 
 Our root node questions are:
 
-* **Epistemics (E):** Developing predictors of agent perceptions with reliable uncertainty estimates.
-* **Synergetics (S):** Developing adaptation algorithms for agents with uncertain perceptions operating in open-world environments.
-* **Non-asymptotics (N):** Predicting lifelong agent performance via mathematical statements.
+* <span style="color:#e87382; font-weight:bold;">Epistemics (E):</span> Developing predictors of agent perceptions with reliable uncertainty estimates.
+* <span style="color:#738ecb; font-weight:bold;">Synergetics (S):</span> Developing adaptation algorithms for agents with uncertain perceptions operating in open-world environments.
+* <span style="color:#d4b83a; font-weight:bold;">Non-asymptotics (N):</span> Predicting lifelong agent performance via mathematical statements.
 
 which synergize via the following research questions:
 
