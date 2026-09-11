@@ -1,6 +1,6 @@
 faculty:
   - name: Melih Kandemir
-    about: Faculty member at SDU. Member of the ELLIS Society. Has published work on weakly-supervised Gaussian processes, deterministic variational Bayesian neural net inference, and neural stochastic process modeling.
+    about: Professor. Research interests include reinforcement learning, computational learning theory, adaptive dynamical systems 
     mail: kandemir@imada.sdu.dk
     orcid: 0000-0001-6293-3656
     webpage: https://melihkandemir.github.io/
@@ -10,14 +10,14 @@ faculty:
     head: true
     order: 0
   - name: Mustafa Mert Çelikok
-    about: Faculty member at SDU as Tenure Track Assistant Professor. Research interests include reinforcement learning, multi-agent learning, and cooperative AI.
+    about: Assistant Professor. Research interests include reinforcement learning, multi-agent learning, and cooperative AI.
     mail: celikok@imada.sdu.dk
     scholar: https://scholar.google.com/citations?user=_8yxhlMAAAAJ
     image: assets/img/team/new/MertCelikok.jpg
     head: false
     order: 1
   - name: Sai Ganesh Nagarajan
-    about: Faculty member at SDU as Assistant Professor. Research interests include algorithmic game theory, multiagent systems, AI/ML safety, theory of AI/ML, and dynamical systems.
+    about: Assistant Professor. Research interests include algorithmic game theory, multiagent systems, AI/ML safety, theory of AI/ML, and dynamical systems.
     mail: sgnagarajan@imada.sdu.dk
     image: assets/img/team/new/SaiGanesh.jpg
     webpage: https://sites.google.com/view/sgnagarajan/home
