@@ -9,9 +9,6 @@ profile:
   image: team-24-fall.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    University of Southern Denmark <br>
-    Department of Mathematics and Computer Science (IMADA) <br>
-    Odense, Denmark
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
