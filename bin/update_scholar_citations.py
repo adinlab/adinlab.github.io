@@ -31,10 +31,12 @@ arXiv-only bib entry that has since been accepted somewhere.
 
 from __future__ import annotations
 
+import json
 import os
 import re
 import sys
 from datetime import datetime
+from difflib import SequenceMatcher
 from urllib.parse import parse_qs, urlparse
 
 import yaml
@@ -43,6 +45,7 @@ from _bibtex_utils import (
     earliest_bib_year,
     format_authors,
     guess_abbr,
+    is_junk_title,
     known_string_macros,
     load_bib_titles,
     slugify_key,
@@ -92,6 +95,40 @@ def load_active_scholars() -> list[tuple[str, str]]:
     return scholars
 
 
+def crossref_lookup(title: str) -> dict | None:
+    """Query Crossref for the cleanest published record matching a title.
+
+    Scholar's scraped metadata is frequently mangled: diacritics are dropped
+    (Çelikok -> Gelikok), surnames merge into one token (Goncalvez Braz ->
+    Goncalvezbraz), venues truncate with a literal ellipsis, and pub_url can
+    point at the whole proceedings volume rather than the paper. Crossref's
+    curated records don't have these problems, so when it returns a
+    confident bibliographic match we prefer it.
+    """
+    try:
+        import urllib.parse
+        import urllib.request
+
+        q = urllib.parse.urlencode({"query.bibliographic": title, "rows": "3"})
+        req = urllib.request.Request(
+            f"https://api.crossref.org/works?{q}",
+            headers={"User-Agent": "adinlab-site-daemon/1.0 (mailto:kandemir@imada.sdu.dk)"},
+        )
+        with urllib.request.urlopen(req, timeout=20) as r:
+            data = json.loads(r.read().decode("utf-8"))
+    except Exception as e:
+        print(f"    Crossref lookup failed for '{title[:40]}...': {e}")
+        return None
+
+    norm = lambda t: re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", "", t.lower())).strip()
+    want = norm(title)
+    for item in data.get("message", {}).get("items", []):
+        got = norm(item.get("title", [""])[0] if item.get("title") else "")
+        if got and (got == want or SequenceMatcher(None, want, got).ratio() >= 0.9):
+            return item
+    return None
+
+
 def build_new_entry(filled: dict, existing_keys: set[str], defined_macros: set[str]) -> tuple[str, str] | None:
     """Return (key, bibtex_text) for a newly-discovered publication, or None."""
     bib = filled.get("bib", {})
@@ -101,6 +138,31 @@ def build_new_entry(filled: dict, existing_keys: set[str], defined_macros: set[s
     if not title or not author_str or not year:
         print(f"    Missing title/author/year in filled record for '{title}'. Skipping auto-add.")
         return None
+
+    # Prefer Crossref's curated record when one matches the title confidently.
+    cr = crossref_lookup(title)
+    if cr:
+        cr_authors = [f"{a.get('family', '').strip()}, {a.get('given', '').strip()}".strip(", ") for a in cr.get("author", [])]
+        cr_authors = [a for a in cr_authors if a]
+        if len(cr_authors) >= 2:
+            # Scholar-style "Last, Given and Last2, Given2": format_authors will
+            # re-split on " and ", so authors containing " and " internally are fine
+            # only if we join with " and " at the person level. Build the Scholar
+            # convention directly: "Given Last" per person.
+            cr_authors = [f"{a.get('given', '').strip()} {a.get('family', '').strip()}".strip() for a in cr.get("author", [])]
+            author_str = " and ".join(a for a in cr_authors if a)
+        cr_title = (cr.get("title") or [""])[0]
+        if cr_title:
+            title = cr_title
+        cr_year = (cr.get("issued", {}).get("date-parts") or [[None]])[0][0]
+        if cr_year:
+            year = str(cr_year)
+        doi = (cr.get("DOI") or "").lower()
+        if doi:
+            cr_url = f"https://doi.org/{doi}"
+        else:
+            cr_url = ""
+        print(f"    Crossref match found: DOI {doi or 'n/a'} - using curated metadata.")
 
     authors = format_authors(author_str)
     first_author = author_str.split(" and ")[0]
@@ -113,8 +175,18 @@ def build_new_entry(filled: dict, existing_keys: set[str], defined_macros: set[s
 
     citation = bib.get("citation", "")
     venue = venue_from_citation(citation)
+    if cr:
+        containers = cr.get("container-title") or []
+        if containers:
+            # Crossref lists the series first and the actual venue last
+            # (e.g. "Frontiers in AI and Applications" + "HHAI 2025"); prefer
+            # the most specific (last) container.
+            venue = containers[-1]
     abstract = (bib.get("abstract") or "").replace("\n", " ").strip()
-    url = filled.get("pub_url") or filled.get("eprint_url") or ""
+    if cr and cr_url:
+        url = cr_url
+    else:
+        url = filled.get("pub_url") or filled.get("eprint_url") or ""
 
     lines = []
     abbr = guess_abbr(venue) if venue else "arXiv"
@@ -206,6 +278,10 @@ def get_scholar_citations() -> None:
 
                 if match_title(title, bib_titles) is not None:
                     continue  # already in papers.bib (exactly or fuzzily)
+
+                if is_junk_title(title):
+                    print(f"  '{title[:60]}' looks like a Scholar pseudo-entry. Skipping auto-add.")
+                    continue
 
                 try:
                     year_int = int(str(year).strip())
