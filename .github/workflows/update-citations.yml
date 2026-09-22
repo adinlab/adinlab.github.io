@@ -2,7 +2,7 @@ name: Update Google Scholar Citations
 
 on:
   schedule:
-    - cron: "0 0 * * *" # every day at midnight UTC
+    - cron: "0 2 * * *" # every day at 02:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -44,39 +44,46 @@ jobs:
         id: run_citation_update
         shell: bash
         run: |
-          set +e
-          echo "🚀 Screening Scholar profiles of active faculty/researchers, refreshing citation counts, and adding any missing recent publications (single attempt)..."
+          echo "🚀 Screening Scholar profiles of active faculty/researchers, refreshing citation counts, and adding any missing recent publications (with retries)..."
           start_time=$(date)
-          timeout 600 python bin/update_scholar_citations.py
-          status=$?
+          status=1
+          for attempt in 1 2 3 4 5; do
+            echo "▶️ Attempt $attempt..."
+            timeout 900 python bin/update_scholar_citations.py
+            status=$?
+            if [ $status -eq 0 ]; then
+              break
+            fi
+            echo "⚠️ Attempt $attempt failed (exit code $status). Retrying in 60s..."
+            sleep 60
+          done
           end_time=$(date)
           if [ $status -eq 0 ]; then
             echo "✅ Citation update succeeded (started at $start_time, ended at $end_time)."
             echo "✅ Citation update succeeded." >> $GITHUB_STEP_SUMMARY
           else
-            echo "❌ Citation update script failed with exit code $status (started at $start_time, ended at $end_time)."
-            echo "❌ Citation update script failed with exit code $status." >> $GITHUB_STEP_SUMMARY
+            echo "❌ Citation update script failed after 5 attempts (exit code $status)."
+            echo "❌ Citation update script failed after 5 attempts (exit code $status)." >> $GITHUB_STEP_SUMMARY
+            exit 1
           fi
-          set -e
 
       - name: Promote arXiv-only entries once Scholar shows a real venue
         id: run_venue_update
         shell: bash
         run: |
-          set +e
           echo "🚀 Checking arXiv-only bibliography entries against refreshed Scholar data..."
           start_time=$(date)
-          timeout 60 python bin/update_publication_venues.py
+          timeout 120 python bin/update_publication_venues.py
           status=$?
           end_time=$(date)
           if [ $status -eq 0 ]; then
             echo "✅ Venue update succeeded (started at $start_time, ended at $end_time)."
             echo "✅ Venue update succeeded." >> $GITHUB_STEP_SUMMARY
           else
-            echo "❌ Venue update script failed with exit code $status (started at $start_time, ended at $end_time)."
+            echo "❌ Venue update script failed with exit code $status."
             echo "❌ Venue update script failed with exit code $status." >> $GITHUB_STEP_SUMMARY
+            exit 1
           fi
-          set -e
 
       - name: Save new citations.yml hash
         id: after
@@ -114,5 +121,6 @@ jobs:
           git diff --staged --quiet || (
             echo "📤 Committing and pushing changes..."
             git commit -m "Update Google Scholar citations, publications, and venues for active team members"
+            git pull --rebase
             git push
           )

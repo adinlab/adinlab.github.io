@@ -125,7 +125,7 @@ def build_new_entry(filled: dict, existing_keys: set[str], defined_macros: set[s
         entry_type = "inproceedings" if is_conference else "article"
         venue_field = "booktitle" if is_conference else "journal"
         lines.append(f"@{entry_type}{{{key},")
-        lines.append(f"\tabbr         = {{{abbr}}},")
+        lines.append(f"\tabbr         = {{{abbr or 'arXiv'}}},")
         lines.append(f"\ttitle        = {{{title}}},")
         lines.append(f"\tauthor       = {{{authors}}},")
         lines.append(f"\tyear         = {{{year}}},")

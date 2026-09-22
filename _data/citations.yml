@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-09-10'
+  last_updated: '2026-09-22'
 papers:
   9itaTnQAAAAJ:u5HHmVD_uO8C:
     citations: 5
@@ -57,7 +57,7 @@ papers:
     venue_citation: US Patent App. 17/231,757, 2021
     year: '2021'
   Jxm1UeYAAAAJ:4OULZ7Gr8RgC:
-    citations: 34
+    citations: 37
     title: 'In the picture: Medical imaging datasets, artifacts, and their living review'
     venue_citation: "Proceedings of the 2025 ACM conference on fairness, accountability, and \u2026, 2025"
     year: '2025'
@@ -82,7 +82,7 @@ papers:
     venue_citation: "International Conference on Medical Image Computing and Computer-Assisted \u2026, 2015"
     year: '2015'
   Jxm1UeYAAAAJ:9ZlFYXVOiuMC:
-    citations: 62
+    citations: 63
     title: Deep Active Learning with Adaptive Acquisition
     venue_citation: "International Joint Conference on Artificial Intelligence (IJCAI), arXiv \u2026, 2019"
     year: '2019'
@@ -176,6 +176,11 @@ papers:
     title: Device, computer program and computer-implemented method for machine learning
     venue_citation: US Patent App. 17/858,980, 2023
     year: '2023'
+  Jxm1UeYAAAAJ:P5F9QuxV20EC:
+    citations: 0
+    title: "Proceedings of Machine Learning Research vol 168: 1\u201312, 2022 4th Annual Conference on Learning for Dynamics and Control Traversing Time with Multi-Resolution Gaussian Process \u2026"
+    venue_citation: Proceedings of Machine Learning Research vol 168, 1-12, 2022
+    year: '2022'
   Jxm1UeYAAAAJ:R3hNpaxXUhUC:
     citations: 13
     title: Evidential Turing Processes
@@ -187,7 +192,7 @@ papers:
     venue_citation: ICML Time Series Workshop, 2021
     year: '2021'
   Jxm1UeYAAAAJ:Se3iqnhoufwC:
-    citations: 164
+    citations: 165
     title: 'Computer-aided diagnosis from weak supervision: A benchmarking study'
     venue_citation: Computerized medical imaging and graphics 42, 44-50, 2015
     year: '2015'
@@ -267,7 +272,7 @@ papers:
     venue_citation: 'NeurIPS Bayesian Deep Learning Workshop, arXiv: 1912.00796, 2019'
     year: '2019'
   Jxm1UeYAAAAJ:Zph67rFs4hoC:
-    citations: 2394
+    citations: 2444
     title: Evidential Deep Learning to Quantify Classification Uncertainty
     venue_citation: Advances in Neural Information Processing Systems (NeurIPS), 3179-3189, 2018
     year: '2018'
@@ -282,7 +287,7 @@ papers:
     venue_citation: Pattern Recognition 42 (6), 1104-1112, 2009
     year: '2009'
   Jxm1UeYAAAAJ:_xSYboBqXhAC:
-    citations: 7
+    citations: 8
     title: Bridging the Performance Gap Between Target-Free and Target-Based Reinforcement Learning
     venue_citation: ICLR, 2026
     year: '2026'
@@ -396,6 +401,11 @@ papers:
     title: Bayesian Evidential Deep Learning with PAC Regularization
     venue_citation: 3rd Advances in Approximate Bayesian Inference (AABI) Symposium, 2020
     year: '2020'
+  Jxm1UeYAAAAJ:nb7KW1ujOQ8C:
+    citations: 0
+    title: "A physics-constrained framework for fatigue data augmentation of post-weld treated joints: censored S\u2013N estimation with an exploratory generative component"
+    venue_citation: Journal of Intelligent Manufacturing, 1-36, 2026
+    year: '2026'
   Jxm1UeYAAAAJ:ns9cj8rnVeAC:
     citations: 13
     title: Cheap and Deterministic Inference for Deep State-Space Models of Interacting Dynamical Systems
@@ -432,7 +442,7 @@ papers:
     venue_citation: UAI, 380-389, 2014
     year: '2014'
   Jxm1UeYAAAAJ:u_35RYKgDlwC:
-    citations: 5
+    citations: 6
     title: Disentanglement with Factor Quantized Variational Autoencoders
     venue_citation: Neurocomputing, 2024
     year: '2024'
@@ -467,7 +477,7 @@ papers:
     venue_citation: arXiv preprint arXiv:2110.02134, 2021
     year: '2021'
   VoaosL4AAAAJ:8k81kl-MbHgC:
-    citations: 27
+    citations: 28
     title: Online algorithms with costly predictions
     venue_citation: International Conference on Artificial Intelligence and Statistics, 8078-8101, 2023
     year: '2023'
@@ -567,7 +577,7 @@ papers:
     venue_citation: IEEE Internet of Things Journal 4 (1), 205-214, 2016
     year: '2016'
   VoaosL4AAAAJ:u5HHmVD_uO8C:
-    citations: 49
+    citations: 50
     title: Adaptive duty cycling in sensor networks with energy harvesting using continuous-time Markov chain and fluid models
     venue_citation: IEEE Journal on Selected Areas in Communications 33 (12), 2687-2700, 2015
     year: '2015'
@@ -577,7 +587,7 @@ papers:
     venue_citation: International Conference on Machine Learning, 1469-1478, 2020
     year: '2020'
   VoaosL4AAAAJ:zYLM7Y9cAGgC:
-    citations: 319
+    citations: 320
     title: Distributed anomaly detection using autoencoder neural networks in WSN for IoT
     venue_citation: 2018 ieee international conference on communications (icc), 1-6, 2018
     year: '2018'
@@ -659,8 +669,8 @@ papers:
   YXBAT4wAAAAJ:YOwf2qJgpHMC:
     citations: 34
     title: Accurate surrogate amplitudes with calibrated uncertainties
-    venue_citation: SciPost Physics Core 8 (4), 073, 2025
-    year: '2025'
+    venue_citation: arXiv preprint arXiv:2412.12069, 2024
+    year: '2024'
   YXBAT4wAAAAJ:YsMSGLbcyi4C:
     citations: 9
     title: Control and monitoring of physical system based on trained Bayesian neural network
@@ -684,8 +694,8 @@ papers:
   YXBAT4wAAAAJ:eQOLeE2rZwMC:
     citations: 85
     title: Understanding event-generation networks via uncertainties
-    venue_citation: SciPost Physics 13 (1), 003, 2022
-    year: '2022'
+    venue_citation: arXiv preprint arXiv:2104.04543, 2021
+    year: '2021'
   YXBAT4wAAAAJ:hqOjcs7Dif8C:
     citations: 21
     title: A comparative study of clinical trial and real-world data in patients with diabetic kidney disease
@@ -704,8 +714,8 @@ papers:
   YXBAT4wAAAAJ:qjMakFHDy7sC:
     citations: 94
     title: Deep-learning jets with uncertainties and more
-    venue_citation: SciPost Physics 8 (1), 006, 2020
-    year: '2020'
+    venue_citation: arXiv preprint arXiv:1904.10004, 2019
+    year: '2019'
   YXBAT4wAAAAJ:qxL8FJ1GzNcC:
     citations: 0
     title: Deep Actor-Critics with Tight Risk Certificates
@@ -732,7 +742,7 @@ papers:
     venue_citation: ''
     year: '2021'
   YXBAT4wAAAAJ:zYLM7Y9cAGgC:
-    citations: 62
+    citations: 63
     title: Deep Active Learning with Adaptive Acquisition
     venue_citation: "International Joint Conference on Artificial Intelligence (IJCAI), arXiv \u2026, 2019"
     year: '2019'

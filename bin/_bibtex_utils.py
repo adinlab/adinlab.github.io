@@ -112,6 +112,8 @@ def guess_abbr(venue: str) -> str | None:
     if not first_word:
         return None
     word = first_word.group(1)
+    if word.lower() in {"the", "proceedings", "advances", "international", "forensic"}:
+        return None  # noise prefix, not an acronym
     if 2 <= len(word) <= 10 and sum(c.isupper() for c in word) >= len(word) // 2:
         return word
     return None
