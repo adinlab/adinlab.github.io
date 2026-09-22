@@ -46,6 +46,7 @@ from _bibtex_utils import (
     format_authors,
     guess_abbr,
     is_junk_title,
+    is_patent,
     known_string_macros,
     load_bib_titles,
     slugify_key,
@@ -313,6 +314,10 @@ def get_scholar_citations() -> None:
 
                 if is_junk_title(title):
                     print(f"  '{title[:60]}' looks like a Scholar pseudo-entry. Skipping auto-add.")
+                    continue
+
+                if is_patent(pub):
+                    print(f"  '{title[:60]}' is a patent. Skipping auto-add.")
                     continue
 
                 try:
