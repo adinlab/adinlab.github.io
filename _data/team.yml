@@ -1,5 +1,6 @@
 faculty:
   - name: Melih Kandemir
+    since: 2021
     about: Professor. Research interests include reinforcement learning, computational learning theory, adaptive dynamical systems 
     mail: kandemir@imada.sdu.dk
     orcid: 0000-0001-6293-3656
@@ -10,6 +11,7 @@ faculty:
     head: true
     order: 0
   - name: Mustafa Mert Çelikok
+    since: 2026
     about: Assistant Professor. Research interests include reinforcement learning, multi-agent learning, and cooperative AI.
     mail: celikok@imada.sdu.dk
     webpage: https://mmcelikok.github.io/
@@ -18,6 +20,7 @@ faculty:
     head: false
     order: 1
   - name: Sai Ganesh Nagarajan
+    since: 2026
     about: Assistant Professor. Research interests include algorithmic game theory, multiagent systems, AI/ML safety, theory of AI/ML, and dynamical systems.
     mail: sgnagarajan@imada.sdu.dk
     image: assets/img/team/new/SaiGanesh.jpg
@@ -28,6 +31,7 @@ faculty:
 
 researchers:
   - name: Manuel Haussmann
+    since: 2022
     mail: haussmann@imada.sdu.dk
     scholar: https://scholar.google.com/citations?user=YXBAT4wAAAAJ&hl=de&oi=ao
     research_areas: Postdoc working on Bayesian methods for reinforcement learning
@@ -35,6 +39,7 @@ researchers:
     webpage: https://manuelhaussmann.github.io
   
   - name: Magnus Boock
+    since: 2025
     mail: magn@sdu.dk
     linkedin: https://www.linkedin.com/in/magnus-boock/
     scholar: https://scholar.google.com/citations?user=9itaTnQAAAAJ&hl=en
@@ -42,6 +47,7 @@ researchers:
     image: assets/img/team/new/MagnusBoock.jpeg
   
   - name: Robin Faier
+    since: 2025
     linkedin: https://www.linkedin.com/in/robin-faier
     webpage: https://github.com/Robin1853
     mail: faier@imada.sdu.dk
@@ -49,11 +55,13 @@ researchers:
     image: assets/img/team/new/RobinFaier.jpg
 
   - name: Ask Madsen
+    since: 2025
     mail: asmad20@student.sdu.dk
     research_areas: MSc Student
     image: assets/img/team/new/AskMadsen.jpg
 
   - name: Emma Christine Lei Hovmand
+    since: 2025
     webpage: https://orbit.dtu.dk/en/persons/emma-christine-lei-hovmand/
     research_areas: PhD Student working on reinforcement learning for chemical ordering in alloy nanoparticles, co-advised with <a href="https://scholar.google.com/citations?user=TT2zoC8AAAAJ" target="_blank" rel="noopener noreferrer">Arghya Bhowmik</a>
     image: assets/img/team/new/EmmaHovmand.jpg
@@ -79,6 +87,8 @@ collaborators:
 
 adjunct_alumni:
   - name: Abdullah Akgül
+    since: 2022
+    until: 2026
     linkedin: https://tr.linkedin.com/in/abdullahakgul70
     orcid: 0000-0002-0489-9493
     webpage: https://aportekila.github.io/
@@ -88,6 +98,8 @@ adjunct_alumni:
     image: assets/img/team/new/AbdullahAkgul.jpeg
 
   - name: Bahareh Tasdighi
+    since: 2022
+    until: 2026
     orcid: 0000-0001-9757-5019
     linkedin: https://www.linkedin.com/in/bahar-tasdighi-366020143/
     research_areas: Optimistic exploration in actor-critic algorithms
@@ -95,6 +107,8 @@ adjunct_alumni:
     # mail: tasdighi@imada.sdu.dk
 
   - name: Gülcin Baykal Can
+    since: 2022
+    until: 2026
     mail: gulcinbaykal95@gmail.com
     scholar: https://scholar.google.com/citations?user=tcmSfdwAAAAJ&hl=tr
     research_areas: Postdoc working on reinforcement learning for visual control
@@ -103,6 +117,8 @@ adjunct_alumni:
     webpage: https://gulcinbaykal.github.io/    
 
   - name: Nicklas Werge
+    since: 2022
+    until: 2026
     orcid: 0000-0001-9906-364X
     webpage: https://nicklaswerge.github.io
     scholar: https://scholar.google.com/citations?user=7ixNlWUAAAAJ&hl=en
@@ -112,6 +128,8 @@ adjunct_alumni:
     # mail: werge@sdu.dk
 
   - name: Yi-Shan Wu
+    since: 2022
+    until: 2026
     linkedin: https://www.linkedin.com/in/yi-shan-wu-231b06232/
     scholar: https://scholar.google.com/citations?user=IrW8ytQAAAAJ&hl=en
     webpage: https://sites.google.com/view/yishanwu/home?authuser=0

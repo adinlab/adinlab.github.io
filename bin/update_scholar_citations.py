@@ -69,8 +69,17 @@ CONFERENCE_HINTS = (
 )
 
 
-def load_active_scholars() -> list[tuple[str, str]]:
-    """Return [(name, scholar_user_id), ...] for active members with a Scholar link."""
+def load_active_scholars() -> list[dict]:
+    """Return active members with a Scholar link and their employment window.
+
+    Each entry is a dict {name, scholar_id, since, until}. `since`/`until`
+    come from the member's _data/team.yml entry (record-only fields, never
+    rendered on the site) and bound the auto-add screen to papers published
+    during their time in the lab: a member's Scholar profile spans their
+    whole career, and pre-lab output (PhD-era work, previous affiliations)
+    must not leak into the lab bibliography. `since` defaults to the bib's
+    earliest curated year, `until` to the present.
+    """
     if not os.path.exists(TEAM_FILE):
         print(f"Team file {TEAM_FILE} not found.")
         sys.exit(1)
@@ -90,7 +99,24 @@ def load_active_scholars() -> list[tuple[str, str]]:
             if not user_ids:
                 print(f"Skipping {name} ({category}): could not parse a Scholar user id from {scholar_url}.")
                 continue
-            scholars.append((name, user_ids[0]))
+            try:
+                since = int(member.get("since")) if member.get("since") else None
+            except (TypeError, ValueError):
+                print(f"Warning: unparsable 'since' ({member.get('since')}) for {name}; treating as unset.")
+                since = None
+            try:
+                until = int(member.get("until")) if member.get("until") else None
+            except (TypeError, ValueError):
+                print(f"Warning: unparsable 'until' ({member.get('until')}) for {name}; treating as unset.")
+                until = None
+            scholars.append(
+                {
+                    "name": name,
+                    "scholar_id": user_ids[0],
+                    "since": since,
+                    "until": until,
+                }
+            )
 
     return scholars
 
@@ -251,8 +277,14 @@ def get_scholar_citations() -> None:
     scholarly.set_timeout(15)
     scholarly.set_retries(3)
 
-    for name, scholar_id in scholars:
-        print(f"Fetching citations for {name} (Scholar ID: {scholar_id})")
+    for member in scholars:
+        name = member["name"]
+        scholar_id = member["scholar_id"]
+        member_since = member["since"] if member["since"] is not None else min_year
+        member_until = member["until"] if member["until"] is not None else 9999
+        print(
+            f"Fetching citations for {name} (Scholar ID: {scholar_id}, employment window: {member_since}-{member_until if member_until != 9999 else 'present'})"
+        )
         try:
             author = scholarly.search_author_id(scholar_id)
             author_data = scholarly.fill(author, sections=["publications"])
@@ -287,8 +319,10 @@ def get_scholar_citations() -> None:
                     year_int = int(str(year).strip())
                 except ValueError:
                     year_int = None
-                if year_int is not None and year_int < min_year:
-                    continue  # predates the lab's curated era; not our scope to auto-add
+                if year_int is not None and year_int < member_since:
+                    continue  # published before joining the lab; not our scope to auto-add
+                if year_int is not None and year_int > member_until:
+                    continue  # published after leaving the lab; not our scope to auto-add
 
                 print(f"  '{title}' ({year}) is not in {BIB_FILE} yet. Fetching full record...")
                 try:
