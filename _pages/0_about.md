@@ -7,6 +7,7 @@ subtitle:
 profile:
   align: right
   image: adinlab_logo.png
+  image_caption: ADIN Lab
   image_circular: false # crops the image to make it circular
   more_info: >
 
