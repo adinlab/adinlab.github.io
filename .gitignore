@@ -10,4 +10,5 @@ Gemfile.lock
 assets/libs/
 node_modules/
 vendor
-.idea
+.ideaopencode.json
+final_adin_logo.drawio.pdf
