@@ -1,11 +1,9 @@
-% ADIN Lab logo - exact 1-1 reproduction of the original draw.io design,
-% only with 50% thicker lines (original strokeWidth 10 -> 15).
-% Coordinates are the original draw.io pixel coordinates (origin shifted to
-% the canvas middle, y flipped). Node circle centers are box center (x+20,y+20).
-% Mondrian palette: horn interiors yellow, hat interior red, face (network
-% below the hat) blue. Everything else - horn borders, hat border, and the
-% arm sweeps forming the hat silhouette - black.
-% Draw order: face first, then arms, horns, and the hat rectangle last.
+% ADIN Lab logo - DRAFT: bolder variant for review (NOT pushed).
+% Based on the approved 1-1 reproduction, with:
+%   - all lines 50% thicker again: 7.5pt -> 11.25pt
+%   - face circles enlarged: r=20 -> r=24 (so the stroke doesn't swallow them)
+% Coordinates remain the original draw.io pixel coordinates (origin shifted
+% to the canvas middle, y flipped). Node circle centers are box centers.
 
 \definecolor{MondrianRed}{RGB}{196,2,51}
 \definecolor{MondrianBlue}{RGB}{0,48,143}
@@ -16,47 +14,50 @@
 
   % ==== FACE (drawn first): network nodes and edges, Mondrian blue ====
 
-  % nodes: circles r=20 at box centers
-  % N1(260,504) N2(540,504) N3(400,564) N4(500,544) N5(460,609) N6(320,444) N7(410,444)
-  \foreach \cx/\cy in {260/504, 540/504, 400/564, 500/544, 460/609, 320/444, 410/444}
-    \draw[MondrianBlue, line width=7.5pt] (\cx-400, 690-\cy) circle (20);
+  % nodes: circles enlarged r=20 -> r=24 at box centers
+  % N1(260,504) N2(560,482) N3(400,564) N4(515,544) N5(460,609) N6(320,444) N7(425,444)
+  \foreach \cx/\cy in {260/504, 560/482, 400/564, 515/544, 460/609, 320/444, 425/444}
+    \draw[MondrianBlue, line width=11.25pt] (\cx-400, 690-\cy) circle (24);
 
-  % N2 riser: (560,484) -> (600,440) -> (600,360)
-  \draw[MondrianBlue, line width=7.5pt] (560-400,690-484) -- (600-400,690-440) -- (600-400,690-360);
+  % N2 riser (N2 slid up along it): (580,462) -> (600,440) -> (600,360)
+  \draw[MondrianBlue, line width=11.25pt] (580-400,690-462) -- (600-400,690-440) -- (600-400,690-360);
   % N1 riser: (240,484) -> (200,440) -> (200,360)
-  \draw[MondrianBlue, line width=7.5pt] (240-400,690-484) -- (200-400,690-440) -- (200-400,690-360);
+  \draw[MondrianBlue, line width=11.25pt] (240-400,690-484) -- (200-400,690-440) -- (200-400,690-360);
   % N1 -> N3: (280,524) -> (320,564) -> (380,564)
-  \draw[MondrianBlue, line width=7.5pt] (280-400,690-524) -- (320-400,690-564) -- (380-400,690-564);
-  % N7 -> N4: (430,444) -> (500,444) -> (500,524)
-  \draw[MondrianBlue, line width=7.5pt] (430-400,690-444) -- (500-400,690-444) -- (500-400,690-524);
+  \draw[MondrianBlue, line width=11.25pt] (280-400,690-524) -- (320-400,690-564) -- (380-400,690-564);
+  % N7 -> N4 (block shifted +15px right): (445,444) -> (515,444) -> (515,524)
+  \draw[MondrianBlue, line width=11.25pt] (445-400,690-444) -- (515-400,690-444) -- (515-400,690-524);
   % N6 -> N5: (320,464) -> (350,494) -> (400,494) -> (460,524) -> (460,589)
-  \draw[MondrianBlue, line width=7.5pt] (320-400,690-464) -- (350-400,690-494) -- (400-400,690-494)
+  \draw[MondrianBlue, line width=11.25pt] (320-400,690-464) -- (350-400,690-494) -- (400-400,690-494)
     -- (460-400,690-524) -- (460-400,690-589);
 
   % ==== HAT (drawn after the face) ====
 
   % left arm (black: part of the hat silhouette)
-  \draw[LogoBlack, line width=7.5pt]
+  \draw[LogoBlack, line width=11.25pt]
     (318.7-400,690-359.5) -- (180-400,690-360) -- (180-400,690-304)
     -- (280-400,690-164) -- (318-400,690-164);
 
   % right arm (black: part of the hat silhouette)
-  \draw[LogoBlack, line width=7.5pt]
+  \draw[LogoBlack, line width=11.25pt]
     (484-400,690-164) -- (520-400,690-164) -- (620-400,690-304)
     -- (620-400,690-360) -- (480-400,690-361);
 
   % left horn (yellow interior, black border)
-  \filldraw[fill=MondrianYellow, draw=LogoBlack, line width=7.5pt]
+  \filldraw[fill=MondrianYellow, draw=LogoBlack, line width=11.25pt]
     (195-400,690-284) -- (140-400,690-224) -- (150-400,690-64)
     -- (220-400,690-164) -- (258-400,690-193) -- cycle;
 
   % right horn (yellow interior, black border)
-  \filldraw[fill=MondrianYellow, draw=LogoBlack, line width=7.5pt]
+  \filldraw[fill=MondrianYellow, draw=LogoBlack, line width=11.25pt]
     (605-400,690-284) -- (661-400,690-224) -- (649-400,690-65)
     -- (580-400,690-164) -- (541-400,690-193) -- cycle;
 
   % hat rectangle (red interior, black border), drawn last
-  \filldraw[fill=MondrianRed, draw=LogoBlack, line width=7.5pt]
+  \filldraw[fill=MondrianRed, draw=LogoBlack, line width=11.25pt]
     (320-400, 690-384) rectangle (480-400, 690-144);
+
+  % ==== wordmark: "ADIN Lab" in EB Garamond Bold (Google Fonts cut) ====
+  \node[font=\bfseries, scale=6.0] at (10, 690-690) {ADIN Lab};
 
 \end{tikzpicture}
