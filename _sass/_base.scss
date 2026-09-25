@@ -251,13 +251,13 @@ ul.task-list input[type="checkbox"] {
     }
 
     a:hover {
-      color: #002f8f;
+      color: var(--global-hover-color);
       text-decoration: none;
     }
   }
 
   .team-role {
-    color: #c4001f;
+    color: var(--global-theme-color);
     font-weight: 500;
     margin-bottom: 0;
   }
@@ -265,11 +265,11 @@ ul.task-list input[type="checkbox"] {
 
 html[data-theme='dark'] .team-member {
   .team-role {
-    color: #f0c800;
+    color: var(--global-theme-color);
   }
 
   .team-name a:hover {
-    color: #c4001f;
+    color: var(--global-theme-color);
   }
 }
 
