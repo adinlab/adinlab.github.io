@@ -7,7 +7,7 @@ faculty:
     webpage: https://melihkandemir.github.io/
     scholar: https://scholar.google.com/citations?user=Jxm1UeYAAAAJ
     linkedin: https://www.linkedin.com/in/melih-kandemir-64681a16
-    image: assets/img/team/new/MelihKandemir.png
+    image: assets/img/team/new/MelihKandemir.jpg
     head: true
     order: 0
   - name: Mustafa Mert Çelikok
@@ -35,7 +35,7 @@ researchers:
     mail: haussmann@imada.sdu.dk
     scholar: https://scholar.google.com/citations?user=YXBAT4wAAAAJ&hl=de&oi=ao
     research_areas: Postdoc
-    image: assets/img/team/new/ManuelHaussmann.png
+    image: assets/img/team/new/ManuelHaussmann.jpg
     webpage: https://manuelhaussmann.github.io
   
   - name: Magnus Boock
@@ -44,7 +44,7 @@ researchers:
     linkedin: https://www.linkedin.com/in/magnus-boock/
     scholar: https://scholar.google.com/citations?user=9itaTnQAAAAJ&hl=en
     research_areas: PhD Student
-    image: assets/img/team/new/MagnusBoock.jpeg
+    image: assets/img/team/new/MagnusBoock.jpg
   
   - name: Robin Faier
     since: 2025
