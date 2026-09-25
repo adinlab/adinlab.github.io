@@ -251,7 +251,7 @@ ul.task-list input[type="checkbox"] {
     }
 
     a:hover {
-      color: var(--global-hover-color);
+      color: var(--global-theme-color);
       text-decoration: none;
     }
   }
@@ -269,7 +269,7 @@ html[data-theme='dark'] .team-member {
   }
 
   .team-name a:hover {
-    color: var(--global-theme-color);
+    color: #d6001c;
   }
 }
 

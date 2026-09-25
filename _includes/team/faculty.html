@@ -6,19 +6,9 @@
         <img src="{{ '/assets/img/team/default.png' | relative_url }}" class="card-img img-fluid z-depth-1 rounded-circle team-photo" alt="{{ include.member.name }}">
     {% endif %}
     {% if include.member.webpage %}
-        <a href="{{ include.member.webpage }}" target="_blank" rel="noopener noreferrer">
-            {% if include.member.head %}
-                <h5 class="card-title team-name">{{ include.member.name }} (Head)</h5>
-            {% else %}
-                <h5 class="card-title team-name">{{ include.member.name }}</h5>
-            {% endif %}
-        </a>
+        <h5 class="card-title team-name"><a href="{{ include.member.webpage }}" target="_blank" rel="noopener noreferrer">{% if include.member.head %}{{ include.member.name }} (Head){% else %}{{ include.member.name }}{% endif %}</a></h5>
     {% else %}
-        {% if include.member.head %}
-            <h5 class="card-title team-name">{{ include.member.name }} (Head)</h5>
-        {% else %}
-            <h5 class="card-title team-name">{{ include.member.name }}</h5>
-        {% endif %}
+        <h5 class="card-title team-name">{% if include.member.head %}{{ include.member.name }} (Head){% else %}{{ include.member.name }}{% endif %}</h5>
     {% endif %}
     <p class="card-text team-role">{{ include.member.about }}</p>
 </div>
