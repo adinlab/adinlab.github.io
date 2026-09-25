@@ -3,7 +3,7 @@
     <div class="row">
         {% assign sorted= site.data.team.faculty | sort: "order" %}
         {% for member in sorted %}
-            <div class="col-sm-4">
+            <div class="col-sm-3 team-col">
                 {% include team/faculty.html member=member %}
             </div>
         {% endfor %}
@@ -16,7 +16,7 @@
     <div class="row">
         {% assign sorted= site.data.team.researchers | sort: "name" %}
         {% for member in sorted %}
-            <div class="col-sm-4">
+            <div class="col-sm-3 team-col">
                 {% include team/active_member.html member=member %}
             </div>
         {% endfor %}
@@ -28,7 +28,7 @@
     <div class="row">
         {% assign sorted= site.data.team.collaborators | sort: "name" %}
         {% for member in sorted %}
-            <div class="col-sm-4">
+            <div class="col-sm-3 team-col">
                 {% include team/active_member.html member=member %}
             </div>
         {% endfor %}
@@ -40,7 +40,7 @@
     <div class="row">
         {% assign sorted= site.data.team.adjunct_alumni | sort: "name" %}
         {% for member in sorted %}
-            <div class="col-sm-4">
+            <div class="col-sm-3 team-col">
                 {% include team/active_member.html member=member %}
             </div>
         {% endfor %}

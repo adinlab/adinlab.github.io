@@ -229,6 +229,12 @@ ul.task-list input[type="checkbox"] {
   margin-top: 0.25rem;
 }
 
+// Team grid: tighter gutters (30% less horizontal spacing than Bootstrap default)
+.team-col {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 // Team members (cards removed: plain photo + name + role)
 // Light theme: roles Mondrian red, name hover Mondrian blue.
 // Dark theme: roles Mondrian yellow, name hover Mondrian red.
@@ -237,7 +243,7 @@ ul.task-list input[type="checkbox"] {
   margin-bottom: 1.5rem;
 
   .team-photo {
-    width: 65%;
+    width: 75%;
     margin: 0 auto 0.5rem auto;
     box-shadow: none;
   }
