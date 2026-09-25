@@ -251,7 +251,7 @@ ul.task-list input[type="checkbox"] {
     }
 
     a:hover {
-      color: var(--global-theme-color);
+      color: var(--global-hover-color);
       text-decoration: none;
     }
   }
@@ -263,15 +263,6 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-html[data-theme='dark'] .team-member {
-  .team-role {
-    color: var(--global-theme-color);
-  }
-
-  .team-name a:hover {
-    color: #d6001c;
-  }
-}
 
 .profile.float-left {
   margin-right: 1rem;
@@ -829,7 +820,7 @@ footer.sticky-bottom {
           text-decoration: none;
 
           &:hover {
-            color: var(--global-theme-color);
+            color: var(--global-hover-color);
             text-decoration: none;
           }
         }
