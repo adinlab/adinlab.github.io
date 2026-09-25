@@ -230,6 +230,8 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Team members (cards removed: plain photo + name + role)
+// Light theme: roles Mondrian red, name hover Mondrian blue.
+// Dark theme: roles Mondrian yellow, name hover Mondrian red.
 
 .team-member {
   margin-bottom: 1.5rem;
@@ -249,15 +251,25 @@ ul.task-list input[type="checkbox"] {
     }
 
     a:hover {
-      color: #c4001f;
+      color: #002f8f;
       text-decoration: none;
     }
   }
 
   .team-role {
-    color: #f0c800;
+    color: #c4001f;
     font-weight: 500;
     margin-bottom: 0;
+  }
+}
+
+html[data-theme='dark'] .team-member {
+  .team-role {
+    color: #f0c800;
+  }
+
+  .team-name a:hover {
+    color: #c4001f;
   }
 }
 
