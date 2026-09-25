@@ -94,15 +94,16 @@ adjunct_alumni:
     webpage: https://aportekila.github.io/
     #mail: akgul@imada.sdu.dk
     scholar: https://scholar.google.com/citations?user=FZeaKPoAAAAJ
-    research_areas: Former Postdoc
+    research_areas: Graduated PhD Student
     image: assets/img/team/new/AbdullahAkgul.jpeg
 
   - name: Bahareh Tasdighi
     since: 2022
     until: 2026
+    scholar: https://scholar.google.com/citations?user=2XCIyFAAAAAJ&hl=en
     orcid: 0000-0001-9757-5019
     linkedin: https://www.linkedin.com/in/bahar-tasdighi-366020143/
-    research_areas: Former PhD Student
+    research_areas: Graduated PhD Student
     image: assets/img/team/new/BaharehTasdighi.png
     # mail: tasdighi@imada.sdu.dk
 

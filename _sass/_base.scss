@@ -229,6 +229,38 @@ ul.task-list input[type="checkbox"] {
   margin-top: 0.25rem;
 }
 
+// Team members (cards removed: plain photo + name + role)
+
+.team-member {
+  margin-bottom: 1.5rem;
+
+  .team-photo {
+    width: 65%;
+    margin: 0 auto 0.5rem auto;
+    box-shadow: none;
+  }
+
+  .team-name {
+    margin-bottom: 0.15rem;
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #c4001f;
+      text-decoration: none;
+    }
+  }
+
+  .team-role {
+    color: #f0c800;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+}
+
 .profile.float-left {
   margin-right: 1rem;
 }
