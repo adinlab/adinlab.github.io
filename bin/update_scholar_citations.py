@@ -202,6 +202,17 @@ def build_new_entry(filled: dict, existing_keys: set[str], defined_macros: set[s
 
     citation = bib.get("citation", "")
     venue = venue_from_citation(citation)
+    # NeurIPS proceedings appear the year after the conference: volume N is
+    # the (N + 1987) conference. Scholar's year can be the publication year,
+    # so correct it to the conference year when the volume number disagrees.
+    vol_m = re.search(r"Advances in Neural Information Processing Systems (\d+)", citation, re.IGNORECASE)
+    if vol_m:
+        conf_year = int(vol_m.group(1)) + 1987
+        try:
+            if abs(int(year) - conf_year) == 1:
+                year = str(conf_year)
+        except ValueError:
+            pass
     if cr:
         containers = cr.get("container-title") or []
         if containers:

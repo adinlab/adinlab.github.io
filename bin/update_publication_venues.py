@@ -46,8 +46,8 @@ CONFERENCE_HINTS = (
 )
 
 
-def load_citations_by_title() -> dict[str, str]:
-    """Return {normalized_title: venue_citation} from _data/citations.yml."""
+def load_citations_by_title() -> dict[str, tuple[str, str]]:
+    """Return {normalized_title: (venue_citation, year)} from _data/citations.yml."""
     try:
         with open(CITATIONS_FILE) as f:
             data = yaml.safe_load(f) or {}
@@ -59,12 +59,13 @@ def load_citations_by_title() -> dict[str, str]:
     for paper in (data.get("papers") or {}).values():
         title = paper.get("title")
         citation = paper.get("venue_citation")
+        year = paper.get("year")
         if title and citation:
-            by_title[normalize_title(title)] = citation
+            by_title[normalize_title(title)] = (citation, str(year) if year else None)
     return by_title
 
 
-def rewrite_entry(entry: str, venue: str, defined_macros: set[str]) -> str:
+def rewrite_entry(entry: str, venue: str, defined_macros: set[str], citation_year: str | None = None) -> str:
     is_conference = any(hint in venue.lower() for hint in CONFERENCE_HINTS)
     escaped_venue = venue.replace("{", "").replace("}", "")
 
@@ -83,6 +84,17 @@ def rewrite_entry(entry: str, venue: str, defined_macros: set[str]) -> str:
 
     if abbr:
         entry = re.sub(r"abbr\s*=\s*\{arXiv\}", f"abbr         = {{{abbr}}}", entry, count=1)
+
+    # NeurIPS proceedings volumes appear the year AFTER the conference
+    # (volume 38 = NeurIPS 2025, published 2026). Scholar's scraped year can
+    # be the publication year, but the conference year is what we curate.
+    # "Advances in Neural Information Processing Systems N" -> year = N + 1987.
+    m = re.search(r"Advances in Neural Information Processing Systems (\d+)", venue, re.IGNORECASE)
+    if m and citation_year:
+        volume = int(m.group(1))
+        conf_year = volume + 1987
+        if abs(conf_year - int(citation_year)) <= 2:  # sanity bound
+            entry = re.sub(r"year\s*=\s*\{\d{4}\}", f"year         = {{{conf_year}}}", entry, count=1)
 
     return entry
 
@@ -119,14 +131,14 @@ def update_venues() -> None:
             print(f"  - {key}: no matching Scholar record (even fuzzily) in {CITATIONS_FILE}. Skipping.")
             continue
 
-        raw_citation = citations_by_title[matched_title]
+        raw_citation, citation_year = citations_by_title[matched_title]
         venue = venue_from_citation(raw_citation)
         if not venue:
             print(f"  - {key}: still arXiv-only on Scholar ('{raw_citation}'). No change.")
             continue
 
         print(f"  - {key}: now published - '{raw_citation}' -> venue '{venue}'")
-        updates.append((start, end, rewrite_entry(entry, venue, defined_macros), key, venue))
+        updates.append((start, end, rewrite_entry(entry, venue, defined_macros, citation_year), key, venue))
 
     if not updates:
         print("No entries changed.")
