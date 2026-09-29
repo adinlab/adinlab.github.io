@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-09-22'
+  last_updated: '2026-09-29'
 papers:
   9itaTnQAAAAJ:u5HHmVD_uO8C:
     citations: 5
@@ -27,7 +27,7 @@ papers:
     venue_citation: Advances in Neural Information Processing Systems, 2023
     year: '2023'
   Jxm1UeYAAAAJ:2osOgNQ5qMEC:
-    citations: 201
+    citations: 202
     title: Automatic segmentation of colon glands using object-graphs
     venue_citation: Medical image analysis 14 (1), 1-12, 2010
     year: '2010'
@@ -212,7 +212,7 @@ papers:
     venue_citation: US Patent App. 16/983,802, 2021
     year: '2021'
   Jxm1UeYAAAAJ:Tyk-4Ss8FVUC:
-    citations: 50
+    citations: 51
     title: Variational Bayesian Multiple Instance Learning with Gaussian Processes
     venue_citation: "Proceedings of the IEEE Conference on Computer Vision and Pattern \u2026, 2017"
     year: '2017'
@@ -272,7 +272,7 @@ papers:
     venue_citation: 'NeurIPS Bayesian Deep Learning Workshop, arXiv: 1912.00796, 2019'
     year: '2019'
   Jxm1UeYAAAAJ:Zph67rFs4hoC:
-    citations: 2444
+    citations: 2468
     title: Evidential Deep Learning to Quantify Classification Uncertainty
     venue_citation: Advances in Neural Information Processing Systems (NeurIPS), 3179-3189, 2018
     year: '2018'
@@ -482,7 +482,7 @@ papers:
     venue_citation: International Conference on Artificial Intelligence and Statistics, 8078-8101, 2023
     year: '2023'
   VoaosL4AAAAJ:9yKSN-GCB0IC:
-    citations: 87
+    citations: 88
     title: Anomaly detection and attribution in networks with temporally correlated traffic
     venue_citation: IEEE/ACM Transactions on Networking 26 (1), 131-144, 2017
     year: '2017'
@@ -557,7 +557,7 @@ papers:
     venue_citation: New Frontiers in Game-Theoretic Learning-NExT-Game, 0
     year: Unknown Year
   VoaosL4AAAAJ:d1gkVwhDpl0C:
-    citations: 68
+    citations: 69
     title: 'Secure location of things (SLOT): Mitigating localization spoofing attacks in the Internet of Things'
     venue_citation: IEEE Internet of Things Journal 4 (6), 2199-2206, 2017
     year: '2017'
@@ -587,7 +587,7 @@ papers:
     venue_citation: International Conference on Machine Learning, 1469-1478, 2020
     year: '2020'
   VoaosL4AAAAJ:zYLM7Y9cAGgC:
-    citations: 320
+    citations: 321
     title: Distributed anomaly detection using autoencoder neural networks in WSN for IoT
     venue_citation: 2018 ieee international conference on communications (icc), 1-6, 2018
     year: '2018'
@@ -727,7 +727,7 @@ papers:
     venue_citation: Advances in Neural Information Processing Systems 36, 29201-29238, 2023
     year: '2023'
   YXBAT4wAAAAJ:u-x6o8ySG0sC:
-    citations: 50
+    citations: 51
     title: Variational Bayesian Multiple Instance Learning with Gaussian Processes
     venue_citation: The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 6570-6579, 2017
     year: '2017'
