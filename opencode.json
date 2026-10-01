@@ -1,0 +1,32 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "ucloud": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "UCloud",
+      "options": {
+        "baseURL": "https://ai.cloud.sdu.dk/v1"
+      },
+      "models": {
+        "zai-org/GLM-5.3": {
+          "name": "GLM-5.3",
+          "reasoning": true,
+          "options": {
+            "reasoningEffort": "max"
+          },
+          "variants": {
+            "low": {
+              "reasoningEffort": "low"
+            },
+            "high": {
+              "reasoningEffort": "high"
+            },
+            "max": {
+              "reasoningEffort": "max"
+            }
+          }
+        }
+      }
+    }
+  }
+}
