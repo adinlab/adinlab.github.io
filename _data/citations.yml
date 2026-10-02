@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-09-29'
+  last_updated: '2026-10-02'
 papers:
   9itaTnQAAAAJ:u5HHmVD_uO8C:
     citations: 5
@@ -57,7 +57,7 @@ papers:
     venue_citation: US Patent App. 17/231,757, 2021
     year: '2021'
   Jxm1UeYAAAAJ:4OULZ7Gr8RgC:
-    citations: 37
+    citations: 38
     title: 'In the picture: Medical imaging datasets, artifacts, and their living review'
     venue_citation: "Proceedings of the 2025 ACM conference on fairness, accountability, and \u2026, 2025"
     year: '2025'
@@ -272,7 +272,7 @@ papers:
     venue_citation: 'NeurIPS Bayesian Deep Learning Workshop, arXiv: 1912.00796, 2019'
     year: '2019'
   Jxm1UeYAAAAJ:Zph67rFs4hoC:
-    citations: 2468
+    citations: 2474
     title: Evidential Deep Learning to Quantify Classification Uncertainty
     venue_citation: Advances in Neural Information Processing Systems (NeurIPS), 3179-3189, 2018
     year: '2018'
@@ -482,7 +482,7 @@ papers:
     venue_citation: International Conference on Artificial Intelligence and Statistics, 8078-8101, 2023
     year: '2023'
   VoaosL4AAAAJ:9yKSN-GCB0IC:
-    citations: 88
+    citations: 89
     title: Anomaly detection and attribution in networks with temporally correlated traffic
     venue_citation: IEEE/ACM Transactions on Networking 26 (1), 131-144, 2017
     year: '2017'
@@ -669,8 +669,8 @@ papers:
   YXBAT4wAAAAJ:YOwf2qJgpHMC:
     citations: 34
     title: Accurate surrogate amplitudes with calibrated uncertainties
-    venue_citation: arXiv preprint arXiv:2412.12069, 2024
-    year: '2024'
+    venue_citation: SciPost Physics Core 8 (4), 073, 2025
+    year: '2025'
   YXBAT4wAAAAJ:YsMSGLbcyi4C:
     citations: 9
     title: Control and monitoring of physical system based on trained Bayesian neural network
@@ -694,8 +694,8 @@ papers:
   YXBAT4wAAAAJ:eQOLeE2rZwMC:
     citations: 85
     title: Understanding event-generation networks via uncertainties
-    venue_citation: arXiv preprint arXiv:2104.04543, 2021
-    year: '2021'
+    venue_citation: SciPost Physics 13 (1), 003, 2022
+    year: '2022'
   YXBAT4wAAAAJ:hqOjcs7Dif8C:
     citations: 21
     title: A comparative study of clinical trial and real-world data in patients with diabetic kidney disease
@@ -714,8 +714,8 @@ papers:
   YXBAT4wAAAAJ:qjMakFHDy7sC:
     citations: 94
     title: Deep-learning jets with uncertainties and more
-    venue_citation: arXiv preprint arXiv:1904.10004, 2019
-    year: '2019'
+    venue_citation: SciPost Physics 8 (1), 006, 2020
+    year: '2020'
   YXBAT4wAAAAJ:qxL8FJ1GzNcC:
     citations: 0
     title: Deep Actor-Critics with Tight Risk Certificates
