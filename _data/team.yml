@@ -37,7 +37,14 @@ researchers:
     research_areas: Postdoc
     image: assets/img/team/new/ManuelHaussmann.jpg
     webpage: https://manuelhaussmann.github.io
-  
+
+  - name: Jacob Egebjerg
+    since: 2026
+    mail: jegebjerg@imada.sdu.dk
+    scholar: https://scholar.google.com/citations?user=0K-7XMAAAAAJ&hl=en
+    research_areas: Postdoc
+    image: assets/img/team/new/JacobEgebjerg.jpg
+
   - name: Magnus Boock
     since: 2025
     mail: magn@sdu.dk
