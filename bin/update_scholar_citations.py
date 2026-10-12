@@ -70,6 +70,35 @@ CONFERENCE_HINTS = (
 )
 
 
+def parse_window(value) -> int | None:
+    """Normalize a since/until value to a comparable integer YYYYMM.
+
+    Accepts month precision ("2026-10" / "2026/10" / "2026.10") or bare
+    years ("2026" -> 202600, i.e. January of that year). Returns None for
+    unset/unparsable values.
+    """
+    if value is None:
+        return None
+    text = str(value).strip()
+    m = re.fullmatch(r"(\d{4})[-/.](\d{1,2})", text)
+    if m:
+        year, month = int(m.group(1)), int(m.group(2))
+        if not 1 <= month <= 12:
+            return None
+        return year * 100 + month
+    if re.fullmatch(r"\d{4}", text):
+        return int(text) * 100
+    return None
+
+
+def fmt_window(yyyymm: int) -> str:
+    """Render a YYYYMM window bound as "YYYY-MM" (or the bare year for January)."""
+    year, month = divmod(yyyymm, 100)
+    if 1 <= month <= 12:
+        return f"{year}-{month:02d}"
+    return str(year)
+
+
 def load_active_scholars() -> list[dict]:
     """Return active members with a Scholar link and their employment window.
 
@@ -78,7 +107,8 @@ def load_active_scholars() -> list[dict]:
     rendered on the site) and bound the auto-add screen to papers published
     during their time in the lab: a member's Scholar profile spans their
     whole career, and pre-lab output (PhD-era work, previous affiliations)
-    must not leak into the lab bibliography. `since` defaults to the bib's
+    must not leak into the lab bibliography. Month precision ("2026-10") is
+    accepted; a bare year means January of it. `since` defaults to the bib's
     earliest curated year, `until` to the present.
     """
     if not os.path.exists(TEAM_FILE):
@@ -100,16 +130,12 @@ def load_active_scholars() -> list[dict]:
             if not user_ids:
                 print(f"Skipping {name} ({category}): could not parse a Scholar user id from {scholar_url}.")
                 continue
-            try:
-                since = int(member.get("since")) if member.get("since") else None
-            except (TypeError, ValueError):
+            since = parse_window(member.get("since"))
+            if member.get("since") is not None and since is None:
                 print(f"Warning: unparsable 'since' ({member.get('since')}) for {name}; treating as unset.")
-                since = None
-            try:
-                until = int(member.get("until")) if member.get("until") else None
-            except (TypeError, ValueError):
+            until = parse_window(member.get("until"))
+            if member.get("until") is not None and until is None:
                 print(f"Warning: unparsable 'until' ({member.get('until')}) for {name}; treating as unset.")
-                until = None
             scholars.append(
                 {
                     "name": name,
@@ -292,10 +318,11 @@ def get_scholar_citations() -> None:
     for member in scholars:
         name = member["name"]
         scholar_id = member["scholar_id"]
-        member_since = member["since"] if member["since"] is not None else min_year
-        member_until = member["until"] if member["until"] is not None else 9999
+        member_since = member["since"] if member["since"] is not None else min_year * 100
+        member_until = member["until"] if member["until"] is not None else 999999
         print(
-            f"Fetching citations for {name} (Scholar ID: {scholar_id}, employment window: {member_since}-{member_until if member_until != 9999 else 'present'})"
+            f"Fetching citations for {name} (Scholar ID: {scholar_id}, employment window: {fmt_window(member_since)}-"
+            f"{fmt_window(member_until) if member_until != 999999 else 'present'})"
         )
         try:
             author = scholarly.search_author_id(scholar_id)
@@ -335,9 +362,9 @@ def get_scholar_citations() -> None:
                     year_int = int(str(year).strip())
                 except ValueError:
                     year_int = None
-                if year_int is not None and year_int < member_since:
+                if year_int is not None and year_int * 100 < member_since:
                     continue  # published before joining the lab; not our scope to auto-add
-                if year_int is not None and year_int > member_until:
+                if year_int is not None and year_int * 100 > member_until:
                     continue  # published after leaving the lab; not our scope to auto-add
 
                 print(f"  '{title}' ({year}) is not in {BIB_FILE} yet. Fetching full record...")

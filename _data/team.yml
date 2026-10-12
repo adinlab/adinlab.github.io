@@ -1,6 +1,6 @@
 faculty:
   - name: Melih Kandemir
-    since: 2021
+    since: 2021-08
     about: Professor
     mail: kandemir@imada.sdu.dk
     orcid: 0000-0001-6293-3656
@@ -11,7 +11,7 @@ faculty:
     head: true
     order: 0
   - name: Mustafa Mert Çelikok
-    since: 2026
+    since: 2025-09
     about: Assistant Professor
     mail: celikok@imada.sdu.dk
     webpage: https://mmcelikok.github.io/
@@ -20,7 +20,7 @@ faculty:
     head: false
     order: 1
   - name: Sai Ganesh Nagarajan
-    since: 2026
+    since: 2025-09
     about: Assistant Professor
     mail: sgnagarajan@imada.sdu.dk
     image: assets/img/team/new/SaiGanesh.jpg
@@ -31,7 +31,8 @@ faculty:
 
 researchers:
   - name: Manuel Haussmann
-    since: 2022
+    since: 2023-12
+    until: 2026-10
     mail: haussmann@imada.sdu.dk
     scholar: https://scholar.google.com/citations?user=YXBAT4wAAAAJ&hl=de&oi=ao
     research_areas: Postdoc
@@ -39,14 +40,14 @@ researchers:
     webpage: https://manuelhaussmann.github.io
 
   - name: Jacob Egebjerg
-    since: 2026
+    since: 2026-10
     mail: jegebjerg@imada.sdu.dk
     scholar: https://scholar.google.com/citations?user=0K-7XMAAAAAJ&hl=en
     research_areas: Postdoc
     image: assets/img/team/new/JacobEgebjerg.jpg
 
   - name: Magnus Boock
-    since: 2025
+    since: 2025-09
     mail: magn@sdu.dk
     linkedin: https://www.linkedin.com/in/magnus-boock/
     scholar: https://scholar.google.com/citations?user=9itaTnQAAAAJ&hl=en
@@ -54,7 +55,7 @@ researchers:
     image: assets/img/team/new/MagnusBoock.jpg
   
   - name: Robin Faier
-    since: 2025
+    since: 2026-02
     linkedin: https://www.linkedin.com/in/robin-faier
     webpage: https://github.com/Robin1853
     mail: faier@imada.sdu.dk
@@ -62,13 +63,13 @@ researchers:
     image: assets/img/team/new/RobinFaier.jpg
 
   - name: Ask Madsen
-    since: 2025
+    since: 2026-09
     mail: asmad20@student.sdu.dk
     research_areas: MSc Student
     image: assets/img/team/new/AskMadsen.jpg
 
   - name: Emma Christine Lei Hovmand
-    since: 2025
+    since: 2026-04
     webpage: https://orbit.dtu.dk/en/persons/emma-christine-lei-hovmand/
     research_areas: "PhD Student at DTU <br> w/ Arghya Bhowmik"
     image: assets/img/team/new/EmmaHovmand.jpg
@@ -94,8 +95,8 @@ collaborators:
 
 adjunct_alumni:
   - name: Abdullah Akgül
-    since: 2022
-    until: 2026
+    since: 2023-02
+    until: 2026-07
     linkedin: https://tr.linkedin.com/in/abdullahakgul70
     orcid: 0000-0002-0489-9493
     webpage: https://aportekila.github.io/
@@ -105,8 +106,8 @@ adjunct_alumni:
     image: assets/img/team/new/AbdullahAkgul.jpeg
 
   - name: Bahareh Tasdighi
-    since: 2022
-    until: 2026
+    since: 2022-09
+    until: 2025-11
     scholar: https://scholar.google.com/citations?user=2XCIyFAAAAAJ&hl=en
     orcid: 0000-0001-9757-5019
     linkedin: https://www.linkedin.com/in/bahar-tasdighi-366020143/
@@ -115,8 +116,8 @@ adjunct_alumni:
     # mail: tasdighi@imada.sdu.dk
 
   - name: Gülcin Baykal Can
-    since: 2022
-    until: 2026
+    since: 2025-01
+    until: 2025-12
     mail: gulcinbaykal95@gmail.com
     scholar: https://scholar.google.com/citations?user=tcmSfdwAAAAJ&hl=tr
     research_areas: Former Postdoc
@@ -125,8 +126,8 @@ adjunct_alumni:
     webpage: https://gulcinbaykal.github.io/    
 
   - name: Nicklas Werge
-    since: 2022
-    until: 2026
+    since: 2023-10
+    until: 2026-01
     orcid: 0000-0001-9906-364X
     webpage: https://nicklaswerge.github.io
     scholar: https://scholar.google.com/citations?user=7ixNlWUAAAAJ&hl=en
@@ -136,8 +137,8 @@ adjunct_alumni:
     # mail: werge@sdu.dk
 
   - name: Yi-Shan Wu
-    since: 2022
-    until: 2026
+    since: 2023-07
+    until: 2025-06
     linkedin: https://www.linkedin.com/in/yi-shan-wu-231b06232/
     scholar: https://scholar.google.com/citations?user=IrW8ytQAAAAJ&hl=en
     webpage: https://sites.google.com/view/yishanwu/home?authuser=0
