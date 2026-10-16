@@ -17,6 +17,19 @@
 @string{eccv = {European Conference on Computer Vision}}
 @string{uai = {International Conference on Uncertainty in Artificial Intelligence}}
 
+@article{kera2026rethinking,
+	abbr         = {arXiv},
+	title        = {Rethinking Least-Core Computation in Contextual-Distractor Games},
+	author       = {Kera, H. and Yamauchi, T. and Nagarajan, S.G.},
+	year         = {2026},
+	journal      = arxiv,
+	url          = {https://arxiv.org/abs/2610.06087},
+	html         = {https://arxiv.org/abs/2610.06087},
+	selected     = {false},
+	bibtex_show  = {true},
+	abstract     = {Game-theoretic attribution explains a model by assigning credit to its features or training examples. The least core has attracted interest as an alternative to Shapley-style averaging because it can expose players that cause substantial harm in rare, high-value contexts. However, least-core allocations are generally nonunique, and the choice of allocation can affect the resulting explanation. In this study, we investigate how payoff selection and coalition sampling affect least-core attribution. Our experiments show that selector choice matters for distinguishing useful and harmful contributions, and that sampling can degrade harmful-player identification across the tested selectors even when useful players remain well identified. These observations motivate efficient computation with all coalition constraints and a well-defined selector. We introduce entropic least core (ELC), a smooth approximation whose unique minimizer follows a continuous path along the temperature to the nucleolus, a classical refinement of the least core. Our experiments show that ELC approximates the nucleolus faster than an LP-based nucleolus solver while retaining small payoff errors, with further GPU acceleration at larger problem sizes. In the tested full-coalition contextual-distractor games, ELC matches the minimum-norm selector in identification accuracy and more accurately ranks distractors by harm.},
+}
+
 @article{hovmand2026let,
 	abbr         = {arXiv},
 	title        = {Let CSP Be Your ANCHOR: Adaptive Crystal Search over Frozen Structure Priors},

@@ -1,13 +1,78 @@
 metadata:
-  last_updated: '2026-10-04'
+  last_updated: '2026-10-16'
 papers:
+  0K-7XMAAAAAJ:2osOgNQ5qMEC:
+    citations: 3
+    title: Kinetic modelling of sterol transport between plasma membrane and endo-lysosomes based on quantitative fluorescence and X-ray imaging data
+    venue_citation: Frontiers in Cell and Developmental Biology 11, 1144936, 2023
+    year: '2023'
+  0K-7XMAAAAAJ:Tyk-4Ss8FVUC:
+    citations: 2
+    title: 'SimAQ: Mitigating Experimental Artifacts in Soft X-Ray Tomography using Simulated Acquisitions'
+    venue_citation: arXiv preprint arXiv:2508.10821, 2025
+    year: '2025'
+  0K-7XMAAAAAJ:W7OEmFMy1HYC:
+    citations: 0
+    title: "Subcellular distribution of human skeletal muscle glycogen particles in exercise-induced supercompensation as evaluated by a semantic segmentation model to predict glycogen \u2026"
+    venue_citation: ACTA PHYSIOLOGICA 241, 2025
+    year: '2025'
+  0K-7XMAAAAAJ:WF5omc3nYNoC:
+    citations: 0
+    title: Multimodal 3D imaging reveals a central role for lysosomes in dissolution of cholesterol crystals by macrophages
+    venue_citation: bioRxiv, 2026.09. 22.753145, 2026
+    year: '2026'
+  0K-7XMAAAAAJ:Y0pCki6q_DkC:
+    citations: 0
+    title: Advancing Quantitative Bioimaging using Machine Learning and Computational Modeling
+    venue_citation: ''
+    year: '2025'
+  0K-7XMAAAAAJ:YsMSGLbcyi4C:
+    citations: 0
+    title: The impact of sex and repeated high-intensity endurance exercise on skeletal muscle glycogen content
+    venue_citation: ACTA PHYSIOLOGICA 241, 2025
+    year: '2025'
+  0K-7XMAAAAAJ:d1gkVwhDpl0C:
+    citations: 18
+    title: Demonstrating soft X-ray tomography in the lab for correlative cryogenic biological imaging using X-rays and light microscopy
+    venue_citation: Scientific Reports 15 (1), 45491, 2025
+    year: '2025'
+  0K-7XMAAAAAJ:eQOLeE2rZwMC:
+    citations: 0
+    title: A semantic segmentation model to predict subcellular glycogen localization using transmission electron microscopy images
+    venue_citation: PLoS One 21 (6), e0351502, 2026
+    year: '2026'
+  0K-7XMAAAAAJ:qjMakFHDy7sC:
+    citations: 1
+    title: Direct observation of uptake and dissolution of cholesterol crystals by macrophages using combined fluorescence and x-ray microscopy
+    venue_citation: Microscopy and Microanalysis 29 (Supplement_1), 1158-1159, 2023
+    year: '2023'
+  0K-7XMAAAAAJ:u-x6o8ySG0sC:
+    citations: 17
+    title: Automated quantification of vacuole fusion and lipophagy in Saccharomyces cerevisiae from fluorescence and cryo-soft X-ray microscopy data using deep learning
+    venue_citation: Autophagy 20 (4), 902-922, 2024
+    year: '2024'
+  0K-7XMAAAAAJ:u5HHmVD_uO8C:
+    citations: 12
+    title: Ergosterol mediates aggregation of natamycin in the yeast plasma membrane
+    venue_citation: bioRxiv, 2023.12. 05.570146, 2023
+    year: '2023'
+  0K-7XMAAAAAJ:zYLM7Y9cAGgC:
+    citations: 4
+    title: Dynamic mode decomposition of multiphoton and stimulated emission depletion microscopy data for analysis of fluorescent probes in cellular membranes
+    venue_citation: Sensors 24 (7), 2096, 2024
+    year: '2024'
+  9itaTnQAAAAJ:u-x6o8ySG0sC:
+    citations: 1
+    title: Hitting Time Isomorphism for Multi-Stage Planning with Foundation Policies
+    venue_citation: arXiv preprint arXiv:2605.06470, 2026
+    year: '2026'
   9itaTnQAAAAJ:u5HHmVD_uO8C:
     citations: 5
     title: 'Transition analysis 3: Skeletal age estimation program'
     venue_citation: Forensic Science International, 112909, 2026
     year: '2026'
   Jxm1UeYAAAAJ:-f6ydRqryjwC:
-    citations: 10
+    citations: 11
     title: A Deterministic Approximation to Neural SDEs
     venue_citation: IEEE Trans. Pattern Analysis and Machine Intelligence, 2022
     year: '2022'
@@ -22,7 +87,7 @@ papers:
     venue_citation: ''
     year: Unknown Year
   Jxm1UeYAAAAJ:2P1L_qKh6hAC:
-    citations: 16
+    citations: 17
     title: Improved Algorithms for Stochastic Linear Bandits Using Tail Bounds for Martingale Mixtures
     venue_citation: Advances in Neural Information Processing Systems, 2023
     year: '2023'
@@ -82,7 +147,7 @@ papers:
     venue_citation: "International Conference on Medical Image Computing and Computer-Assisted \u2026, 2015"
     year: '2015'
   Jxm1UeYAAAAJ:9ZlFYXVOiuMC:
-    citations: 64
+    citations: 65
     title: Deep Active Learning with Adaptive Acquisition
     venue_citation: "International Joint Conference on Artificial Intelligence (IJCAI), arXiv \u2026, 2019"
     year: '2019'
@@ -107,7 +172,7 @@ papers:
     venue_citation: Advances in Approximate Bayesian Inference (AABI), 2024
     year: '2024'
   Jxm1UeYAAAAJ:HDshCWvjkbEC:
-    citations: 9
+    citations: 7
     title: Control and Monitoring of Physical System Based on Trained Bayesian Neural Network
     venue_citation: US Patent App. 16/831,174, 2020
     year: '2020'
@@ -137,12 +202,12 @@ papers:
     venue_citation: US Patent 10,896,351, 2021
     year: '2021'
   Jxm1UeYAAAAJ:LkGwnXOMwfcC:
-    citations: 91
+    citations: 92
     title: Empowering multiple instance histopathology cancer diagnosis by cell graphs
     venue_citation: "International Conference on Medical Image Computing and Computer-Assisted \u2026, 2014"
     year: '2014'
   Jxm1UeYAAAAJ:M05iB0D1s5AC:
-    citations: 1
+    citations: 2
     title: Demystifying the Myths and Legends of Nonconvex Convergence of SGD
     venue_citation: arXiv preprint arXiv:2310.12969, 2023
     year: '2023'
@@ -152,7 +217,7 @@ papers:
     venue_citation: US Patent App. 17/445,428, 2022
     year: '2022'
   Jxm1UeYAAAAJ:M3ejUd6NZC8C:
-    citations: 51
+    citations: 52
     title: Gaussian process density counting from weak supervision
     venue_citation: European Conference on Computer Vision, 365-380, 2016
     year: '2016'
@@ -192,7 +257,7 @@ papers:
     venue_citation: ICML Time Series Workshop, 2021
     year: '2021'
   Jxm1UeYAAAAJ:Se3iqnhoufwC:
-    citations: 165
+    citations: 166
     title: 'Computer-aided diagnosis from weak supervision: A benchmarking study'
     venue_citation: Computerized medical imaging and graphics 42, 44-50, 2015
     year: '2015'
@@ -212,7 +277,7 @@ papers:
     venue_citation: US Patent App. 16/983,802, 2021
     year: '2021'
   Jxm1UeYAAAAJ:Tyk-4Ss8FVUC:
-    citations: 51
+    citations: 53
     title: Variational Bayesian Multiple Instance Learning with Gaussian Processes
     venue_citation: "Proceedings of the IEEE Conference on Computer Vision and Pattern \u2026, 2017"
     year: '2017'
@@ -247,7 +312,7 @@ papers:
     venue_citation: International Conference on Neural Information Processing, 500-509, 2011
     year: '2011'
   Jxm1UeYAAAAJ:YFjsv_pBGBYC:
-    citations: 20
+    citations: 21
     title: Learning interacting dynamical systems with latent gaussian process odes
     venue_citation: Advances in Neural Information Processing Systems 35, 9188-9200, 2022
     year: '2022'
@@ -272,7 +337,7 @@ papers:
     venue_citation: 'NeurIPS Bayesian Deep Learning Workshop, arXiv: 1912.00796, 2019'
     year: '2019'
   Jxm1UeYAAAAJ:Zph67rFs4hoC:
-    citations: 2495
+    citations: 2551
     title: Evidential Deep Learning to Quantify Classification Uncertainty
     venue_citation: Advances in Neural Information Processing Systems (NeurIPS), 3179-3189, 2018
     year: '2018'
@@ -397,7 +462,7 @@ papers:
     venue_citation: International Conference on Uncertainty in Artificial Intelligence (UAI), 2026
     year: '2026'
   Jxm1UeYAAAAJ:ldfaerwXgEUC:
-    citations: 29
+    citations: 30
     title: 'EdVAE: Mitigating codebook collapse with evidential discrete variational autoencoders'
     venue_citation: Pattern Recognition 156, 110792, 2024
     year: '2024'
@@ -447,7 +512,7 @@ papers:
     venue_citation: UAI, 380-389, 2014
     year: '2014'
   Jxm1UeYAAAAJ:u_35RYKgDlwC:
-    citations: 6
+    citations: 7
     title: Disentanglement with Factor Quantized Variational Autoencoders
     venue_citation: Neurocomputing, 2024
     year: '2024'
@@ -477,17 +542,17 @@ papers:
     venue_citation: Proceedings of the AAAI Conference on Artificial Intelligence 37 (8), 9260-9267, 2023
     year: '2023'
   VoaosL4AAAAJ:5nxA0vEk-isC:
-    citations: 8
+    citations: 9
     title: Stochastic multiplicative weights updates in zero-sum games
     venue_citation: arXiv preprint arXiv:2110.02134, 2021
     year: '2021'
   VoaosL4AAAAJ:8k81kl-MbHgC:
-    citations: 28
+    citations: 29
     title: Online algorithms with costly predictions
     venue_citation: International Conference on Artificial Intelligence and Statistics, 8078-8101, 2023
     year: '2023'
   VoaosL4AAAAJ:9yKSN-GCB0IC:
-    citations: 89
+    citations: 90
     title: Anomaly detection and attribution in networks with temporally correlated traffic
     venue_citation: IEEE/ACM Transactions on Networking 26 (1), 131-144, 2017
     year: '2017'
@@ -507,7 +572,7 @@ papers:
     venue_citation: "Proceedings of the 19th International Conference on Autonomous Agents and \u2026, 2020"
     year: '2020'
   VoaosL4AAAAJ:M3ejUd6NZC8C:
-    citations: 2
+    citations: 3
     title: 'The Good, the Bad and the Ugly: Meta-Analysis of Watermarks, Transferable Attacks and Adversarial Defenses'
     venue_citation: Advances in Neural Information Processing Systems 38, 80256-80302, 2026
     year: '2026'
@@ -557,7 +622,7 @@ papers:
     venue_citation: AISTATS 2025, 2024
     year: '2024'
   VoaosL4AAAAJ:aqlVkmm33-oC:
-    citations: 0
+    citations: 1
     title: 'Seeing Through Distractions: Stable Attribution via the Core'
     venue_citation: New Frontiers in Game-Theoretic Learning-NExT-Game, 0
     year: Unknown Year
@@ -567,10 +632,15 @@ papers:
     venue_citation: IEEE Internet of Things Journal 4 (6), 2199-2206, 2017
     year: '2017'
   VoaosL4AAAAJ:hqOjcs7Dif8C:
-    citations: 27
+    citations: 29
     title: 'From chaos to order: Symmetry and conservation laws in game dynamics'
     venue_citation: International Conference on Machine Learning, 7186-7196, 2020
     year: '2020'
+  VoaosL4AAAAJ:mVmsd5A6BfQC:
+    citations: 0
+    title: Rethinking Least-Core Computation in Contextual-Distractor Games
+    venue_citation: arXiv preprint arXiv:2610.06087, 2026
+    year: '2026'
   VoaosL4AAAAJ:qjMakFHDy7sC:
     citations: 4
     title: 'Spatial field reconstruction of non-Gaussian random fields: The Tukey G-and-H random process'
@@ -582,7 +652,7 @@ papers:
     venue_citation: IEEE Internet of Things Journal 4 (1), 205-214, 2016
     year: '2016'
   VoaosL4AAAAJ:u5HHmVD_uO8C:
-    citations: 50
+    citations: 51
     title: Adaptive duty cycling in sensor networks with energy harvesting using continuous-time Markov chain and fluid models
     venue_citation: IEEE Journal on Selected Areas in Communications 33 (12), 2687-2700, 2015
     year: '2015'
@@ -592,7 +662,7 @@ papers:
     venue_citation: International Conference on Machine Learning, 1469-1478, 2020
     year: '2020'
   VoaosL4AAAAJ:zYLM7Y9cAGgC:
-    citations: 321
+    citations: 322
     title: Distributed anomaly detection using autoencoder neural networks in WSN for IoT
     venue_citation: 2018 ieee international conference on communications (icc), 1-6, 2018
     year: '2018'
@@ -642,7 +712,7 @@ papers:
     venue_citation: arXiv preprint arXiv:2507.23501, 2025
     year: '2025'
   YXBAT4wAAAAJ:ULOm3_A8WrAC:
-    citations: 1
+    citations: 2
     title: Latent variable model for high-dimensional point process with structured missingness
     venue_citation: Forty-first International Conference on Machine Learning., 2024
     year: '2024'
@@ -674,10 +744,10 @@ papers:
   YXBAT4wAAAAJ:YOwf2qJgpHMC:
     citations: 34
     title: Accurate surrogate amplitudes with calibrated uncertainties
-    venue_citation: SciPost Physics Core 8 (4), 073, 2025
-    year: '2025'
+    venue_citation: arXiv preprint arXiv:2412.12069, 2024
+    year: '2024'
   YXBAT4wAAAAJ:YsMSGLbcyi4C:
-    citations: 9
+    citations: 7
     title: Control and monitoring of physical system based on trained Bayesian neural network
     venue_citation: US Patent 11,275,381, 2022
     year: '2022'
@@ -699,10 +769,10 @@ papers:
   YXBAT4wAAAAJ:eQOLeE2rZwMC:
     citations: 85
     title: Understanding event-generation networks via uncertainties
-    venue_citation: SciPost Physics 13 (1), 003, 2022
-    year: '2022'
+    venue_citation: arXiv preprint arXiv:2104.04543, 2021
+    year: '2021'
   YXBAT4wAAAAJ:hqOjcs7Dif8C:
-    citations: 21
+    citations: 22
     title: A comparative study of clinical trial and real-world data in patients with diabetic kidney disease
     venue_citation: Scientific reports 14 (1), 1731, 2024
     year: '2024'
@@ -719,8 +789,8 @@ papers:
   YXBAT4wAAAAJ:qjMakFHDy7sC:
     citations: 94
     title: Deep-learning jets with uncertainties and more
-    venue_citation: SciPost Physics 8 (1), 006, 2020
-    year: '2020'
+    venue_citation: arXiv preprint arXiv:1904.10004, 2019
+    year: '2019'
   YXBAT4wAAAAJ:qxL8FJ1GzNcC:
     citations: 0
     title: Deep Actor-Critics with Tight Risk Certificates
@@ -732,7 +802,7 @@ papers:
     venue_citation: Advances in Neural Information Processing Systems 36, 29201-29238, 2023
     year: '2023'
   YXBAT4wAAAAJ:u-x6o8ySG0sC:
-    citations: 51
+    citations: 53
     title: Variational Bayesian Multiple Instance Learning with Gaussian Processes
     venue_citation: The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 6570-6579, 2017
     year: '2017'
@@ -747,7 +817,7 @@ papers:
     venue_citation: ''
     year: '2021'
   YXBAT4wAAAAJ:zYLM7Y9cAGgC:
-    citations: 64
+    citations: 65
     title: Deep Active Learning with Adaptive Acquisition
     venue_citation: "International Joint Conference on Artificial Intelligence (IJCAI), arXiv \u2026, 2019"
     year: '2019'
@@ -767,7 +837,7 @@ papers:
     venue_citation: arXiv preprint arXiv:2405.19024, 2024
     year: '2024'
   _8yxhlMAAAAJ:JV2RwH3_ST0C:
-    citations: 0
+    citations: 1
     title: 'The Arbiter Agent: Continually Monitoring Multi-Agent Conversations to Detect Emergent Misalignment'
     venue_citation: arXiv preprint arXiv:2606.10747, 2026
     year: '2026'
@@ -787,7 +857,7 @@ papers:
     venue_citation: arXiv preprint arXiv:2605.06470, 2026
     year: '2026'
   _8yxhlMAAAAJ:RHpTSmoSYBkC:
-    citations: 4
+    citations: 7
     title: Value Improved Actor Critic Algorithms
     venue_citation: "The Thirty-Ninth Annual Conference on Neural Information Processing Systems \u2026, 2025"
     year: '2025'
@@ -802,17 +872,17 @@ papers:
     venue_citation: 36th Conference on Neural Information Processing Systems (NeurIPS 2022), 2022
     year: '2022'
   _8yxhlMAAAAJ:WF5omc3nYNoC:
-    citations: 12
+    citations: 14
     title: Modelling Needs User Modelling
     venue_citation: Frontiers in Artificial Intelligence 6, 61, 2023
     year: '2023'
   _8yxhlMAAAAJ:Y0pCki6q_DkC:
-    citations: 14
+    citations: 15
     title: Best-Response Bayesian Reinforcement Learning with Bayes-adaptive POMDPs for Centaurs
     venue_citation: "AAMAS '22: Proceedings of the 21st International Conference on Autonomous \u2026, 2022"
     year: '2022'
   _8yxhlMAAAAJ:YsMSGLbcyi4C:
-    citations: 6
+    citations: 7
     title: Differentiable User Models
     venue_citation: The 39th Conference on Uncertainty in Artificial Intelligence (UAI 2023), 2023
     year: '2023'
