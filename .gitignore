@@ -12,3 +12,4 @@ node_modules/
 vendor
 .ideaopencode.json
 final_adin_logo.drawio.pdf
+__pycache__/
