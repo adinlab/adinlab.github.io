@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-10-16'
+  last_updated: '2026-10-19'
 papers:
   0K-7XMAAAAAJ:2osOgNQ5qMEC:
     citations: 3
@@ -122,7 +122,7 @@ papers:
     venue_citation: US Patent App. 17/231,757, 2021
     year: '2021'
   Jxm1UeYAAAAJ:4OULZ7Gr8RgC:
-    citations: 38
+    citations: 39
     title: 'In the picture: Medical imaging datasets, artifacts, and their living review'
     venue_citation: "Proceedings of the 2025 ACM conference on fairness, accountability, and \u2026, 2025"
     year: '2025'
@@ -147,7 +147,7 @@ papers:
     venue_citation: "International Conference on Medical Image Computing and Computer-Assisted \u2026, 2015"
     year: '2015'
   Jxm1UeYAAAAJ:9ZlFYXVOiuMC:
-    citations: 65
+    citations: 66
     title: Deep Active Learning with Adaptive Acquisition
     venue_citation: "International Joint Conference on Artificial Intelligence (IJCAI), arXiv \u2026, 2019"
     year: '2019'
@@ -172,7 +172,7 @@ papers:
     venue_citation: Advances in Approximate Bayesian Inference (AABI), 2024
     year: '2024'
   Jxm1UeYAAAAJ:HDshCWvjkbEC:
-    citations: 7
+    citations: 9
     title: Control and Monitoring of Physical System Based on Trained Bayesian Neural Network
     venue_citation: US Patent App. 16/831,174, 2020
     year: '2020'
@@ -182,7 +182,7 @@ papers:
     venue_citation: US Patent App. 18/259,906, 2024
     year: '2024'
   Jxm1UeYAAAAJ:IWHjjKOFINEC:
-    citations: 26
+    citations: 27
     title: Learning Partially Known Stochastic Dynamics with Empirical PAC Bayes
     venue_citation: International Conference on Artificial Intelligence and Statistics (AISTATS), 2021
     year: '2021'
@@ -256,6 +256,11 @@ papers:
     title: Inferring the Structure of Ordinary Differential Equations
     venue_citation: ICML Time Series Workshop, 2021
     year: '2021'
+  Jxm1UeYAAAAJ:SP6oXDckpogC:
+    citations: 0
+    title: What Information Buys in Active Inference
+    venue_citation: arXiv preprint arXiv:2610.19046, 2026
+    year: '2026'
   Jxm1UeYAAAAJ:Se3iqnhoufwC:
     citations: 166
     title: 'Computer-aided diagnosis from weak supervision: A benchmarking study'
@@ -277,7 +282,7 @@ papers:
     venue_citation: US Patent App. 16/983,802, 2021
     year: '2021'
   Jxm1UeYAAAAJ:Tyk-4Ss8FVUC:
-    citations: 53
+    citations: 54
     title: Variational Bayesian Multiple Instance Learning with Gaussian Processes
     venue_citation: "Proceedings of the IEEE Conference on Computer Vision and Pattern \u2026, 2017"
     year: '2017'
@@ -296,6 +301,11 @@ papers:
     title: 'Digital pathology: Multiple instance learning can detect Barrett''s cancer'
     venue_citation: 2014 IEEE 11th International Symposium on Biomedical Imaging (ISBI), 1348-1351, 2014
     year: '2014'
+  Jxm1UeYAAAAJ:UxriW0iASnsC:
+    citations: 0
+    title: 'Stein Variational Distributional Reinforcement Learning: Score-Guided Particles for Multivariate Return Distributions'
+    venue_citation: arXiv preprint arXiv:2610.17925, 2026
+    year: '2026'
   Jxm1UeYAAAAJ:W7OEmFMy1HYC:
     citations: 22
     title: 'Multiple instance learning: Robust validation on retinopathy of prematurity'
@@ -337,7 +347,7 @@ papers:
     venue_citation: 'NeurIPS Bayesian Deep Learning Workshop, arXiv: 1912.00796, 2019'
     year: '2019'
   Jxm1UeYAAAAJ:Zph67rFs4hoC:
-    citations: 2551
+    citations: 2564
     title: Evidential Deep Learning to Quantify Classification Uncertainty
     venue_citation: Advances in Neural Information Processing Systems (NeurIPS), 3179-3189, 2018
     year: '2018'
@@ -402,7 +412,7 @@ papers:
     venue_citation: arXiv preprint arXiv:2609.33407, 2026
     year: '2026'
   Jxm1UeYAAAAJ:e5wmG9Sq2KIC:
-    citations: 0
+    citations: 1
     title: Method and device for processing sensor data
     venue_citation: US Patent App. 17/086,057, 2021
     year: '2021'
@@ -602,7 +612,7 @@ papers:
     venue_citation: International Conference on Learning Representations, 2020
     year: '2020'
   VoaosL4AAAAJ:WF5omc3nYNoC:
-    citations: 66
+    citations: 67
     title: 'Last iterate convergence in no-regret learning: constrained min-max optimization for convex-concave landscapes'
     venue_citation: International Conference on Artificial Intelligence and Statistics, 1441-1449, 2021
     year: '2021'
@@ -722,7 +732,7 @@ papers:
     venue_citation: International Conference on Artificial Intelligence and Statistics, 2926-2934, 2024
     year: '2024'
   YXBAT4wAAAAJ:W7OEmFMy1HYC:
-    citations: 26
+    citations: 27
     title: Learning partially known stochastic dynamics with empirical PAC Bayes
     venue_citation: International conference on artificial intelligence and statistics, 478-486, 2021
     year: '2021'
@@ -742,12 +752,12 @@ papers:
     venue_citation: "3rd Advances in Approximate Bayesian Inference (AABI) Symposium, arXiv \u2026, 2019"
     year: '2019'
   YXBAT4wAAAAJ:YOwf2qJgpHMC:
-    citations: 34
+    citations: 35
     title: Accurate surrogate amplitudes with calibrated uncertainties
     venue_citation: arXiv preprint arXiv:2412.12069, 2024
     year: '2024'
   YXBAT4wAAAAJ:YsMSGLbcyi4C:
-    citations: 7
+    citations: 9
     title: Control and monitoring of physical system based on trained Bayesian neural network
     venue_citation: US Patent 11,275,381, 2022
     year: '2022'
@@ -766,6 +776,11 @@ papers:
     title: "Supplementary Material for the Paper:\u201D Variational Bayesian Multiple Instance Learning with Gaussian Processes\u201D"
     venue_citation: ''
     year: Unknown Year
+  YXBAT4wAAAAJ:dhFuZR0502QC:
+    citations: 0
+    title: 'Stein Variational Distributional Reinforcement Learning: Score-Guided Particles for Multivariate Return Distributions'
+    venue_citation: arXiv preprint arXiv:2610.17925, 2026
+    year: '2026'
   YXBAT4wAAAAJ:eQOLeE2rZwMC:
     citations: 85
     title: Understanding event-generation networks via uncertainties
@@ -802,7 +817,7 @@ papers:
     venue_citation: Advances in Neural Information Processing Systems 36, 29201-29238, 2023
     year: '2023'
   YXBAT4wAAAAJ:u-x6o8ySG0sC:
-    citations: 53
+    citations: 54
     title: Variational Bayesian Multiple Instance Learning with Gaussian Processes
     venue_citation: The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 6570-6579, 2017
     year: '2017'
@@ -817,7 +832,7 @@ papers:
     venue_citation: ''
     year: '2021'
   YXBAT4wAAAAJ:zYLM7Y9cAGgC:
-    citations: 65
+    citations: 66
     title: Deep Active Learning with Adaptive Acquisition
     venue_citation: "International Joint Conference on Artificial Intelligence (IJCAI), arXiv \u2026, 2019"
     year: '2019'
@@ -911,6 +926,11 @@ papers:
     title: Uncoupled Learning of Differential Stackelberg Equilibria with Commitments
     venue_citation: "AAMAS '24: Proceedings of the 23rd International Conference on Autonomous \u2026, 2024"
     year: '2024'
+  _8yxhlMAAAAJ:hMod-77fHWUC:
+    citations: 0
+    title: What Information Buys in Active Inference
+    venue_citation: arXiv preprint arXiv:2610.19046, 2026
+    year: '2026'
   _8yxhlMAAAAJ:iH-uZ7U-co4C:
     citations: 0
     title: Towards an Experimentation Platform for Hybrid Human-AI Sequential Decision-Making
