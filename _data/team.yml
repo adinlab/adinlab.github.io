@@ -10,24 +10,6 @@ faculty:
     image: assets/img/team/new/MelihKandemir.jpg
     head: true
     order: 0
-  - name: Mustafa Mert Çelikok
-    since: 2025-09
-    about: Assistant Professor
-    mail: celikok@imada.sdu.dk
-    webpage: https://mmcelikok.github.io/
-    scholar: https://scholar.google.com/citations?user=_8yxhlMAAAAJ
-    image: assets/img/team/new/MertCelikok.jpg
-    head: false
-    order: 1
-  - name: Sai Ganesh Nagarajan
-    since: 2025-09
-    about: Assistant Professor
-    mail: sgnagarajan@imada.sdu.dk
-    image: assets/img/team/new/SaiGanesh.jpg
-    webpage: https://sites.google.com/view/sgnagarajan/home
-    scholar: https://scholar.google.com/citations?user=VoaosL4AAAAJ&hl=en
-    head: false
-    order: 2
   - name: Marco Chiarandini
     since: 2021-08
     about: Associate Professor
@@ -37,18 +19,27 @@ faculty:
     scholar: https://scholar.google.com/citations?user=RUfo3KoAAAAJ
     image: assets/img/team/new/MarcoChiarandini.jpg
     head: false
+    order: 1
+  - name: Mustafa Mert Çelikok
+    since: 2025-09
+    about: Assistant Professor
+    mail: celikok@imada.sdu.dk
+    webpage: https://mmcelikok.github.io/
+    scholar: https://scholar.google.com/citations?user=_8yxhlMAAAAJ
+    image: assets/img/team/new/MertCelikok.jpg
+    head: false
+    order: 2
+  - name: Sai Ganesh Nagarajan
+    since: 2025-09
+    about: Assistant Professor
+    mail: sgnagarajan@imada.sdu.dk
+    image: assets/img/team/new/SaiGanesh.jpg
+    webpage: https://sites.google.com/view/sgnagarajan/home
+    scholar: https://scholar.google.com/citations?user=VoaosL4AAAAJ&hl=en
+    head: false
     order: 3
 
 researchers:
-  - name: Manuel Haussmann
-    since: 2023-12
-    until: 2026-10
-    mail: haussmann@imada.sdu.dk
-    scholar: https://scholar.google.com/citations?user=YXBAT4wAAAAJ&hl=de&oi=ao
-    research_areas: Postdoc
-    image: assets/img/team/new/ManuelHaussmann.jpg
-    webpage: https://manuelhaussmann.github.io
-
   - name: Jacob Egebjerg
     since: 2026-10
     mail: jegebjerg@imada.sdu.dk
@@ -134,6 +125,15 @@ adjunct_alumni:
     image: assets/img/team/new/GulcinBaykalCan.png
     linkedin: https://www.linkedin.com/in/gülçin-baykal-can-0a8276b0
     webpage: https://gulcinbaykal.github.io/    
+
+  - name: Manuel Haussmann
+    since: 2023-12
+    until: 2026-10
+    # mail: haussmann@imada.sdu.dk
+    scholar: https://scholar.google.com/citations?user=YXBAT4wAAAAJ&hl=de&oi=ao
+    research_areas: Former Postdoc
+    image: assets/img/team/new/ManuelHaussmann.jpg
+    webpage: https://manuelhaussmann.github.io
 
   - name: Nicklas Werge
     since: 2023-10
