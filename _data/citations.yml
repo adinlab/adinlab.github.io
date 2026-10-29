@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-10-23'
+  last_updated: '2026-10-29'
 papers:
   0K-7XMAAAAAJ:2osOgNQ5qMEC:
     citations: 3
@@ -32,7 +32,7 @@ papers:
     venue_citation: ACTA PHYSIOLOGICA 241, 2025
     year: '2025'
   0K-7XMAAAAAJ:d1gkVwhDpl0C:
-    citations: 18
+    citations: 19
     title: Demonstrating soft X-ray tomography in the lab for correlative cryogenic biological imaging using X-rays and light microscopy
     venue_citation: Scientific Reports 15 (1), 45491, 2025
     year: '2025'
@@ -147,7 +147,7 @@ papers:
     venue_citation: "International Conference on Medical Image Computing and Computer-Assisted \u2026, 2015"
     year: '2015'
   Jxm1UeYAAAAJ:9ZlFYXVOiuMC:
-    citations: 66
+    citations: 67
     title: Deep Active Learning with Adaptive Acquisition
     venue_citation: "International Joint Conference on Artificial Intelligence (IJCAI), arXiv \u2026, 2019"
     year: '2019'
@@ -202,7 +202,7 @@ papers:
     venue_citation: US Patent 10,896,351, 2021
     year: '2021'
   Jxm1UeYAAAAJ:LkGwnXOMwfcC:
-    citations: 92
+    citations: 93
     title: Empowering multiple instance histopathology cancer diagnosis by cell graphs
     venue_citation: "International Conference on Medical Image Computing and Computer-Assisted \u2026, 2014"
     year: '2014'
@@ -262,7 +262,7 @@ papers:
     venue_citation: arXiv preprint arXiv:2610.19046, 2026
     year: '2026'
   Jxm1UeYAAAAJ:Se3iqnhoufwC:
-    citations: 166
+    citations: 165
     title: 'Computer-aided diagnosis from weak supervision: A benchmarking study'
     venue_citation: Computerized medical imaging and graphics 42, 44-50, 2015
     year: '2015'
@@ -282,7 +282,7 @@ papers:
     venue_citation: US Patent App. 16/983,802, 2021
     year: '2021'
   Jxm1UeYAAAAJ:Tyk-4Ss8FVUC:
-    citations: 54
+    citations: 55
     title: Variational Bayesian Multiple Instance Learning with Gaussian Processes
     venue_citation: "Proceedings of the IEEE Conference on Computer Vision and Pattern \u2026, 2017"
     year: '2017'
@@ -347,7 +347,7 @@ papers:
     venue_citation: 'NeurIPS Bayesian Deep Learning Workshop, arXiv: 1912.00796, 2019'
     year: '2019'
   Jxm1UeYAAAAJ:Zph67rFs4hoC:
-    citations: 2574
+    citations: 2610
     title: Evidential Deep Learning to Quantify Classification Uncertainty
     venue_citation: Advances in Neural Information Processing Systems (NeurIPS), 3179-3189, 2018
     year: '2018'
@@ -537,10 +537,605 @@ papers:
     venue_citation: US Patent App. 18/164,419, 2023
     year: '2023'
   Jxm1UeYAAAAJ:zYLM7Y9cAGgC:
-    citations: 42
+    citations: 43
     title: Sampling-Free Variational Inference of Bayesian Neural Nets with Variance Backpropagation
     venue_citation: Uncertainty in Artificial Intelligence (UAI), arXiv preprint arXiv:1805.07654, 2019
     year: '2019'
+  RUfo3KoAAAAJ:-FonjvnnhkoC:
+    citations: 7
+    title: Analyzing passing sequences for the prediction of goal-scoring opportunities
+    venue_citation: "International Workshop on Machine Learning and Data Mining for Sports \u2026, 2022"
+    year: '2022'
+  RUfo3KoAAAAJ:-f6ydRqryjwC:
+    citations: 3
+    title: A Study on the Short-Term Prohibition Mechanisms in Tabu Search for Examination Timetabling
+    venue_citation: Practice and Theory of Automated Timetabling VI, 406, 2006
+    year: '2006'
+  RUfo3KoAAAAJ:0EnyYjriUFMC:
+    citations: 15
+    title: An algorithm for the car sequencing problem of the ROADEF 2005 challenge
+    venue_citation: "TU Darmstadt, Computer Science, Intellectics Group, Technical Report AIDA-04 \u2026, 2004"
+    year: '2004'
+  RUfo3KoAAAAJ:2KloaMYe4IUC:
+    citations: 5
+    title: Vertical optimization of resource dependent flight paths
+    venue_citation: 22nd European Conference on Artificial Intelligence, 639-645, 2016
+    year: '2016'
+  RUfo3KoAAAAJ:2osOgNQ5qMEC:
+    citations: 196
+    title: Hybrid metaheuristics for the vehicle routing problem with stochastic demands
+    venue_citation: Journal of Mathematical Modelling and Algorithms 5 (1), 91-110, 2006
+    year: '2006'
+  RUfo3KoAAAAJ:35r97b3x0nAC:
+    citations: 0
+    title: Workshop on Empirical Methods for the Analysis of Algorithms
+    venue_citation: ''
+    year: '2006'
+  RUfo3KoAAAAJ:4JMBOYKVnBMC:
+    citations: 0
+    title: Course Introduction Hybrid Optimization
+    venue_citation: ''
+    year: Unknown Year
+  RUfo3KoAAAAJ:4OULZ7Gr8RgC:
+    citations: 0
+    title: Exact Colour Reassignment in Tabu Search for the Graph Set T-Colouring Problem
+    venue_citation: ''
+    year: Unknown Year
+  RUfo3KoAAAAJ:4TOpqqG69KYC:
+    citations: 0
+    title: Hybrid metaheuristics for the vehicle routing problem with stochastic demand
+    venue_citation: Journal of Mathematical Modelling and Algorithms 5 (1), 91-110, 2006
+    year: '2006'
+  RUfo3KoAAAAJ:4fGpz3EwCPoC:
+    citations: 1
+    title: "Paralisia facial perif\xE9rica n\xE3o traum\xE1tica"
+    venue_citation: Manole, 2015
+    year: '2015'
+  RUfo3KoAAAAJ:5nxA0vEk-isC:
+    citations: 7
+    title: A study on the short-term prohibition mechanisms in tabu search
+    venue_citation: FRONTIERS IN ARTIFICIAL INTELLIGENCE AND APPLICATIONS 141, 83, 2006
+    year: '2006'
+  RUfo3KoAAAAJ:5qfkUJPXOUwC:
+    citations: 0
+    title: Sustainable Software for Greener Screenwriting:-A Danish cross-disciplinary project
+    venue_citation: 'Mediation of Sustainability: Volume Two, 2024'
+    year: '2024'
+  RUfo3KoAAAAJ:7PzlFSSx8tAC:
+    citations: 3
+    title: A hash function breaking symmetry in partitioning problems and its application to tabu search for graph coloring
+    venue_citation: "Tech. Report No. TR/IRIDIA/2010-025, Universit\xE9 Libre de Bruxelles, 2010"
+    year: '2010'
+  RUfo3KoAAAAJ:86PQX7AUzd4C:
+    citations: 29
+    title: An effective hybrid approach for the university course timetabling problem
+    venue_citation: ''
+    year: '2003'
+  RUfo3KoAAAAJ:8d8msizDQcsC:
+    citations: 0
+    title: 'The Integrated Healthcare Timetabling Competition 2024: Context and analysis'
+    venue_citation: Operations Research, Data Analytics and Logistics, 200508, 2026
+    year: '2026'
+  RUfo3KoAAAAJ:8k81kl-MbHgC:
+    citations: 8
+    title: A Study of local optima in the biobjective Travelling Salesman Problem
+    venue_citation: "Computer Science Department, Darmstadt University of Technology, Technical \u2026, 2002"
+    year: '2002'
+  RUfo3KoAAAAJ:9Nmd_mFXekcC:
+    citations: 24
+    title: Flight planning in free route airspaces
+    venue_citation: "17th Workshop on Algorithmic Approaches for Transportation Modelling \u2026, 2017"
+    year: '2017'
+  RUfo3KoAAAAJ:9ZlFYXVOiuMC:
+    citations: 37
+    title: Heuristic solutions to the long-term unit commitment problem with cogeneration plants
+    venue_citation: Computers & operations research 39 (2), 269-282, 2012
+    year: '2012'
+  RUfo3KoAAAAJ:9pM33mqn1YgC:
+    citations: 2
+    title: LU Factorization
+    venue_citation: Linear and Integer Programming, 0
+    year: Unknown Year
+  RUfo3KoAAAAJ:9yKSN-GCB0IC:
+    citations: 139
+    title: An application of iterated local search to graph coloring problem
+    venue_citation: "Proceedings of the computational symposium on graph coloring and its \u2026, 2002"
+    year: '2002'
+  RUfo3KoAAAAJ:AvfA0Oy_GE0C:
+    citations: 68
+    title: Outlier detection in urban traffic flow distributions
+    venue_citation: 2018 IEEE international conference on data mining (ICDM), 935-940, 2018
+    year: '2018'
+  RUfo3KoAAAAJ:EYYDruWGBe4C:
+    citations: 0
+    title: A Computational Study on the 2-Edge-Connectivity Augmentation Problem
+    venue_citation: ''
+    year: Unknown Year
+  RUfo3KoAAAAJ:EkHepimYqZsC:
+    citations: 1
+    title: Un sistema per la pianificazione dei turni del personale di un'azienda mediante tecniche di ricerca locale
+    venue_citation: ''
+    year: '1998'
+  RUfo3KoAAAAJ:FAceZFleit8C:
+    citations: 0
+    title: "Medarbejderne b\xF8r inddrages i design af algoritmer, men hvordan?: Diskussion om automatiseret planl\xE6gning af arbejdstid p\xE5 den hybride arbejdsplads"
+    venue_citation: HR-chefen, 44-46, 2023
+    year: '2023'
+  RUfo3KoAAAAJ:FPJr55Dyh1AC:
+    citations: 0
+    title: Sustainable Software for Greener Screenwriting
+    venue_citation: "Mediation of Sustainability: The United Nations Sustainable Development \u2026, 2024"
+    year: '2024'
+  RUfo3KoAAAAJ:Fu2w8maKXqMC:
+    citations: 0
+    title: Stochastic Local Search Algorithms for the Graph Coloring Problem.
+    venue_citation: Handbook of Approximation Algorithms and Metaheuristics, 2007
+    year: '2007'
+  RUfo3KoAAAAJ:GnPB-g6toBAC:
+    citations: 0
+    title: Local Search Algorithms for Graph Set T-Colouring and Frequency Assignment
+    venue_citation: XXXVII Annual Conference of the Italian Operational Research Society, 104, 2006
+    year: '2006'
+  RUfo3KoAAAAJ:GtLg2Ama23sC:
+    citations: 0
+    title: A multi-neighborhood, lexicographic local search algorithm for the Integrated Healthcare Timetabling Competition 2024
+    venue_citation: Operations Research, Data Analytics and Logistics, 200513, 2026
+    year: '2026'
+  RUfo3KoAAAAJ:HDshCWvjkbEC:
+    citations: 12
+    title: Efficiency issues in the RLF heuristic for graph coloring
+    venue_citation: Proceedings of the 9th Metaheuristics International Conference, MIC, 461-469, 2011
+    year: '2011'
+  RUfo3KoAAAAJ:ILKRHgRFtOwC:
+    citations: 0
+    title: Do orientation and size matter? Mental simulation of object properties in L1 and L2 readers
+    venue_citation: "Understanding the world through L1 and L2 German and Spanish-The case of \u2026, 2016"
+    year: '2016'
+  RUfo3KoAAAAJ:IWHjjKOFINEC:
+    citations: 3
+    title: A multiphase modular heuristic solver for post enrollment course timetabling
+    venue_citation: Journal of Scheduling, 2-3, 2008
+    year: '2008'
+  RUfo3KoAAAAJ:IjCSPb-OGe4C:
+    citations: 282
+    title: Experimental methods for the analysis of optimization algorithms
+    venue_citation: Springer, 2010
+    year: '2010'
+  RUfo3KoAAAAJ:JV2RwH3_ST0C:
+    citations: 0
+    title: Running Assignment
+    venue_citation: ''
+    year: Unknown Year
+  RUfo3KoAAAAJ:J_g5lzvAfSwC:
+    citations: 0
+    title: Towards Fair and Efficient Assignments of Students to Projects
+    venue_citation: Practice and Theory of Automated Timetabling, 2012
+    year: '2012'
+  RUfo3KoAAAAJ:KUbvn5osdkgC:
+    citations: 11
+    title: An exact algorithm for group formation to promote collaborative learning
+    venue_citation: 'LAK21: 11th International Learning Analytics and Knowledge Conference, 546-552, 2021'
+    year: '2021'
+  RUfo3KoAAAAJ:KlAtU1dfN6UC:
+    citations: 3
+    title: Colour reassignment in tabu search for the graph set t-colouring problem
+    venue_citation: International Workshop on Hybrid Metaheuristics, 162-177, 2006
+    year: '2006'
+  RUfo3KoAAAAJ:L8Ckcad2t8MC:
+    citations: 12
+    title: A comparison of the performance of different metaheuristics on the timetabling problem
+    venue_citation: "the Proceedings of International Conference on the Practice and Theory of \u2026, 2002"
+    year: '2002'
+  RUfo3KoAAAAJ:LO7wyVUgiFcC:
+    citations: 37
+    title: Solving employee timetabling problems with flexible workload using tabu search
+    venue_citation: "Proceedings of the 3rd International Conference on the Practice and Theory \u2026, 2000"
+    year: '2000'
+  RUfo3KoAAAAJ:LkGwnXOMwfcC:
+    citations: 18
+    title: Local Search for the Colouring Graph Problem. A Computational Study.
+    venue_citation: "TU Darmstadt, FB Intellektik, FG Informatik Hochschulstr. 10, 64289 \u2026, 2003"
+    year: '2003'
+  RUfo3KoAAAAJ:M3NEmzRMIkIC:
+    citations: 0
+    title: Course Overview
+    venue_citation: ''
+    year: Unknown Year
+  RUfo3KoAAAAJ:M3ejUd6NZC8C:
+    citations: 3
+    title: Experimental analysis of optimization heuristics using R
+    venue_citation: "Lecture notes available at http://www. imada. sdu. dk/~ marco/Teaching/Files \u2026, 2009"
+    year: '2009'
+  RUfo3KoAAAAJ:ML0RJ9NH7IQC:
+    citations: 0
+    title: 'Large scale neighborhood search: overview and case studies on coloring problems'
+    venue_citation: Hybrid Metaheuristics-An emergent approach for optimization, 2008
+    year: '2008'
+  RUfo3KoAAAAJ:MXK_kJrjxJIC:
+    citations: 20
+    title: An analysis of heuristics for vertex colouring
+    venue_citation: International Symposium on Experimental Algorithms, 326-337, 2010
+    year: '2010'
+  RUfo3KoAAAAJ:O3NaXMp0MMsC:
+    citations: 0
+    title: An Analysis of Heuristics for Vertex Colouring on General Graphs
+    venue_citation: Lecture notes in computer science 6049, 326-337, 2010
+    year: '2010'
+  RUfo3KoAAAAJ:P5F9QuxV20EC:
+    citations: 0
+    title: Workshop on Experimental Methods for the Assessment of Computational Systems (WEMACS 2010)
+    venue_citation: ''
+    year: '2010'
+  RUfo3KoAAAAJ:PVjk1bu6vJQC:
+    citations: 3
+    title: Team formation with diversity and similarity goals
+    venue_citation: "Proceedings of the 14th International Conference on the Practice and Theory \u2026, 2024"
+    year: '2024'
+  RUfo3KoAAAAJ:QIV2ME_5wuYC:
+    citations: 1
+    title: Modelling and solving the generalised balanced academic curriculum problem with heterogeneous classes
+    venue_citation: PATAT 2010, 547, 2010
+    year: '2010'
+  RUfo3KoAAAAJ:Ri6SYOTghG4C:
+    citations: 0
+    title: 'Pareto Local Optimum Sets in the Biobjective Traveling Salesman Problem: An Experimental'
+    venue_citation: Metaheuristics for Multiobjective Optimisation, 177, 2012
+    year: '2012'
+  RUfo3KoAAAAJ:Se3iqnhoufwC:
+    citations: 8
+    title: A landscape analysis for a hybrid approximate algorithm on a timetabling problem
+    venue_citation: "TU Darmstadt Technical Report AIDA-03\u201305, 2003"
+    year: '2003'
+  RUfo3KoAAAAJ:TFP_iSt0sucC:
+    citations: 0
+    title: Global constraints
+    venue_citation: ''
+    year: Unknown Year
+  RUfo3KoAAAAJ:TIZ-Mc8IlK0C:
+    citations: 10
+    title: Detecting wandering behavior of people with dementia
+    venue_citation: 2021 international conference on data mining workshops (ICDMW), 727-733, 2021
+    year: '2021'
+  RUfo3KoAAAAJ:TQgYirikUcIC:
+    citations: 0
+    title: Empirical Methods for the Analysis of Optimization Heuristics
+    venue_citation: ''
+    year: '2008'
+  RUfo3KoAAAAJ:Tyk-4Ss8FVUC:
+    citations: 64
+    title: "Synchronized permutation tests in replicated I\xD7 J designs"
+    venue_citation: Journal of Statistical Planning and Inference 137 (8), 2564-2578, 2007
+    year: '2007'
+  RUfo3KoAAAAJ:ULOm3_A8WrAC:
+    citations: 70
+    title: The balanced academic curriculum problem revisited
+    venue_citation: Journal of Heuristics 18 (1), 119-148, 2012
+    year: '2012'
+  RUfo3KoAAAAJ:UeHWp8X0CEIC:
+    citations: 99
+    title: Metaheuristics for the vehicle routing problem with stochastic demands
+    venue_citation: International conference on parallel problem solving from nature, 450-460, 2004
+    year: '2004'
+  RUfo3KoAAAAJ:UebtZRa9Y70C:
+    citations: 68
+    title: 'Experiments on metaheuristics: Methodological overview and open issues'
+    venue_citation: Technical Report, 2007
+    year: '2007'
+  RUfo3KoAAAAJ:Ug5p-4gJ2f0C:
+    citations: 0
+    title: Constraint Programming Overview
+    venue_citation: ''
+    year: Unknown Year
+  RUfo3KoAAAAJ:W7OEmFMy1HYC:
+    citations: 44
+    title: Stochastic local search algorithms for the graph coloring problem
+    venue_citation: Handbook of approximation algorithms and metaheuristics, 299-316, 2018
+    year: '2018'
+  RUfo3KoAAAAJ:WF5omc3nYNoC:
+    citations: 32
+    title: Stochastic Local Search Algorithms for Graph Set T-colouring and Frequency Assignment
+    venue_citation: Constraints 12 (3), 371-403, 2007
+    year: '2007'
+  RUfo3KoAAAAJ:WZBGuue-350C:
+    citations: 11
+    title: Evaluation of probability distribution distance metrics in traffic flow outlier detection
+    venue_citation: 2022 23rd IEEE International Conference on Mobile Data Management (MDM), 64-69, 2022
+    year: '2022'
+  RUfo3KoAAAAJ:Wp0gIr-vW9MC:
+    citations: 0
+    title: Learning decision trees for the analysis of optimization heuristics
+    venue_citation: International Conference on Learning and Intelligent Optimization, 208-211, 2010
+    year: '2010'
+  RUfo3KoAAAAJ:XD-gHx7UXLsC:
+    citations: 15
+    title: Constraint handling in flight planning
+    venue_citation: "International Conference on Principles and Practice of Constraint \u2026, 2017"
+    year: '2017'
+  RUfo3KoAAAAJ:XoXfffV-tXoC:
+    citations: 4
+    title: Construction Heuristics for Traveling Salesman Problem
+    venue_citation: "University of Southern\u2013Denmark, 2020"
+    year: '2020'
+  RUfo3KoAAAAJ:Y0pCki6q_DkC:
+    citations: 52
+    title: A modular multiphase heuristic solver for post enrolment course timetabling
+    venue_citation: "Proceedings of the 7th International Conference on the Practice and Theory \u2026, 2008"
+    year: '2008'
+  RUfo3KoAAAAJ:YOwf2qJgpHMC:
+    citations: 7
+    title: An automatically configured modular algorithm for post enrollment course timetabling
+    venue_citation: "\xCB\xC4\xCB\xB9 \xCB \xBE\xBC\xBC, 16, 2009"
+    year: '2009'
+  RUfo3KoAAAAJ:YohjEiUPhakC:
+    citations: 2
+    title: Learning graphical models for algorithm configuration
+    venue_citation: CPAIOR 2011 Late Breaking Abstracts, 4, 2011
+    year: '2011'
+  RUfo3KoAAAAJ:YsMSGLbcyi4C:
+    citations: 24
+    title: 'Very large-scale neighborhood search: Overview and case studies on coloring problems'
+    venue_citation: 'Hybrid Metaheuristics: An Emerging Approach to Optimization, 117-150, 2008'
+    year: '2008'
+  RUfo3KoAAAAJ:Z5m8FVwuT1cC:
+    citations: 0
+    title: Benders decomposition for an integrated biomass logistic problem
+    venue_citation: ''
+    year: Unknown Year
+  RUfo3KoAAAAJ:Zph67rFs4hoC:
+    citations: 41
+    title: Mixed models for the analysis of optimization algorithms
+    venue_citation: Experimental Methods for the Analysis of Optimization Algorithms, 225-264, 2010
+    year: '2010'
+  RUfo3KoAAAAJ:_FM0Bhl9EiAC:
+    citations: 0
+    title: Optimization of Hazardous Waste Collection Bachelor Project
+    venue_citation: ''
+    year: '2025'
+  RUfo3KoAAAAJ:_FxGoFyzp5QC:
+    citations: 12
+    title: International timetabling competition a hybrid approach
+    venue_citation: "International Timetabling Competition Results\u2019, http://www. idsia. ch/Files \u2026, 2003"
+    year: '2003'
+  RUfo3KoAAAAJ:_Qo2XoVZTnwC:
+    citations: 0
+    title: Double-layered Surrogate Modeling for Tuning Metaheuristics
+    venue_citation: "ENBIS/EMSE Conference\\\" Design and Analysis of Computer Experiments\\\", Saint \u2026, 2008"
+    year: '2008'
+  RUfo3KoAAAAJ:_Re3VWB3Y0AC:
+    citations: 15
+    title: An efficient branch and cut algorithm to find frequently mutated subnetworks in cancer
+    venue_citation: International Workshop on Algorithms in Bioinformatics, 27-39, 2016
+    year: '2016'
+  RUfo3KoAAAAJ:_Ybze24A_UAC:
+    citations: 0
+    title: Graph Theory-Dedicated to Carsten Thomassen on his 60th Birthday
+    venue_citation: Discrete mathematics 310 (20), 2010
+    year: '2010'
+  RUfo3KoAAAAJ:_kc_bZDykSQC:
+    citations: 0
+    title: Empirical Methods for the Analysis of Algorithms
+    venue_citation: ''
+    year: Unknown Year
+  RUfo3KoAAAAJ:aqlVkmm33-oC:
+    citations: 0
+    title: Regression trees for the visualization of results in optimization heuristic design
+    venue_citation: ''
+    year: '2009'
+  RUfo3KoAAAAJ:b1wdh0AR-JQC:
+    citations: 7
+    title: A comparison of different approaches to dynamic origin-destination matrix estimation in urban traffic
+    venue_citation: arXiv preprint arXiv:2202.00099, 2022
+    year: '2022'
+  RUfo3KoAAAAJ:bEWYMUwI8FkC:
+    citations: 0
+    title: Further notions of local consistency
+    venue_citation: ''
+    year: Unknown Year
+  RUfo3KoAAAAJ:blknAaTinKkC:
+    citations: 16
+    title: Integrated planning of biomass inventory and energy production
+    venue_citation: IEEE Transactions on Computers 63 (1), 102-114, 2013
+    year: '2013'
+  RUfo3KoAAAAJ:bnK-pcrLprsC:
+    citations: 5
+    title: Linear and integer programming lecture notes
+    venue_citation: 'url: https://imada. sdu. dk/~ marco/DM871/Notes/dm545-main. pdf, 2015'
+    year: '2015'
+  RUfo3KoAAAAJ:d1gkVwhDpl0C:
+    citations: 330
+    title: 'Pareto local optimum sets in the biobjective traveling salesman problem: An experimental study'
+    venue_citation: Metaheuristics for multiobjective optimisation, 177-199, 2004
+    year: '2004'
+  RUfo3KoAAAAJ:dhFuZR0502QC:
+    citations: 0
+    title: Mixed Models for the Analysis of Optimization Algorithms
+    venue_citation: Institut for Matematik og Datalogi, Syddansk Universitet, 2009
+    year: '2009'
+  RUfo3KoAAAAJ:dshw04ExmUIC:
+    citations: 0
+    title: Problem Solving From Nature (PPSN 2010)
+    venue_citation: ''
+    year: Unknown Year
+  RUfo3KoAAAAJ:eQOLeE2rZwMC:
+    citations: 14
+    title: Mixed models for the analysis of local search components
+    venue_citation: International Workshop on Engineering Stochastic Local Search Algorithms, 91-105, 2007
+    year: '2007'
+  RUfo3KoAAAAJ:edDO8Oi4QzsC:
+    citations: 3
+    title: The international planning competition series and empirical evaluation of ai planning systems
+    venue_citation: Proceedings of Workshop on Empirical Methods for the Analysis of Algorithm, 2006
+    year: '2006'
+  RUfo3KoAAAAJ:foquWX3nUaYC:
+    citations: 0
+    title: "DM545/DM871\u2013Linear and integer programming"
+    venue_citation: ''
+    year: '2020'
+  RUfo3KoAAAAJ:g3aElNc5_aQC:
+    citations: 7
+    title: 'Wandering and getting lost: The architecture of an app activating local communities on dementia issues'
+    venue_citation: "2021 IEEE/ACM 3rd International Workshop on Software Engineering for \u2026, 2021"
+    year: '2021'
+  RUfo3KoAAAAJ:gsN89kCJA0AC:
+    citations: 0
+    title: Detecting Wandering Behavior of People with Dementia
+    venue_citation: 'arXiv e-prints, arXiv: 2110.13128, 2021'
+    year: '2021'
+  RUfo3KoAAAAJ:hC7cP41nSMkC:
+    citations: 0
+    title: A Short Tutorial on Experimental Analysis of Optimization Heuristics with R
+    venue_citation: ''
+    year: '2008'
+  RUfo3KoAAAAJ:hCrLmN-GePgC:
+    citations: 0
+    title: "DM587\u2014Scientific Programming"
+    venue_citation: ''
+    year: '2024'
+  RUfo3KoAAAAJ:hFOr9nPyWt4C:
+    citations: 6
+    title: Learning graphical models for parameter tuning
+    venue_citation: "Technical Report TR/IRIDIA/2011-002, Institut de Researches \u2026, 2011"
+    year: '2011'
+  RUfo3KoAAAAJ:hMod-77fHWUC:
+    citations: 0
+    title: 'Planning in Education: Some Challenging Scheduling Problems'
+    venue_citation: ''
+    year: Unknown Year
+  RUfo3KoAAAAJ:hqOjcs7Dif8C:
+    citations: 5
+    title: Research on the vehicle routing problem with stochastic demand
+    venue_citation: ''
+    year: '2004'
+  RUfo3KoAAAAJ:i2xiXl-TujoC:
+    citations: 1
+    title: Advanced methods for MILP
+    venue_citation: University of Southern Denmark. Retrieved on 24, 2018
+    year: '2018'
+  RUfo3KoAAAAJ:iH-uZ7U-co4C:
+    citations: 0
+    title: Course Introduction Hybrid Modeling
+    venue_citation: ''
+    year: Unknown Year
+  RUfo3KoAAAAJ:j3f4tGmQtD8C:
+    citations: 0
+    title: 'Applying stochastic local search methods to timetabling: an engineering process'
+    venue_citation: XXXVI Annual Conference of the Italian Operational Research Society, 74, 2005
+    year: '2005'
+  RUfo3KoAAAAJ:kNdYIx-mwKoC:
+    citations: 10
+    title: "A computational investigation of heuristic algorithms for 2\u2010edge\u2010connectivity augmentation"
+    venue_citation: 'Networks: An International Journal 55 (4), 299-325, 2010'
+    year: '2010'
+  RUfo3KoAAAAJ:kuK5TVdYjLIC:
+    citations: 0
+    title: 'Wandering and getting lost: the architecture of an app activating local communities on dementia issues'
+    venue_citation: 'arXiv e-prints, arXiv: 2103.06777, 2021'
+    year: '2021'
+  RUfo3KoAAAAJ:mVmsd5A6BfQC:
+    citations: 35
+    title: A local search heuristic for chromatic sum
+    venue_citation: Proceedings of the 9th metaheuristics international conference 1101, 161-170, 2011
+    year: '2011'
+  RUfo3KoAAAAJ:maZDTaKrznsC:
+    citations: 0
+    title: Problem Solving
+    venue_citation: ''
+    year: Unknown Year
+  RUfo3KoAAAAJ:nb7KW1ujOQ8C:
+    citations: 0
+    title: A Web Platform for Problem Solving Competitions
+    venue_citation: "Konference om pr\xF8veformer, feedback og l\xE6ring 500, 7, 2013"
+    year: '2013'
+  RUfo3KoAAAAJ:nrtMV_XWKgEC:
+    citations: 67
+    title: Handling preferences in student-project allocation
+    venue_citation: Annals of Operations Research 275 (1), 39-78, 2019
+    year: '2019'
+  RUfo3KoAAAAJ:ns9cj8rnVeAC:
+    citations: 0
+    title: 'Large Neighbourhoods in Graph Colouring Problems: An Empirical Analysis'
+    venue_citation: "abstract proceedings of Matheuristics 2006, 1stWorkshop on Mathematical \u2026, 2006"
+    year: '2006'
+  RUfo3KoAAAAJ:oNZyr7d5Mn4C:
+    citations: 3
+    title: Together about Dementia.
+    venue_citation: IJCAI, 5888-5891, 2022
+    year: '2022'
+  RUfo3KoAAAAJ:q3CdL3IzO_QC:
+    citations: 21
+    title: The participatory value-sensitive design (VSD) of a mHealth app targeting citizens with dementia in a Danish municipality
+    venue_citation: AI and Ethics 4 (2), 375-401, 2024
+    year: '2024'
+  RUfo3KoAAAAJ:qUcmZB5y_30C:
+    citations: 0
+    title: IDSIA, USI-SUPSI
+    venue_citation: ''
+    year: Unknown Year
+  RUfo3KoAAAAJ:qjMakFHDy7sC:
+    citations: 62
+    title: Stochastic local search methods for highly constrained combinatorial optimisation problems
+    venue_citation: "Universit\xE4ts-und Landesbibliothek Darmstadt, 2005"
+    year: '2005'
+  RUfo3KoAAAAJ:qxL8FJ1GzNcC:
+    citations: 23
+    title: Heuristic algorithms for Hadamard matrices with two circulant cores
+    venue_citation: Theoretical computer science 407 (1-3), 274-277, 2008
+    year: '2008'
+  RUfo3KoAAAAJ:rmuvC79q63oC:
+    citations: 8
+    title: Dynamic origin-destination matrix estimation in urban traffic networks
+    venue_citation: Arxiv Preprint Arxiv 99, 2022
+    year: '2022'
+  RUfo3KoAAAAJ:roLk4NBRz8UC:
+    citations: 6
+    title: A study of local optima in the multiobjective traveling salesman problem
+    venue_citation: Technical Report AIDA-02-07, Fachgebiet Intellektik, 2002
+    year: '2002'
+  RUfo3KoAAAAJ:t7zJ5fGR-2UC:
+    citations: 0
+    title: "DM63-Heuristics for Combinatorial Optimization Problems\u2013Lecture Notes"
+    venue_citation: ''
+    year: '2006'
+  RUfo3KoAAAAJ:u-x6o8ySG0sC:
+    citations: 211
+    title: An effective hybrid algorithm for university course timetabling
+    venue_citation: Journal of Scheduling 9 (5), 403-432, 2006
+    year: '2006'
+  RUfo3KoAAAAJ:u5HHmVD_uO8C:
+    citations: 310
+    title: A comparison of the performance of different metaheuristics on the timetabling problem
+    venue_citation: "International conference on the practice and theory of automated timetabling \u2026, 2002"
+    year: '2002'
+  RUfo3KoAAAAJ:uJ-U7cs_P_0C:
+    citations: 0
+    title: DM812-Metaheuristics
+    venue_citation: ''
+    year: '2008'
+  RUfo3KoAAAAJ:uWiczbcajpAC:
+    citations: 23
+    title: 'Mental simulation of object orientation and size: A conceptual replication with second language learners'
+    venue_citation: Journal of the European Second Language Association 2 (1), 38-48, 2019
+    year: '2019'
+  RUfo3KoAAAAJ:ufrVoPGSRksC:
+    citations: 18
+    title: Statistical methods for the comparison of stochastic optimizers
+    venue_citation: 'MIC2005: the sixth metaheuristics international conference, 189-196, 2005'
+    year: '2005'
+  RUfo3KoAAAAJ:xtoqd-5pKcoC:
+    citations: 0
+    title: Modelling and Solving the Generalised Balanced Academic Curriculum Problem with Heterogeneous Classes
+    venue_citation: ''
+    year: '2010'
+  RUfo3KoAAAAJ:zLWjf1WUPmwC:
+    citations: 13
+    title: Heuristic Variants of A Search for 3D Flight Planning
+    venue_citation: "International Conference on the Integration of Constraint Programming \u2026, 2018"
+    year: '2018'
+  RUfo3KoAAAAJ:zYLM7Y9cAGgC:
+    citations: 31
+    title: Experimental evaluation of course timetabling algorithms
+    venue_citation: "Intellectics Group, Computer Science Department, Darmstadt University of \u2026, 2002"
+    year: '2002'
   VoaosL4AAAAJ:0EnyYjriUFMC:
     citations: 5
     title: 'Spatial warped Gaussian processes: Estimation and efficient field reconstruction'
@@ -672,7 +1267,7 @@ papers:
     venue_citation: International Conference on Machine Learning, 1469-1478, 2020
     year: '2020'
   VoaosL4AAAAJ:zYLM7Y9cAGgC:
-    citations: 322
+    citations: 323
     title: Distributed anomaly detection using autoencoder neural networks in WSN for IoT
     venue_citation: 2018 ieee international conference on communications (icc), 1-6, 2018
     year: '2018'
@@ -697,12 +1292,12 @@ papers:
     venue_citation: Conference on Neural Information Processing Systems, 2024
     year: '2024'
   YXBAT4wAAAAJ:9ZlFYXVOiuMC:
-    citations: 6
+    citations: 7
     title: 'Uncertainty in Physics and AI: Taxonomy, Quantification, and Validation'
     venue_citation: arXiv preprint arXiv:2605.10378, 2026
     year: '2026'
   YXBAT4wAAAAJ:9yKSN-GCB0IC:
-    citations: 42
+    citations: 43
     title: Sampling-free variational inference of bayesian neural networks by variance backpropagation
     venue_citation: Uncertainty in Artificial Intelligence, 563-573, 2020
     year: '2020'
@@ -752,7 +1347,7 @@ papers:
     venue_citation: "3rd Advances in Approximate Bayesian Inference (AABI) Symposium, arXiv \u2026, 2019"
     year: '2019'
   YXBAT4wAAAAJ:YOwf2qJgpHMC:
-    citations: 35
+    citations: 37
     title: Accurate surrogate amplitudes with calibrated uncertainties
     venue_citation: arXiv preprint arXiv:2412.12069, 2024
     year: '2024'
@@ -802,7 +1397,7 @@ papers:
     venue_citation: arXiv preprint arXiv:2605.05791, 2026
     year: '2026'
   YXBAT4wAAAAJ:qjMakFHDy7sC:
-    citations: 94
+    citations: 95
     title: Deep-learning jets with uncertainties and more
     venue_citation: arXiv preprint arXiv:1904.10004, 2019
     year: '2019'
@@ -817,7 +1412,7 @@ papers:
     venue_citation: Advances in Neural Information Processing Systems 36, 29201-29238, 2023
     year: '2023'
   YXBAT4wAAAAJ:u-x6o8ySG0sC:
-    citations: 54
+    citations: 55
     title: Variational Bayesian Multiple Instance Learning with Gaussian Processes
     venue_citation: The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 6570-6579, 2017
     year: '2017'
@@ -832,12 +1427,12 @@ papers:
     venue_citation: ''
     year: '2021'
   YXBAT4wAAAAJ:zYLM7Y9cAGgC:
-    citations: 66
+    citations: 67
     title: Deep Active Learning with Adaptive Acquisition
     venue_citation: "International Joint Conference on Artificial Intelligence (IJCAI), arXiv \u2026, 2019"
     year: '2019'
   _8yxhlMAAAAJ:2osOgNQ5qMEC:
-    citations: 35
+    citations: 36
     title: Interactive AI with a Theory of Mind
     venue_citation: 'ACM CHI 2019 Workshop: Computational Modeling in Human-Computer Interaction, 2019'
     year: '2019'
@@ -887,7 +1482,7 @@ papers:
     venue_citation: 36th Conference on Neural Information Processing Systems (NeurIPS 2022), 2022
     year: '2022'
   _8yxhlMAAAAJ:WF5omc3nYNoC:
-    citations: 14
+    citations: 15
     title: Modelling Needs User Modelling
     venue_citation: Frontiers in Artificial Intelligence 6, 61, 2023
     year: '2023'

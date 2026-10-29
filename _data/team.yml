@@ -28,6 +28,16 @@ faculty:
     scholar: https://scholar.google.com/citations?user=VoaosL4AAAAJ&hl=en
     head: false
     order: 2
+  - name: Marco Chiarandini
+    since: 2021-08
+    about: Associate Professor
+    mail: marco@imada.sdu.dk
+    orcid: 0000-0002-6136-8496
+    webpage: https://imada.sdu.dk/u/marco/
+    scholar: https://scholar.google.com/citations?user=RUfo3KoAAAAJ
+    image: assets/img/team/new/MarcoChiarandini.jpg
+    head: false
+    order: 3
 
 researchers:
   - name: Manuel Haussmann

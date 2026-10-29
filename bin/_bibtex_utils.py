@@ -35,6 +35,8 @@ JUNK_TITLE_PATTERNS = (
     r"^supplementary material for the paper",# supplementary stubs
     r"@helSINKI",                            # email addresses leaked into titles
     r"proactive interfaces$",                # stubs with no venue/year anywhere
+    r"^dm\d{3}\b",                           # course pages, e.g. "DM587—Scientific Programming"
+    r"bachelor project$",                    # student project reports, not publications
 )
 
 
