@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-10-29'
+  last_updated: '2026-11-02'
 papers:
   0K-7XMAAAAAJ:2osOgNQ5qMEC:
     citations: 3
@@ -122,7 +122,7 @@ papers:
     venue_citation: US Patent App. 17/231,757, 2021
     year: '2021'
   Jxm1UeYAAAAJ:4OULZ7Gr8RgC:
-    citations: 39
+    citations: 41
     title: 'In the picture: Medical imaging datasets, artifacts, and their living review'
     venue_citation: "Proceedings of the 2025 ACM conference on fairness, accountability, and \u2026, 2025"
     year: '2025'
@@ -347,7 +347,7 @@ papers:
     venue_citation: 'NeurIPS Bayesian Deep Learning Workshop, arXiv: 1912.00796, 2019'
     year: '2019'
   Jxm1UeYAAAAJ:Zph67rFs4hoC:
-    citations: 2610
+    citations: 2635
     title: Evidential Deep Learning to Quantify Classification Uncertainty
     venue_citation: Advances in Neural Information Processing Systems (NeurIPS), 3179-3189, 2018
     year: '2018'
@@ -357,7 +357,7 @@ papers:
     venue_citation: International Conference on Machine Learning, 730-738, 2015
     year: '2015'
   Jxm1UeYAAAAJ:_kc_bZDykSQC:
-    citations: 116
+    citations: 117
     title: Object-oriented texture analysis for the unsupervised segmentation of biopsy images for cancer detection
     venue_citation: Pattern Recognition 42 (6), 1104-1112, 2009
     year: '2009'
@@ -942,7 +942,7 @@ papers:
     venue_citation: 'url: https://imada. sdu. dk/~ marco/DM871/Notes/dm545-main. pdf, 2015'
     year: '2015'
   RUfo3KoAAAAJ:d1gkVwhDpl0C:
-    citations: 330
+    citations: 331
     title: 'Pareto local optimum sets in the biobjective traveling salesman problem: An experimental study'
     venue_citation: Metaheuristics for multiobjective optimisation, 177-199, 2004
     year: '2004'
@@ -1156,6 +1156,11 @@ papers:
     title: Online algorithms with costly predictions
     venue_citation: International Conference on Artificial Intelligence and Statistics, 8078-8101, 2023
     year: '2023'
+  VoaosL4AAAAJ:9ZlFYXVOiuMC:
+    citations: 0
+    title: 'Seeing Through Distractions: Context-Stable Attribution via the Least Core'
+    venue_citation: arXiv preprint arXiv:2610.35827, 2026
+    year: '2026'
   VoaosL4AAAAJ:9yKSN-GCB0IC:
     citations: 90
     title: Anomaly detection and attribution in networks with temporally correlated traffic
@@ -1271,166 +1276,6 @@ papers:
     title: Distributed anomaly detection using autoencoder neural networks in WSN for IoT
     venue_citation: 2018 ieee international conference on communications (icc), 1-6, 2018
     year: '2018'
-  YXBAT4wAAAAJ:2osOgNQ5qMEC:
-    citations: 14
-    title: 'LeMoNADe: learned motif and neuronal assembly detection in calcium imaging videos'
-    venue_citation: "International Conference on Learning Representations 2019, arXiv preprint \u2026, 2018"
-    year: '2018'
-  YXBAT4wAAAAJ:3fE2CSJIrl8C:
-    citations: 3
-    title: Learning high-dimensional mixed models via amortized variational inference
-    venue_citation: "ICML 2024 Workshop on Structured Probabilistic Inference {\\&} Generative \u2026, 2024"
-    year: '2024'
-  YXBAT4wAAAAJ:4DMP91E08xMC:
-    citations: 0
-    title: 'ObjectRL: An Object-Oriented Reinforcement Learning Codebase'
-    venue_citation: arXiv preprint arXiv:2507.03487, 2025
-    year: '2025'
-  YXBAT4wAAAAJ:8k81kl-MbHgC:
-    citations: 5
-    title: Deterministic Uncertainty Propagation for Improved Model-Based Offline Reinforcement Learning
-    venue_citation: Conference on Neural Information Processing Systems, 2024
-    year: '2024'
-  YXBAT4wAAAAJ:9ZlFYXVOiuMC:
-    citations: 7
-    title: 'Uncertainty in Physics and AI: Taxonomy, Quantification, and Validation'
-    venue_citation: arXiv preprint arXiv:2605.10378, 2026
-    year: '2026'
-  YXBAT4wAAAAJ:9yKSN-GCB0IC:
-    citations: 43
-    title: Sampling-free variational inference of bayesian neural networks by variance backpropagation
-    venue_citation: Uncertainty in Artificial Intelligence, 563-573, 2020
-    year: '2020'
-  YXBAT4wAAAAJ:KlAtU1dfN6UC:
-    citations: 7
-    title: Deep Exploration with PAC-Bayes
-    venue_citation: arXiv preprint arXiv:2402.03055, 2024
-    year: '2024'
-  YXBAT4wAAAAJ:MXK_kJrjxJIC:
-    citations: 12
-    title: PAC-Bayesian soft actor-critic learning
-    venue_citation: Advances in Approximate Bayesian Inference Symposium, 2024
-    year: '2024'
-  YXBAT4wAAAAJ:QIV2ME_5wuYC:
-    citations: 0
-    title: Adaptive Ensemble Aggregation for Actor-Critics
-    venue_citation: arXiv preprint arXiv:2507.23501, 2025
-    year: '2025'
-  YXBAT4wAAAAJ:ULOm3_A8WrAC:
-    citations: 2
-    title: Latent variable model for high-dimensional point process with structured missingness
-    venue_citation: Forty-first International Conference on Machine Learning., 2024
-    year: '2024'
-  YXBAT4wAAAAJ:UebtZRa9Y70C:
-    citations: 4
-    title: Estimating treatment effects from single-arm trials via latent-variable modeling
-    venue_citation: International Conference on Artificial Intelligence and Statistics, 2926-2934, 2024
-    year: '2024'
-  YXBAT4wAAAAJ:W7OEmFMy1HYC:
-    citations: 27
-    title: Learning partially known stochastic dynamics with empirical PAC Bayes
-    venue_citation: International conference on artificial intelligence and statistics, 478-486, 2021
-    year: '2021'
-  YXBAT4wAAAAJ:WF5omc3nYNoC:
-    citations: 13
-    title: Evidential turing processes
-    venue_citation: "International Conference on Learning Representations; arXiv preprint arXiv \u2026, 2021"
-    year: '2021'
-  YXBAT4wAAAAJ:Wp0gIr-vW9MC:
-    citations: 2
-    title: Distributional Active Inference
-    venue_citation: arXiv preprint arXiv:2601.20985, 2026
-    year: '2026'
-  YXBAT4wAAAAJ:Y0pCki6q_DkC:
-    citations: 21
-    title: Bayesian Evidential Deep Learning with PAC Regularization
-    venue_citation: "3rd Advances in Approximate Bayesian Inference (AABI) Symposium, arXiv \u2026, 2019"
-    year: '2019'
-  YXBAT4wAAAAJ:YOwf2qJgpHMC:
-    citations: 37
-    title: Accurate surrogate amplitudes with calibrated uncertainties
-    venue_citation: arXiv preprint arXiv:2412.12069, 2024
-    year: '2024'
-  YXBAT4wAAAAJ:YsMSGLbcyi4C:
-    citations: 9
-    title: Control and monitoring of physical system based on trained Bayesian neural network
-    venue_citation: US Patent 11,275,381, 2022
-    year: '2022'
-  YXBAT4wAAAAJ:_kc_bZDykSQC:
-    citations: 7
-    title: High-Dimensional Bayesian Optimisation with Gaussian Process Prior Variational Autoencoders
-    venue_citation: The Thirteenth International Conference on Learning Representations, 2025
-    year: '2025'
-  YXBAT4wAAAAJ:aqlVkmm33-oC:
-    citations: 6
-    title: Overcoming Non-stationary Dynamics with Evidential Proximal Policy Optimization
-    venue_citation: Transactions on Machine Learning Research, 2025
-    year: '2025'
-  YXBAT4wAAAAJ:d1gkVwhDpl0C:
-    citations: 0
-    title: "Supplementary Material for the Paper:\u201D Variational Bayesian Multiple Instance Learning with Gaussian Processes\u201D"
-    venue_citation: ''
-    year: Unknown Year
-  YXBAT4wAAAAJ:dhFuZR0502QC:
-    citations: 0
-    title: 'Stein Variational Distributional Reinforcement Learning: Score-Guided Particles for Multivariate Return Distributions'
-    venue_citation: arXiv preprint arXiv:2610.17925, 2026
-    year: '2026'
-  YXBAT4wAAAAJ:eQOLeE2rZwMC:
-    citations: 85
-    title: Understanding event-generation networks via uncertainties
-    venue_citation: arXiv preprint arXiv:2104.04543, 2021
-    year: '2021'
-  YXBAT4wAAAAJ:hqOjcs7Dif8C:
-    citations: 22
-    title: A comparative study of clinical trial and real-world data in patients with diabetic kidney disease
-    venue_citation: Scientific reports 14 (1), 1731, 2024
-    year: '2024'
-  YXBAT4wAAAAJ:kNdYIx-mwKoC:
-    citations: 6
-    title: Latent mixed-effect models for high-dimensional longitudinal data
-    venue_citation: arXiv preprint arXiv:2409.11008, 2024
-    year: '2024'
-  YXBAT4wAAAAJ:mVmsd5A6BfQC:
-    citations: 0
-    title: A Measure-Theoretic Finite-Sample Theory for Adaptive-Data Fitted Q-Iteration
-    venue_citation: arXiv preprint arXiv:2605.05791, 2026
-    year: '2026'
-  YXBAT4wAAAAJ:qjMakFHDy7sC:
-    citations: 95
-    title: Deep-learning jets with uncertainties and more
-    venue_citation: arXiv preprint arXiv:1904.10004, 2019
-    year: '2019'
-  YXBAT4wAAAAJ:qxL8FJ1GzNcC:
-    citations: 0
-    title: Deep Actor-Critics with Tight Risk Certificates
-    venue_citation: arXiv preprint arXiv:2505.19682, 2025
-    year: '2025'
-  YXBAT4wAAAAJ:roLk4NBRz8UC:
-    citations: 13
-    title: Practical equivariances via relational conditional neural processes
-    venue_citation: Advances in Neural Information Processing Systems 36, 29201-29238, 2023
-    year: '2023'
-  YXBAT4wAAAAJ:u-x6o8ySG0sC:
-    citations: 55
-    title: Variational Bayesian Multiple Instance Learning with Gaussian Processes
-    venue_citation: The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 6570-6579, 2017
-    year: '2017'
-  YXBAT4wAAAAJ:u5HHmVD_uO8C:
-    citations: 15
-    title: Variational Weakly Supervised Gaussian Processes.
-    venue_citation: BMVC, 71.1-71.12, 2016
-    year: '2016'
-  YXBAT4wAAAAJ:ufrVoPGSRksC:
-    citations: 1
-    title: Bayesian Neural Networks for Probabilistic Machine Learning
-    venue_citation: ''
-    year: '2021'
-  YXBAT4wAAAAJ:zYLM7Y9cAGgC:
-    citations: 67
-    title: Deep Active Learning with Adaptive Acquisition
-    venue_citation: "International Joint Conference on Artificial Intelligence (IJCAI), arXiv \u2026, 2019"
-    year: '2019'
   _8yxhlMAAAAJ:2osOgNQ5qMEC:
     citations: 36
     title: Interactive AI with a Theory of Mind
