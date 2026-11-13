@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-11-11'
+  last_updated: '2026-11-13'
 papers:
   0K-7XMAAAAAJ:2osOgNQ5qMEC:
     citations: 3
@@ -97,7 +97,7 @@ papers:
     venue_citation: Advances in Neural Information Processing Systems, 2023
     year: '2023'
   Jxm1UeYAAAAJ:2osOgNQ5qMEC:
-    citations: 203
+    citations: 204
     title: Automatic segmentation of colon glands using object-graphs
     venue_citation: Medical image analysis 14 (1), 1-12, 2010
     year: '2010'
@@ -352,7 +352,7 @@ papers:
     venue_citation: 'NeurIPS Bayesian Deep Learning Workshop, arXiv: 1912.00796, 2019'
     year: '2019'
   Jxm1UeYAAAAJ:Zph67rFs4hoC:
-    citations: 2689
+    citations: 2692
     title: Evidential Deep Learning to Quantify Classification Uncertainty
     venue_citation: Advances in Neural Information Processing Systems (NeurIPS), 3179-3189, 2018
     year: '2018'
@@ -947,7 +947,7 @@ papers:
     venue_citation: 'url: https://imada. sdu. dk/~ marco/DM871/Notes/dm545-main. pdf, 2015'
     year: '2015'
   RUfo3KoAAAAJ:d1gkVwhDpl0C:
-    citations: 332
+    citations: 333
     title: 'Pareto local optimum sets in the biobjective traveling salesman problem: An experimental study'
     venue_citation: Metaheuristics for multiobjective optimisation, 177-199, 2004
     year: '2004'
@@ -1267,7 +1267,7 @@ papers:
     venue_citation: IEEE Internet of Things Journal 4 (1), 205-214, 2016
     year: '2016'
   VoaosL4AAAAJ:u5HHmVD_uO8C:
-    citations: 51
+    citations: 52
     title: Adaptive duty cycling in sensor networks with energy harvesting using continuous-time Markov chain and fluid models
     venue_citation: IEEE Journal on Selected Areas in Communications 33 (12), 2687-2700, 2015
     year: '2015'
